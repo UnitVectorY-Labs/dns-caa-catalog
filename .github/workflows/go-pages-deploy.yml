@@ -8,6 +8,10 @@ on:
   # Allows manual runs from the Actions tab
   workflow_dispatch:
 
+  # Schedule to run after the daily crawl
+  schedule:
+    - cron: "30 5 * * *"
+
 permissions:
   contents: read  # Required to clone the repository
   pages: write    # Allows publishing to GitHub Pages
