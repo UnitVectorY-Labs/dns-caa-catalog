@@ -3,5 +3,5 @@
     <span class="search-icon">&#128269;</span>
 </div>
 {{range .Results}}
-<a href="./{{.Domain}}.html" hx-get="./snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="./{{.Domain}}.html">{{.Domain}}</a>
+<a href="./{{.Domain}}.html" hx-get="./snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="./{{.Domain}}.html">{{.Domain}}{{if .Issue}} ✅{{end}}{{if .IssueWild}} ✳️{{end}}{{if .Iodef}} 📬{{end}}</a>
 {{end}}

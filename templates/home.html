@@ -1,6 +1,6 @@
 <h2 style="font-size:2em; color:#1e3a8a; margin-bottom:0.5em;">CAA Observatory</h2>
-<p>Welcome to the CAA Observatory! Select a domain from the list on the left to view its CAA DNS records and details.</p>
-<p>This project tracks Certification Authority Authorization (CAA) DNS records for a variety of domains to help observe and understand their usage across the web.</p>
+
+<p>Welcome to the CAA Observatory! This project monitors <a href="https://datatracker.ietf.org/doc/html/rfc8659" target="_blank" style="color:#1e3a8a; text-decoration:underline;">Certification Authority Authorization (CAA)</a> DNS records for the top 10,000 domains as ranked by <a href="https://radar.cloudflare.com/domains" target="_blank" style="color:#1e3a8a; text-decoration:underline;">Cloudflare Radar</a>. The DNS records are periodically crawled and used to generate the data and statistics shown on this page. The goal is to help understand how CAA is configured and used by popular websites across the web. Select a domain from the list to explore its CAA records and gain insights into real-world CAA deployment.</p>
 
 <div style="margin-top: 2em; padding: 1.5em; background-color: #f8fafc; border-radius: 8px; border-left: 4px solid #1e3a8a;">
     <h3 style="margin-top: 0; color: #1e3a8a;">CAA Statistics Summary</h3>
@@ -12,12 +12,12 @@
         </div>
         <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
             <div style="font-size: 2em; font-weight: bold; color: #059669;">{{.Summary.DomainsWithCAA}}</div>
-            <div style="color: #64748b;">With CAA Records</div>
+            <div style="color: #64748b;">With CAA 'issue' Record</div>
             <div style="font-size: 0.9em; color: #64748b;">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
             <div style="font-size: 2em; font-weight: bold; color: #7c2d12;">{{.Summary.DomainsWithIssueWild}}</div>
-            <div style="color: #64748b;">With IssueWild Records</div>
+            <div style="color: #64748b;">With 'issuewild' Record</div>
             <div style="font-size: 0.9em; color: #64748b;">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
@@ -28,19 +28,14 @@
     </div>
 
     <div style="margin-bottom: 1.5em;">
-        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center; max-width: 300px; margin: 0 auto;">
-            <div style="font-size: 2em; font-weight: bold; color: #8b5cf6;">{{.Summary.DomainsWithMultipleCAs}}</div>
-            <div style="color: #64748b;">Domains with Multiple CAs</div>
-            <div style="font-size: 0.9em; color: #64748b;">{{printf "%.1f%%" (div (mul .Summary.DomainsWithMultipleCAs 100.0) .Summary.TotalDomains)}}</div>
-            <div style="font-size: 0.8em; color: #94a3b8; margin-top: 0.5em;">Domains using more than one Certificate Authority</div>
-        </div>
+
     </div>
 
     {{if or .Summary.SortedIssueStats .Summary.SortedIssueWildStats}}
     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em;">
         {{if .Summary.SortedIssueStats}}
         <div>
-            <h4 style="color: #1e3a8a; margin-bottom: 0.5em;">Issue Record Values</h4>
+            <h4 style="color: #1e3a8a; margin-bottom: 0.5em;">'issue' Record Values</h4>
             <div style="background: white; border-radius: 6px; overflow: hidden;">
                 <table style="width: 100%; border-collapse: collapse;">
                     <thead>
@@ -66,7 +61,7 @@
 
         {{if .Summary.SortedIssueWildStats}}
         <div>
-            <h4 style="color: #1e3a8a; margin-bottom: 0.5em;">IssueWild Record Values</h4>
+            <h4 style="color: #1e3a8a; margin-bottom: 0.5em;">'issuewild' Record Values</h4>
             <div style="background: white; border-radius: 6px; overflow: hidden;">
                 <table style="width: 100%; border-collapse: collapse;">
                     <thead>

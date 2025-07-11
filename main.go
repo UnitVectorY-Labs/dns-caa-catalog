@@ -55,15 +55,14 @@ type GenerateConfig struct {
 
 // CAASummary holds statistics about CAA records across all domains
 type CAASummary struct {
-	TotalDomains           int
-	DomainsWithCAA         int
-	DomainsWithIssue       int
-	DomainsWithIssueWild   int
-	DomainsWithMultipleCAs int
-	IssueStats             map[string]int
-	IssueWildStats         map[string]int
-	SortedIssueStats       []StatEntry
-	SortedIssueWildStats   []StatEntry
+	TotalDomains         int
+	DomainsWithCAA       int
+	DomainsWithIssue     int
+	DomainsWithIssueWild int
+	IssueStats           map[string]int
+	IssueWildStats       map[string]int
+	SortedIssueStats     []StatEntry
+	SortedIssueWildStats []StatEntry
 }
 
 // StatEntry represents a CA and its count for sorted display
@@ -107,7 +106,7 @@ func printUsage() {
 	fmt.Println("Crawl flags:")
 	fmt.Println("  -input, -i <path>         Input domains file (default: data/domains)")
 	fmt.Println("  -output, -o <path>        Output directory (default: caa)")
-	fmt.Println("  -concurrency, -c <int>    Concurrent workers (default: 10)")
+	fmt.Println("  -concurrency, -c <int>    Concurrent workers (default: 100)")
 	fmt.Println("  -timeout, -t <duration>   DNS timeout (default: 5s)")
 	fmt.Println("  -retries, -r <int>        Retry attempts (default: 3)")
 	fmt.Println()
@@ -125,7 +124,7 @@ func crawlCommand() {
 	fs.StringVar(&config.Input, "i", "data/domains", "Input domains file")
 	fs.StringVar(&config.Output, "output", "caa", "Output directory")
 	fs.StringVar(&config.Output, "o", "caa", "Output directory")
-	fs.IntVar(&config.Concurrency, "concurrency", 10, "Concurrent workers")
+	fs.IntVar(&config.Concurrency, "concurrency", 100, "Concurrent workers")
 	fs.IntVar(&config.Concurrency, "c", 10, "Concurrent workers")
 	fs.DurationVar(&config.Timeout, "timeout", 5*time.Second, "DNS timeout")
 	fs.DurationVar(&config.Timeout, "t", 5*time.Second, "DNS timeout")
@@ -406,49 +405,75 @@ func cleanCAValue(caValue string) string {
 }
 
 func calculateCAASummary(results []DomainResult) CAASummary {
+	// Use a map to track unique lowercase domains for accurate counting
+	uniqueDomains := make(map[string]bool)
+	domainStats := make(map[string]struct {
+		hasCAA       bool
+		hasIssue     bool
+		hasIssueWild bool
+		uniqueCAs    map[string]bool
+	})
+
 	summary := CAASummary{
-		TotalDomains:   len(results),
 		IssueStats:     make(map[string]int),
 		IssueWildStats: make(map[string]int),
 	}
 
+	// First pass: collect data by lowercase domain
 	for _, result := range results {
+		lowerDomain := strings.ToLower(result.Domain)
+		uniqueDomains[lowerDomain] = true
+
+		// Get or create domain stats
+		stats, exists := domainStats[lowerDomain]
+		if !exists {
+			stats.uniqueCAs = make(map[string]bool)
+		}
+
 		hasCAA := len(result.Records) > 0
 		hasIssue := len(result.Issue) > 0
 		hasIssueWild := len(result.IssueWild) > 0
 
-		if hasCAA {
-			summary.DomainsWithCAA++
-		}
+		// Update domain-level flags (use OR logic for multiple variants)
+		stats.hasCAA = stats.hasCAA || hasCAA
+		stats.hasIssue = stats.hasIssue || hasIssue
+		stats.hasIssueWild = stats.hasIssueWild || hasIssueWild
 
-		// Track unique CAs for this domain (for multiple CA detection)
-		uniqueCAs := make(map[string]bool)
-
+		// Collect CA stats
 		if hasIssue {
-			summary.DomainsWithIssue++
 			for _, issueValue := range result.Issue {
-				cleanCA := cleanCAValue(issueValue)
+				cleanCA := strings.ToLower(cleanCAValue(issueValue))
 				if cleanCA != "" { // Filter out empty values
 					summary.IssueStats[cleanCA]++
-					uniqueCAs[cleanCA] = true
+					stats.uniqueCAs[cleanCA] = true
 				}
 			}
 		}
 
 		if hasIssueWild {
-			summary.DomainsWithIssueWild++
 			for _, issueWildValue := range result.IssueWild {
-				cleanCA := cleanCAValue(issueWildValue)
+				cleanCA := strings.ToLower(cleanCAValue(issueWildValue))
 				if cleanCA != "" { // Filter out empty values
 					summary.IssueWildStats[cleanCA]++
-					uniqueCAs[cleanCA] = true
+					stats.uniqueCAs[cleanCA] = true
 				}
 			}
 		}
 
-		// Check if this domain has multiple unique CAs
-		if len(uniqueCAs) > 1 {
-			summary.DomainsWithMultipleCAs++
+		domainStats[lowerDomain] = stats
+	}
+
+	// Second pass: calculate final counts based on unique lowercase domains
+	summary.TotalDomains = len(uniqueDomains)
+	for _, stats := range domainStats {
+		if stats.hasCAA {
+			summary.DomainsWithCAA++
+		}
+		if stats.hasIssue {
+			summary.DomainsWithIssue++
+		}
+		if stats.hasIssueWild {
+			summary.DomainsWithIssueWild++
 		}
 	}
 
@@ -615,16 +640,6 @@ func loadResults(inputDir string) ([]DomainResult, error) {
 	})
 
 	return results, nil
-}
-
-func parseTemplates() (*template.Template, error) {
-	// This function is no longer used directly, but can be kept for other purposes
-	// or removed. For now, we leave it as is.
-	tmpl, err := template.ParseGlob("templates/*.html")
-	if err != nil {
-		return nil, fmt.Errorf("failed to parse templates: %w", err)
-	}
-	return tmpl, nil
 }
 
 func readCrawlTimestamp(inputDir string) string {

@@ -4,7 +4,7 @@
 {{else}}
 <dl>
     {{if .DomainResult.Issue}}
-    <dt>Issue Certificates</dt>
+    <dt>'issue' Records ✅</dt>
     <dd>
         <ul>
         {{range .DomainResult.Issue}}
@@ -14,7 +14,7 @@
     </dd>
     {{end}}
     {{if .DomainResult.IssueWild}}
-    <dt>Issue Wildcard Certificates</dt>
+    <dt>'issuewild' Records ✳️</dt>
     <dd>
         <ul>
         {{range .DomainResult.IssueWild}}
@@ -24,7 +24,7 @@
     </dd>
     {{end}}
     {{if .DomainResult.Iodef}}
-    <dt>Incident Reporting</dt>
+    <dt>'iodef' (Incident Reporting) Records 📬</dt>
     <dd>
         <ul>
         {{range .DomainResult.Iodef}}
@@ -34,7 +34,7 @@
     </dd>
     {{end}}
     {{if .DomainResult.Records}}
-    <dt>Raw Records</dt>
+    <dt>Raw CAA DNS Response</dt>
     <dd>
         <pre>{{range .DomainResult.Records}}{{.}}
 {{end}}</pre>

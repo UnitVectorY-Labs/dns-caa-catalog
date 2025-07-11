@@ -29,7 +29,7 @@ Reads domains from a file and performs CAA DNS lookups:
 **Flags:**
 - `-input, -i <path>`: Input domains file (default: `data/domains`)
 - `-output, -o <path>`: Output directory (default: `caa`)
-- `-concurrency, -c <int>`: Concurrent workers (default: 10)
+- `-concurrency, -c <int>`: Concurrent workers (default: 100)
 - `-timeout, -t <duration>`: DNS timeout (default: 5s)
 - `-retries, -r <int>`: Retry attempts (default: 3)
 
