@@ -1,0 +1,22 @@
+{
+  "domain": "admin.ch",
+  "records": [
+    "0 iodef \"mailto:hostmaster@admin.ch\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"swisssign.com\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "swisssign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@admin.ch"
+  ]
+}

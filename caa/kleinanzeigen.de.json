@@ -1,0 +1,25 @@
+{
+  "domain": "kleinanzeigen.de",
+  "records": [
+    "0 iodef \"mailto:kleinanzeigen-sre@adevinta.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:kleinanzeigen-sre@adevinta.com"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "domain": "pingone.com",
+  "records": [
+    "0 iodef \"mailto:sitereliability@pingidentity.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "amazonaws.com",
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:sitereliability@pingidentity.com"
+  ]
+}

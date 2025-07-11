@@ -1,0 +1,16 @@
+{
+  "domain": "servicenowservices.com",
+  "records": [
+    "0 iodef \"mailto:domains-infrastructure@servicenow.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:domains-infrastructure@servicenow.com"
+  ]
+}

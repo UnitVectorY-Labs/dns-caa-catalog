@@ -1,0 +1,21 @@
+{
+  "domain": "glance.net",
+  "records": [
+    "0 iodef \"mailto:dns@glance.net\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:dns@glance.net"
+  ]
+}

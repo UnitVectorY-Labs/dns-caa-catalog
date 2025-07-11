@@ -1,0 +1,19 @@
+{
+  "domain": "e2ro.com",
+  "records": [
+    "0 iodef \"mailto:domains@eero.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": [
+    "mailto:domains@eero.com"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "domain": "canonical.com",
+  "records": [
+    "0 iodef \"mailto:is-admin@canonical.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"letsencrypt.org; accounturi=https://acme-v01.api.letsencrypt.org/acme/reg/32541290\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "letsencrypt.org; accounturi=https://acme-v01.api.letsencrypt.org/acme/reg/32541290"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:is-admin@canonical.com"
+  ]
+}

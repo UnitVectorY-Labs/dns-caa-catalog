@@ -1,0 +1,23 @@
+{
+  "domain": "posteo.de",
+  "records": [
+    "0 iodef \"mailto:hostmaster@posteo.de\"",
+    "0 issue \"certum.pl\"",
+    "0 issue \"d-trust.net\"",
+    "0 issue \"geotrust.com\"",
+    "0 issuewild \"d-trust.net\"",
+    "0 issuewild \"geotrust.com\""
+  ],
+  "issue": [
+    "certum.pl",
+    "d-trust.net",
+    "geotrust.com"
+  ],
+  "issuewild": [
+    "d-trust.net",
+    "geotrust.com"
+  ],
+  "iodef": [
+    "mailto:hostmaster@posteo.de"
+  ]
+}

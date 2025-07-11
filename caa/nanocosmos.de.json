@@ -1,0 +1,26 @@
+{
+  "domain": "nanocosmos.de",
+  "records": [
+    "0 issue \";\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"comodo.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    ";",
+    "comodoca.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "comodo.com",
+    "comodoca.com",
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

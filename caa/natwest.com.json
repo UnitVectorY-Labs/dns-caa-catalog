@@ -1,0 +1,18 @@
+{
+  "domain": "natwest.com",
+  "records": [
+    "0 iodef \"mailto:RBS.Group.PKI.Certificates@rbs.co.uk\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "quovadisglobal.com",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:RBS.Group.PKI.Certificates@rbs.co.uk"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "tmdb.org",
+  "records": [
+    "0 issue \"awstrust.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

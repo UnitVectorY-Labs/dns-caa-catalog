@@ -1,0 +1,15 @@
+{
+  "domain": "fitbit.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

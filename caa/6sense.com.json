@@ -1,0 +1,34 @@
+{
+  "domain": "6sense.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "comodoca.com",
+    "digicert.com",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "iodef": []
+}

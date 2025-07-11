@@ -1,0 +1,14 @@
+{
+  "domain": "todoist.com",
+  "records": [
+    "0 iodef \"mailto:aws.ops@doist.com\"",
+    "0 issue \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:aws.ops@doist.com"
+  ]
+}

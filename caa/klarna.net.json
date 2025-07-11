@@ -1,0 +1,21 @@
+{
+  "domain": "klarna.net",
+  "records": [
+    "0 iodef \"mailto:dns-admin@klarna.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com"
+  ],
+  "issuewild": [
+    "amazonaws.com",
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:dns-admin@klarna.com"
+  ]
+}

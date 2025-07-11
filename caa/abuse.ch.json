@@ -1,0 +1,20 @@
+{
+  "domain": "abuse.ch",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"swisssign.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"swisssign.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "pki.goog",
+    "swisssign.com"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "swisssign.com"
+  ],
+  "iodef": []
+}

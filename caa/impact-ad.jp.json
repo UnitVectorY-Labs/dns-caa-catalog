@@ -1,0 +1,33 @@
+{
+  "domain": "impact-ad.jp",
+  "records": [
+    "0 iodef \"mailto:it@dac.co.jp\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"secomtrust.net\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "secomtrust.net"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:it@dac.co.jp"
+  ]
+}

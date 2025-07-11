@@ -1,0 +1,11 @@
+{
+  "domain": "technoratimedia.com",
+  "records": [
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": []
+}

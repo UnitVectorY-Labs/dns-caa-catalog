@@ -1,0 +1,11 @@
+{
+  "domain": "my.games",
+  "records": [
+    "0 issuewild \"digicert.com; cansignhttpexchanges=yes\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "digicert.com; cansignhttpexchanges=yes"
+  ],
+  "iodef": []
+}

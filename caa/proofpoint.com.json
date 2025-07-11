@@ -1,0 +1,13 @@
+{
+  "domain": "proofpoint.com",
+  "records": [
+    "0 issue \"comodo.com\"",
+    "0 issue \"thawte.com\""
+  ],
+  "issue": [
+    "comodo.com",
+    "thawte.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

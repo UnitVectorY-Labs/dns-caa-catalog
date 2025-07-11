@@ -1,0 +1,14 @@
+{
+  "domain": "usaa.com",
+  "records": [
+    "0 iodef \"mailto:usaadomains@usaa.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:usaadomains@usaa.com"
+  ]
+}

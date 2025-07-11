@@ -1,0 +1,14 @@
+{
+  "domain": "exitgames.com",
+  "records": [
+    "0 iodef \"mailto:admin@exitgames.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:admin@exitgames.com"
+  ]
+}

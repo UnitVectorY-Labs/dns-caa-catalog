@@ -1,0 +1,34 @@
+{
+  "domain": "wb.ru",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"trust-provider.com\"",
+    "0 issue \"usertrust.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"trust-provider.com\"",
+    "0 issuewild \"usertrust.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "trust-provider.com",
+    "usertrust.com"
+  ],
+  "issuewild": [
+    "comodoca.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "trust-provider.com",
+    "usertrust.com"
+  ],
+  "iodef": []
+}

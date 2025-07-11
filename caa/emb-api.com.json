@@ -1,0 +1,17 @@
+{
+  "domain": "emb-api.com",
+  "records": [
+    "0 iodef \"mailto:security@embrace.io\"",
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:security@embrace.io"
+  ]
+}

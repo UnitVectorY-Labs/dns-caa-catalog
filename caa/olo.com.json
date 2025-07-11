@@ -1,0 +1,26 @@
+{
+  "domain": "olo.com",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "iodef": []
+}

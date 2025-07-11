@@ -1,0 +1,19 @@
+{
+  "domain": "sendgrid.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "globalsign.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

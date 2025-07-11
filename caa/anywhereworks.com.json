@@ -1,0 +1,27 @@
+{
+  "domain": "anywhereworks.com",
+  "records": [
+    "0 iodef \"mailto:itsupport@anywhere.co\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:itsupport@anywhere.co"
+  ]
+}

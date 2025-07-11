@@ -1,0 +1,13 @@
+{
+  "domain": "instana.io",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

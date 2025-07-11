@@ -1,0 +1,17 @@
+{
+  "domain": "hath.network",
+  "records": [
+    "0 iodef \"mailto:staff@e-hentai.org\"",
+    "0 issue \";\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    ";"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:staff@e-hentai.org"
+  ]
+}

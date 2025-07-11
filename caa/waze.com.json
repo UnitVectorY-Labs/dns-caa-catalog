@@ -1,0 +1,14 @@
+{
+  "domain": "waze.com",
+  "records": [
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [
+    "pki.goog"
+  ],
+  "iodef": []
+}

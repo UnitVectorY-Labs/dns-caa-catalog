@@ -1,0 +1,17 @@
+{
+  "domain": "atomex.net",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

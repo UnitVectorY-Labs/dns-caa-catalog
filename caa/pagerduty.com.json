@@ -1,0 +1,33 @@
+{
+  "domain": "pagerduty.com",
+  "records": [
+    "0 iodef \"mailto:ssl-tls-certificates-caa-iodef-report.r4785y6f@pdt-circular.pagerduty.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"comodo.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"comodo.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "comodo.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "comodo.com",
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:ssl-tls-certificates-caa-iodef-report.r4785y6f@pdt-circular.pagerduty.com"
+  ]
+}

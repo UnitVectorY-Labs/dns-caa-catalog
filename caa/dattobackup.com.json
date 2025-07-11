@@ -1,0 +1,21 @@
+{
+  "domain": "dattobackup.com",
+  "records": [
+    "0 issue \"Digicert.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "Digicert.com",
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

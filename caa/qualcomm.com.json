@@ -1,0 +1,34 @@
+{
+  "domain": "qualcomm.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "iodef": []
+}

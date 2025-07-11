@@ -1,0 +1,24 @@
+{
+  "domain": "elster.de",
+  "records": [
+    "0 contactemail \"hostmaster@elster.de\"",
+    "0 iodef \"mailto:hostmaster@elster.de\"",
+    "0 issue \"d-trust.net\"",
+    "0 issue \"symantec.com\"",
+    "0 issue \"telesec.de\"",
+    "0 issue \"thawte.com\"",
+    "0 issuewild \"d-trust.net\""
+  ],
+  "issue": [
+    "d-trust.net",
+    "symantec.com",
+    "telesec.de",
+    "thawte.com"
+  ],
+  "issuewild": [
+    "d-trust.net"
+  ],
+  "iodef": [
+    "mailto:hostmaster@elster.de"
+  ]
+}

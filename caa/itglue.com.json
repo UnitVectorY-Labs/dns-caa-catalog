@@ -1,0 +1,17 @@
+{
+  "domain": "itglue.com",
+  "records": [
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com"
+  ],
+  "iodef": []
+}

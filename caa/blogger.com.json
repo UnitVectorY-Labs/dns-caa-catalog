@@ -1,0 +1,11 @@
+{
+  "domain": "blogger.com",
+  "records": [
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

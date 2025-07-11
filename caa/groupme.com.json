@@ -1,0 +1,15 @@
+{
+  "domain": "groupme.com",
+  "records": [
+    "0 iodef \"mailto:DMAGroupMe@microsoft.com\"",
+    "0 issue \"microsoft.com\"",
+    "128 contactemail \"DMAGroupMe@microsoft.com\""
+  ],
+  "issue": [
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:DMAGroupMe@microsoft.com"
+  ]
+}

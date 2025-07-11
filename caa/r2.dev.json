@@ -1,0 +1,14 @@
+{
+  "domain": "r2.dev",
+  "records": [
+    "0 issue \";\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    ";"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

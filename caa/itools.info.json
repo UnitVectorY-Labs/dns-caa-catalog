@@ -1,0 +1,17 @@
+{
+  "domain": "itools.info",
+  "records": [
+    "0 iodef \"mailto:contact_pki@apple.com\"",
+    "0 issue \"pki.apple.com\"",
+    "0 issuewild \"pki.apple.com\""
+  ],
+  "issue": [
+    "pki.apple.com"
+  ],
+  "issuewild": [
+    "pki.apple.com"
+  ],
+  "iodef": [
+    "mailto:contact_pki@apple.com"
+  ]
+}

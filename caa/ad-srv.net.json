@@ -1,0 +1,11 @@
+{
+  "domain": "ad-srv.net",
+  "records": [
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

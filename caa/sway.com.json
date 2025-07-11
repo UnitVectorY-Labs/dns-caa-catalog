@@ -1,0 +1,14 @@
+{
+  "domain": "sway.com",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

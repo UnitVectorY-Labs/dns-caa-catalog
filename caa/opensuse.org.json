@@ -1,0 +1,14 @@
+{
+  "domain": "opensuse.org",
+  "records": [
+    "0 iodef \"mailto:admin@opensuse.org\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:admin@opensuse.org"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "porkbun.com",
+  "records": [
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"wordpress.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazon.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "wordpress.com"
+  ],
+  "iodef": []
+}

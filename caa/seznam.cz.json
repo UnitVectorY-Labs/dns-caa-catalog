@@ -1,0 +1,14 @@
+{
+  "domain": "seznam.cz",
+  "records": [
+    "0 iodef \"mailto:abuse-caa@firma.seznam.cz\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:abuse-caa@firma.seznam.cz"
+  ]
+}

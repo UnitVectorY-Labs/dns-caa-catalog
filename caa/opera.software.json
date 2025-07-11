@@ -1,0 +1,16 @@
+{
+  "domain": "opera.software",
+  "records": [
+    "0 iodef \"mailto:hostmaster@opera.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@opera.com"
+  ]
+}

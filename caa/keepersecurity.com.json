@@ -1,0 +1,15 @@
+{
+  "domain": "keepersecurity.com",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"starfieldtech.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com",
+    "starfieldtech.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

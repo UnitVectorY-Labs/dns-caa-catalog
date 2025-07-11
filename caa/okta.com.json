@@ -1,0 +1,29 @@
+{
+  "domain": "okta.com",
+  "records": [
+    "0 iodef \"mailto:ops@okta.com\"",
+    "0 iodef \"mailto:security-alert@okta.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:ops@okta.com",
+    "mailto:security-alert@okta.com"
+  ]
+}

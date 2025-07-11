@@ -1,0 +1,11 @@
+{
+  "domain": "photonengine.io",
+  "records": [
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": []
+}

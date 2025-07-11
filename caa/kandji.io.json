@@ -1,0 +1,17 @@
+{
+  "domain": "kandji.io",
+  "records": [
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "iodef": []
+}

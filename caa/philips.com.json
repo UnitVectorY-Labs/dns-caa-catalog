@@ -1,0 +1,32 @@
+{
+  "domain": "philips.com",
+  "records": [
+    "0 iodef \"mailto:ca.administrator@philips.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"cybertrust.ne.jp\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"kpn.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuemail \"digicert.com\"",
+    "0 issuemail \"ica.cz\""
+  ],
+  "issue": [
+    "amazon.com",
+    "cybertrust.ne.jp",
+    "digicert.com",
+    "entrust.net",
+    "globalsign.com",
+    "kpn.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:ca.administrator@philips.com"
+  ]
+}

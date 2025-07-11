@@ -1,0 +1,22 @@
+{
+  "domain": "lyft.com",
+  "records": [
+    "0 iodef \"mailto:security@lyft.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"www.digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "www.digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@lyft.com"
+  ]
+}

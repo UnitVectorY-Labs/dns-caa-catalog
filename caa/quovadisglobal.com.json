@@ -1,0 +1,13 @@
+{
+  "domain": "quovadisglobal.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"quovadisglobal.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "quovadisglobal.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

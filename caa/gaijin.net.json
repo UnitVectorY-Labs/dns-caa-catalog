@@ -1,0 +1,24 @@
+{
+  "domain": "gaijin.net",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"www.digicert.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"www.digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "www.digicert.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com",
+    "www.digicert.com"
+  ],
+  "iodef": []
+}

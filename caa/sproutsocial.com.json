@@ -1,0 +1,22 @@
+{
+  "domain": "sproutsocial.com",
+  "records": [
+    "0 iodef \"mailto:security-alerts@sproutsocial.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security-alerts@sproutsocial.com"
+  ]
+}

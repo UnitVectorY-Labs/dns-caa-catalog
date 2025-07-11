@@ -1,0 +1,16 @@
+{
+  "domain": "protonmail.ch",
+  "records": [
+    "0 iodef \"mailto:security@proton.me\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@proton.me"
+  ]
+}

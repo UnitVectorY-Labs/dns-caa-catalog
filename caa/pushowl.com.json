@@ -1,0 +1,11 @@
+{
+  "domain": "pushowl.com",
+  "records": [
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": []
+}

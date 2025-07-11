@@ -1,0 +1,22 @@
+{
+  "domain": "pricespider.com",
+  "records": [
+    "0 iodef \"mailto:it911@pricespider.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:it911@pricespider.com"
+  ]
+}

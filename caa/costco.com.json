@@ -1,0 +1,11 @@
+{
+  "domain": "costco.com",
+  "records": [
+    "128 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

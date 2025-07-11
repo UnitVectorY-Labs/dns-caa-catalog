@@ -1,0 +1,19 @@
+{
+  "domain": "plex.direct",
+  "records": [
+    "0 iodef \"mailto:misissue@plex.tv\"",
+    "0 issue \";\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    ";"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:misissue@plex.tv"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "minecraftservices.com",
+  "records": [
+    "0 iodef \"mailto:caarecordaware@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caarecordaware@microsoft.com"
+  ]
+}

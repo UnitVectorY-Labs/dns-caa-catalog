@@ -1,0 +1,19 @@
+{
+  "domain": "tsdtocl.com",
+  "records": [
+    "0 iodef \"mailto:security@taboola.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:security@taboola.com"
+  ]
+}

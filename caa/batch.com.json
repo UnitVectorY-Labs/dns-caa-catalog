@@ -1,0 +1,23 @@
+{
+  "domain": "batch.com",
+  "records": [
+    "0 iodef \"mailto:postmaster@batch.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:postmaster@batch.com"
+  ]
+}

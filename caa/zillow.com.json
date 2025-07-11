@@ -1,0 +1,11 @@
+{
+  "domain": "zillow.com",
+  "records": [
+    "0 issuewild \"awstrust.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "awstrust.com"
+  ],
+  "iodef": []
+}

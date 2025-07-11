@@ -1,0 +1,13 @@
+{
+  "domain": "mastodon.social",
+  "records": [
+    "0 issue \"certainly.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "certainly.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

@@ -1,0 +1,21 @@
+{
+  "domain": "uplynk.com",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "certainly.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

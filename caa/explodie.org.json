@@ -1,0 +1,14 @@
+{
+  "domain": "explodie.org",
+  "records": [
+    "0 iodef \"mailto:orangewinds+caa@gmail.com\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:orangewinds+caa@gmail.com"
+  ]
+}

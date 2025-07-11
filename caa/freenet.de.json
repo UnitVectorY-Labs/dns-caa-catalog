@@ -1,0 +1,28 @@
+{
+  "domain": "freenet.de",
+  "records": [
+    "0 iodef \"mailto:webmaster@mobilcom.de\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodo.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"geotrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"symantec.com\"",
+    "0 issue \"telesec.de\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodo.com",
+    "comodoca.com",
+    "geotrust.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "symantec.com",
+    "telesec.de"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:webmaster@mobilcom.de"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "domain": "mobile.de",
+  "records": [
+    "0 iodef \"mailto:gp.gt.cloudandinfra-techhubs-mobile@adevinta.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazontrust.com",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:gp.gt.cloudandinfra-techhubs-mobile@adevinta.com"
+  ]
+}

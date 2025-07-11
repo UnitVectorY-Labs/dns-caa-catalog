@@ -1,0 +1,14 @@
+{
+  "domain": "wordpress.org",
+  "records": [
+    "0 iodef \"mailto:caa@wordpress.org\"",
+    "0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/53691143\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/53691143"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa@wordpress.org"
+  ]
+}

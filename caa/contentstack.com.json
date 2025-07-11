@@ -1,0 +1,30 @@
+{
+  "domain": "contentstack.com",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "amazontrust.com",
+    "globalsign.com",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "iodef": []
+}

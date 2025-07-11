@@ -1,0 +1,19 @@
+{
+  "domain": "capitalonegslbex.com",
+  "records": [
+    "0 iodef \"mailto:domainmgr@capitalone.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": [
+    "mailto:domainmgr@capitalone.com"
+  ]
+}

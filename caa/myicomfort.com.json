@@ -1,0 +1,25 @@
+{
+  "domain": "myicomfort.com",
+  "records": [
+    "128 iodef \"mailto:DISTLIST_ITOps_Windows_Server@LennoxInd.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"entrust.net\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"sectigo.com\"",
+    "128 issuewild \"entrust.net\"",
+    "128 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "entrust.net",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:DISTLIST_ITOps_Windows_Server@LennoxInd.com"
+  ]
+}

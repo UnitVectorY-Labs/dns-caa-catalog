@@ -1,0 +1,37 @@
+{
+  "domain": "bol.com",
+  "records": [
+    "0 iodef \"mailto:abuse@bol.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"geotrust.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"thawte.com\"",
+    "0 issuewild \"awstrust.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"geotrust.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"thawte.com\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "digicert.com",
+    "geotrust.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "thawte.com"
+  ],
+  "issuewild": [
+    "awstrust.com",
+    "digicert.com",
+    "geotrust.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "thawte.com"
+  ],
+  "iodef": [
+    "mailto:abuse@bol.com"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "userway.org",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

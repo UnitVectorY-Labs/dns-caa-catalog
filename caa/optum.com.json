@@ -1,0 +1,9 @@
+{
+  "domain": "optum.com",
+  "records": [
+    "0 issuemail \"sectigo.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

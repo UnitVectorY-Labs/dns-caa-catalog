@@ -1,0 +1,37 @@
+{
+  "domain": "sapo.pt",
+  "records": [
+    "0 iodef \"mailto:opers@co.sapo.pt\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "digicert.com",
+    "globalsign.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:opers@co.sapo.pt"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "domain": "my.com",
+  "records": [
+    "0 issue \"geotrust.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"harica.gr\""
+  ],
+  "issue": [
+    "geotrust.com",
+    "globalsign.com",
+    "harica.gr"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

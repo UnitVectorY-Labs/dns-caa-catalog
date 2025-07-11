@@ -1,0 +1,18 @@
+{
+  "domain": "codeium.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

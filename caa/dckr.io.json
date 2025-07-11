@@ -1,0 +1,13 @@
+{
+  "domain": "dckr.io",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

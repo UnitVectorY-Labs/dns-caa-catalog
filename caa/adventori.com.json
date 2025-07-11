@@ -1,0 +1,17 @@
+{
+  "domain": "adventori.com",
+  "records": [
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"trust-provider.com\"",
+    "0 issue \"usertrust.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "sectigo.com",
+    "trust-provider.com",
+    "usertrust.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

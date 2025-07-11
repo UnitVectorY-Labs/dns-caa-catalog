@@ -1,0 +1,25 @@
+{
+  "domain": "porsche.com",
+  "records": [
+    "0 iodef \"mailto:certadm@porsche.de\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"quovadisglobal.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "quovadisglobal.com",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "quovadisglobal.com"
+  ],
+  "iodef": [
+    "mailto:certadm@porsche.de"
+  ]
+}

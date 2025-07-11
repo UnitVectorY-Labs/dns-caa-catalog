@@ -1,0 +1,16 @@
+{
+  "domain": "lastpass.com",
+  "records": [
+    "0 iodef \"mailto:domain@lastpass.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:domain@lastpass.com"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "wal-mart.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

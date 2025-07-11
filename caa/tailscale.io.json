@@ -1,0 +1,18 @@
+{
+  "domain": "tailscale.io",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": []
+}

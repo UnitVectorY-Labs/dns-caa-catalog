@@ -1,0 +1,19 @@
+{
+  "domain": "netnod.se",
+  "records": [
+    "0 iodef \"mailto:ops@netnod.se\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"netnod.se\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "netnod.se"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:ops@netnod.se"
+  ]
+}

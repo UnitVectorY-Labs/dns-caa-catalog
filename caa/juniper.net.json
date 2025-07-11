@@ -1,0 +1,19 @@
+{
+  "domain": "juniper.net",
+  "records": [
+    "128 issue \"ZScaler.com\"",
+    "128 issue \"amazon.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "ZScaler.com",
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

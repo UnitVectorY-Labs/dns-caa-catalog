@@ -1,0 +1,19 @@
+{
+  "domain": "ciscospark.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"identrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"quovadisglobal.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "godaddy.com",
+    "identrust.com",
+    "letsencrypt.org",
+    "quovadisglobal.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

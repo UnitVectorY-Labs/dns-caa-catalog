@@ -1,0 +1,11 @@
+{
+  "domain": "xn--ngstr-lra8j.com",
+  "records": [
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

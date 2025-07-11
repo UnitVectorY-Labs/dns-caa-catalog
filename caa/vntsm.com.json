@@ -1,0 +1,13 @@
+{
+  "domain": "vntsm.com",
+  "records": [
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": []
+}

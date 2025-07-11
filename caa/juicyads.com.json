@@ -1,0 +1,17 @@
+{
+  "domain": "juicyads.com",
+  "records": [
+    "0 iodef \"mailto:admin@juicyads.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:admin@juicyads.com"
+  ]
+}

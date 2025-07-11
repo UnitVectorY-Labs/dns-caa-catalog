@@ -1,0 +1,19 @@
+{
+  "domain": "anyclip.com",
+  "records": [
+    "0 iodef \"mailto:devops@anyclip.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"godaddy.com\""
+  ],
+  "issue": [
+    "godaddy.com",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "godaddy.com"
+  ],
+  "iodef": [
+    "mailto:devops@anyclip.com"
+  ]
+}

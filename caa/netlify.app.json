@@ -1,0 +1,14 @@
+{
+  "domain": "netlify.app",
+  "records": [
+    "128 iodef \"mailto:security@netlify.com\"",
+    "128 issue \"digicert.com;account=2d83e9ac9b6776c3f215150f6ebceea8cefe3bc2e1fb5efffb1d71e200575226\""
+  ],
+  "issue": [
+    "digicert.com;account=2d83e9ac9b6776c3f215150f6ebceea8cefe3bc2e1fb5efffb1d71e200575226"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@netlify.com"
+  ]
+}

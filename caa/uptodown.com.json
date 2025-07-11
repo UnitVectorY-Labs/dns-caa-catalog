@@ -1,0 +1,15 @@
+{
+  "domain": "uptodown.com",
+  "records": [
+    "0 issue \"certainly.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "certainly.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

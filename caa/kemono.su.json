@@ -1,0 +1,17 @@
+{
+  "domain": "kemono.su",
+  "records": [
+    "0 iodef \"mailto:caa@kemono.su\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:caa@kemono.su"
+  ]
+}

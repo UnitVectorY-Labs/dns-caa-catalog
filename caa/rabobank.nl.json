@@ -1,0 +1,24 @@
+{
+  "domain": "rabobank.nl",
+  "records": [
+    "0 iodef \"mailto:Certificate.Operations@rabobank.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"sidn.nl\"",
+    "0 issue \"visa.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "quovadisglobal.com",
+    "sectigo.com",
+    "sidn.nl",
+    "visa.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:Certificate.Operations@rabobank.com"
+  ]
+}

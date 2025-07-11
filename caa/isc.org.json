@@ -1,0 +1,39 @@
+{
+  "domain": "isc.org",
+  "records": [
+    "0 iodef \"mailto:hostmaster@isc.org\"",
+    "0 issue \"Digicert.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"certainly.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"trust-provider.com\"",
+    "0 issuewild \"usertrust.com\""
+  ],
+  "issue": [
+    "Digicert.com",
+    "certainly.com",
+    "comodoca.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "certainly.com",
+    "comodoca.com",
+    "globalsign.com",
+    "sectigo.com",
+    "trust-provider.com",
+    "usertrust.com"
+  ],
+  "iodef": [
+    "mailto:hostmaster@isc.org"
+  ]
+}

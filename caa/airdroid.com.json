@@ -1,0 +1,15 @@
+{
+  "domain": "airdroid.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "digicert.com",
+    "godaddy.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

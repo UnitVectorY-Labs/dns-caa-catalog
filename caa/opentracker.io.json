@@ -1,0 +1,11 @@
+{
+  "domain": "opentracker.io",
+  "records": [
+    "0 issue \"letsencrypt.org; validationmethods=dns-01; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/1109277207\""
+  ],
+  "issue": [
+    "letsencrypt.org; validationmethods=dns-01; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/1109277207"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

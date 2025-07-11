@@ -1,0 +1,22 @@
+{
+  "domain": "nessus.org",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "iodef": []
+}

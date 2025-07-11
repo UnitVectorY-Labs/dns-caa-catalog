@@ -1,0 +1,21 @@
+{
+  "domain": "fox.com",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "certainly.com",
+    "digicert.com",
+    "entrust.net",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

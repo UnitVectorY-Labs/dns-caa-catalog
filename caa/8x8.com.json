@@ -1,0 +1,16 @@
+{
+  "domain": "8x8.com",
+  "records": [
+    "0 iodef \"mailto:dns-management@8x8.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dns-management@8x8.com"
+  ]
+}

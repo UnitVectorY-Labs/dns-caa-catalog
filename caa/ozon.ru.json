@@ -1,0 +1,26 @@
+{
+  "domain": "ozon.ru",
+  "records": [
+    "0 contactemail \"security@ozon.ru\"",
+    "0 iodef \"mailto:security@ozon.ru\"",
+    "0 issue \"emsign.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"emsign.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "emsign.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "emsign.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:security@ozon.ru"
+  ]
+}

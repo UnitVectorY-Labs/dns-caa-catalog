@@ -1,0 +1,11 @@
+{
+  "domain": "doubleclick-cn.net",
+  "records": [
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

@@ -1,0 +1,33 @@
+{
+  "domain": "robinhood.com",
+  "records": [
+    "0 iodef \"mailto:caa-group@robinhood.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"cloudflare.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"cloudflare.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "cloudflare.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazonaws.com",
+    "cloudflare.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:caa-group@robinhood.com"
+  ]
+}

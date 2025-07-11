@@ -1,0 +1,17 @@
+{
+  "domain": "sharepoint.us",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 iodef \"mailto:caarecordaware@microsoft.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caarecordaware@microsoft.com"
+  ]
+}

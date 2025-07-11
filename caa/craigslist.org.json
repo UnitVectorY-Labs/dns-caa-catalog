@@ -1,0 +1,14 @@
+{
+  "domain": "craigslist.org",
+  "records": [
+    "0 iodef \"mailto:security@craigslist.org\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@craigslist.org"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "domain": "plex.bz",
+  "records": [
+    "0 iodef \"mailto:misissue@plex.tv\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:misissue@plex.tv"
+  ]
+}

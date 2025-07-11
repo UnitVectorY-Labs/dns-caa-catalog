@@ -1,0 +1,23 @@
+{
+  "domain": "dayforcehcm.com",
+  "records": [
+    "0 iodef \"mailto:domainmanagement@ceridian.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:domainmanagement@ceridian.com"
+  ]
+}

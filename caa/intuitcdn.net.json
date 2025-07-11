@@ -1,0 +1,16 @@
+{
+  "domain": "intuitcdn.net",
+  "records": [
+    "0 iodef \"mailto:Tech-PINetworkServiceOperations@intuit.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:Tech-PINetworkServiceOperations@intuit.com"
+  ]
+}

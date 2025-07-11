@@ -1,0 +1,9 @@
+{
+  "domain": "msidentity.us",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "narvar.com",
+  "records": [
+    "0 iodef \"mailto:info@narvar.com\"",
+    "0 issuewild \"Digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "Digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:info@narvar.com"
+  ]
+}

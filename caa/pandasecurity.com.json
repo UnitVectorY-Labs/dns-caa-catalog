@@ -1,0 +1,25 @@
+{
+  "domain": "pandasecurity.com",
+  "records": [
+    "0 iodef \"mailto:ITEngineersAPPDL@watchguard.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:ITEngineersAPPDL@watchguard.com"
+  ]
+}

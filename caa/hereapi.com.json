@@ -1,0 +1,14 @@
+{
+  "domain": "hereapi.com",
+  "records": [
+    "0 iodef \"mailto:security@here.com\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@here.com"
+  ]
+}

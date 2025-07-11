@@ -1,0 +1,14 @@
+{
+  "domain": "frameo.biz",
+  "records": [
+    "128 issue \"letsencrypt.org\"",
+    "128 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

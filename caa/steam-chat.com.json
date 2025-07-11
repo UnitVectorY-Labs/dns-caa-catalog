@@ -1,0 +1,16 @@
+{
+  "domain": "steam-chat.com",
+  "records": [
+    "0 iodef \"mailto:ssl-abuse@valvesoftware.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:ssl-abuse@valvesoftware.com"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "domain": "postgresql.org",
+  "records": [
+    "0 iodef \"mailto:hostmaster@postgresql.org\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@postgresql.org"
+  ]
+}

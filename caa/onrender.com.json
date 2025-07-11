@@ -1,0 +1,25 @@
+{
+  "domain": "onrender.com",
+  "records": [
+    "0 iodef \"mailto:security+caafailure@render.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "iodef": [
+    "mailto:security+caafailure@render.com"
+  ]
+}

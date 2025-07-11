@@ -1,0 +1,31 @@
+{
+  "domain": "infoblox.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"starfieldtech.org\"",
+    "0 issuemail \"digicert.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\"",
+    "128 issue \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "starfieldtech.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com"
+  ],
+  "iodef": []
+}

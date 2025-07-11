@@ -1,0 +1,18 @@
+{
+  "domain": "qwant.com",
+  "records": [
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": []
+}

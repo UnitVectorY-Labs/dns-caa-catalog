@@ -1,0 +1,19 @@
+{
+  "domain": "symantec.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "entrust.net",
+    "letsencrypt.org",
+    "pki.goog",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

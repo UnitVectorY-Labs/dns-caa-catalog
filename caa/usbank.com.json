@@ -1,0 +1,21 @@
+{
+  "domain": "usbank.com",
+  "records": [
+    "0 iodef \"mailto:certificateservicesshared@usbank.com\"",
+    "0 iodef \"mailto:domainadmin@usbank.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:certificateservicesshared@usbank.com",
+    "mailto:domainadmin@usbank.com"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "microsoftonline.us",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 iodef \"mailto:domains@microsoft.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net",
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:domains@microsoft.com"
+  ]
+}

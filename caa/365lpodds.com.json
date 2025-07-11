@@ -1,0 +1,13 @@
+{
+  "domain": "365lpodds.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "digicert.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

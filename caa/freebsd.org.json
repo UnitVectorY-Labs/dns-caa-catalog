@@ -1,0 +1,13 @@
+{
+  "domain": "freebsd.org",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

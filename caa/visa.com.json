@@ -1,0 +1,11 @@
+{
+  "domain": "visa.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@visa.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@visa.com"
+  ]
+}

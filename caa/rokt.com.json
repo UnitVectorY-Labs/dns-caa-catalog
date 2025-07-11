@@ -1,0 +1,25 @@
+{
+  "domain": "rokt.com",
+  "records": [
+    "0 iodef \"mailto:infosec@rokt.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": [
+    "mailto:infosec@rokt.com"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "domain": "shelly.cloud",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"pki.goog\"",
+    "128 issue \"comodoca.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "comodoca.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

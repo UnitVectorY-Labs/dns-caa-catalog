@@ -1,0 +1,24 @@
+{
+  "domain": "ae.com",
+  "records": [
+    "0 iodef \"mailto:url@ae.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:url@ae.com"
+  ]
+}

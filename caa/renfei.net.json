@@ -1,0 +1,25 @@
+{
+  "domain": "renfei.net",
+  "records": [
+    "0 iodef \"mailto:i@renfei.net\"",
+    "0 issue \"certum.eu\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"certum.eu\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "certum.eu",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "certum.eu",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "iodef": [
+    "mailto:i@renfei.net"
+  ]
+}

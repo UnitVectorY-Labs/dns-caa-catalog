@@ -1,0 +1,11 @@
+{
+  "domain": "messagelabs.com",
+  "records": [
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

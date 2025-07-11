@@ -1,0 +1,21 @@
+{
+  "domain": "barclays.co.uk",
+  "records": [
+    "0 iodef \"mailto:GISIIPCertificatePlatformsAdmin@barclayscorp.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net",
+    "quovadisglobal.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:GISIIPCertificatePlatformsAdmin@barclayscorp.com"
+  ]
+}

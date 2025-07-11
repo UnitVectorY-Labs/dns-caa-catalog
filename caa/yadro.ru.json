@@ -1,0 +1,13 @@
+{
+  "domain": "yadro.ru",
+  "records": [
+    "128 issue \"globalsign.com\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

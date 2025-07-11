@@ -1,0 +1,21 @@
+{
+  "domain": "sex.com",
+  "records": [
+    "0 iodef \"mailto:caa@sex.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:caa@sex.com"
+  ]
+}

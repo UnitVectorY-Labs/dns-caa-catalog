@@ -1,0 +1,14 @@
+{
+  "domain": "wikipedia.com",
+  "records": [
+    "0 iodef \"mailto:dns-admin@wikimedia.org\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dns-admin@wikimedia.org"
+  ]
+}

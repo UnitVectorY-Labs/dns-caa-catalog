@@ -1,0 +1,37 @@
+{
+  "domain": "miro.com",
+  "records": [
+    "0 iodef \"mailto:admin@miro.com\"",
+    "0 iodef \"mailto:security@miro.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:admin@miro.com",
+    "mailto:security@miro.com"
+  ]
+}

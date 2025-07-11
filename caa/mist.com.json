@@ -1,0 +1,20 @@
+{
+  "domain": "mist.com",
+  "records": [
+    "0 iodef \"mailto:certs@mistsys.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:certs@mistsys.com"
+  ]
+}

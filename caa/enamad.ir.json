@@ -1,0 +1,18 @@
+{
+  "domain": "enamad.ir",
+  "records": [
+    "0 issue \"certum.pl\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"certum.pl\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "certum.pl",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "certum.pl",
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

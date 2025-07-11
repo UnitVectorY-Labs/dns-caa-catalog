@@ -1,0 +1,13 @@
+{
+  "domain": "mysql.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

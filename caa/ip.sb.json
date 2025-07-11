@@ -1,0 +1,24 @@
+{
+  "domain": "ip.sb",
+  "records": [
+    "0 iodef \"mailto:admin@ip.sb\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"geotrust.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "geotrust.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:admin@ip.sb"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "azioncdn.net",
+  "records": [
+    "0 iodef \"mailto:noc@azion.com\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:noc@azion.com"
+  ]
+}

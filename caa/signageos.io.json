@@ -1,0 +1,15 @@
+{
+  "domain": "signageos.io",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

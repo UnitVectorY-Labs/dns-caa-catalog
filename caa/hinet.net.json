@@ -1,0 +1,11 @@
+{
+  "domain": "hinet.net",
+  "records": [
+    "0 contactemail \"flying@cht.com.tw\"",
+    "0 contactemail \"lcli@cht.com.tw\"",
+    "0 contactemail \"webmaster@publicca.hinet.net\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

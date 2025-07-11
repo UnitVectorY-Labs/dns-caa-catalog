@@ -1,0 +1,22 @@
+{
+  "domain": "canaryis.com",
+  "records": [
+    "0 iodef \"mailto:domains@canary.is\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:domains@canary.is"
+  ]
+}

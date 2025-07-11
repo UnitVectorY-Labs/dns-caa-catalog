@@ -1,0 +1,17 @@
+{
+  "domain": "mangadex.org",
+  "records": [
+    "0 iodef \"mailto:security@mangadex.org\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:security@mangadex.org"
+  ]
+}

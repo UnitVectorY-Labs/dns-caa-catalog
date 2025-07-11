@@ -1,0 +1,13 @@
+{
+  "domain": "appiancloud.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"godaddy.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "godaddy.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

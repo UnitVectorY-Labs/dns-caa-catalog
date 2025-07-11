@@ -1,0 +1,22 @@
+{
+  "domain": "samknows.com",
+  "records": [
+    "0 iodef \"mailto:nodesupport@samknows.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"identrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "identrust.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:nodesupport@samknows.com"
+  ]
+}

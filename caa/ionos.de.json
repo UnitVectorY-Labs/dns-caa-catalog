@@ -1,0 +1,30 @@
+{
+  "domain": "ionos.de",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"telesec.de\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"telesec.de\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "telesec.de"
+  ],
+  "issuewild": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "telesec.de"
+  ],
+  "iodef": []
+}

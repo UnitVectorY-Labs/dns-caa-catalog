@@ -1,0 +1,30 @@
+{
+  "domain": "pointclickcare.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "entrust.net",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "ssl.com"
+  ],
+  "iodef": []
+}

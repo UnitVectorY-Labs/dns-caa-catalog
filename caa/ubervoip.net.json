@@ -1,0 +1,21 @@
+{
+  "domain": "ubervoip.net",
+  "records": [
+    "0 iodef \"mailto:dns-admin@dialpad.com\"",
+    "0 issue \"pki.goog\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:dns-admin@dialpad.com"
+  ]
+}

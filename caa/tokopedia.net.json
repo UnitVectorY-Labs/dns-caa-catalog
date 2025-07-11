@@ -1,0 +1,14 @@
+{
+  "domain": "tokopedia.net",
+  "records": [
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": []
+}

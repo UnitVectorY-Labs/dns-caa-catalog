@@ -1,0 +1,15 @@
+{
+  "domain": "ups.com",
+  "records": [
+    "128 issue \"globalsign.com\"",
+    "128 issue \"ica.cz\"",
+    "128 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "ica.cz",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

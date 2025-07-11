@@ -1,0 +1,15 @@
+{
+  "domain": "confirmit.com",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"www.digicert.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "letsencrypt.org",
+    "www.digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

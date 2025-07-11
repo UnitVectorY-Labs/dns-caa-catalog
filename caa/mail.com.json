@@ -1,0 +1,22 @@
+{
+  "domain": "mail.com",
+  "records": [
+    "0 issue \"Digicert.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"telesec.de\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"telesec.de\""
+  ],
+  "issue": [
+    "Digicert.com",
+    "sectigo.com",
+    "telesec.de"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "sectigo.com",
+    "telesec.de"
+  ],
+  "iodef": []
+}

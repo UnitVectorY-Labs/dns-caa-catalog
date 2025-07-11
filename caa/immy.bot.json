@@ -1,0 +1,16 @@
+{
+  "domain": "immy.bot",
+  "records": [
+    "0 iodef \"mailto:support@immy.bot\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:support@immy.bot"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "izatcloud.net",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "sectigo.com"
+  ],
+  "iodef": []
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "yandex-bank.net",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"yandex.ru\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"yandex.ru\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "yandex.ru"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "yandex.ru"
+  ],
+  "iodef": []
+}

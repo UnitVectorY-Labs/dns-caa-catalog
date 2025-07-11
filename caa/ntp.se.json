@@ -1,0 +1,17 @@
+{
+  "domain": "ntp.se",
+  "records": [
+    "0 iodef \"mailto:ops@netnod.se\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:ops@netnod.se"
+  ]
+}

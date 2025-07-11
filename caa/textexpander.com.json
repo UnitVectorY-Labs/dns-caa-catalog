@@ -1,0 +1,26 @@
+{
+  "domain": "textexpander.com",
+  "records": [
+    "0 iodef \"mailto:support@textexpander-recovery.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"trustwave.com\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "trustwave.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:support@textexpander-recovery.com"
+  ]
+}

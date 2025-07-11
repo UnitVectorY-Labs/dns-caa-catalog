@@ -1,0 +1,14 @@
+{
+  "domain": "aswpsdkus.com",
+  "records": [
+    "0 iodef \"mailto:security@urbanairship.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@urbanairship.com"
+  ]
+}

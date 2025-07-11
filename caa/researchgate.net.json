@@ -1,0 +1,16 @@
+{
+  "domain": "researchgate.net",
+  "records": [
+    "0 iodef \"mailto:security@researchgate.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@researchgate.net"
+  ]
+}

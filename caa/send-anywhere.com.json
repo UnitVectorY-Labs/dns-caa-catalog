@@ -1,0 +1,25 @@
+{
+  "domain": "send-anywhere.com",
+  "records": [
+    "0 iodef \"mailto:ibank@estmob.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"rapidssl.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"rapidssl.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "rapidssl.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "rapidssl.com"
+  ],
+  "iodef": [
+    "mailto:ibank@estmob.com"
+  ]
+}

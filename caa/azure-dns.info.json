@@ -1,0 +1,9 @@
+{
+  "domain": "azure-dns.info",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

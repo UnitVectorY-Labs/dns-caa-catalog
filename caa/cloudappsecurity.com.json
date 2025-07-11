@@ -1,0 +1,9 @@
+{
+  "domain": "cloudappsecurity.com",
+  "records": [
+    "128 contactemail \"caarecordaware@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

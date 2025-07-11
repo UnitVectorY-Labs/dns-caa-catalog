@@ -1,0 +1,17 @@
+{
+  "domain": "overdrive.com",
+  "records": [
+    "0 issue \"cloudflare.com; validationmethods=http-01\"",
+    "0 issue \"globalsign.com; validationmethods=dns-01\"",
+    "0 issue \"letsencrypt.org; validationmethods=dns-01,http-01\"",
+    "0 issue \"pki.goog; validationmethods=dns-01,http-01\""
+  ],
+  "issue": [
+    "cloudflare.com; validationmethods=http-01",
+    "globalsign.com; validationmethods=dns-01",
+    "letsencrypt.org; validationmethods=dns-01,http-01",
+    "pki.goog; validationmethods=dns-01,http-01"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

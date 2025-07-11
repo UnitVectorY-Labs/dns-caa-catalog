@@ -1,0 +1,18 @@
+{
+  "domain": "redhat.com",
+  "records": [
+    "0 iodef \"mailto:it-cert-admin@redhat.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:it-cert-admin@redhat.com"
+  ]
+}

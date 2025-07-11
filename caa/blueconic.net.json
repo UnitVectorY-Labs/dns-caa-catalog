@@ -1,0 +1,18 @@
+{
+  "domain": "blueconic.net",
+  "records": [
+    "0 iodef \"mailto:admin@blueconic.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"thawte.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "thawte.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:admin@blueconic.com"
+  ]
+}

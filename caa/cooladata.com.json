@@ -1,0 +1,27 @@
+{
+  "domain": "cooladata.com",
+  "records": [
+    "0 iodef \"mailto:devops@cooladata.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "ssl.com"
+  ],
+  "iodef": [
+    "mailto:devops@cooladata.com"
+  ]
+}

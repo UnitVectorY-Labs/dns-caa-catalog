@@ -1,0 +1,11 @@
+{
+  "domain": "mpsmonitor.com",
+  "records": [
+    "0 issuewild \"godaddy.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "godaddy.com"
+  ],
+  "iodef": []
+}

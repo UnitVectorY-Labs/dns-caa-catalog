@@ -1,0 +1,20 @@
+{
+  "domain": "microsoftusercontent.com",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 issue \"d-trust.net\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "d-trust.net",
+    "digicert.com",
+    "entrust.net",
+    "globalsign.com",
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

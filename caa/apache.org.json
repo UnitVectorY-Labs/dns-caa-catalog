@@ -1,0 +1,18 @@
+{
+  "domain": "apache.org",
+  "records": [
+    "0 iodef \"mailto:root@apache.org\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:root@apache.org"
+  ]
+}

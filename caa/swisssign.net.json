@@ -1,0 +1,15 @@
+{
+  "domain": "swisssign.net",
+  "records": [
+    "0 iodef \"mailto:postmaster@swisssign.com\"",
+    "0 issue \"swisssign.com\"",
+    "0 issuemail \"swisssign.com\""
+  ],
+  "issue": [
+    "swisssign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:postmaster@swisssign.com"
+  ]
+}

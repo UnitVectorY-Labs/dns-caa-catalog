@@ -1,0 +1,19 @@
+{
+  "domain": "myanimelist.net",
+  "records": [
+    "0 iodef \"mailto:technical@mail.myanimelist.net\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": [
+    "mailto:technical@mail.myanimelist.net"
+  ]
+}

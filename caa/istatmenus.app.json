@@ -1,0 +1,11 @@
+{
+  "domain": "istatmenus.app",
+  "records": [
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "globalsign.com"
+  ],
+  "iodef": []
+}

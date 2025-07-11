@@ -1,0 +1,26 @@
+{
+  "domain": "ripe.net",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "amazonaws.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "iodef": []
+}

@@ -1,0 +1,16 @@
+{
+  "domain": "wetransfer.com",
+  "records": [
+    "0 iodef \"mailto:domains@wetransfer.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:domains@wetransfer.com"
+  ]
+}

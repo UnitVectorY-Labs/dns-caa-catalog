@@ -1,0 +1,11 @@
+{
+  "domain": "youku.com",
+  "records": [
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

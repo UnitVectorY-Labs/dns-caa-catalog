@@ -1,0 +1,16 @@
+{
+  "domain": "usepylon.com",
+  "records": [
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "pki.goog"
+  ],
+  "iodef": []
+}

@@ -1,0 +1,22 @@
+{
+  "domain": "fastly.com",
+  "records": [
+    "0 iodef \"mailto:security@fastly.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "certainly.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@fastly.com"
+  ]
+}

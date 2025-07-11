@@ -1,0 +1,25 @@
+{
+  "domain": "ing.com",
+  "records": [
+    "0 iodef \"mailto:ing.certificate.management@ing.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"identrust.com\"",
+    "0 issue \"swisssign.com\"",
+    "0 issuewild \"entrust.net\"",
+    "0 issuewild \"identrust.com\"",
+    "0 issuewild \"swisssign.com\""
+  ],
+  "issue": [
+    "entrust.net",
+    "identrust.com",
+    "swisssign.com"
+  ],
+  "issuewild": [
+    "entrust.net",
+    "identrust.com",
+    "swisssign.com"
+  ],
+  "iodef": [
+    "mailto:ing.certificate.management@ing.com"
+  ]
+}

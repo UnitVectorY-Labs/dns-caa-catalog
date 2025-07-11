@@ -1,0 +1,26 @@
+{
+  "domain": "dns.sb",
+  "records": [
+    "0 iodef \"mailto:admin@dns.sb\"",
+    "0 issue \"buypass.no\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\""
+  ],
+  "issue": [
+    "buypass.no",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:admin@dns.sb"
+  ]
+}

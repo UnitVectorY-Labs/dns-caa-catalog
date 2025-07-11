@@ -1,0 +1,13 @@
+{
+  "domain": "kodik-storage.com",
+  "records": [
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

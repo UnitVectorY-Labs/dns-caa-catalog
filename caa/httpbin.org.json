@@ -1,0 +1,19 @@
+{
+  "domain": "httpbin.org",
+  "records": [
+    "0 iodef \"mailto:security@postman.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": [
+    "mailto:security@postman.com"
+  ]
+}

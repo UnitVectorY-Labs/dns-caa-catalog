@@ -1,0 +1,17 @@
+{
+  "domain": "dnswl.org",
+  "records": [
+    "0 iodef \"mailto:caa@reports.dnswl.org\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:caa@reports.dnswl.org"
+  ]
+}

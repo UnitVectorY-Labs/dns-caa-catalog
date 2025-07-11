@@ -1,0 +1,27 @@
+{
+  "domain": "blackboard.com",
+  "records": [
+    "128 iodef \"mailto:dnstech@blackboard.com\"",
+    "128 issue \"amazon.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"sectigo.com\"",
+    "128 issuewild \"amazon.com\"",
+    "128 issuewild \"digicert.com\"",
+    "128 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:dnstech@blackboard.com"
+  ]
+}

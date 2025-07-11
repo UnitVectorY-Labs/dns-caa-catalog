@@ -1,0 +1,16 @@
+{
+  "domain": "realestate.com.au",
+  "records": [
+    "0 iodef \"mailto:it-siteops@realestate.com.au\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:it-siteops@realestate.com.au"
+  ]
+}

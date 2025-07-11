@@ -1,0 +1,11 @@
+{
+  "domain": "merchant-center-analytics.goog",
+  "records": [
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

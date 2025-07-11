@@ -1,0 +1,16 @@
+{
+  "domain": "packagist.org",
+  "records": [
+    "0 iodef \"mailto:security@packagist.org\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@packagist.org"
+  ]
+}

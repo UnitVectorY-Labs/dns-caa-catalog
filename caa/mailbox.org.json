@@ -1,0 +1,20 @@
+{
+  "domain": "mailbox.org",
+  "records": [
+    "0 iodef \"mailto:mail@heinlein-support.de\"",
+    "0 iodef \"mailto:security@heinlein-support.de\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"swisssign.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "swisssign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:mail@heinlein-support.de",
+    "mailto:security@heinlein-support.de"
+  ]
+}

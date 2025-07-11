@@ -1,0 +1,17 @@
+{
+  "domain": "citibank.com",
+  "records": [
+    "128 iodef \"mailto:CAADNS@citi.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issuewild \";\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:CAADNS@citi.com"
+  ]
+}

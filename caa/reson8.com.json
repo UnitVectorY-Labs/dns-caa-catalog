@@ -1,0 +1,15 @@
+{
+  "domain": "reson8.com",
+  "records": [
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazonaws.com",
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "iodef": []
+}

@@ -1,0 +1,9 @@
+{
+  "domain": "softbank.jp",
+  "records": [
+    "0 contactemail \"SBBGRP-SPO2-IAA@g.softbank.co.jp\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

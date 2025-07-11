@@ -1,0 +1,20 @@
+{
+  "domain": "githubcopilot.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org; validationmethods=dns-01\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org; validationmethods=dns-01",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "sectigo.com"
+  ],
+  "iodef": []
+}

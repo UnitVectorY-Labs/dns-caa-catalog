@@ -1,0 +1,17 @@
+{
+  "domain": "bit.ly",
+  "records": [
+    "0 iodef \"mailto:abuse@bit.ly\"",
+    "0 issue \"digicert.com\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:abuse@bit.ly"
+  ]
+}

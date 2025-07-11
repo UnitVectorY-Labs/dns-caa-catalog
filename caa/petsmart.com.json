@@ -1,0 +1,23 @@
+{
+  "domain": "petsmart.com",
+  "records": [
+    "0 iodef \"mailto:pmcaa@petsmart.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:pmcaa@petsmart.com"
+  ]
+}

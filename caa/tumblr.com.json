@@ -1,0 +1,20 @@
+{
+  "domain": "tumblr.com",
+  "records": [
+    "0 iodef \"mailto:content-delivery+caa@tumblr.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:content-delivery+caa@tumblr.com"
+  ]
+}

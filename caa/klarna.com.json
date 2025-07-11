@@ -1,0 +1,27 @@
+{
+  "domain": "klarna.com",
+  "records": [
+    "0 iodef \"mailto:dns-admin@klarna.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"buypass.no\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"e-szigno.hu\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "buypass.no",
+    "digicert.com",
+    "e-szigno.hu",
+    "quovadisglobal.com"
+  ],
+  "issuewild": [
+    "amazonaws.com",
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:dns-admin@klarna.com"
+  ]
+}

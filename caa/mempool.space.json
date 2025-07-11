@@ -1,0 +1,11 @@
+{
+  "domain": "mempool.space",
+  "records": [
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

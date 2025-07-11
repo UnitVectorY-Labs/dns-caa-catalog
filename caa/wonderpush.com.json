@@ -1,0 +1,16 @@
+{
+  "domain": "wonderpush.com",
+  "records": [
+    "0 iodef \"mailto:caa@wonderpush.com\"",
+    "0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/74392333\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/74392333",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa@wonderpush.com"
+  ]
+}

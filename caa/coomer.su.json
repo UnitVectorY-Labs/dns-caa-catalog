@@ -1,0 +1,17 @@
+{
+  "domain": "coomer.su",
+  "records": [
+    "0 iodef \"caa@coomer.su\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "caa@coomer.su"
+  ]
+}

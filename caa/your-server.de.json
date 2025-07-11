@@ -1,0 +1,13 @@
+{
+  "domain": "your-server.de",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

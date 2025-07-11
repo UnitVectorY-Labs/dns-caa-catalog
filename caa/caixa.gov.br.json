@@ -1,0 +1,23 @@
+{
+  "domain": "caixa.gov.br",
+  "records": [
+    "0 issue \"certificados.serpro.gov.br\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"serpro.gov.br\"",
+    "0 issue \"trust-provider.com\"",
+    "0 issue \"usertrust.com\""
+  ],
+  "issue": [
+    "certificados.serpro.gov.br",
+    "digicert.com",
+    "globalsign.com",
+    "sectigo.com",
+    "serpro.gov.br",
+    "trust-provider.com",
+    "usertrust.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

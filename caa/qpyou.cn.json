@@ -1,0 +1,13 @@
+{
+  "domain": "qpyou.cn",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"geotrust.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "geotrust.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

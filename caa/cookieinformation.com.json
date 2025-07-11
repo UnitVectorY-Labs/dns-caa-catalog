@@ -1,0 +1,19 @@
+{
+  "domain": "cookieinformation.com",
+  "records": [
+    "0 issue \"certainly.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.com\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "certainly.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.com",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

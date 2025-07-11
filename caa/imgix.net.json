@@ -1,0 +1,21 @@
+{
+  "domain": "imgix.net",
+  "records": [
+    "0 iodef \"mailto:security@imgix.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"certainly.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "entrust.net",
+    "globalsign.com"
+  ],
+  "issuewild": [
+    "certainly.com",
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:security@imgix.com"
+  ]
+}

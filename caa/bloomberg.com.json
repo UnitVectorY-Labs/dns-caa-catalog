@@ -1,0 +1,21 @@
+{
+  "domain": "bloomberg.com",
+  "records": [
+    "0 iodef \"mailto:reportvuln@bloomberg.net\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:reportvuln@bloomberg.net"
+  ]
+}

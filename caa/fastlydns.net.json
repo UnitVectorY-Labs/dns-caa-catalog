@@ -1,0 +1,14 @@
+{
+  "domain": "fastlydns.net",
+  "records": [
+    "0 iodef \"mailto:security@fastly.com\"",
+    "0 issue \";\""
+  ],
+  "issue": [
+    ";"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@fastly.com"
+  ]
+}

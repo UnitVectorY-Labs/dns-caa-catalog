@@ -1,0 +1,18 @@
+{
+  "domain": "wandb.ai",
+  "records": [
+    "0 iodef \"mailto:security+caa@wandb.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security+caa@wandb.com"
+  ]
+}

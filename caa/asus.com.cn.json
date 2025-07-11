@@ -1,0 +1,18 @@
+{
+  "domain": "asus.com.cn",
+  "records": [
+    "0 iodef \"mailto:dns_admin@asus.com\"",
+    "0 issue \"comodo.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"twca.com.tw\""
+  ],
+  "issue": [
+    "comodo.com",
+    "sectigo.com",
+    "twca.com.tw"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dns_admin@asus.com"
+  ]
+}

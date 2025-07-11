@@ -1,0 +1,18 @@
+{
+  "domain": "musicbrainz.org",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": []
+}

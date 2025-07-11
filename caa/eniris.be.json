@@ -1,0 +1,14 @@
+{
+  "domain": "eniris.be",
+  "records": [
+    "0 iodef \"info@eniris.be\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "info@eniris.be"
+  ]
+}

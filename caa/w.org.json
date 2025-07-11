@@ -1,0 +1,11 @@
+{
+  "domain": "w.org",
+  "records": [
+    "0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/53691143\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/53691143"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

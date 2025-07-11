@@ -1,0 +1,15 @@
+{
+  "domain": "nyt.com",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "digicert.com",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

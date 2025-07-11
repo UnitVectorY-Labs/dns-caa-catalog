@@ -1,0 +1,11 @@
+{
+  "domain": "mymusic2025.com",
+  "records": [
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

@@ -1,0 +1,12 @@
+{
+  "domain": "yammerusercontent.com",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

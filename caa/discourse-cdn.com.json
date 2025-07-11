@@ -1,0 +1,13 @@
+{
+  "domain": "discourse-cdn.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

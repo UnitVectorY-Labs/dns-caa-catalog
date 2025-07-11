@@ -1,0 +1,25 @@
+{
+  "domain": "gcore.com",
+  "records": [
+    "0 iodef \"admins@gcore.lu\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"sectigo.com \""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "sectigo.com "
+  ],
+  "iodef": [
+    "admins@gcore.lu"
+  ]
+}

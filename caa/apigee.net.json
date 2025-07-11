@@ -1,0 +1,13 @@
+{
+  "domain": "apigee.net",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

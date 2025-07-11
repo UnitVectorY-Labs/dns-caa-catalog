@@ -1,0 +1,17 @@
+{
+  "domain": "cyberia.is",
+  "records": [
+    "0 iodef \"mailto:noc@cyberia.is\"",
+    "0 issue \"buypass.com\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "buypass.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:noc@cyberia.is"
+  ]
+}

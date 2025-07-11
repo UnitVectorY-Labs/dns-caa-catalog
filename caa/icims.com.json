@@ -1,0 +1,35 @@
+{
+  "domain": "icims.com",
+  "records": [
+    "0 iodef \"mailto:domains@icims.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "certainly.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:domains@icims.com"
+  ]
+}

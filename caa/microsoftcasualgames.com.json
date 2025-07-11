@@ -1,0 +1,15 @@
+{
+  "domain": "microsoftcasualgames.com",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 issue \"microsoft.com\"",
+    "0 issuewild \"microsoft.com\""
+  ],
+  "issue": [
+    "microsoft.com"
+  ],
+  "issuewild": [
+    "microsoft.com"
+  ],
+  "iodef": []
+}

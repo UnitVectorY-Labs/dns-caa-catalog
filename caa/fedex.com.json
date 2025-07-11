@@ -1,0 +1,20 @@
+{
+  "domain": "fedex.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@fedex.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"identrust.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "identrust.com",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@fedex.com"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "domain": "idealo.de",
+  "records": [
+    "0 iodef \"mailto:domains@idealo.de\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"geotrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"thawte.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "geotrust.com",
+    "letsencrypt.org",
+    "thawte.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:domains@idealo.de"
+  ]
+}

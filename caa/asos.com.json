@@ -1,0 +1,25 @@
+{
+  "domain": "asos.com",
+  "records": [
+    "0 iodef \"mailto:domains@asos.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazonaws.com",
+    "digicert.com",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:domains@asos.com"
+  ]
+}

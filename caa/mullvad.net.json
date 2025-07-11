@@ -1,0 +1,17 @@
+{
+  "domain": "mullvad.net",
+  "records": [
+    "128 iodef \"mailto:support@mullvaddns.net\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:support@mullvaddns.net"
+  ]
+}

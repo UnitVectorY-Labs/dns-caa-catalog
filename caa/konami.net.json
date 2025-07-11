@@ -1,0 +1,21 @@
+{
+  "domain": "konami.net",
+  "records": [
+    "0 iodef \"https://www.konami.com/\"",
+    "0 iodef \"mailto:mpki_ssl@konami.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"secomtrust.net\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "secomtrust.net"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "https://www.konami.com/",
+    "mailto:mpki_ssl@konami.com"
+  ]
+}

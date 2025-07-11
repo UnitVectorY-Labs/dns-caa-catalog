@@ -1,0 +1,30 @@
+{
+  "domain": "icann.org",
+  "records": [
+    "0 iodef \"mailto:caa-reports@icann.org\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuemail \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:caa-reports@icann.org"
+  ]
+}

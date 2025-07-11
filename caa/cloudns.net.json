@@ -1,0 +1,23 @@
+{
+  "domain": "cloudns.net",
+  "records": [
+    "0 iodef \"mailto:boyan@cloudns.net\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "comodoca.com",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:boyan@cloudns.net"
+  ]
+}

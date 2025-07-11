@@ -1,0 +1,17 @@
+{
+  "domain": "ptb.de",
+  "records": [
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.dfn.de\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "harica.gr",
+    "letsencrypt.org",
+    "pki.dfn.de",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "wbd.ms",
+  "records": [
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

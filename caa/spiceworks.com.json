@@ -1,0 +1,24 @@
+{
+  "domain": "spiceworks.com",
+  "records": [
+    "0 iodef \"mailto:dns@spiceworks.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dns@spiceworks.com"
+  ]
+}

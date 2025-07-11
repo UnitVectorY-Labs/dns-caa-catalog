@@ -1,0 +1,29 @@
+{
+  "domain": "itzmx.com",
+  "records": [
+    "0 iodef \"mailto:1265578519@qq.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:1265578519@qq.com"
+  ]
+}

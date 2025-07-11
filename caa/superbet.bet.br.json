@@ -1,0 +1,18 @@
+{
+  "domain": "superbet.bet.br",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "certainly.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

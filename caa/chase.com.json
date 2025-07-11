@@ -1,0 +1,13 @@
+{
+  "domain": "chase.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

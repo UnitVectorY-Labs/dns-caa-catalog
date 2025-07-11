@@ -1,0 +1,16 @@
+{
+  "domain": "etrade.com",
+  "records": [
+    "0 iodef \"mailto:domains@etrade.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:domains@etrade.com"
+  ]
+}

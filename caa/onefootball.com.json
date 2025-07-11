@@ -1,0 +1,17 @@
+{
+  "domain": "onefootball.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"geotrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "geotrust.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

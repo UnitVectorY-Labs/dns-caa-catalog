@@ -1,0 +1,19 @@
+{
+  "domain": "runbox.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@runbox.com\"",
+    "0 issue \"buypass.no\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "buypass.no",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:hostmaster@runbox.com"
+  ]
+}

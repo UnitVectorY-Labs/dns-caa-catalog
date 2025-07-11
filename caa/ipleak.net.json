@@ -1,0 +1,14 @@
+{
+  "domain": "ipleak.net",
+  "records": [
+    "0 iodef \"mailto:webmaster@airvpn.org\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:webmaster@airvpn.org"
+  ]
+}

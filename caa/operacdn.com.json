@@ -1,0 +1,18 @@
+{
+  "domain": "operacdn.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@opera.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2096084717\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2096084717"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@opera.com"
+  ]
+}
