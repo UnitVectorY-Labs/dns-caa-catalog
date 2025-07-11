@@ -546,11 +546,20 @@ func generate(config GenerateConfig) error {
 	if err != nil {
 		return fmt.Errorf("failed to parse snippet template: %v", err)
 	}
+	navTmpl, err := template.New("nav.html").Funcs(funcMap).ParseFiles("templates/nav.html")
+	if err != nil {
+		return fmt.Errorf("failed to parse nav template: %v", err)
+	}
 
 	// Generate index page with home content
 	summary := calculateCAASummary(results)
 	if err := generateIndex(config.OutputDir, results, summary, mainTmpl, homeTmpl); err != nil {
 		return fmt.Errorf("failed to generate index: %v", err)
+	}
+
+	// Generate navigation snippet
+	if err := generateNavSnippet(config.OutputDir, results, navTmpl); err != nil {
+		return fmt.Errorf("failed to generate nav snippet: %v", err)
 	}
 
 	// Generate domain pages and snippets
@@ -718,6 +727,26 @@ func generateDomainPageAndSnippet(outputDir string, result DomainResult, allResu
 	defer file.Close()
 
 	return domainTmpl.Execute(file, templateData)
+}
+
+func generateNavSnippet(outputDir string, results []DomainResult, navTmpl *template.Template) error {
+	navData := struct {
+		Results []DomainResult
+	}{
+		Results: results,
+	}
+
+	navBuffer := new(bytes.Buffer)
+	if err := navTmpl.Execute(navBuffer, navData); err != nil {
+		return fmt.Errorf("failed to execute nav template: %w", err)
+	}
+
+	navPath := filepath.Join(outputDir, "snippets", "nav.html")
+	if err := os.WriteFile(navPath, navBuffer.Bytes(), 0644); err != nil {
+		return fmt.Errorf("failed to write nav snippet: %w", err)
+	}
+
+	return nil
 }
 
 func copyAssets(outputDir string) error {

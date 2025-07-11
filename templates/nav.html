@@ -1,0 +1,7 @@
+<div class="search-container">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search domains...">
+    <span class="search-icon">&#128269;</span>
+</div>
+{{range .Results}}
+<a href="./{{.Domain}}.html" hx-get="./snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="./{{.Domain}}.html">{{.Domain}}</a>
+{{end}}

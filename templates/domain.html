@@ -12,14 +12,8 @@
         <a href="index.html" hx-get="./snippets/home.html" hx-target="#content" hx-push-url="index.html"><h1>CAA Observatory</h1></a>
     </header>
     <div class="container">
-        <nav class="left-panel">
-            <div class="search-container">
-                <input type="text" id="searchInput" class="search-input" placeholder="Search domains...">
-                <span class="search-icon">&#128269;</span>
-            </div>
-            {{range .Results}}
-            <a href="./{{.Domain}}.html" hx-get="./snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="./{{.Domain}}.html">{{.Domain}}</a>
-            {{end}}
+        <nav class="left-panel" hx-get="./snippets/nav.html" hx-trigger="load" hx-swap="innerHTML">
+            <!-- Navigation will be loaded here via HTMX -->
         </nav>
         <main class="right-panel" id="content">
             {{.Content}}
@@ -34,16 +28,34 @@
         <p>Last updated: {{.Timestamp}}<br>Page generated: {{.PageGenerated}}</p>
     </footer>
     <script>
-        document.getElementById('searchInput').addEventListener('input', function() {
-            const filter = this.value.toLowerCase();
-            const links = document.querySelectorAll('.left-panel a');
-            links.forEach(function(link) {
-                if (link.textContent.toLowerCase().includes(filter)) {
-                    link.style.display = 'block';
-                } else {
-                    link.style.display = 'none';
-                }
-            });
+        // Function to initialize search functionality
+        function initializeSearch() {
+            const searchInput = document.getElementById('searchInput');
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    const filter = this.value.toLowerCase();
+                    const links = document.querySelectorAll('.left-panel a');
+                    links.forEach(function(link) {
+                        if (link.textContent.toLowerCase().includes(filter)) {
+                            link.style.display = 'block';
+                        } else {
+                            link.style.display = 'none';
+                        }
+                    });
+                });
+            }
+        }
+
+        // Initialize search when navigation is loaded
+        document.body.addEventListener('htmx:afterSwap', function(event) {
+            if (event.target.classList.contains('left-panel')) {
+                initializeSearch();
+            }
+        });
+
+        // Also initialize on page load (fallback)
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(initializeSearch, 100);
         });
     </script>
 </body>
