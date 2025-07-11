@@ -53,6 +53,25 @@ type GenerateConfig struct {
 	OutputDir string
 }
 
+// CAASummary holds statistics about CAA records across all domains
+type CAASummary struct {
+	TotalDomains           int
+	DomainsWithCAA         int
+	DomainsWithIssue       int
+	DomainsWithIssueWild   int
+	DomainsWithMultipleCAs int
+	IssueStats             map[string]int
+	IssueWildStats         map[string]int
+	SortedIssueStats       []StatEntry
+	SortedIssueWildStats   []StatEntry
+}
+
+// StatEntry represents a CA and its count for sorted display
+type StatEntry struct {
+	CA    string
+	Count int
+}
+
 // PageData holds the data for rendering the main page template
 type PageData struct {
 	Results []DomainResult
@@ -376,6 +395,102 @@ func writeResult(outputDir string, result DomainResult) error {
 	return os.WriteFile(filename, data, 0644)
 }
 
+func cleanCAValue(caValue string) string {
+	// Remove everything after the first semicolon
+	if idx := strings.Index(caValue, ";"); idx != -1 {
+		result := caValue[:idx]
+		// Return empty string if the result is empty or just whitespace
+		return strings.TrimSpace(result)
+	}
+	return strings.TrimSpace(caValue)
+}
+
+func calculateCAASummary(results []DomainResult) CAASummary {
+	summary := CAASummary{
+		TotalDomains:   len(results),
+		IssueStats:     make(map[string]int),
+		IssueWildStats: make(map[string]int),
+	}
+
+	for _, result := range results {
+		hasCAA := len(result.Records) > 0
+		hasIssue := len(result.Issue) > 0
+		hasIssueWild := len(result.IssueWild) > 0
+
+		if hasCAA {
+			summary.DomainsWithCAA++
+		}
+
+		// Track unique CAs for this domain (for multiple CA detection)
+		uniqueCAs := make(map[string]bool)
+
+		if hasIssue {
+			summary.DomainsWithIssue++
+			for _, issueValue := range result.Issue {
+				cleanCA := cleanCAValue(issueValue)
+				if cleanCA != "" { // Filter out empty values
+					summary.IssueStats[cleanCA]++
+					uniqueCAs[cleanCA] = true
+				}
+			}
+		}
+
+		if hasIssueWild {
+			summary.DomainsWithIssueWild++
+			for _, issueWildValue := range result.IssueWild {
+				cleanCA := cleanCAValue(issueWildValue)
+				if cleanCA != "" { // Filter out empty values
+					summary.IssueWildStats[cleanCA]++
+					uniqueCAs[cleanCA] = true
+				}
+			}
+		}
+
+		// Check if this domain has multiple unique CAs
+		if len(uniqueCAs) > 1 {
+			summary.DomainsWithMultipleCAs++
+		}
+	}
+
+	// Create sorted slices for template display (filter out empty strings)
+	for ca, count := range summary.IssueStats {
+		if ca != "" {
+			summary.SortedIssueStats = append(summary.SortedIssueStats, StatEntry{CA: ca, Count: count})
+		}
+	}
+	sort.Slice(summary.SortedIssueStats, func(i, j int) bool {
+		return summary.SortedIssueStats[i].Count > summary.SortedIssueStats[j].Count
+	})
+
+	for ca, count := range summary.IssueWildStats {
+		if ca != "" {
+			summary.SortedIssueWildStats = append(summary.SortedIssueWildStats, StatEntry{CA: ca, Count: count})
+		}
+	}
+	sort.Slice(summary.SortedIssueWildStats, func(i, j int) bool {
+		return summary.SortedIssueWildStats[i].Count > summary.SortedIssueWildStats[j].Count
+	})
+
+	return summary
+}
+
+func toFloat64(v interface{}) float64 {
+	switch val := v.(type) {
+	case int:
+		return float64(val)
+	case int32:
+		return float64(val)
+	case int64:
+		return float64(val)
+	case float32:
+		return float64(val)
+	case float64:
+		return val
+	default:
+		return 0
+	}
+}
+
 func generate(config GenerateConfig) error {
 	log.Printf("Starting generate with config: %+v", config)
 
@@ -401,26 +516,40 @@ func generate(config GenerateConfig) error {
 
 	log.Printf("Loaded %d domain results", len(results))
 
-	// Parse templates
-	mainTmpl, err := template.ParseFiles("templates/index.html")
+	// Parse templates with custom functions
+	funcMap := template.FuncMap{
+		"mul": func(a, b interface{}) float64 {
+			return toFloat64(a) * toFloat64(b)
+		},
+		"div": func(a, b interface{}) float64 {
+			va, vb := toFloat64(a), toFloat64(b)
+			if vb == 0 {
+				return 0
+			}
+			return va / vb
+		},
+	}
+
+	mainTmpl, err := template.New("index.html").Funcs(funcMap).ParseFiles("templates/index.html")
 	if err != nil {
 		return fmt.Errorf("failed to parse main template: %v", err)
 	}
-	domainTmpl, err := template.ParseFiles("templates/domain.html")
+	domainTmpl, err := template.New("domain.html").Funcs(funcMap).ParseFiles("templates/domain.html")
 	if err != nil {
 		return fmt.Errorf("failed to parse domain template: %v", err)
 	}
-	homeTmpl, err := template.ParseFiles("templates/home.html")
+	homeTmpl, err := template.New("home.html").Funcs(funcMap).ParseFiles("templates/home.html")
 	if err != nil {
 		return fmt.Errorf("failed to parse home template: %v", err)
 	}
-	snippetTmpl, err := template.ParseFiles("templates/snippet.html")
+	snippetTmpl, err := template.New("snippet.html").Funcs(funcMap).ParseFiles("templates/snippet.html")
 	if err != nil {
 		return fmt.Errorf("failed to parse snippet template: %v", err)
 	}
 
 	// Generate index page with home content
-	if err := generateIndex(config.OutputDir, results, mainTmpl, homeTmpl); err != nil {
+	summary := calculateCAASummary(results)
+	if err := generateIndex(config.OutputDir, results, summary, mainTmpl, homeTmpl); err != nil {
 		return fmt.Errorf("failed to generate index: %v", err)
 	}
 
@@ -502,14 +631,19 @@ func readCrawlTimestamp(inputDir string) string {
 	return ts.Timestamp
 }
 
-func generateIndex(outputDir string, results []DomainResult, mainTmpl, homeTmpl *template.Template) error {
+func generateIndex(outputDir string, results []DomainResult, summary CAASummary, mainTmpl, homeTmpl *template.Template) error {
 	// Read crawl timestamp from the input directory (not output)
 	timestamp := readCrawlTimestamp(filepath.Dir(outputDir)) // Assumes input is parent of output
 	pageGen := time.Now().UTC().Format(time.RFC3339)
 
 	// Render home content into a buffer
 	contentBuffer := new(bytes.Buffer)
-	if err := homeTmpl.Execute(contentBuffer, nil); err != nil {
+	homeData := struct {
+		Summary CAASummary
+	}{
+		Summary: summary,
+	}
+	if err := homeTmpl.Execute(contentBuffer, homeData); err != nil {
 		return fmt.Errorf("error executing home template: %w", err)
 	}
 

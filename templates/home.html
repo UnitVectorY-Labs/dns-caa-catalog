@@ -1,3 +1,94 @@
 <h2 style="font-size:2em; color:#1e3a8a; margin-bottom:0.5em;">CAA Observatory</h2>
 <p>Welcome to the CAA Observatory! Select a domain from the list on the left to view its CAA DNS records and details.</p>
 <p>This project tracks Certification Authority Authorization (CAA) DNS records for a variety of domains to help observe and understand their usage across the web.</p>
+
+<div style="margin-top: 2em; padding: 1.5em; background-color: #f8fafc; border-radius: 8px; border-left: 4px solid #1e3a8a;">
+    <h3 style="margin-top: 0; color: #1e3a8a;">CAA Statistics Summary</h3>
+    
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1em; margin-bottom: 1.5em;">
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
+            <div style="font-size: 2em; font-weight: bold; color: #1e3a8a;">{{.Summary.TotalDomains}}</div>
+            <div style="color: #64748b;">Total Domains</div>
+        </div>
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
+            <div style="font-size: 2em; font-weight: bold; color: #059669;">{{.Summary.DomainsWithCAA}}</div>
+            <div style="color: #64748b;">With CAA Records</div>
+            <div style="font-size: 0.9em; color: #64748b;">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}}</div>
+        </div>
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
+            <div style="font-size: 2em; font-weight: bold; color: #7c2d12;">{{.Summary.DomainsWithIssueWild}}</div>
+            <div style="color: #64748b;">With IssueWild Records</div>
+            <div style="font-size: 0.9em; color: #64748b;">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</div>
+        </div>
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
+            <div style="font-size: 2em; font-weight: bold; color: #dc2626;">{{.Summary.DomainsWithIssue}}</div>
+            <div style="color: #64748b;">With Issue Records</div>
+            <div style="font-size: 0.9em; color: #64748b;">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssue 100.0) .Summary.TotalDomains)}}</div>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 1.5em;">
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center; max-width: 300px; margin: 0 auto;">
+            <div style="font-size: 2em; font-weight: bold; color: #8b5cf6;">{{.Summary.DomainsWithMultipleCAs}}</div>
+            <div style="color: #64748b;">Domains with Multiple CAs</div>
+            <div style="font-size: 0.9em; color: #64748b;">{{printf "%.1f%%" (div (mul .Summary.DomainsWithMultipleCAs 100.0) .Summary.TotalDomains)}}</div>
+            <div style="font-size: 0.8em; color: #94a3b8; margin-top: 0.5em;">Domains using more than one Certificate Authority</div>
+        </div>
+    </div>
+
+    {{if or .Summary.SortedIssueStats .Summary.SortedIssueWildStats}}
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em;">
+        {{if .Summary.SortedIssueStats}}
+        <div>
+            <h4 style="color: #1e3a8a; margin-bottom: 0.5em;">Issue Record Values</h4>
+            <div style="background: white; border-radius: 6px; overflow: hidden;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="background-color: #f1f5f9;">
+                            <th style="padding: 0.75em; text-align: left; font-weight: 600; color: #475569;">Certificate Authority</th>
+                            <th style="padding: 0.75em; text-align: right; font-weight: 600; color: #475569;">Count</th>
+                            <th style="padding: 0.75em; text-align: right; font-weight: 600; color: #475569;">%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range .Summary.SortedIssueStats}}
+                        <tr style="border-top: 1px solid #e2e8f0;">
+                            <td style="padding: 0.75em; color: #334155;">{{.CA}}</td>
+                            <td style="padding: 0.75em; text-align: right; color: #334155;">{{.Count}}</td>
+                            <td style="padding: 0.75em; text-align: right; color: #334155;">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {{end}}
+
+        {{if .Summary.SortedIssueWildStats}}
+        <div>
+            <h4 style="color: #1e3a8a; margin-bottom: 0.5em;">IssueWild Record Values</h4>
+            <div style="background: white; border-radius: 6px; overflow: hidden;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr style="background-color: #f1f5f9;">
+                            <th style="padding: 0.75em; text-align: left; font-weight: 600; color: #475569;">Certificate Authority</th>
+                            <th style="padding: 0.75em; text-align: right; font-weight: 600; color: #475569;">Count</th>
+                            <th style="padding: 0.75em; text-align: right; font-weight: 600; color: #475569;">%</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range .Summary.SortedIssueWildStats}}
+                        <tr style="border-top: 1px solid #e2e8f0;">
+                            <td style="padding: 0.75em; color: #334155;">{{.CA}}</td>
+                            <td style="padding: 0.75em; text-align: right; color: #334155;">{{.Count}}</td>
+                            <td style="padding: 0.75em; text-align: right; color: #334155;">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        {{end}}
+    </div>
+    {{end}}
+</div>
