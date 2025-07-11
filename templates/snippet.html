@@ -1,0 +1,47 @@
+<h2 style="font-size:2em; color:#1e3a8a; margin-bottom:0.5em;">{{.DomainResult.Domain}}</h2>
+{{if .DomainResult.Error}}
+<div class="error">Error: {{.DomainResult.Error}}</div>
+{{else}}
+<dl>
+    {{if .DomainResult.Issue}}
+    <dt>Issue Certificates</dt>
+    <dd>
+        <ul>
+        {{range .DomainResult.Issue}}
+            <li>{{.}}</li>
+        {{end}}
+        </ul>
+    </dd>
+    {{end}}
+    {{if .DomainResult.IssueWild}}
+    <dt>Issue Wildcard Certificates</dt>
+    <dd>
+        <ul>
+        {{range .DomainResult.IssueWild}}
+            <li>{{.}}</li>
+        {{end}}
+        </ul>
+    </dd>
+    {{end}}
+    {{if .DomainResult.Iodef}}
+    <dt>Incident Reporting</dt>
+    <dd>
+        <ul>
+        {{range .DomainResult.Iodef}}
+            <li>{{.}}</li>
+        {{end}}
+        </ul>
+    </dd>
+    {{end}}
+    {{if .DomainResult.Records}}
+    <dt>Raw Records</dt>
+    <dd>
+        <pre>{{range .DomainResult.Records}}{{.}}
+{{end}}</pre>
+    </dd>
+    {{end}}
+</dl>
+{{if not (or .DomainResult.Issue .DomainResult.IssueWild .DomainResult.Iodef .DomainResult.Records)}}
+<p>No CAA records found for this domain.</p>
+{{end}}
+{{end}}

@@ -1,0 +1,11 @@
+{
+  "domain": "facebook.com",
+  "records": [
+    "0 issue \"digicert.com; account=271b0beda0771d006aa3a6c11b05187d456d6c239b46cb5241196095b09c92af\""
+  ],
+  "issue": [
+    "digicert.com; account=271b0beda0771d006aa3a6c11b05187d456d6c239b46cb5241196095b09c92af"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

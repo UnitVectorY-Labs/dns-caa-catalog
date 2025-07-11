@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAA Observatory</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/htmx.org@2.0.3/dist/htmx.min.js" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html" hx-get="./snippets/home.html" hx-target="#content" hx-push-url="index.html"><h1>CAA Observatory</h1></a>
+    </header>
+    <div class="container">
+        <nav class="left-panel">
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="Search domains...">
+                <span class="search-icon">&#128269;</span>
+            </div>
+            {{range .Results}}
+            <a href="./{{.Domain}}.html" hx-get="./snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="./{{.Domain}}.html">{{.Domain}}</a>
+            {{end}}
+        </nav>
+        <main class="right-panel" id="content">
+            {{.Content}}
+        </main>
+    </div>
+    <footer>
+        <p>
+            <a href="https://github.com/UnitVectorY-Labs">UnitVectorY Labs</a> | 
+            <a href="https://opensource.org/licenses/MIT">MIT License</a> | 
+            <a href="https://github.com/UnitVectorY-Labs/caa-observatory"><strong>caa-observatory</strong> on GitHub</a>
+        </p>
+        <p>Last updated: {{.Timestamp}}<br>Page generated: {{.PageGenerated}}</p>
+    </footer>
+    <script>
+    document.getElementById('searchInput').addEventListener('input', function() {
+        const filter = this.value.toLowerCase();
+        const links = document.querySelectorAll('.left-panel a');
+        links.forEach(function(link) {
+            if (link.textContent.toLowerCase().includes(filter)) {
+                link.style.display = 'block';
+            } else {
+                link.style.display = 'none';
+            }
+        });
+    });
+    </script>
+</body>
+</html>
