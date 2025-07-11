@@ -1,0 +1,18 @@
+{
+  "domain": "stripe.com",
+  "records": [
+    "0 iodef \"mailto:caa-violations@stripe.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"visa.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "visa.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa-violations@stripe.com"
+  ]
+}

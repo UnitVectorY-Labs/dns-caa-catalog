@@ -1,0 +1,17 @@
+{
+  "domain": "debian.org",
+  "records": [
+    "0 iodef \"mailto:dsa@debian.org\"",
+    "128 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/346607\"",
+    "128 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/346607"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:dsa@debian.org"
+  ]
+}

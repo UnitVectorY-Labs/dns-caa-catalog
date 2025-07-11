@@ -1,0 +1,17 @@
+{
+  "domain": "globalsign.com",
+  "records": [
+    "0 iodef \"mailto:report-abuse@globalsign.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuemail \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:report-abuse@globalsign.com"
+  ]
+}

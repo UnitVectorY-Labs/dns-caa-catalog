@@ -1,0 +1,13 @@
+{
+  "domain": "mmstat.com",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

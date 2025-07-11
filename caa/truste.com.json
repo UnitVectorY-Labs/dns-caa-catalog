@@ -1,0 +1,15 @@
+{
+  "domain": "truste.com",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "adkernel.com",
+  "records": [
+    "128 issue \"comodoca.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"globalsign.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issuewild \"comodoca.com\"",
+    "128 issuewild \"digicert.com\"",
+    "128 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "iodef": []
+}

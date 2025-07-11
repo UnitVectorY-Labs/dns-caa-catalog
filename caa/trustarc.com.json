@@ -1,0 +1,21 @@
+{
+  "domain": "trustarc.com",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"ssl.com\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "ssl.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

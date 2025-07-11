@@ -1,0 +1,9 @@
+{
+  "domain": "azure-devices.net",
+  "records": [
+    "0 contactemail \"DMAHyperScaleCompute@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

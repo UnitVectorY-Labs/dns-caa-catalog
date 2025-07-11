@@ -1,0 +1,14 @@
+{
+  "domain": "yandex.com",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
+  "issuewild": [
+    "globalsign.com"
+  ],
+  "iodef": []
+}

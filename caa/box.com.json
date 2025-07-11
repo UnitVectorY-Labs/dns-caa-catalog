@@ -1,0 +1,13 @@
+{
+  "domain": "box.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"www.digicert.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "www.digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

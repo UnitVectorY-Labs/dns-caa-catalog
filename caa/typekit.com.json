@@ -1,0 +1,14 @@
+{
+  "domain": "typekit.com",
+  "records": [
+    "0 iodef \"mailto:typekit-ops-typekit@typekit.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:typekit-ops-typekit@typekit.com"
+  ]
+}

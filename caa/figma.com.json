@@ -1,0 +1,16 @@
+{
+  "domain": "figma.com",
+  "records": [
+    "0 iodef \"mailto:security@figma.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@figma.com"
+  ]
+}

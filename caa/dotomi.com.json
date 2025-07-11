@@ -1,0 +1,18 @@
+{
+  "domain": "dotomi.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "iodef": []
+}

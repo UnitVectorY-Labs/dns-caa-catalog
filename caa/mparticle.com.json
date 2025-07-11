@@ -1,0 +1,29 @@
+{
+  "domain": "mparticle.com",
+  "records": [
+    "0 iodef \"mailto:security@mparticle.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:security@mparticle.com"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "google.fr",
+  "records": [
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

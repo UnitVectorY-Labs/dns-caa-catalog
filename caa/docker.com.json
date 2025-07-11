@@ -1,0 +1,22 @@
+{
+  "domain": "docker.com",
+  "records": [
+    "0 iodef \"mailto:infra+iodef@docker.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:infra+iodef@docker.com"
+  ]
+}

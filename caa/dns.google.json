@@ -1,0 +1,13 @@
+{
+  "domain": "dns.google",
+  "records": [
+    "0 issue \"pki.goog\"",
+    "128 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

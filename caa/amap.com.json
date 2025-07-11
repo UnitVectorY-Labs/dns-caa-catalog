@@ -1,0 +1,13 @@
+{
+  "domain": "amap.com",
+  "records": [
+    "0 issue \"digiCert.com\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "digiCert.com",
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

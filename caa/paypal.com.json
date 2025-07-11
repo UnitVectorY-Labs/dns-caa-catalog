@@ -1,0 +1,15 @@
+{
+  "domain": "paypal.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issue \"visa.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "quovadisglobal.com",
+    "visa.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

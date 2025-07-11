@@ -1,0 +1,15 @@
+{
+  "domain": "themoviedb.org",
+  "records": [
+    "0 issue \"awstrust.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "comodoca.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

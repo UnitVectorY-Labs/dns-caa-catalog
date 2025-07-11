@@ -1,0 +1,15 @@
+{
+  "domain": "ssl.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"ssl.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "ssl.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

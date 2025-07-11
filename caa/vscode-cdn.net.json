@@ -1,0 +1,9 @@
+{
+  "domain": "vscode-cdn.net",
+  "records": [
+    "0 contactemail \"DMAvscode@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": []
+}

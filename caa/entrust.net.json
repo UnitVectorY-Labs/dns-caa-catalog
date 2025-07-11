@@ -1,0 +1,23 @@
+{
+  "domain": "entrust.net",
+  "records": [
+    "0 iodef \"mailto:ecsweb@entrust.com\"",
+    "0 issue \"affirmtrust.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"affirmtrust.com\"",
+    "0 issuewild \"entrust.net\""
+  ],
+  "issue": [
+    "affirmtrust.com",
+    "entrust.net",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "affirmtrust.com",
+    "entrust.net"
+  ],
+  "iodef": [
+    "mailto:ecsweb@entrust.com"
+  ]
+}

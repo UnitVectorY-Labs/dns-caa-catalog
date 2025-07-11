@@ -1,0 +1,11 @@
+{
+  "domain": "pinterest.com",
+  "records": [
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "digicert.com; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

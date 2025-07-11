@@ -1,0 +1,14 @@
+{
+  "domain": "marketingcloudapis.com",
+  "records": [
+    "0 iodef \"mailto:caa-violations@salesforce.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa-violations@salesforce.com"
+  ]
+}

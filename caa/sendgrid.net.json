@@ -1,0 +1,13 @@
+{
+  "domain": "sendgrid.net",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"godaddy.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "godaddy.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

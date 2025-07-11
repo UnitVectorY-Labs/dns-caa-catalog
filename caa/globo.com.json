@@ -1,0 +1,28 @@
+{
+  "domain": "globo.com",
+  "records": [
+    "0 ideof \"mailto:dns-tech@corp.globo.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"comodo.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "comodo.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

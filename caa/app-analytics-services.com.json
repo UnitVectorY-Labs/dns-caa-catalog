@@ -1,0 +1,11 @@
+{
+  "domain": "app-analytics-services.com",
+  "records": [
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

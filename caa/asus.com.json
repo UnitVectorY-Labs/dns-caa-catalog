@@ -1,0 +1,32 @@
+{
+  "domain": "asus.com",
+  "records": [
+    "0 iodef \"mailto:dns_admin@asus.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issue \"twca.com.tw\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "digicert.com",
+    "globalsign.com",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com",
+    "twca.com.tw"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dns_admin@asus.com"
+  ]
+}

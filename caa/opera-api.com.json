@@ -1,0 +1,23 @@
+{
+  "domain": "opera-api.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@opera.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2096084717\"",
+    "0 issue \"trust-provider.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2096084717\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2096084717",
+    "trust-provider.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2096084717"
+  ],
+  "iodef": [
+    "mailto:hostmaster@opera.com"
+  ]
+}

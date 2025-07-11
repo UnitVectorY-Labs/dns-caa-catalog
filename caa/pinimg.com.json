@@ -1,0 +1,11 @@
+{
+  "domain": "pinimg.com",
+  "records": [
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

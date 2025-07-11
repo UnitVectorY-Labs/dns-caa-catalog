@@ -1,0 +1,23 @@
+{
+  "domain": "live.com",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 iodef \"mailto:domains@microsoft.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"dtrust.de\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "dtrust.de",
+    "entrust.net",
+    "globalsign.com",
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:domains@microsoft.com"
+  ]
+}

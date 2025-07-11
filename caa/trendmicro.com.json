@@ -1,0 +1,23 @@
+{
+  "domain": "trendmicro.com",
+  "records": [
+    "0 issue \"affirmtrust.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "affirmtrust.com",
+    "amazon.com",
+    "digicert.com",
+    "entrust.net",
+    "globalsign.com",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

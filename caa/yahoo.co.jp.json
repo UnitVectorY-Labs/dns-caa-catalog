@@ -1,0 +1,18 @@
+{
+  "domain": "yahoo.co.jp",
+  "records": [
+    "0 iodef \"mailto:nic-admin@mail.yahoo.co.jp\"",
+    "0 issue \"cybertrust.ne.jp\"",
+    "0 issue \"digicert.com;cansignhttpexchanges=yes\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "cybertrust.ne.jp",
+    "digicert.com;cansignhttpexchanges=yes",
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:nic-admin@mail.yahoo.co.jp"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "domain": "mail.ru",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"visa.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "harica.gr",
+    "visa.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

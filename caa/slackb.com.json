@@ -1,0 +1,16 @@
+{
+  "domain": "slackb.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@slack-corp.com\"",
+    "0 issue \"digicert.com; account=455b15ed272bed097725c6ea50e89921fc57379c5338a29305c05771df65fff1\"",
+    "0 issue \"letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/1532134906\""
+  ],
+  "issue": [
+    "digicert.com; account=455b15ed272bed097725c6ea50e89921fc57379c5338a29305c05771df65fff1",
+    "letsencrypt.org; accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/1532134906"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@slack-corp.com"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "reddit.com",
+  "records": [
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "digicert.com; cansignhttpexchanges=yes",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

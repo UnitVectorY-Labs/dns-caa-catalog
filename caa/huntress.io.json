@@ -1,0 +1,14 @@
+{
+  "domain": "huntress.io",
+  "records": [
+    "0 iodef \"mailto:security@huntress.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:security@huntress.com"
+  ]
+}

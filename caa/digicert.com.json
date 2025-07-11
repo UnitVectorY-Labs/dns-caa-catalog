@@ -1,0 +1,14 @@
+{
+  "domain": "digicert.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": []
+}

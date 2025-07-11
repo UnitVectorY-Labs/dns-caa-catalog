@@ -1,0 +1,12 @@
+{
+  "domain": "msftncsi.com",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 iodef \"mailto:caarecordaware@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caarecordaware@microsoft.com"
+  ]
+}

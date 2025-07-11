@@ -1,0 +1,17 @@
+{
+  "domain": "wordpress.com",
+  "records": [
+    "0 iodef \"mailto:caa@automattic.com\"",
+    "0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/36334489\"",
+    "0 issuewild \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/36334489\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/36334489"
+  ],
+  "issuewild": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/36334489"
+  ],
+  "iodef": [
+    "mailto:caa@automattic.com"
+  ]
+}

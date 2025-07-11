@@ -1,0 +1,25 @@
+{
+  "domain": "intelbras.com.br",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"starfieldtech.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "starfieldtech.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

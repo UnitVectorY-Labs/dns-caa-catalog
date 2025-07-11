@@ -1,0 +1,23 @@
+{
+  "domain": "azureedge.net",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 issue \"digicert.com; account=37519e363bd0f3f470682383a25b2daa13232906ff77b9eb03d1269486782a2a\"",
+    "0 issue \"digicert.com; account=4735470c395ee719a2a0c2a15a49193ff5add1d47d164d31d186797e73892a18\"",
+    "0 issue \"digicert.com; account=488f180f66637f6181c0f055bdfe0e1c40852d9cc7ac5affded3c97e2fab3f1e\"",
+    "0 issue \"microsoft.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"microsoft.com\""
+  ],
+  "issue": [
+    "digicert.com; account=37519e363bd0f3f470682383a25b2daa13232906ff77b9eb03d1269486782a2a",
+    "digicert.com; account=4735470c395ee719a2a0c2a15a49193ff5add1d47d164d31d186797e73892a18",
+    "digicert.com; account=488f180f66637f6181c0f055bdfe0e1c40852d9cc7ac5affded3c97e2fab3f1e",
+    "microsoft.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "microsoft.com"
+  ],
+  "iodef": []
+}

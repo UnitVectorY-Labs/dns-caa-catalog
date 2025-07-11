@@ -1,0 +1,24 @@
+{
+  "domain": "firefox.com",
+  "records": [
+    "128 iodef \"mailto:foxsec+caaiodef@mozilla.com\"",
+    "128 issue \"amazon.com\"",
+    "128 issue \"amazonaws.com\"",
+    "128 issue \"amazontrust.com\"",
+    "128 issue \"awstrust.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:foxsec+caaiodef@mozilla.com"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "domain": "coinbase.com",
+  "records": [
+    "0 iodef \"mailto:security@coinbase.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@coinbase.com"
+  ]
+}

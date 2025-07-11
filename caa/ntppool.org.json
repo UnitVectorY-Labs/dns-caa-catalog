@@ -1,0 +1,21 @@
+{
+  "domain": "ntppool.org",
+  "records": [
+    "0 iodef \"mailto:ask@ntppool.org\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"certainly.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "certainly.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "certainly.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:ask@ntppool.org"
+  ]
+}

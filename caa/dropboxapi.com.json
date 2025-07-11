@@ -1,0 +1,15 @@
+{
+  "domain": "dropboxapi.com",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2079416047\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com",
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2079416047"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
