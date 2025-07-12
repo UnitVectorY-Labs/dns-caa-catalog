@@ -1,4 +1,4 @@
-name: caa-observatory-crawl
+name: dns-caa-catalog-crawl
 on:
   schedule:
     - cron: "0 5 * * *"
@@ -6,7 +6,7 @@ on:
 
 jobs:
   build-and-test:
-    name: Run CAA Observatory Crawler
+    name: Run DNS CAA Catalog Crawler
     runs-on: arc-runner-set
     timeout-minutes: 30
 

@@ -1,4 +1,4 @@
-# caa-observatory
+# dns-caa-catalog
 
 A Go CLI tool for tracking and publishing CAA (Certificate Authority Authorization) DNS records.
 
@@ -13,7 +13,7 @@ A Go CLI tool for tracking and publishing CAA (Certificate Authority Authorizati
 ## Building
 
 ```bash
-go build -o caa-observatory main.go
+go build -o dns-caa-catalog main.go
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ go build -o caa-observatory main.go
 Reads domains from a file and performs CAA DNS lookups:
 
 ```bash
-./caa-observatory -crawl [flags]
+./dns-caa-catalog -crawl [flags]
 ```
 
 **Flags:**
@@ -35,7 +35,7 @@ Reads domains from a file and performs CAA DNS lookups:
 
 **Example:**
 ```bash
-./caa-observatory -crawl -i domains.txt -o results -c 5 -t 3s -r 2
+./dns-caa-catalog -crawl -i domains.txt -o results -c 5 -t 3s -r 2
 ```
 
 ### Generate Command
@@ -43,7 +43,7 @@ Reads domains from a file and performs CAA DNS lookups:
 Creates static HTML pages from crawl JSON data:
 
 ```bash
-./caa-observatory -generate [flags]
+./dns-caa-catalog -generate [flags]
 ```
 
 **Flags:**
@@ -52,7 +52,7 @@ Creates static HTML pages from crawl JSON data:
 
 **Example:**
 ```bash
-./caa-observatory -generate -i results -o website
+./dns-caa-catalog -generate -i results -o website
 ```
 
 ## Output Format

@@ -75,7 +75,7 @@ jobs:
     if: github.repository_owner == 'UnitVectorY-Labs'
     environment:
       name: github-pages
-      url: caa-observatory.unitvectorylabs.com
+      url: dns-caa-catalog.unitvectorylabs.com
     runs-on: ubuntu-latest
     needs: build
     steps:

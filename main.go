@@ -97,7 +97,7 @@ func main() {
 }
 
 func printUsage() {
-	fmt.Println("CAA Observatory - Track and publish CAA DNS records")
+	fmt.Println("DNS CAA Catalog - Track and publish CAA DNS records")
 	fmt.Println()
 	fmt.Println("Usage:")
 	fmt.Println("  main.go -crawl [flags]     Crawl domains and perform CAA DNS lookups")

@@ -6,7 +6,7 @@ commands:
      pattern: "^go (?P<version>.*) // GOVERSION$"
    - path: ".github/workflows/build-go.yml"
      pattern: "^          go-version: '(?P<version>.*)' # GOVERSION$"
-   - path: ".github/workflows/caa-observatory-crawl.yml"
+   - path: ".github/workflows/dns-caa-catalog-crawl.yml"
      pattern: "^          go-version: '(?P<version>.*)' # GOVERSION$"
    git:
      create_branch: true

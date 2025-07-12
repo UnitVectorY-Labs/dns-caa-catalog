@@ -1,4 +1,4 @@
-module github.com/UnitVectorY-Labs/caa-observatory
+module github.com/UnitVectorY-Labs/dns-caa-catalog
 
 go 1.24.5 // GOVERSION
 
