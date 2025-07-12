@@ -1,1 +1,1 @@
-exclude=LICENSE,output
+exclude=LICENSE,output,data,caa
