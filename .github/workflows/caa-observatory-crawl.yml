@@ -7,7 +7,7 @@ on:
 jobs:
   build-and-test:
     name: Run CAA Observatory Crawler
-    runs-on: ubuntu-latest
+    runs-on: arc-runner-set
     timeout-minutes: 30
 
     steps:
