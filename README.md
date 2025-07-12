@@ -1,3 +1,5 @@
+[![License](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT) [![Active](https://img.shields.io/badge/Status-Active-green)](https://guide.unitvectorylabs.com/bestpractices/status/#active) [![Go Report Card](https://goreportcard.com/badge/github.com/UnitVectorY-Labs/dns-caa-catalog)](https://goreportcard.com/report/github.com/UnitVectorY-Labs/dns-caa-catalog)
+
 # dns-caa-catalog
 
 A Go CLI tool for tracking and publishing CAA (Certificate Authority Authorization) DNS records.
