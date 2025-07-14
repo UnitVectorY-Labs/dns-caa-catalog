@@ -1,0 +1,11 @@
+{
+  "domain": "news.blog",
+  "records": [
+    "0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/36334489\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/36334489"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

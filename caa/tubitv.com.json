@@ -1,7 +1,17 @@
 {
   "domain": "tubitv.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com"
+  ],
   "issuewild": [],
   "iodef": []
 }

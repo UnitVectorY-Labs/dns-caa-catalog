@@ -1,0 +1,14 @@
+{
+  "domain": "fiscloudservices.com",
+  "records": [
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": []
+}
