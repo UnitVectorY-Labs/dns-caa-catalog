@@ -184,6 +184,135 @@ ul {
     margin: 0;
 }
 
+.table-full {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-wrapper {
+    background: white;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.mb-15 {
+    margin-bottom: 1.5em;
+}
+
+/* Utility classes for templates */
+.title-large {
+    font-size: 2em;
+    color: #1e3a8a;
+    margin-bottom: 0.5em;
+}
+.mb-1 {
+    margin-bottom: 1em;
+}
+.mb-05 {
+    margin-bottom: 0.5em;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.link-primary {
+    color: #1e3a8a;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.link-primary:hover {
+    text-decoration: underline;
+}
+.underline {
+    text-decoration: underline;
+}
+.summary-box {
+    margin-bottom: 2em;
+    padding: 1em;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    border-left: 4px solid #1e3a8a;
+}
+.intro-summary {
+    margin-top: 2em;
+    padding: 1.5em;
+    background-color: #f8fafc;
+    border-radius: 8px;
+    border-left: 4px solid #1e3a8a;
+}
+.card {
+    background: white;
+    padding: 1em;
+    border-radius: 6px;
+}
+.text-center {
+    text-align: center;
+}
+.font-bold {
+    font-weight: bold;
+}
+.text-primary {
+    color: #1e3a8a;
+}
+.text-green {
+    color: #059669;
+}
+.text-red {
+    color: #7c2d12;
+}
+.grid-auto-fit {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1em;
+}
+.grid-auto-fit-200 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    margin-bottom: 1.5em;
+}
+.grid-two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+}
+.table-border {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    overflow: hidden;
+    background: white;
+}
+.table-header {
+    background-color: #f1f5f9;
+}
+.table-header th {
+    padding: 0.75em;
+    text-align: left;
+    font-weight: 600;
+    color: #475569;
+}
+/* Table utility classes */
+.sticky-header {
+    position: sticky;
+    top: 0;
+}
+.text-right {
+    text-align: right !important;
+}
+.table-row {
+    border-top: 1px solid #e2e8f0;
+}
+.table-cell {
+    padding: 0.75em;
+    color: #334155;
+}
+.text-2xl {
+    font-size: 2em;
+}
+.text-muted {
+    color: #64748b;
+}
+.text-sm {
+    font-size: 0.9em;
+}
+
 li {
     padding: 5px 0;
 }

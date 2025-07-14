@@ -1,4 +1,4 @@
-<h2 style="font-size:2em; color:#1e3a8a; margin-bottom:0.5em;">Domain: {{.DomainResult.Domain}}</h2>
+<h2 class="title-large">Domain: {{.DomainResult.Domain}}</h2>
 {{if .DomainResult.Error}}
 <div class="error">Error: {{.DomainResult.Error}}</div>
 {{else}}
@@ -13,7 +13,7 @@
                    hx-get="/snippets/providers/{{normalizeCA .}}.html" 
                    hx-target="#content" 
                    hx-push-url="/providers/{{normalizeCA .}}.html" 
-                   style="color: #1e3a8a; text-decoration: none;">{{.}}</a>
+                   class="link-primary">{{.}}</a>
             </li>
         {{end}}
         </ul>
@@ -29,7 +29,7 @@
                    hx-get="/snippets/providers/{{normalizeCA .}}.html" 
                    hx-target="#content" 
                    hx-push-url="/providers/{{normalizeCA .}}.html" 
-                   style="color: #1e3a8a; text-decoration: none;">{{.}}</a>
+                   class="link-primary">{{.}}</a>
             </li>
         {{end}}
         </ul>
