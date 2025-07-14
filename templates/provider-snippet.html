@@ -1,0 +1,77 @@
+<h2 style="font-size:2em; color:#1e3a8a; margin-bottom:0.5em;">Certificate Authority: {{.Provider.CA}}</h2>
+
+<div style="margin-bottom: 2em; padding: 1em; background-color: #f8fafc; border-radius: 8px; border-left: 4px solid #1e3a8a;">
+    <h3 style="margin-top: 0; color: #1e3a8a;">Summary</h3>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1em;">
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
+            <div style="font-size: 1.5em; font-weight: bold; color: #1e3a8a;">{{.Provider.TotalDomains}}</div>
+            <div style="color: #64748b;">Total Domains</div>
+        </div>
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
+            <div style="font-size: 1.5em; font-weight: bold; color: #059669;">{{len .Provider.IssueDomains}}</div>
+            <div style="color: #64748b;">With 'issue' Record</div>
+        </div>
+        <div style="background: white; padding: 1em; border-radius: 6px; text-align: center;">
+            <div style="font-size: 1.5em; font-weight: bold; color: #7c2d12;">{{len .Provider.WildDomains}}</div>
+            <div style="color: #64748b;">With 'issuewild' Record</div>
+        </div>
+    </div>
+</div>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+    {{if .Provider.IssueDomains}}
+    <div>
+        <h3 style="color: #1e3a8a; margin-bottom: 1em;">Domains with 'issue' Records</h3>
+        <div style="background: white; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0;">
+            <div style="max-height: 400px; overflow-y: auto;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead style="position: sticky; top: 0;">
+                        <tr style="background-color: #f1f5f9;">
+                            <th style="padding: 0.75em; text-align: left; font-weight: 600; color: #475569;">Domain</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range .Provider.IssueDomains}}
+                        <tr style="border-top: 1px solid #e2e8f0;">
+                            <td style="padding: 0.75em; color: #334155;">
+                                <a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html" style="color: #1e3a8a; text-decoration: none;">{{.Domain}}</a>
+                            </td>
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    {{end}}
+
+    {{if .Provider.WildDomains}}
+    <div>
+        <h3 style="color: #1e3a8a; margin-bottom: 1em;">Domains with 'issuewild' Records</h3>
+        <div style="background: white; border-radius: 6px; overflow: hidden; border: 1px solid #e2e8f0;">
+            <div style="max-height: 400px; overflow-y: auto;">
+                <table style="width: 100%; border-collapse: collapse;">
+                    <thead style="position: sticky; top: 0;">
+                        <tr style="background-color: #f1f5f9;">
+                            <th style="padding: 0.75em; text-align: left; font-weight: 600; color: #475569;">Domain</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{range .Provider.WildDomains}}
+                        <tr style="border-top: 1px solid #e2e8f0;">
+                            <td style="padding: 0.75em; color: #334155;">
+                                <a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html" style="color: #1e3a8a; text-decoration: none;">{{.Domain}}</a>
+                            </td>
+                        </tr>
+                        {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    {{end}}
+</div>
+
+{{if not (or .Provider.IssueDomains .Provider.WildDomains)}}
+<p>No domains found using this certificate authority.</p>
+{{end}}

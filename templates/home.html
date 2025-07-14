@@ -48,7 +48,13 @@
                     <tbody>
                         {{range .Summary.SortedIssueStats}}
                         <tr style="border-top: 1px solid #e2e8f0;">
-                            <td style="padding: 0.75em; color: #334155;">{{.CA}}</td>
+                            <td style="padding: 0.75em; color: #334155;">
+                                <a href="/providers/{{normalizeCA .CA}}.html" 
+                                   hx-get="/snippets/providers/{{normalizeCA .CA}}.html" 
+                                   hx-target="#content" 
+                                   hx-push-url="/providers/{{normalizeCA .CA}}.html" 
+                                   style="color: #1e3a8a; text-decoration: none;">{{.CA}}</a>
+                            </td>
                             <td style="padding: 0.75em; text-align: right; color: #334155;">{{.Count}}</td>
                             <td style="padding: 0.75em; text-align: right; color: #334155;">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
                         </tr>
@@ -74,7 +80,13 @@
                     <tbody>
                         {{range .Summary.SortedIssueWildStats}}
                         <tr style="border-top: 1px solid #e2e8f0;">
-                            <td style="padding: 0.75em; color: #334155;">{{.CA}}</td>
+                            <td style="padding: 0.75em; color: #334155;">
+                                <a href="providers/{{normalizeCA .CA}}.html" 
+                                   hx-get="snippets/providers/{{normalizeCA .CA}}.html" 
+                                   hx-target="#content" 
+                                   hx-push-url="providers/{{normalizeCA .CA}}.html" 
+                                   style="color: #1e3a8a; text-decoration: none;">{{.CA}}</a>
+                            </td>
                             <td style="padding: 0.75em; text-align: right; color: #334155;">{{.Count}}</td>
                             <td style="padding: 0.75em; text-align: right; color: #334155;">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
                         </tr>

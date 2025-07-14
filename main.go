@@ -65,6 +65,15 @@ type CAASummary struct {
 	SortedIssueWildStats []StatEntry
 }
 
+// CAProviderData holds information about a certificate authority and domains using it
+type CAProviderData struct {
+	CA           string         `json:"ca"`
+	NormalizedCA string         `json:"normalized_ca"`
+	IssueDomains []DomainResult `json:"issue_domains"`
+	WildDomains  []DomainResult `json:"wild_domains"`
+	TotalDomains int            `json:"total_domains"`
+}
+
 // StatEntry represents a CA and its count for sorted display
 type StatEntry struct {
 	CA    string
@@ -404,6 +413,133 @@ func cleanCAValue(caValue string) string {
 	return strings.TrimSpace(caValue)
 }
 
+func normalizeCAName(caValue string) string {
+	// Clean the CA value and normalize it for file naming and grouping
+	cleaned := cleanCAValue(caValue)
+	// Convert to lowercase for consistency
+	normalized := strings.ToLower(cleaned)
+	// Replace characters that aren't filesystem-friendly
+	normalized = strings.ReplaceAll(normalized, "/", "_")
+	normalized = strings.ReplaceAll(normalized, "\\", "_")
+	normalized = strings.ReplaceAll(normalized, ":", "_")
+	normalized = strings.ReplaceAll(normalized, "*", "_")
+	normalized = strings.ReplaceAll(normalized, "?", "_")
+	normalized = strings.ReplaceAll(normalized, "\"", "_")
+	normalized = strings.ReplaceAll(normalized, "<", "_")
+	normalized = strings.ReplaceAll(normalized, ">", "_")
+	normalized = strings.ReplaceAll(normalized, "|", "_")
+	normalized = strings.ReplaceAll(normalized, " ", "_")
+	return normalized
+}
+
+func collectCAProviders(results []DomainResult) map[string]*CAProviderData {
+	providers := make(map[string]*CAProviderData)
+
+	for _, result := range results {
+		// Process 'issue' records
+		for _, issueValue := range result.Issue {
+			cleanCA := cleanCAValue(issueValue)
+			if cleanCA == "" {
+				continue
+			}
+
+			normalizedCA := normalizeCAName(issueValue)
+
+			if providers[normalizedCA] == nil {
+				providers[normalizedCA] = &CAProviderData{
+					CA:           cleanCA,
+					NormalizedCA: normalizedCA,
+					IssueDomains: []DomainResult{},
+					WildDomains:  []DomainResult{},
+				}
+			}
+
+			// Add domain to issue domains if not already present
+			found := false
+			for _, existingDomain := range providers[normalizedCA].IssueDomains {
+				if existingDomain.Domain == result.Domain {
+					found = true
+					break
+				}
+			}
+			if !found {
+				providers[normalizedCA].IssueDomains = append(providers[normalizedCA].IssueDomains, result)
+			}
+		}
+
+		// Process 'issuewild' records
+		for _, issueWildValue := range result.IssueWild {
+			cleanCA := cleanCAValue(issueWildValue)
+			if cleanCA == "" {
+				continue
+			}
+
+			normalizedCA := normalizeCAName(issueWildValue)
+
+			if providers[normalizedCA] == nil {
+				providers[normalizedCA] = &CAProviderData{
+					CA:           cleanCA,
+					NormalizedCA: normalizedCA,
+					IssueDomains: []DomainResult{},
+					WildDomains:  []DomainResult{},
+				}
+			}
+
+			// Add domain to wild domains if not already present
+			found := false
+			for _, existingDomain := range providers[normalizedCA].WildDomains {
+				if existingDomain.Domain == result.Domain {
+					found = true
+					break
+				}
+			}
+			if !found {
+				providers[normalizedCA].WildDomains = append(providers[normalizedCA].WildDomains, result)
+			}
+		}
+	}
+
+	// Calculate total domains and sort
+	for _, provider := range providers {
+		// Create a map to deduplicate domains that appear in both issue and issuewild
+		uniqueDomains := make(map[string]bool)
+		for _, domain := range provider.IssueDomains {
+			uniqueDomains[domain.Domain] = true
+		}
+		for _, domain := range provider.WildDomains {
+			uniqueDomains[domain.Domain] = true
+		}
+		provider.TotalDomains = len(uniqueDomains)
+
+		// Sort domain lists
+		sort.Slice(provider.IssueDomains, func(i, j int) bool {
+			return provider.IssueDomains[i].Domain < provider.IssueDomains[j].Domain
+		})
+		sort.Slice(provider.WildDomains, func(i, j int) bool {
+			return provider.WildDomains[i].Domain < provider.WildDomains[j].Domain
+		})
+	}
+
+	return providers
+}
+
+func toFloat64(v interface{}) float64 {
+	switch val := v.(type) {
+	case int:
+		return float64(val)
+	case int32:
+		return float64(val)
+	case int64:
+		return float64(val)
+	case float32:
+		return float64(val)
+	case float64:
+		return val
+	default:
+		return 0
+	}
+}
+
 func calculateCAASummary(results []DomainResult) CAASummary {
 	// Use a map to track unique lowercase domains for accurate counting
 	uniqueDomains := make(map[string]bool)
@@ -499,23 +635,6 @@ func calculateCAASummary(results []DomainResult) CAASummary {
 	return summary
 }
 
-func toFloat64(v interface{}) float64 {
-	switch val := v.(type) {
-	case int:
-		return float64(val)
-	case int32:
-		return float64(val)
-	case int64:
-		return float64(val)
-	case float32:
-		return float64(val)
-	case float64:
-		return val
-	default:
-		return 0
-	}
-}
-
 func generate(config GenerateConfig) error {
 	log.Printf("Starting generate with config: %+v", config)
 
@@ -527,10 +646,18 @@ func generate(config GenerateConfig) error {
 		return fmt.Errorf("assets directory does not exist")
 	}
 
-	// Create output directory and snippets subdirectory
+	// Create output directory and subdirectories
 	snippetsDir := filepath.Join(config.OutputDir, "snippets")
+	providersDir := filepath.Join(config.OutputDir, "providers")
+	providerSnippetsDir := filepath.Join(config.OutputDir, "snippets", "providers")
 	if err := os.MkdirAll(snippetsDir, 0755); err != nil {
-		return fmt.Errorf("failed to create output directory: %v", err)
+		return fmt.Errorf("failed to create snippets directory: %v", err)
+	}
+	if err := os.MkdirAll(providersDir, 0755); err != nil {
+		return fmt.Errorf("failed to create providers directory: %v", err)
+	}
+	if err := os.MkdirAll(providerSnippetsDir, 0755); err != nil {
+		return fmt.Errorf("failed to create provider snippets directory: %v", err)
 	}
 
 	// Load domain results
@@ -553,6 +680,7 @@ func generate(config GenerateConfig) error {
 			}
 			return va / vb
 		},
+		"normalizeCA": normalizeCAName,
 	}
 
 	mainTmpl, err := template.New("index.html").Funcs(funcMap).ParseFiles("templates/index.html")
@@ -575,6 +703,14 @@ func generate(config GenerateConfig) error {
 	if err != nil {
 		return fmt.Errorf("failed to parse nav template: %v", err)
 	}
+	providerTmpl, err := template.New("provider.html").Funcs(funcMap).ParseFiles("templates/provider.html")
+	if err != nil {
+		return fmt.Errorf("failed to parse provider template: %v", err)
+	}
+	providerSnippetTmpl, err := template.New("provider-snippet.html").Funcs(funcMap).ParseFiles("templates/provider-snippet.html")
+	if err != nil {
+		return fmt.Errorf("failed to parse provider snippet template: %v", err)
+	}
 
 	// Generate index page with home content
 	summary := calculateCAASummary(results)
@@ -592,6 +728,12 @@ func generate(config GenerateConfig) error {
 		if err := generateDomainPageAndSnippet(config.OutputDir, result, results, domainTmpl, snippetTmpl); err != nil {
 			log.Printf("Failed to generate page for %s: %v", result.Domain, err)
 		}
+	}
+
+	// Generate provider pages and snippets
+	providers := collectCAProviders(results)
+	if err := generateProviderPagesAndSnippets(config.OutputDir, providers, providerTmpl, providerSnippetTmpl); err != nil {
+		return fmt.Errorf("failed to generate provider pages: %v", err)
 	}
 
 	// Copy assets
@@ -742,6 +884,53 @@ func generateDomainPageAndSnippet(outputDir string, result DomainResult, allResu
 	defer file.Close()
 
 	return domainTmpl.Execute(file, templateData)
+}
+
+func generateProviderPagesAndSnippets(outputDir string, providers map[string]*CAProviderData, providerTmpl, providerSnippetTmpl *template.Template) error {
+	timestamp := readCrawlTimestamp(filepath.Dir(outputDir))
+	pageGen := time.Now().UTC().Format(time.RFC3339)
+
+	for normalizedCA, provider := range providers {
+		templateData := struct {
+			Timestamp     string
+			PageGenerated string
+			Provider      *CAProviderData
+			Content       template.HTML
+		}{
+			Timestamp:     timestamp,
+			PageGenerated: pageGen,
+			Provider:      provider,
+		}
+
+		// Generate the snippet first
+		snippetBuffer := new(bytes.Buffer)
+		if err := providerSnippetTmpl.Execute(snippetBuffer, templateData); err != nil {
+			return fmt.Errorf("failed to execute provider snippet template for %s: %w", provider.CA, err)
+		}
+
+		// Write snippet to file
+		snippetPath := filepath.Join(outputDir, "snippets", "providers", normalizedCA+".html")
+		if err := os.WriteFile(snippetPath, snippetBuffer.Bytes(), 0644); err != nil {
+			return fmt.Errorf("failed to write provider snippet for %s: %w", provider.CA, err)
+		}
+
+		// Now generate the full page
+		templateData.Content = template.HTML(snippetBuffer.String())
+
+		filename := filepath.Join(outputDir, "providers", normalizedCA+".html")
+		file, err := os.Create(filename)
+		if err != nil {
+			return err
+		}
+		defer file.Close()
+
+		if err := providerTmpl.Execute(file, templateData); err != nil {
+			return fmt.Errorf("failed to execute provider template for %s: %w", provider.CA, err)
+		}
+	}
+
+	log.Printf("Generated pages for %d certificate authorities", len(providers))
+	return nil
 }
 
 func generateNavSnippet(outputDir string, results []DomainResult, navTmpl *template.Template) error {

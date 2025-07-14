@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DNS CAA Catalog</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/style.css">
     <script src="https://unpkg.com/htmx.org@2.0.3/dist/htmx.min.js" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <a href="index.html" hx-get="./snippets/home.html" hx-target="#content" hx-push-url="index.html"><h1>DNS CAA Catalog</h1></a>
+        <a href="/index.html" hx-get="/snippets/home.html" hx-target="#content" hx-push-url="/index.html"><h1>DNS CAA Catalog</h1></a>
     </header>
     <div class="container">
-        <nav class="left-panel" hx-get="./snippets/nav.html" hx-trigger="load" hx-swap="innerHTML">
+        <nav class="left-panel" hx-get="/snippets/nav.html" hx-trigger="load" hx-swap="innerHTML">
             <!-- Navigation will be loaded here via HTMX -->
         </nav>
         <main class="right-panel" id="content">
