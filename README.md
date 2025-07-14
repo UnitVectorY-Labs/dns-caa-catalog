@@ -50,11 +50,29 @@ Creates static HTML pages from crawl JSON data:
 
 **Flags:**
 - `-input-dir, -i <path>`: Input directory with JSON files (default: `caa`)
-- `-output-dir, -o <path>`: Output directory for HTML (default: `public`)
+- `-output-dir, -o <path>`: Output directory for HTML (default: `output`)
 
 **Example:**
 ```bash
 ./dns-caa-catalog -generate -i results -o website
+```
+
+### Update Command
+
+Fetches the latest top 10,000 domains from Cloudflare Radar and updates the input domains list:
+
+```bash
+./dns-caa-catalog -update
+```
+
+**Requirements:**
+- Requires the `CLOUDFLARE_API_KEY` environment variable to be set with a valid Cloudflare API key.
+- Overwrites the file at `data/domains` with the new list.
+
+**Example:**
+```bash
+export CLOUDFLARE_API_KEY=your_api_key_here
+./dns-caa-catalog -update
 ```
 
 ## Output Format
