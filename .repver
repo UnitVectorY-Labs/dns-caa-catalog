@@ -8,6 +8,8 @@ commands:
      pattern: "^          go-version: '(?P<version>.*)' # GOVERSION$"
    - path: ".github/workflows/dns-caa-catalog-crawl.yml"
      pattern: "^          go-version: '(?P<version>.*)' # GOVERSION$"
+   - path: ".github/workflows/dns-caa-catalog-update.yml"
+     pattern: "^          go-version: '(?P<version>.*)' # GOVERSION$"
    git:
      create_branch: true
      branch_name : "go-v{{version}}"

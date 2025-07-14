@@ -11,6 +11,7 @@ import (
 	"io/fs"
 	"log"
 	"net"
+	"net/http"
 	"os"
 	"path/filepath"
 	"sort"
@@ -98,6 +99,8 @@ func main() {
 		crawlCommand()
 	case "-generate":
 		generateCommand()
+	case "-update":
+		updateCommand()
 	default:
 		fmt.Fprintf(os.Stderr, "Unknown command: %s\n", command)
 		printUsage()
@@ -111,6 +114,7 @@ func printUsage() {
 	fmt.Println("Usage:")
 	fmt.Println("  main.go -crawl [flags]     Crawl domains and perform CAA DNS lookups")
 	fmt.Println("  main.go -generate [flags]  Generate static HTML pages from crawl data")
+	fmt.Println("  main.go -update            Update domains list from Cloudflare top 10k")
 	fmt.Println()
 	fmt.Println("Crawl flags:")
 	fmt.Println("  -input, -i <path>         Input domains file (default: data/domains)")
@@ -122,6 +126,9 @@ func printUsage() {
 	fmt.Println("Generate flags:")
 	fmt.Println("  -input-dir, -i <path>     Input directory with JSON files (default: caa)")
 	fmt.Println("  -output-dir, -o <path>    Output directory for HTML (default: output)")
+	fmt.Println()
+	fmt.Println("Update command:")
+	fmt.Println("  Requires CLOUDFLARE_API_KEY environment variable to be set")
 }
 
 func crawlCommand() {
@@ -168,6 +175,137 @@ func generateCommand() {
 	}
 }
 
+func updateCommand() {
+	if err := updateDomains(); err != nil {
+		log.Fatalf("Update failed: %v", err)
+	}
+}
+
+func updateDomains() error {
+	log.Println("Starting domain list update from Cloudflare API")
+
+	// Check for required environment variable
+	apiKey := os.Getenv("CLOUDFLARE_API_KEY")
+	if apiKey == "" {
+		return fmt.Errorf("CLOUDFLARE_API_KEY environment variable is required")
+	}
+
+	// Download domains from Cloudflare API
+	domains, err := downloadCloudflareTopDomains(apiKey)
+	if err != nil {
+		return fmt.Errorf("failed to download domains: %v", err)
+	}
+
+	log.Printf("Downloaded %d domains from Cloudflare API", len(domains))
+
+	// Write domains to file
+	if err := writeDomainsList(domains, "data/domains"); err != nil {
+		return fmt.Errorf("failed to write domains file: %v", err)
+	}
+
+	log.Printf("Successfully updated data/domains with %d domains", len(domains))
+	return nil
+}
+
+func downloadCloudflareTopDomains(apiKey string) ([]string, error) {
+	url := "https://api.cloudflare.com/client/v4/radar/datasets/ranking_top_10000"
+
+	// Create HTTP request
+	req, err := http.NewRequest("GET", url, nil)
+	if err != nil {
+		return nil, fmt.Errorf("failed to create request: %v", err)
+	}
+
+	// Add authorization header
+	req.Header.Set("Authorization", "Bearer "+apiKey)
+	req.Header.Set("Content-Type", "application/json")
+
+	// Make the request
+	client := &http.Client{Timeout: 30 * time.Second}
+	resp, err := client.Do(req)
+	if err != nil {
+		return nil, fmt.Errorf("failed to make API request: %v", err)
+	}
+	defer resp.Body.Close()
+
+	// Check response status
+	if resp.StatusCode != http.StatusOK {
+		body, _ := io.ReadAll(resp.Body)
+		return nil, fmt.Errorf("API request failed with status %d: %s", resp.StatusCode, string(body))
+	}
+
+	// Read response body
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to read response body: %v", err)
+	}
+
+	// Parse domains from CSV-like response
+	domains, err := parseDomainsFromResponse(body)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse domains: %v", err)
+	}
+
+	return domains, nil
+}
+
+func parseDomainsFromResponse(data []byte) ([]string, error) {
+	var domains []string
+	scanner := bufio.NewScanner(bytes.NewReader(data))
+
+	lineNum := 0
+	for scanner.Scan() {
+		lineNum++
+		line := strings.TrimSpace(scanner.Text())
+
+		// Skip the header line "domain"
+		if lineNum == 1 && line == "domain" {
+			continue
+		}
+
+		// Skip empty lines
+		if line == "" {
+			continue
+		}
+
+		domains = append(domains, line)
+	}
+
+	if err := scanner.Err(); err != nil {
+		return nil, fmt.Errorf("error reading response: %v", err)
+	}
+
+	return domains, nil
+}
+
+func writeDomainsList(domains []string, filename string) error {
+	// Create data directory if it doesn't exist
+	dir := filepath.Dir(filename)
+	if err := os.MkdirAll(dir, 0755); err != nil {
+		return fmt.Errorf("failed to create directory %s: %v", dir, err)
+	}
+
+	// Write domains to file
+	file, err := os.Create(filename)
+	if err != nil {
+		return fmt.Errorf("failed to create file %s: %v", filename, err)
+	}
+	defer file.Close()
+
+	writer := bufio.NewWriter(file)
+	for _, domain := range domains {
+		if _, err := writer.WriteString(domain + "\n"); err != nil {
+			return fmt.Errorf("failed to write domain %s: %v", domain, err)
+		}
+	}
+
+	if err := writer.Flush(); err != nil {
+		return fmt.Errorf("failed to flush writer: %v", err)
+	}
+
+	return nil
+}
+
 func crawl(config CrawlConfig) error {
 	log.Printf("Starting crawl with config: %+v", config)
 
@@ -187,6 +325,11 @@ func crawl(config CrawlConfig) error {
 	// Create output directory
 	if err := os.MkdirAll(config.Output, 0755); err != nil {
 		return fmt.Errorf("failed to create output directory: %v", err)
+	}
+
+	// Clean up old CAA files that are no longer in the domains list
+	if err := cleanupOldCAAFiles(config.Output, domains); err != nil {
+		log.Printf("Warning: Failed to cleanup old CAA files: %v", err)
 	}
 
 	// Write crawl timestamp
@@ -979,4 +1122,60 @@ func copyFile(source, destination string) error {
 
 	_, err = io.Copy(destFile, srcFile)
 	return err
+}
+
+// cleanupOldCAAFiles removes CAA files that are no longer in the current domains list
+// It preserves the timestamp.json file which should always be present
+func cleanupOldCAAFiles(outputDir string, currentDomains []string) error {
+	// Create a set of current domains for fast lookup
+	domainSet := make(map[string]bool)
+	for _, domain := range currentDomains {
+		domainSet[domain] = true
+	}
+
+	// Read all files in the CAA directory
+	files, err := os.ReadDir(outputDir)
+	if err != nil {
+		return fmt.Errorf("failed to read CAA directory: %v", err)
+	}
+
+	deletedCount := 0
+	for _, file := range files {
+		// Skip directories
+		if file.IsDir() {
+			continue
+		}
+
+		filename := file.Name()
+
+		// Skip the timestamp.json file - it should always be preserved
+		if filename == "timestamp.json" {
+			continue
+		}
+
+		// Check if this is a .json file for a domain
+		if !strings.HasSuffix(filename, ".json") {
+			continue
+		}
+
+		// Extract domain name by removing the .json extension
+		domain := strings.TrimSuffix(filename, ".json")
+
+		// If this domain is not in the current domains list, delete the file
+		if !domainSet[domain] {
+			filePath := filepath.Join(outputDir, filename)
+			if err := os.Remove(filePath); err != nil {
+				log.Printf("Warning: Failed to delete old CAA file %s: %v", filename, err)
+			} else {
+				log.Printf("Deleted old CAA file for domain: %s", domain)
+				deletedCount++
+			}
+		}
+	}
+
+	if deletedCount > 0 {
+		log.Printf("Cleanup completed: removed %d old CAA files", deletedCount)
+	}
+
+	return nil
 }
