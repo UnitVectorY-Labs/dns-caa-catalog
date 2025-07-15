@@ -25,6 +25,11 @@
             <div class="text-muted">With 'issuewild' Record</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</div>
         </div>
+        <div class="card text-center">
+            <div class="text-2xl font-bold text-blue">{{.Summary.DomainsWithIodef}} 📬</div>
+            <div class="text-muted">With 'iodef' Records</div>
+            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIodef 100.0) .Summary.TotalDomains)}}</div>
+        </div>
     </div>
 
     {{if or .Summary.SortedIssueStats .Summary.SortedIssueWildStats}}

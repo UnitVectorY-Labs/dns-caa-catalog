@@ -60,6 +60,7 @@ type CAASummary struct {
 	DomainsWithCAA       int
 	DomainsWithIssue     int
 	DomainsWithIssueWild int
+	DomainsWithIodef     int
 	IssueStats           map[string]int
 	IssueWildStats       map[string]int
 	SortedIssueStats     []StatEntry
@@ -744,7 +745,7 @@ func calculateCAASummary(results []DomainResult) CAASummary {
 
 	// Second pass: calculate final counts based on unique lowercase domains
 	summary.TotalDomains = len(uniqueDomains)
-	for _, stats := range domainStats {
+	for domain, stats := range domainStats {
 		if stats.hasCAA {
 			summary.DomainsWithCAA++
 		}
@@ -753,6 +754,14 @@ func calculateCAASummary(results []DomainResult) CAASummary {
 		}
 		if stats.hasIssueWild {
 			summary.DomainsWithIssueWild++
+		}
+		// Count iodef
+		// Find the original DomainResult for this domain
+		for _, result := range results {
+			if strings.ToLower(result.Domain) == domain && len(result.Iodef) > 0 {
+				summary.DomainsWithIodef++
+				break
+			}
 		}
 	}
 
