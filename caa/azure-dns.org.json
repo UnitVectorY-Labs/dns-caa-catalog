@@ -1,6 +1,8 @@
 {
   "domain": "azure-dns.org",
-  "records": [],
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\""
+  ],
   "issue": [],
   "issuewild": [],
   "iodef": []

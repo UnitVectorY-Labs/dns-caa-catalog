@@ -1,7 +1,15 @@
 {
   "domain": "jerkmate.com",
-  "records": [],
+  "records": [
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
   "issue": [],
-  "issuewild": [],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
   "iodef": []
 }
