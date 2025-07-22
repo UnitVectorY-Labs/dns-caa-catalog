@@ -1,11 +1,14 @@
 {
   "domain": "6chcdn.com",
   "records": [
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
     "letsencrypt.org"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
   "iodef": []
 }

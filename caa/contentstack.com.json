@@ -9,6 +9,7 @@
     "0 issue \"ssl.com\"",
     "0 issuewild \"amazontrust.com\"",
     "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"sectigo.com\"",
     "0 issuewild \"ssl.com\""
   ],
@@ -23,6 +24,7 @@
   "issuewild": [
     "amazontrust.com",
     "globalsign.com",
+    "letsencrypt.org",
     "sectigo.com",
     "ssl.com"
   ],

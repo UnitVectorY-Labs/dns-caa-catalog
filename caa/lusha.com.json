@@ -1,0 +1,17 @@
+{
+  "domain": "lusha.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "godaddy.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

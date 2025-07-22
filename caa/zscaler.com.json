@@ -1,7 +1,11 @@
 {
   "domain": "zscaler.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
   "issuewild": [],
   "iodef": []
 }
