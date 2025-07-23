@@ -5,14 +5,16 @@
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
-    "0 issue \"comodoca.com\""
+    "0 issue \"comodoca.com\"",
+    "0 issue \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
     "amazonaws.com",
     "amazontrust.com",
     "awstrust.com",
-    "comodoca.com"
+    "comodoca.com",
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": []

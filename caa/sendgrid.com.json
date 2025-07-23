@@ -5,6 +5,7 @@
     "0 issue \"globalsign.com\"",
     "0 issue \"godaddy.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
     "0 issue \"symantec.com\""
   ],
   "issue": [
@@ -12,6 +13,7 @@
     "globalsign.com",
     "godaddy.com",
     "letsencrypt.org",
+    "sectigo.com",
     "symantec.com"
   ],
   "issuewild": [],
