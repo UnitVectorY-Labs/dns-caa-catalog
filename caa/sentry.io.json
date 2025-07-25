@@ -2,9 +2,11 @@
   "domain": "sentry.io",
   "records": [
     "0 iodef \"mailto:security@sentry.io\"",
+    "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\""
   ],
   "issue": [
+    "digicert.com",
     "letsencrypt.org"
   ],
   "issuewild": [],
