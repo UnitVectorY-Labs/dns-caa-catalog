@@ -12,6 +12,10 @@ A Go CLI tool for tracking and publishing CAA (Certificate Authority Authorizati
 - **Error Handling**: Retry mechanisms and comprehensive error reporting
 - **Deterministic Output**: Sorted JSON keys and arrays for consistent results
 
+## Automation
+
+This repository is set to automatically udpate the CAA records for the top 10k sites once a day by retreiving them them and commiting the results as JSON to this repository.  The list of top 10k domains is also updated once a week.
+
 ## Building
 
 ```bash
