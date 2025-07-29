@@ -1,0 +1,14 @@
+{
+  "domain": "hexin.cn",
+  "records": [
+    "0 issue \"geotrust.com\"",
+    "0 issuewild \"geotrust.com\""
+  ],
+  "issue": [
+    "geotrust.com"
+  ],
+  "issuewild": [
+    "geotrust.com"
+  ],
+  "iodef": []
+}

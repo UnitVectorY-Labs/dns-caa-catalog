@@ -1,0 +1,11 @@
+{
+  "domain": "geobasket.ru",
+  "records": [
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "globalsign.com"
+  ],
+  "iodef": []
+}

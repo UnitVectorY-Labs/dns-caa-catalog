@@ -2,13 +2,29 @@
   "domain": "ecosia.org",
   "records": [
     "0 iodef \"mailto:security@ecosia.org\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
     "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\"",
     "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
   ],
   "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
     "pki.goog; cansignhttpexchanges=yes"
   ],
   "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
     "pki.goog; cansignhttpexchanges=yes"
   ],
   "iodef": [

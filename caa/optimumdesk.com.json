@@ -1,0 +1,14 @@
+{
+  "domain": "optimumdesk.com",
+  "records": [
+    "0 issue \"godaddy.com\"",
+    "0 issuewild \"godaddy.com\""
+  ],
+  "issue": [
+    "godaddy.com"
+  ],
+  "issuewild": [
+    "godaddy.com"
+  ],
+  "iodef": []
+}

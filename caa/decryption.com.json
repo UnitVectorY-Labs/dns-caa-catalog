@@ -1,0 +1,14 @@
+{
+  "domain": "decryption.com",
+  "records": [
+    "0 issue \";\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    ";"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": []
+}
