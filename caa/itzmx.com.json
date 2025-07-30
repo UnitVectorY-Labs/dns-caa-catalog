@@ -6,22 +6,26 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
     "0 issuewild \"digicert.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\"",
-    "0 issuewild \"sectigo.com\""
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\""
   ],
   "issue": [
     "digicert.com",
     "letsencrypt.org",
     "pki.goog",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
   "issuewild": [
     "digicert.com",
     "letsencrypt.org",
     "pki.goog",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
   "iodef": [
     "mailto:1265578519@qq.com"

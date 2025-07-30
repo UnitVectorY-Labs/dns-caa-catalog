@@ -1,9 +1,11 @@
 {
   "domain": "zscaler.com",
   "records": [
+    "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\""
   ],
   "issue": [
+    "amazon.com",
     "digicert.com"
   ],
   "issuewild": [],
