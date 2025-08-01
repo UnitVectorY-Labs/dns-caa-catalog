@@ -1,7 +1,15 @@
 {
   "domain": "azmk8s.io",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 iodef \"mailto:caarecordaware@microsoft.com\"",
+    "0 issue \"microsoft.com\""
+  ],
+  "issue": [
+    "microsoft.com"
+  ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [
+    "mailto:caarecordaware@microsoft.com"
+  ]
 }
