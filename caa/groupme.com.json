@@ -2,10 +2,12 @@
   "domain": "groupme.com",
   "records": [
     "0 iodef \"mailto:DMAGroupMe@microsoft.com\"",
+    "0 issue \"digicert.com\"",
     "0 issue \"microsoft.com\"",
     "128 contactemail \"DMAGroupMe@microsoft.com\""
   ],
   "issue": [
+    "digicert.com",
     "microsoft.com"
   ],
   "issuewild": [],
