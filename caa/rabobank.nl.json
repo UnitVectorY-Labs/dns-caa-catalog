@@ -4,6 +4,8 @@
     "0 iodef \"mailto:Certificate.Operations@rabobank.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"quovadisglobal.com\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"sidn.nl\"",
@@ -12,6 +14,8 @@
   "issue": [
     "amazon.com",
     "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
     "quovadisglobal.com",
     "sectigo.com",
     "sidn.nl",
