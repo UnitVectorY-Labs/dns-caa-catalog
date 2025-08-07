@@ -1,7 +1,22 @@
 {
   "domain": "yads.tech",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
   "iodef": []
 }
