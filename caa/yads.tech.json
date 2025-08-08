@@ -5,8 +5,7 @@
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issuewild \"amazon.com\"",
-    "0 issuewild \"globalsign.com\"",
-    "0 issuewild \"letsencrypt.org\""
+    "0 issuewild \"globalsign.com\""
   ],
   "issue": [
     "amazon.com",
@@ -15,8 +14,7 @@
   ],
   "issuewild": [
     "amazon.com",
-    "globalsign.com",
-    "letsencrypt.org"
+    "globalsign.com"
   ],
   "iodef": []
 }

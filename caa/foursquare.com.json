@@ -1,10 +1,12 @@
 {
   "domain": "foursquare.com",
   "records": [
+    "0 issue \"certainly.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\""
   ],
   "issue": [
+    "certainly.com",
     "digicert.com",
     "letsencrypt.org"
   ],
