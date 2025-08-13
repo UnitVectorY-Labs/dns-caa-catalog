@@ -1,11 +1,13 @@
 {
   "domain": "usepylon.com",
   "records": [
+    "0 issue \"amazon.com\"",
     "0 issue \"pki.goog\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"pki.goog\""
   ],
   "issue": [
+    "amazon.com",
     "pki.goog"
   ],
   "issuewild": [

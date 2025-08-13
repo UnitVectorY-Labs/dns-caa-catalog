@@ -1,12 +1,12 @@
 {
   "domain": "nflxvideo.net",
   "records": [
-    "0 issue \"entrust.net\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"thawte.com\""
   ],
   "issue": [
-    "entrust.net",
+    "letsencrypt.org",
     "pki.goog",
     "thawte.com"
   ],
