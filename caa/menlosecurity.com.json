@@ -7,11 +7,9 @@
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
     "0 issue \"digicert.com\"",
-    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issuewild \"digicert.com\"",
-    "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
     "0 issuewild \"pki.goog\""
   ],
   "issue": [
@@ -20,13 +18,11 @@
     "amazontrust.com",
     "awstrust.com",
     "digicert.com",
-    "digicert.com; cansignhttpexchanges=yes",
     "letsencrypt.org",
     "pki.goog"
   ],
   "issuewild": [
     "digicert.com",
-    "digicert.com; cansignhttpexchanges=yes",
     "pki.goog"
   ],
   "iodef": [
