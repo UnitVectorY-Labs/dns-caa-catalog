@@ -5,11 +5,13 @@
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\"",
     "0 issuewild \"amazontrust.com\"",
     "0 issuewild \"globalsign.com\"",
     "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\"",
     "0 issuewild \"sectigo.com\"",
     "0 issuewild \"ssl.com\""
   ],
@@ -18,6 +20,7 @@
     "digicert.com",
     "globalsign.com",
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com",
     "ssl.com"
   ],
@@ -25,6 +28,7 @@
     "amazontrust.com",
     "globalsign.com",
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com",
     "ssl.com"
   ],
