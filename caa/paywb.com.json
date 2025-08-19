@@ -1,0 +1,25 @@
+{
+  "domain": "paywb.com",
+  "records": [
+    "0 issue \"certum.eu\"",
+    "0 issue \"certum.pl\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"trust-provider.com\"",
+    "0 issue \"usertrust.com\""
+  ],
+  "issue": [
+    "certum.eu",
+    "certum.pl",
+    "comodoca.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "sectigo.com",
+    "trust-provider.com",
+    "usertrust.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

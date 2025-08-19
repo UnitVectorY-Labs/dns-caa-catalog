@@ -1,0 +1,21 @@
+{
+  "domain": "heise.de",
+  "records": [
+    "0 iodef \"mailto:hostmaster@heise.de\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:hostmaster@heise.de"
+  ]
+}

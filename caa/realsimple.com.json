@@ -1,27 +1,7 @@
 {
   "domain": "realsimple.com",
-  "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazonaws.com\"",
-    "0 issue \"amazontrust.com\"",
-    "0 issue \"awstrust.com\"",
-    "0 issue \"comodoca.com\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"sectigo.com\"",
-    "0 issue \"trust-provider.com\"",
-    "0 issue \"usertrust.com\""
-  ],
-  "issue": [
-    "amazon.com",
-    "amazonaws.com",
-    "amazontrust.com",
-    "awstrust.com",
-    "comodoca.com",
-    "letsencrypt.org",
-    "sectigo.com",
-    "trust-provider.com",
-    "usertrust.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": []
 }
