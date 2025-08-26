@@ -1,0 +1,14 @@
+{
+  "domain": "tataritv.com",
+  "records": [
+    "0 iodef \"mailto:security+caaiodef@tatari.tv\"",
+    "0 issue \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security+caaiodef@tatari.tv"
+  ]
+}

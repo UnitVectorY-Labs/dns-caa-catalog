@@ -1,0 +1,21 @@
+{
+  "domain": "sec.gov",
+  "records": [
+    "0 iodef \"mailto:CAIssues@sec.gov\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:CAIssues@sec.gov"
+  ]
+}
