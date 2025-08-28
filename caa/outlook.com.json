@@ -2,7 +2,7 @@
   "domain": "outlook.com",
   "records": [
     "0 contactemail \"caarecordaware@microsoft.com\"",
-    "0 iodef \"mailto:domains@microsoft.com\"",
+    "0 iodef \"mailto:caarecordaware@microsoft.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"entrust.net\"",
     "0 issue \"globalsign.com\"",
@@ -16,6 +16,6 @@
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:domains@microsoft.com"
+    "mailto:caarecordaware@microsoft.com"
   ]
 }

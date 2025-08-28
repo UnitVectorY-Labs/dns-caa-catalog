@@ -1,7 +1,19 @@
 {
   "domain": "gunbroker.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"google.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com",
+    "google.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
   "issuewild": [],
   "iodef": []
 }
