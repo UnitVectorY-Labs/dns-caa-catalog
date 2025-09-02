@@ -1,0 +1,23 @@
+{
+  "domain": "skroutz.gr",
+  "records": [
+    "0 iodef \"mailto:domainmaster@skroutz.gr\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"geotrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"comodoca.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "geotrust.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "comodoca.com"
+  ],
+  "iodef": [
+    "mailto:domainmaster@skroutz.gr"
+  ]
+}
