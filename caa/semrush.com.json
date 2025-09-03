@@ -5,6 +5,7 @@
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issuewild \"comodoca.com\"",
     "0 issuewild \"digicert.com\""
@@ -14,6 +15,7 @@
     "comodoca.com",
     "digicert.com",
     "globalsign.com",
+    "letsencrypt.org",
     "pki.goog"
   ],
   "issuewild": [
