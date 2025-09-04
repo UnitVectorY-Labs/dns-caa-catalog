@@ -1,6 +1,8 @@
 {
   "domain": "inq.com",
-  "records": [],
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\""
+  ],
   "issue": [],
   "issuewild": [],
   "iodef": []

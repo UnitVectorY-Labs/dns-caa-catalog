@@ -1,10 +1,10 @@
 {
   "domain": "mindbox.ru",
   "records": [
-    "0 issue \"\"amazon.com\"\"",
-    "0 issue \"\"globalsign.com\"\"",
-    "0 issue \"\"godaddy.com\"\"",
-    "0 issue \"\"letsencrypt.org\"\""
+    "0 issue \"amazon.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
     "amazon.com",
