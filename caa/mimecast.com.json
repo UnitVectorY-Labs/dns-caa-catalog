@@ -4,19 +4,23 @@
     "0 issue \"amazonaws.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issuewild \"amazonaws.com\"",
     "0 issuewild \"digicert.com\"",
-    "0 issuewild \"letsencrypt.org\""
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\""
   ],
   "issue": [
     "amazonaws.com",
     "digicert.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
   "issuewild": [
     "amazonaws.com",
     "digicert.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
   "iodef": []
 }
