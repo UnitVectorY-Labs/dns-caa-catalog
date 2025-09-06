@@ -5,6 +5,7 @@
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
     "0 issue \"godaddy.com\""
   ],
   "issue": [
@@ -12,6 +13,7 @@
     "amazonaws.com",
     "amazontrust.com",
     "awstrust.com",
+    "digicert.com",
     "godaddy.com"
   ],
   "issuewild": [],
