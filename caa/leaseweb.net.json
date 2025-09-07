@@ -1,13 +1,7 @@
 {
   "domain": "leaseweb.net",
-  "records": [
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"sectigo.com\""
-  ],
-  "issue": [
-    "letsencrypt.org",
-    "sectigo.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": []
 }
