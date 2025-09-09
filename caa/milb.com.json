@@ -1,0 +1,25 @@
+{
+  "domain": "milb.com",
+  "records": [
+    "128 iodef \"mailto:tls_security@mlb.com\"",
+    "128 issue \"amazon.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"pki.goog\"",
+    "128 issue \"sectigo.com\"",
+    "128 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:tls_security@mlb.com"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "mdpi.com",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"zerossl.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "zerossl.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

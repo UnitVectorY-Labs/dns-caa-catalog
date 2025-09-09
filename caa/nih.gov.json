@@ -8,6 +8,7 @@
     "0 issue \"identrust.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
     "0 issuewild \"digicert.com\"",
     "0 issuewild \"godaddy.com\"",
     "0 issuewild \"identrust.com\"",
@@ -24,6 +25,7 @@
     "sectigo.com"
   ],
   "issuewild": [
+    "amazon.com",
     "digicert.com",
     "godaddy.com",
     "identrust.com",

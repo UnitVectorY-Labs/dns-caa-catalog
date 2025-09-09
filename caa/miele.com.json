@@ -1,0 +1,15 @@
+{
+  "domain": "miele.com",
+  "records": [
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "digicert.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
