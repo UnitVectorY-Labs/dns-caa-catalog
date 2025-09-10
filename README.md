@@ -113,7 +113,7 @@ This represents when the crawl was started and is used for display in the genera
 
 ## Requirements
 
-- Go 1.24.5 or later
+- Latest version of Go
 - `templates/` and `assets/` directories (for generate command)
 - Standard library only (no external dependencies)
 
