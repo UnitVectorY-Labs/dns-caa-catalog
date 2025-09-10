@@ -1,10 +1,12 @@
 {
   "domain": "g2afse.com",
   "records": [
+    "0 issue \"SSL.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"godaddy.com\""
   ],
   "issue": [
+    "SSL.com",
     "digicert.com",
     "godaddy.com"
   ],

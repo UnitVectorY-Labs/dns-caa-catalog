@@ -2,11 +2,13 @@
   "domain": "netflix.net",
   "records": [
     "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\""
   ],
   "issue": [
     "digicert.com",
+    "entrust.net",
     "letsencrypt.org",
     "pki.goog"
   ],
