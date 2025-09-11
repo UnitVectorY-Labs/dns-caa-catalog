@@ -5,6 +5,7 @@
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
     "0 issuewild \"sectigo.com\""
   ],
@@ -13,6 +14,7 @@
     "amazonaws.com",
     "amazontrust.com",
     "awstrust.com",
+    "letsencrypt.org",
     "sectigo.com"
   ],
   "issuewild": [
