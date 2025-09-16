@@ -1,0 +1,16 @@
+{
+  "domain": "habr.com",
+  "records": [
+    "0 iodef \"mailto:iodef@habr.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:iodef@habr.com"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "domain": "clarin.com",
+  "records": [
+    "0 iodef \"it-InfraestructuraWeb@agea.com.ar\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "it-InfraestructuraWeb@agea.com.ar"
+  ]
+}
