@@ -1,7 +1,6 @@
 {
   "domain": "glitch.me",
   "records": [
-    "0 iodef \"mailto:infrastructure-accounts@glitch.com\"",
     "0 iodef \"mailto:security@fastly.com\"",
     "0 issue \"amazonaws.com\"",
     "0 issue \"certainly.com\"",
@@ -14,7 +13,6 @@
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:infrastructure-accounts@glitch.com",
     "mailto:security@fastly.com"
   ]
 }
