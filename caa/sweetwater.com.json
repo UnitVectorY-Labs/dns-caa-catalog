@@ -1,0 +1,17 @@
+{
+  "domain": "sweetwater.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
