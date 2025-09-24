@@ -1,10 +1,10 @@
 {
   "domain": "groupme.com",
   "records": [
-    "0 iodef \"mailto:DMAGroupMe@microsoft.com\"",
+    "0 iodef \"mailto:caarecordaware@microsoft.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"microsoft.com\"",
-    "128 contactemail \"DMAGroupMe@microsoft.com\""
+    "128 contactemail \"caarecordaware@microsoft.com\""
   ],
   "issue": [
     "digicert.com",
@@ -12,6 +12,6 @@
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:DMAGroupMe@microsoft.com"
+    "mailto:caarecordaware@microsoft.com"
   ]
 }
