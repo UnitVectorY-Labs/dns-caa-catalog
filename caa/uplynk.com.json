@@ -6,7 +6,8 @@
     "0 issue \"digicert.com\"",
     "0 issue \"godaddy.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\""
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
   ],
   "issue": [
     "amazonaws.com",
@@ -14,7 +15,8 @@
     "digicert.com",
     "godaddy.com",
     "letsencrypt.org",
-    "pki.goog"
+    "pki.goog",
+    "sectigo.com"
   ],
   "issuewild": [],
   "iodef": []

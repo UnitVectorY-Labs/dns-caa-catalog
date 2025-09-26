@@ -3,12 +3,10 @@
   "records": [
     "128 iodef \"mailto:CAADNS@citi.com\"",
     "128 issue \"digicert.com\"",
-    "128 issue \"visa.com\"",
     "128 issuewild \";\""
   ],
   "issue": [
-    "digicert.com",
-    "visa.com"
+    "digicert.com"
   ],
   "issuewild": [
     ";"
