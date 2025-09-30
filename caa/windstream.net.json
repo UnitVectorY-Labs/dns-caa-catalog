@@ -1,7 +1,13 @@
 {
   "domain": "windstream.net",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "pki.goog",
+    "sectigo.com"
+  ],
   "issuewild": [],
   "iodef": []
 }

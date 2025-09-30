@@ -7,7 +7,9 @@
     "0 issue \"awstrust.com\"",
     "0 issue \"comodo.com\"",
     "0 issue \"comodoca.com\"",
-    "0 issue \"godaddy.com\""
+    "0 issue \"godaddy.com\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
   ],
   "issue": [
     "amazon.com",
@@ -16,8 +18,11 @@
     "awstrust.com",
     "comodo.com",
     "comodoca.com",
-    "godaddy.com"
+    "godaddy.com",
+    "pki.goog; cansignhttpexchanges=yes"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
   "iodef": []
 }
