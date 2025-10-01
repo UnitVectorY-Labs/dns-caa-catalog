@@ -1,9 +1,11 @@
 {
   "domain": "costco.com",
   "records": [
+    "128 issue \"certainly.com\"",
     "128 issue \"digicert.com\""
   ],
   "issue": [
+    "certainly.com",
     "digicert.com"
   ],
   "issuewild": [],

@@ -10,8 +10,7 @@
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\"",
-    "0 issue \"ssl.com\""
+    "0 issue \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
@@ -22,8 +21,7 @@
     "digicert.com",
     "globalsign.com",
     "letsencrypt.org",
-    "pki.goog",
-    "ssl.com"
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": [
