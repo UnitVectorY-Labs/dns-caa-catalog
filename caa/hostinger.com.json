@@ -1,6 +1,7 @@
 {
   "domain": "hostinger.com",
   "records": [
+    "0 issue \"amazonaws.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
@@ -12,6 +13,7 @@
     "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
+    "amazonaws.com",
     "comodoca.com",
     "digicert.com",
     "globalsign.com",

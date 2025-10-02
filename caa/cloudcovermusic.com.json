@@ -1,14 +1,7 @@
 {
   "domain": "cloudcovermusic.com",
-  "records": [
-    "0 iodef \"mailto:security@cloudcovermusic.com\"",
-    "0 issue \"amazon.com\""
-  ],
-  "issue": [
-    "amazon.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
-  "iodef": [
-    "mailto:security@cloudcovermusic.com"
-  ]
+  "iodef": []
 }
