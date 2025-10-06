@@ -1,13 +1,10 @@
 {
   "domain": "airbrake.io",
   "records": [
-    "0 iodef \"mailto:security@airbrake.io\"",
-    "0 issuewild \"ssl.com\""
+    "0 iodef \"mailto:security@airbrake.io\""
   ],
   "issue": [],
-  "issuewild": [
-    "ssl.com"
-  ],
+  "issuewild": [],
   "iodef": [
     "mailto:security@airbrake.io"
   ]
