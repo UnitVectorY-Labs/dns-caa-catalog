@@ -1,0 +1,32 @@
+{
+  "domain": "ni.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"starfieldtech.com\"",
+    "0 issue \"symantec.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "starfieldtech.com",
+    "symantec.com"
+  ],
+  "issuewild": [
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "iodef": []
+}

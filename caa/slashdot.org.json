@@ -1,0 +1,22 @@
+{
+  "domain": "slashdot.org",
+  "records": [
+    "0 iodef \"mailto:siteops@slashdotmedia.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"cloudflare.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "cloudflare.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:siteops@slashdotmedia.com"
+  ]
+}
