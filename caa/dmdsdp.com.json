@@ -1,9 +1,14 @@
 {
   "domain": "dmdsdp.com",
   "records": [
-    "0 iodef \"mailto:pki@libertyglobal.com\""
+    "0 iodef \"mailto:pki@libertyglobal.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"globalsign.com\""
   ],
-  "issue": [],
+  "issue": [
+    "amazonaws.com",
+    "globalsign.com"
+  ],
   "issuewild": [],
   "iodef": [
     "mailto:pki@libertyglobal.com"
