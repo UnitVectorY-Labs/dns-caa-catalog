@@ -1,7 +1,16 @@
 {
   "domain": "ecal.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 iodef \"mailto:itadmin@ecal.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [
+    "mailto:itadmin@ecal.com"
+  ]
 }
