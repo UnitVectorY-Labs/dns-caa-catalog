@@ -1,0 +1,31 @@
+{
+  "domain": "hackerearth.com",
+  "records": [
+    "0 iodef \"mailto:support@hackerearth.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com",
+    "godaddy.com",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:support@hackerearth.com"
+  ]
+}

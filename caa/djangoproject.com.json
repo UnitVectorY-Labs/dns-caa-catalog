@@ -1,0 +1,15 @@
+{
+  "domain": "djangoproject.com",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"certainly.com;validationmethods=dns-01\"",
+    "0 issue \"letsencrypt.org;validationmethods=dns-01\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "certainly.com;validationmethods=dns-01",
+    "letsencrypt.org;validationmethods=dns-01"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
