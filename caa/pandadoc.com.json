@@ -1,7 +1,16 @@
 {
   "domain": "pandadoc.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "globalsign.com"
+  ],
   "iodef": []
 }
