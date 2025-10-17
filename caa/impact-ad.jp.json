@@ -7,11 +7,13 @@
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"secomtrust.net\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"digicert.com\"",
     "0 issuewild \"globalsign.com\"",
-    "0 issuewild \"letsencrypt.org\""
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
@@ -19,13 +21,15 @@
     "digicert.com",
     "globalsign.com",
     "letsencrypt.org",
+    "pki.goog",
     "secomtrust.net"
   ],
   "issuewild": [
     "amazon.com",
     "digicert.com",
     "globalsign.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
   "iodef": [
     "mailto:it@dac.co.jp"

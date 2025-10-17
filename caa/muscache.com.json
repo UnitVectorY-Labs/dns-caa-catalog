@@ -2,12 +2,10 @@
   "domain": "muscache.com",
   "records": [
     "0 iodef \"mailto:caa-alerts@airbnb.com\"",
-    "0 issue \"digicert.com\"",
-    "0 issue \"globalsign.com\""
+    "0 issue \"digicert.com\""
   ],
   "issue": [
-    "digicert.com",
-    "globalsign.com"
+    "digicert.com"
   ],
   "issuewild": [],
   "iodef": [
