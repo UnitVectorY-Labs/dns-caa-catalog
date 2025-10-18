@@ -1,11 +1,7 @@
 {
   "domain": "bidswitch.net",
-  "records": [
-    "0 issue \"digicert.com\""
-  ],
-  "issue": [
-    "digicert.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": []
 }
