@@ -1,0 +1,14 @@
+{
+  "domain": "myuplink.com",
+  "records": [
+    "0 iodef \"mailto:tech@myuplink.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:tech@myuplink.com"
+  ]
+}

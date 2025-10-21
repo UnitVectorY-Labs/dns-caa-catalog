@@ -1,0 +1,16 @@
+{
+  "domain": "login.gov",
+  "records": [
+    "0 iodef \"mailto:security@login.gov\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@login.gov"
+  ]
+}

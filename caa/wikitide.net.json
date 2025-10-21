@@ -1,0 +1,14 @@
+{
+  "domain": "wikitide.net",
+  "records": [
+    "0 iodef \"mailto:caapolicy@wikitide.org\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caapolicy@wikitide.org"
+  ]
+}
