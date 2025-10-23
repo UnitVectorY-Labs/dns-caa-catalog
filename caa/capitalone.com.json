@@ -4,11 +4,13 @@
     "0 iodef \"mailto:domainmgr@capitalone.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"entrust.net\"",
+    "0 issue \"sectigo.com\"",
     "0 issuewild \"amazon.com\""
   ],
   "issue": [
     "digicert.com",
-    "entrust.net"
+    "entrust.net",
+    "sectigo.com"
   ],
   "issuewild": [
     "amazon.com"
