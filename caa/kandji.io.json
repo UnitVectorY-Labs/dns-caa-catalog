@@ -2,6 +2,7 @@
   "domain": "kandji.io",
   "records": [
     "0 issuewild \"amazon.com\"",
+    "0 issuewild \"certainly.com\"",
     "0 issuewild \"digicert.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\""
@@ -9,6 +10,7 @@
   "issue": [],
   "issuewild": [
     "amazon.com",
+    "certainly.com",
     "digicert.com",
     "letsencrypt.org",
     "pki.goog"

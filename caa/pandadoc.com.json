@@ -1,11 +1,13 @@
 {
   "domain": "pandadoc.com",
   "records": [
+    "0 issue \"certainly.com\"",
     "0 issue \"digicert.com\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"globalsign.com\""
   ],
   "issue": [
+    "certainly.com",
     "digicert.com"
   ],
   "issuewild": [
