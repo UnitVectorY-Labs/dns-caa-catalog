@@ -3,12 +3,12 @@
   "records": [
     "0 issue \"digicert.com\"",
     "0 issue \"entrust.net\"",
-    "0 issue \"pki.goog; cansignhttpexchanges=yes\""
+    "0 issue \"pki.goog\""
   ],
   "issue": [
     "digicert.com",
     "entrust.net",
-    "pki.goog; cansignhttpexchanges=yes"
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": []
