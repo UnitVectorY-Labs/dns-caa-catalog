@@ -1,7 +1,7 @@
 {
   "domain": "impact-ad.jp",
   "records": [
-    "0 iodef \"mailto:it@dac.co.jp\"",
+    "0 iodef \"mailto:it-gjlsdf@hakuhodody-one.co.jp\"",
     "0 issue \"amazon.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
@@ -32,6 +32,6 @@
     "pki.goog"
   ],
   "iodef": [
-    "mailto:it@dac.co.jp"
+    "mailto:it-gjlsdf@hakuhodody-one.co.jp"
   ]
 }
