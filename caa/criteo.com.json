@@ -4,8 +4,7 @@
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"godaddy.com\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issuevmc \"digicert.com\""
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
     "amazon.com",

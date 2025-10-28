@@ -1,0 +1,16 @@
+{
+  "domain": "windsurf.com",
+  "records": [
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}

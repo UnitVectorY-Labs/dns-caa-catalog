@@ -1,0 +1,19 @@
+{
+  "domain": "questdiagnostics.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com; account=97d8cb21ded856f534dc92b1c92f5916fa401221a6e28bf2d05e743d2fdb2455\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "amazon.com",
+    "awstrust.com",
+    "digicert.com; account=97d8cb21ded856f534dc92b1c92f5916fa401221a6e28bf2d05e743d2fdb2455",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
