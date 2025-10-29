@@ -7,21 +7,27 @@
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"certainly.com\"",
-    "0 issuewild \"digicert.com\""
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
   ],
   "issue": [
     "amazon.com",
     "certainly.com",
     "digicert.com",
     "globalsign.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
   ],
   "issuewild": [
     "amazon.com",
     "certainly.com",
-    "digicert.com"
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
   ],
   "iodef": [
     "mailto:cyber.security@ft.com"

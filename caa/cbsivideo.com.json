@@ -2,19 +2,23 @@
   "domain": "cbsivideo.com",
   "records": [
     "0 issue \"amazon.com\"",
+    "0 issue \"certainly.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issuewild \"amazon.com\"",
+    "0 issuewild \"certainly.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
+    "certainly.com",
     "letsencrypt.org",
     "pki.goog"
   ],
   "issuewild": [
     "amazon.com",
+    "certainly.com",
     "letsencrypt.org",
     "pki.goog"
   ],
