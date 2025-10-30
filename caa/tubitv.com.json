@@ -5,8 +5,10 @@
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
@@ -14,10 +16,12 @@
     "amazonaws.com",
     "amazontrust.com",
     "awstrust.com",
+    "digicert.com",
     "letsencrypt.org",
     "sectigo.com"
   ],
   "issuewild": [
+    "digicert.com",
     "sectigo.com"
   ],
   "iodef": []

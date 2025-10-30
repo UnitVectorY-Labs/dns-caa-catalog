@@ -8,7 +8,8 @@
     "0 issue \"digicert.com\"",
     "0 issue \"entrust.net\"",
     "0 issue \"godaddy.com\"",
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com\""
   ],
   "issue": [
     "amazon.com",
@@ -20,6 +21,8 @@
     "godaddy.com",
     "letsencrypt.org"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "digicert.com"
+  ],
   "iodef": []
 }
