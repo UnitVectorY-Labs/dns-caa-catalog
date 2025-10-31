@@ -1,9 +1,12 @@
 {
   "domain": "aliyuncs.com",
   "records": [
-    "0 iodef \"mailto:certificate-transparency@list.alibaba-inc.com\""
+    "0 iodef \"mailto:certificate-transparency@list.alibaba-inc.com\"",
+    "0 issue \"globalsign.com\""
   ],
-  "issue": [],
+  "issue": [
+    "globalsign.com"
+  ],
   "issuewild": [],
   "iodef": [
     "mailto:certificate-transparency@list.alibaba-inc.com"

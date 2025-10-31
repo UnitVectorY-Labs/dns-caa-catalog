@@ -2,13 +2,11 @@
   "domain": "queue-it.net",
   "records": [
     "0 issue \"amazon.com\"",
-    "0 issue \"amazonaws.com\"",
-    "0 issue \"amazontrust.com\"",
-    "0 issue \"awstrust.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\"",
+    "0 issuewild \"amazontrust.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issuewild \"sectigo.com\"",
@@ -16,15 +14,13 @@
   ],
   "issue": [
     "amazon.com",
-    "amazonaws.com",
-    "amazontrust.com",
-    "awstrust.com",
     "letsencrypt.org",
     "pki.goog; cansignhttpexchanges=yes",
     "sectigo.com",
     "ssl.com"
   ],
   "issuewild": [
+    "amazontrust.com",
     "letsencrypt.org",
     "pki.goog; cansignhttpexchanges=yes",
     "sectigo.com",
