@@ -3,12 +3,14 @@
   "records": [
     "0 issue \"digicert.com\"",
     "0 issue \"entrust.net\"",
-    "0 issue \"pki.goog\""
+    "0 issue \"pki.goog\"",
+    "0 issue \"ssl.com\""
   ],
   "issue": [
     "digicert.com",
     "entrust.net",
-    "pki.goog"
+    "pki.goog",
+    "ssl.com"
   ],
   "issuewild": [],
   "iodef": []
