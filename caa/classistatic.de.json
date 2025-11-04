@@ -1,0 +1,23 @@
+{
+  "domain": "classistatic.de",
+  "records": [
+    "0 iodef \"mailto:siteops@team.mobile.de\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:siteops@team.mobile.de"
+  ]
+}

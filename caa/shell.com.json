@@ -8,6 +8,7 @@
     "0 issue \"godaddy.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"symantec.com\"",
+    "0 issue \"www.digicert.com\"",
     "0 issuemail \"digicert.com\""
   ],
   "issue": [
@@ -16,7 +17,8 @@
     "globalsign.com",
     "godaddy.com",
     "letsencrypt.org",
-    "symantec.com"
+    "symantec.com",
+    "www.digicert.com"
   ],
   "issuewild": [],
   "iodef": [

@@ -1,0 +1,25 @@
+{
+  "domain": "rcn.com",
+  "records": [
+    "0 iodef \"mailto:iodefcaa@rcn.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:iodefcaa@rcn.com"
+  ]
+}

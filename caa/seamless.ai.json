@@ -1,0 +1,27 @@
+{
+  "domain": "seamless.ai",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
