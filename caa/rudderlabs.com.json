@@ -1,7 +1,21 @@
 {
   "domain": "rudderlabs.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": []
+  "records": [
+    "0 iodef \"mailto:infra@rudderstack.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:infra@rudderstack.com"
+  ]
 }
