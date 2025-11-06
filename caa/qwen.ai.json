@@ -1,7 +1,14 @@
 {
   "domain": "qwen.ai",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 iodef \"mailto:certificate-transparency@list.alibaba-inc.com\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [
+    "mailto:certificate-transparency@list.alibaba-inc.com"
+  ]
 }
