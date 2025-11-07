@@ -1,6 +1,6 @@
 module github.com/UnitVectorY-Labs/dns-caa-catalog
 
-go 1.25.3 // GOVERSION
+go 1.25.4 // GOVERSION
 
 require github.com/miekg/dns v1.1.68
 
