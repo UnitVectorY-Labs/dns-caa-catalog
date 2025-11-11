@@ -1,0 +1,18 @@
+{
+  "domain": "rwth-aachen.de",
+  "records": [
+    "0 iodef \"mailto:ca@rwth-aachen.de\"",
+    "0 issue \"harica.gr\"",
+    "0 issuemail \"harica.gr\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "harica.gr"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:ca@rwth-aachen.de"
+  ]
+}

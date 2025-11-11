@@ -1,0 +1,22 @@
+{
+  "domain": "kundenserver.de",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"telesec.de\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"telesec.de\""
+  ],
+  "issue": [
+    "digicert.com",
+    "sectigo.com",
+    "telesec.de"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "sectigo.com",
+    "telesec.de"
+  ],
+  "iodef": []
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "societe.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@societe.com\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@societe.com"
+  ]
+}

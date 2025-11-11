@@ -1,0 +1,11 @@
+{
+  "domain": "4dcloud.fr",
+  "records": [
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

@@ -1,0 +1,38 @@
+{
+  "domain": "spokeo.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "iodef": []
+}
