@@ -1,6 +1,7 @@
 {
   "domain": "vivo.com.br",
   "records": [
+    "0 issue \"amazon.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
@@ -8,6 +9,7 @@
     "0 issue \"pki.goog\""
   ],
   "issue": [
+    "amazon.com",
     "comodoca.com",
     "digicert.com",
     "globalsign.com",

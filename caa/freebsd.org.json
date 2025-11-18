@@ -1,10 +1,12 @@
 {
   "domain": "freebsd.org",
   "records": [
+    "0 issue \"certainly.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"letsencrypt.org\""
   ],
   "issue": [
+    "certainly.com",
     "comodoca.com",
     "letsencrypt.org"
   ],
