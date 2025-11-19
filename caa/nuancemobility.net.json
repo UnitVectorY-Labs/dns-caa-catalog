@@ -1,6 +1,7 @@
 {
   "domain": "nuancemobility.net",
   "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\"",
     "0 issue \"symantec.com\""
   ],
   "issue": [
