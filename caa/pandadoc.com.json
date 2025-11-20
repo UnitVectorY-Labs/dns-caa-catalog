@@ -4,13 +4,15 @@
     "0 issue \"amazontrust.com\"",
     "0 issue \"certainly.com\"",
     "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"globalsign.com\""
   ],
   "issue": [
     "amazontrust.com",
     "certainly.com",
-    "digicert.com"
+    "digicert.com",
+    "letsencrypt.org"
   ],
   "issuewild": [
     "amazon.com",

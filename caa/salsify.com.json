@@ -1,7 +1,33 @@
 {
   "domain": "salsify.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": []
+  "records": [
+    "0 iodef \"mailto:admin@salsify.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"gandi.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"gandi.net\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "gandi.net",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "gandi.net",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:admin@salsify.com"
+  ]
 }
