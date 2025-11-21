@@ -11,6 +11,7 @@
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
     "0 issuewild \"globalsign.com\"",
     "0 issuewild \"letsencrypt.org\""
   ],
@@ -23,7 +24,8 @@
     "digicert.com",
     "globalsign.com",
     "letsencrypt.org",
-    "pki.goog"
+    "pki.goog",
+    "sectigo.com"
   ],
   "issuewild": [
     "globalsign.com",
