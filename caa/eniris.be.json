@@ -5,6 +5,7 @@
     "0 iodef \"sectigo.com\"",
     "0 issue \"sectigo.com\"",
     "0 issuemail \"sectigo.com\"",
+    "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"sectigo.com\"",
     "128 issue \"letsencrypt.org\""
   ],
@@ -13,6 +14,7 @@
     "sectigo.com"
   ],
   "issuewild": [
+    "letsencrypt.org",
     "sectigo.com"
   ],
   "iodef": [
