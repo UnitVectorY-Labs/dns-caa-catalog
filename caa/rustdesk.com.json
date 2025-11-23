@@ -1,15 +1,7 @@
 {
   "domain": "rustdesk.com",
-  "records": [
-    "0 issuewild \"amazon.com\"",
-    "0 issuewild \"cloudflare.com\"",
-    "0 issuewild \"letsencrypt.org\""
-  ],
+  "records": [],
   "issue": [],
-  "issuewild": [
-    "amazon.com",
-    "cloudflare.com",
-    "letsencrypt.org"
-  ],
+  "issuewild": [],
   "iodef": []
 }
