@@ -6,7 +6,9 @@
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
     "0 issue \"digicert.com\"",
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
@@ -14,7 +16,9 @@
     "amazontrust.com",
     "awstrust.com",
     "digicert.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "ssl.com"
   ],
   "issuewild": [],
   "iodef": []
