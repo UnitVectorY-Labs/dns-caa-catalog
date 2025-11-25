@@ -1,7 +1,17 @@
 {
   "domain": "qustodio.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
   "issuewild": [],
   "iodef": []
 }

@@ -1,7 +1,7 @@
 {
   "domain": "picsart.com",
   "records": [
-    "0 iodef \"mailto:gerasim@picsart.com\"",
+    "0 iodef \"mailto:infra-core@picsart.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
@@ -29,6 +29,6 @@
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:gerasim@picsart.com"
+    "mailto:infra-core@picsart.com"
   ]
 }

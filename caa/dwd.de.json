@@ -1,0 +1,16 @@
+{
+  "domain": "dwd.de",
+  "records": [
+    "0 issue \"harica.gr\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"harica.gr\""
+  ],
+  "issue": [
+    "harica.gr",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "harica.gr"
+  ],
+  "iodef": []
+}

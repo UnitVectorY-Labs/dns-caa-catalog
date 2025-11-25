@@ -1,0 +1,11 @@
+{
+  "domain": "academia-assets.com",
+  "records": [
+    "0 issue \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

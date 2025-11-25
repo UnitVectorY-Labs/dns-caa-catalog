@@ -1,0 +1,22 @@
+{
+  "domain": "aldi.us",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": []
+}

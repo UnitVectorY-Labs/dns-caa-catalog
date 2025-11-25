@@ -1,0 +1,13 @@
+{
+  "domain": "lycos.com",
+  "records": [
+    "128 issue \"godaddy.com\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

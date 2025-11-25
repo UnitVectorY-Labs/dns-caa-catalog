@@ -1,0 +1,11 @@
+{
+  "domain": "ettoday.net",
+  "records": [
+    "0 issuewild \"twca.com.tw\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "twca.com.tw"
+  ],
+  "iodef": []
+}

@@ -1,0 +1,23 @@
+{
+  "domain": "mattel.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "entrust.net",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

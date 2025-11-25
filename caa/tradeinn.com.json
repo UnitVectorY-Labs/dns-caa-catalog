@@ -1,0 +1,18 @@
+{
+  "domain": "tradeinn.com",
+  "records": [
+    "0 iodef \"mailto:sys@team.makingscience.com\"",
+    "0 iodef \"mailto:xevi@tradeinn.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:sys@team.makingscience.com",
+    "mailto:xevi@tradeinn.com"
+  ]
+}
