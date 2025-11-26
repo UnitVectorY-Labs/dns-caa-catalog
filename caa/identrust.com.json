@@ -1,7 +1,17 @@
 {
   "domain": "identrust.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": []
+  "records": [
+    "0 iodef \"mailto:support@identrust.com\"",
+    "0 issue \"identrust.com\"",
+    "0 issuewild \"identrust.com\""
+  ],
+  "issue": [
+    "identrust.com"
+  ],
+  "issuewild": [
+    "identrust.com"
+  ],
+  "iodef": [
+    "mailto:support@identrust.com"
+  ]
 }
