@@ -3,11 +3,13 @@
   "records": [
     "0 iodef \"mailto:it-siteops@realestate.com.au\"",
     "0 issue \"amazon.com\"",
-    "0 issue \"digicert.com\""
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
     "amazon.com",
-    "digicert.com"
+    "digicert.com",
+    "letsencrypt.org"
   ],
   "issuewild": [],
   "iodef": [
