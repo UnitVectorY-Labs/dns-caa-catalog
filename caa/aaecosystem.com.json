@@ -1,13 +1,21 @@
 {
   "domain": "aaecosystem.com",
   "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"cloudfront.net\"",
     "0 issue \"digicert.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"cloudfront.net\"",
     "0 issuewild \"digicert.com\""
   ],
   "issue": [
+    "amazonaws.com",
+    "cloudfront.net",
     "digicert.com"
   ],
   "issuewild": [
+    "amazonaws.com",
+    "cloudfront.net",
     "digicert.com"
   ],
   "iodef": []
