@@ -1,0 +1,14 @@
+{
+  "domain": "libravatar.org",
+  "records": [
+    "0 iodef \"mailto:tls@libravatar.org\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:tls@libravatar.org"
+  ]
+}

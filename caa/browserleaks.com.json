@@ -1,0 +1,11 @@
+{
+  "domain": "browserleaks.com",
+  "records": [
+    "0 issue \"letsencrypt.org;validationmethods=dns-01\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
