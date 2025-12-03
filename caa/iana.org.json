@@ -4,6 +4,7 @@
     "0 iodef \"mailto:caa-reports@icann.org\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issuemail \"sectigo.com\"",
     "0 issuewild \"sectigo.com\""
@@ -11,6 +12,7 @@
   "issue": [
     "digicert.com",
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [
