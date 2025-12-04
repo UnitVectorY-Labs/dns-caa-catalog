@@ -4,11 +4,13 @@
     "0 iodef \"mailto:security@typeform.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issuewild \"amazon.com\""
   ],
   "issue": [
     "amazon.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
   ],
   "issuewild": [
     "amazon.com"
