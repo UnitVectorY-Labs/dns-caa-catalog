@@ -1,10 +1,14 @@
 {
   "domain": "lycos.com",
   "records": [
+    "128 issue \"amazonaws.com\"",
+    "128 issue \"amazontrust.com\"",
     "128 issue \"godaddy.com\"",
     "128 issue \"letsencrypt.org\""
   ],
   "issue": [
+    "amazonaws.com",
+    "amazontrust.com",
     "godaddy.com",
     "letsencrypt.org"
   ],
