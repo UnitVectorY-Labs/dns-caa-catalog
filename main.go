@@ -835,33 +835,46 @@ func generate(config GenerateConfig) error {
 		"normalizeCA": normalizeCAName,
 	}
 
-	mainTmpl, err := template.New("index.html").Funcs(funcMap).ParseFiles("templates/index.html")
-	if err != nil {
-		return fmt.Errorf("failed to parse main template: %v", err)
+	// Parse all templates into a single template set so named templates
+	// (like footer defined via {{define "footer"}}) are available to others.
+	rootTmpl := template.New("").Funcs(funcMap)
+	if _, err := rootTmpl.ParseGlob("templates/*.html"); err != nil {
+		return fmt.Errorf("failed to parse templates: %v", err)
 	}
-	domainTmpl, err := template.New("domain.html").Funcs(funcMap).ParseFiles("templates/domain.html")
-	if err != nil {
-		return fmt.Errorf("failed to parse domain template: %v", err)
+
+	mainTmpl := rootTmpl.Lookup("index.html")
+	if mainTmpl == nil {
+		return fmt.Errorf("template not found: index.html")
 	}
-	homeTmpl, err := template.New("home.html").Funcs(funcMap).ParseFiles("templates/home.html")
-	if err != nil {
-		return fmt.Errorf("failed to parse home template: %v", err)
+
+	homeTmpl := rootTmpl.Lookup("home.html")
+	if homeTmpl == nil {
+		return fmt.Errorf("template not found: home.html")
 	}
-	snippetTmpl, err := template.New("snippet.html").Funcs(funcMap).ParseFiles("templates/snippet.html")
-	if err != nil {
-		return fmt.Errorf("failed to parse snippet template: %v", err)
+
+	domainTmpl := rootTmpl.Lookup("domain.html")
+	if domainTmpl == nil {
+		return fmt.Errorf("template not found: domain.html")
 	}
-	navTmpl, err := template.New("nav.html").Funcs(funcMap).ParseFiles("templates/nav.html")
-	if err != nil {
-		return fmt.Errorf("failed to parse nav template: %v", err)
+
+	snippetTmpl := rootTmpl.Lookup("snippet.html")
+	if snippetTmpl == nil {
+		return fmt.Errorf("template not found: snippet.html")
 	}
-	providerTmpl, err := template.New("provider.html").Funcs(funcMap).ParseFiles("templates/provider.html")
-	if err != nil {
-		return fmt.Errorf("failed to parse provider template: %v", err)
+
+	navTmpl := rootTmpl.Lookup("nav.html")
+	if navTmpl == nil {
+		return fmt.Errorf("template not found: nav.html")
 	}
-	providerSnippetTmpl, err := template.New("provider-snippet.html").Funcs(funcMap).ParseFiles("templates/provider-snippet.html")
-	if err != nil {
-		return fmt.Errorf("failed to parse provider snippet template: %v", err)
+
+	providerTmpl := rootTmpl.Lookup("provider.html")
+	if providerTmpl == nil {
+		return fmt.Errorf("template not found: provider.html")
+	}
+
+	providerSnippetTmpl := rootTmpl.Lookup("provider-snippet.html")
+	if providerSnippetTmpl == nil {
+		return fmt.Errorf("template not found: provider-snippet.html")
 	}
 
 	// Generate index page with home content
