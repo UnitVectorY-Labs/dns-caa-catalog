@@ -19,14 +19,7 @@
             {{.Content}}
         </main>
     </div>
-    <footer>
-        <p>
-            <a href="https://github.com/UnitVectorY-Labs">UnitVectorY Labs</a> | 
-            <a href="https://opensource.org/licenses/MIT">MIT License</a> | 
-            <a href="https://github.com/UnitVectorY-Labs/dns-caa-catalog"><strong>dns-caa-catalog</strong> on GitHub</a>
-        </p>
-        <p>Last Updated: {{.PageGenerated}}</p>
-    </footer>
+    {{template "footer" .}}
     <script>
     // Function to initialize search functionality
     function initializeSearch() {
