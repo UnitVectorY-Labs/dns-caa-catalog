@@ -1,6 +1,7 @@
 {
   "domain": "qualys.eu",
   "records": [
+    "0 iodef \"digicert.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
     "0 issue \"letsencrypt.org\"",
@@ -26,5 +27,7 @@
     "pki.goog; cansignhttpexchanges=yes",
     "ssl.com"
   ],
-  "iodef": []
+  "iodef": [
+    "digicert.com"
+  ]
 }
