@@ -1,0 +1,16 @@
+{
+  "domain": "advertserve.com",
+  "records": [
+    "128 issue \"godaddy.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issuewild \"godaddy.com\""
+  ],
+  "issue": [
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "godaddy.com"
+  ],
+  "iodef": []
+}

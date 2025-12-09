@@ -1,7 +1,29 @@
 {
   "domain": "speedcurve.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": []
+  "records": [
+    "0 iodef \"mailto:security@embrace.io\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"certainly.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "certainly.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "certainly.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:security@embrace.io"
+  ]
 }

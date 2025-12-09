@@ -1,0 +1,18 @@
+{
+  "domain": "realgm.com",
+  "records": [
+    "0 iodef \"mailto:abuse@epicworks.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pik.goog\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pik.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:abuse@epicworks.com"
+  ]
+}

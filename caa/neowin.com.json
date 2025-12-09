@@ -1,0 +1,13 @@
+{
+  "domain": "neowin.com",
+  "records": [
+    "128 issue \"amazonaws.com\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
