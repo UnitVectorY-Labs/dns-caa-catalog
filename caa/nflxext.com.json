@@ -1,14 +1,14 @@
 {
   "domain": "nflxext.com",
   "records": [
-    "0 issue \"digicert.com\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\""
+    "0 issue \"entrust.net\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"thawte.com\""
   ],
   "issue": [
-    "digicert.com",
-    "letsencrypt.org",
-    "pki.goog"
+    "entrust.net",
+    "pki.goog",
+    "thawte.com"
   ],
   "issuewild": [],
   "iodef": []
