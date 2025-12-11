@@ -2,10 +2,12 @@
   "domain": "fisglobal.com",
   "records": [
     "0 issue \"sectigo.com\"",
+    "0 issue \"visa.com\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
-    "sectigo.com"
+    "sectigo.com",
+    "visa.com"
   ],
   "issuewild": [
     "sectigo.com"
