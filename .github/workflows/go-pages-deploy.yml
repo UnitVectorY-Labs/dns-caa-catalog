@@ -42,7 +42,7 @@ jobs:
 
       # Step 3: Cache Go modules
       - name: Cache Go modules
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: |
             ~/.cache/go-build
