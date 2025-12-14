@@ -1,13 +1,7 @@
 {
   "domain": "vivint.ai",
-  "records": [
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\""
-  ],
-  "issue": [
-    "letsencrypt.org",
-    "pki.goog"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": []
 }
