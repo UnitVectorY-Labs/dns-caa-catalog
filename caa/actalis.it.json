@@ -1,0 +1,13 @@
+{
+  "domain": "actalis.it",
+  "records": [
+    "0 issue \"actalis.it\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "actalis.it",
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}

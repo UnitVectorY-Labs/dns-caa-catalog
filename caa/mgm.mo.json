@@ -1,0 +1,11 @@
+{
+  "domain": "mgm.mo",
+  "records": [
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": []
+}
