@@ -1,6 +1,12 @@
 {
   "domain": "itv.com",
-  "records": [],
+  "records": [
+    "0 0 \"amazon.com\"",
+    "0 0 \"amazonaws.com\"",
+    "0 0 \"amazontrust.com\"",
+    "0 0 \"awstrust.com\"",
+    "0 0 \"sectigo.com\""
+  ],
   "issue": [],
   "issuewild": [],
   "iodef": []
