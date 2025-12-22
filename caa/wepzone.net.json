@@ -3,6 +3,5 @@
   "records": [],
   "issue": [],
   "issuewild": [],
-  "iodef": [],
-  "error": "read udp 10.42.0.92:60347-\u003e8.8.8.8:53: i/o timeout"
+  "iodef": []
 }

@@ -3,16 +3,14 @@
   "records": [
     "0 issue \"digicert.com\"",
     "0 issue \"visa.com\"",
-    "0 issuewild \"digicert.com\"",
-    "0 issuewild \"visa.com\""
+    "0 issuewild \"digicert.com\""
   ],
   "issue": [
     "digicert.com",
     "visa.com"
   ],
   "issuewild": [
-    "digicert.com",
-    "visa.com"
+    "digicert.com"
   ],
   "iodef": []
 }
