@@ -1,0 +1,24 @@
+{
+  "domain": "df.gov.br",
+  "records": [
+    "0 issue \"certificados.serpro.gov.br\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "certificados.serpro.gov.br",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "iodef": []
+}

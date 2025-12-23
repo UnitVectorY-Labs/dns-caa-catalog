@@ -1,16 +1,6 @@
 {
   "domain": "itv.com",
-  "records": [
-    "0 0 \"amazon.com\"",
-    "0 0 \"amazonaws.com\"",
-    "0 0 \"amazontrust.com\"",
-    "0 0 \"awstrust.com\"",
-    "0 0 \"certainly.com\"",
-    "0 0 \"digicert.com\"",
-    "0 0 \"globalsign.com\"",
-    "0 0 \"letsencrypt.org\"",
-    "0 0 \"sectigo.com\""
-  ],
+  "records": [],
   "issue": [],
   "issuewild": [],
   "iodef": []

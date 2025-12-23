@@ -1,0 +1,18 @@
+{
+  "domain": "lovart.ai",
+  "records": [
+    "0 iodef \"mailto:zuoyongjie@lovart.ai\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:zuoyongjie@lovart.ai"
+  ]
+}
