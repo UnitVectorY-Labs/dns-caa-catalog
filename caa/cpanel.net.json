@@ -11,8 +11,8 @@
     "0 issue \"digicert.com\"",
     "0 issue \"godaddy.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
-    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+    "0 issue \"pki.goog\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\""
   ],
   "issue": [
     "amazon.com",
@@ -23,11 +23,10 @@
     "digicert.com",
     "godaddy.com",
     "letsencrypt.org",
+    "pki.goog",
     "pki.goog; cansignhttpexchanges=yes"
   ],
-  "issuewild": [
-    "pki.goog; cansignhttpexchanges=yes"
-  ],
+  "issuewild": [],
   "iodef": [
     "caa-notify@cpanel.net",
     "mailto:caa-notify@cpanel.net"
