@@ -1,0 +1,14 @@
+{
+  "domain": "airbnb.co.za",
+  "records": [
+    "0 iodef \"mailto:caa-alerts@airbnb.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa-alerts@airbnb.com"
+  ]
+}

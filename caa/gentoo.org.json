@@ -1,0 +1,14 @@
+{
+  "domain": "gentoo.org",
+  "records": [
+    "0 iodef \"mailto:infra@gentoo.org\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:infra@gentoo.org"
+  ]
+}
