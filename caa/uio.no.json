@@ -1,0 +1,17 @@
+{
+  "domain": "uio.no",
+  "records": [
+    "0 iodef \"mailto:cert@uio.no\"",
+    "0 issue \"harica.gr\"",
+    "0 issuewild \"harica.gr\""
+  ],
+  "issue": [
+    "harica.gr"
+  ],
+  "issuewild": [
+    "harica.gr"
+  ],
+  "iodef": [
+    "mailto:cert@uio.no"
+  ]
+}

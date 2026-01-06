@@ -1,7 +1,16 @@
 {
   "domain": "eloqua.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"www.digicert.com\"",
+    "0 issuewild \"www.digicert.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "www.digicert.com"
+  ],
+  "issuewild": [
+    "www.digicert.com"
+  ],
   "iodef": []
 }

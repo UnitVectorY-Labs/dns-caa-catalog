@@ -1,18 +1,7 @@
 {
   "domain": "glitch.me",
-  "records": [
-    "0 iodef \"mailto:security@fastly.com\"",
-    "0 issue \"amazonaws.com\"",
-    "0 issue \"certainly.com\"",
-    "0 issue \"letsencrypt.org\""
-  ],
-  "issue": [
-    "amazonaws.com",
-    "certainly.com",
-    "letsencrypt.org"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
-  "iodef": [
-    "mailto:security@fastly.com"
-  ]
+  "iodef": []
 }

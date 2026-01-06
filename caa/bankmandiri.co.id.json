@@ -1,0 +1,16 @@
+{
+  "domain": "bankmandiri.co.id",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"visa.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "visa.com"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": []
+}

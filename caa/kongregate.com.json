@@ -1,0 +1,26 @@
+{
+  "domain": "kongregate.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazonaws.com",
+    "comodoca.com",
+    "globalsign.com"
+  ],
+  "iodef": []
+}
