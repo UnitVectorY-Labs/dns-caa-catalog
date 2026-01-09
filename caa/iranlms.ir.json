@@ -1,14 +1,8 @@
 {
   "domain": "iranlms.ir",
-  "records": [
-    "0 issue \"certum.pl\"",
-    "0 issuewild \"certum.pl\""
-  ],
-  "issue": [
-    "certum.pl"
-  ],
-  "issuewild": [
-    "certum.pl"
-  ],
-  "iodef": []
+  "records": [],
+  "issue": [],
+  "issuewild": [],
+  "iodef": [],
+  "error": "read udp 10.244.0.134:59073-\u003e8.8.8.8:53: i/o timeout"
 }
