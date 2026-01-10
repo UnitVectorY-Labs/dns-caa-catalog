@@ -3,14 +3,14 @@
   "records": [
     "0 Iodef \"mailto:infosec@cisco.com\"",
     "0 Issuewild \"identrust.com\"",
-    "0 Issuewild \"quovadisglobal.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
-    "0 issue \"identrust.com\"",
     "0 issue \"pki.goog\"",
     "0 issue \"quovadisglobal.com\"",
-    "0 issue \"sectigo.com\""
+    "0 issue \"sectigo.com\"",
+    "1 issue \"identrust.com\"",
+    "1 issuewild \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
@@ -21,6 +21,8 @@
     "quovadisglobal.com",
     "sectigo.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "ssl.com"
+  ],
   "iodef": []
 }

@@ -1,15 +1,20 @@
 {
   "domain": "docker.io",
   "records": [
+    "0 iodef \"mailto:infra+caa-iodef@docker.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"comodoca.com\"",
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
     "comodoca.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [
+    "mailto:infra+caa-iodef@docker.com"
+  ]
 }

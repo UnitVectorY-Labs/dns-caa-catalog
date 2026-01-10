@@ -1,11 +1,12 @@
 {
   "domain": "docker.com",
   "records": [
-    "0 iodef \"mailto:infra+iodef@docker.com\"",
+    "0 iodef \"mailto:infra+caa-iodef@docker.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\""
   ],
   "issue": [
@@ -13,10 +14,11 @@
     "comodoca.com",
     "digicert.com",
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:infra+iodef@docker.com"
+    "mailto:infra+caa-iodef@docker.com"
   ]
 }
