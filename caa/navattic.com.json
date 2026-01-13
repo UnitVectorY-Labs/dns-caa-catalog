@@ -1,0 +1,18 @@
+{
+  "domain": "navattic.com",
+  "records": [
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "iodef": []
+}

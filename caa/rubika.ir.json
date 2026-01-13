@@ -1,8 +1,0 @@
-{
-  "domain": "rubika.ir",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
-  "error": "read udp 10.244.0.176:60098-\u003e8.8.8.8:53: i/o timeout"
-}

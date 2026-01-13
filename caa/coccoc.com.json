@@ -1,7 +1,17 @@
 {
   "domain": "coccoc.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": []
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "1 iodef \"mailto:admins@coccoc.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
+  "issuewild": [
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:admins@coccoc.com"
+  ]
 }
