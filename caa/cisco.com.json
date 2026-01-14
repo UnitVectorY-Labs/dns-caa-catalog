@@ -1,15 +1,14 @@
 {
   "domain": "cisco.com",
   "records": [
-    "0 Iodef \"mailto:infosec@cisco.com\"",
-    "0 Issuewild \"identrust.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"pki.goog\"",
-    "0 issue \"quovadisglobal.com\"",
-    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "1 iodef \"mailto:infosec@cisco.com\"",
     "1 issue \"identrust.com\"",
+    "1 issuewild \"identrust.com\"",
     "1 issuewild \"ssl.com\""
   ],
   "issue": [
@@ -18,11 +17,13 @@
     "globalsign.com",
     "identrust.com",
     "pki.goog",
-    "quovadisglobal.com",
-    "sectigo.com"
-  ],
-  "issuewild": [
     "ssl.com"
   ],
-  "iodef": []
+  "issuewild": [
+    "identrust.com",
+    "ssl.com"
+  ],
+  "iodef": [
+    "mailto:infosec@cisco.com"
+  ]
 }
