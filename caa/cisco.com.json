@@ -4,10 +4,12 @@
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
+    "0 issue \"identrust.com\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"ssl.com\"",
+    "1 Issuewild \"digicert.com\"",
     "1 iodef \"mailto:infosec@cisco.com\"",
-    "1 issue \"identrust.com\"",
     "1 issuewild \"identrust.com\"",
     "1 issuewild \"ssl.com\""
   ],
@@ -16,6 +18,7 @@
     "digicert.com",
     "globalsign.com",
     "identrust.com",
+    "letsencrypt.org",
     "pki.goog",
     "ssl.com"
   ],

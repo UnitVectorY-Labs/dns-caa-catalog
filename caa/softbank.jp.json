@@ -1,7 +1,8 @@
 {
   "domain": "softbank.jp",
   "records": [
-    "0 contactemail \"SBBGRP-SPO2-IAA@g.softbank.co.jp\""
+    "0 contactemail \"SBBGRP-SPO2-IAA@g.softbank.co.jp\"",
+    "0 contactemail \"sbbgrp-ssp-pmp@g.softbank.co.jp\""
   ],
   "issue": [],
   "issuewild": [],
