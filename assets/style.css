@@ -1,3 +1,7 @@
+:root {
+    --search-container-height: 56px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -118,10 +122,34 @@ header a h1 {
     top: 0;
     background-color: #ffffff;
     z-index: 100;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     padding: 1.5rem 0 0.5rem;
     display: flex;
     align-items: center;
+}
+
+.filter-container {
+    position: sticky;
+    top: var(--search-container-height);
+    background-color: #ffffff;
+    z-index: 100;
+    padding: 0.25rem 0 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.filter-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: #475569;
+    cursor: pointer;
+}
+
+.filter-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
 }
 
 .search-input {
