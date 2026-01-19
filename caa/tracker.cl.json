@@ -1,11 +1,7 @@
 {
   "domain": "tracker.cl",
-  "records": [
-    "0 issue \"letsencrypt.org\""
-  ],
-  "issue": [
-    "letsencrypt.org"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": []
 }
