@@ -1,0 +1,23 @@
+{
+  "domain": "jcrew.com",
+  "records": [
+    "0 iodef \"mailto:cert-notification@jcrew.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com"
+  ],
+  "iodef": [
+    "mailto:cert-notification@jcrew.com"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "delltrusteddevicesecurity.com",
+  "records": [
+    "0 iodef \"mailto:pkiadmin@dell.com\"",
+    "0 issue \"digicert.com; account=b34fd286db03ccad020f0a75010dd75544eaf2b967195b4becb6460c924d35c9\""
+  ],
+  "issue": [
+    "digicert.com; account=b34fd286db03ccad020f0a75010dd75544eaf2b967195b4becb6460c924d35c9"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:pkiadmin@dell.com"
+  ]
+}

@@ -1,21 +1,25 @@
 {
   "domain": "df.gov.br",
   "records": [
+    "0 issue \"amazontrust.com\"",
     "0 issue \"certificados.serpro.gov.br\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazontrust.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
+    "amazontrust.com",
     "certificados.serpro.gov.br",
     "letsencrypt.org",
     "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [
+    "amazontrust.com",
     "letsencrypt.org",
     "pki.goog",
     "sectigo.com"

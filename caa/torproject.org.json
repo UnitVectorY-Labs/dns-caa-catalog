@@ -1,0 +1,21 @@
+{
+  "domain": "torproject.org",
+  "records": [
+    "0 iodef \"mailto:torproject-admin@torproject.org\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"globalsign.com\"",
+    "128 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/380377\"",
+    "128 issuewild \";\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/380377"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:torproject-admin@torproject.org"
+  ]
+}
