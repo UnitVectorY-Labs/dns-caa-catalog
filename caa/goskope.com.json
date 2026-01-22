@@ -1,7 +1,16 @@
 {
   "domain": "goskope.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "globalsign.com"
+  ],
   "iodef": []
 }
