@@ -442,3 +442,141 @@ li {
     text-decoration: underline;
     color: #475569;
 }
+
+/* Homepage intro box */
+.intro-box {
+    margin-bottom: 1.5em;
+    padding: 1em 1.25em;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border-radius: 8px;
+    border-left: 4px solid #3b82f6;
+}
+
+.intro-text {
+    margin: 0;
+    line-height: 1.6;
+    color: #334155;
+    font-size: 0.95em;
+}
+
+/* Domain page compact table layout */
+.records-table-wrapper {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.records-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.record-row {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.record-row:last-child {
+    border-bottom: none;
+}
+
+.record-row:hover {
+    background-color: #f8fafc;
+}
+
+.record-label {
+    width: 140px;
+    padding: 0.75rem 1rem;
+    background-color: #f8fafc;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.record-emoji {
+    margin-right: 0.5rem;
+}
+
+.record-name {
+    font-weight: 600;
+    color: #1e3a8a;
+}
+
+.record-value {
+    padding: 0.75rem 1rem;
+    vertical-align: top;
+}
+
+.record-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.record-list a,
+.record-list span {
+    display: block;
+}
+
+/* Raw records section */
+.raw-records-section {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.raw-records-title {
+    margin: 0;
+    padding: 0.75rem 1rem;
+    background-color: #f8fafc;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1e3a8a;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.raw-records-content {
+    margin: 0;
+    padding: 1rem;
+    font-size: 0.85rem;
+    background-color: #f9fafb;
+    border-radius: 0;
+}
+
+/* RFC link in record labels */
+.rfc-link {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    padding: 0.1rem 0.3rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.rfc-link:hover {
+    color: #64748b;
+    border-color: #cbd5e1;
+    text-decoration: none;
+}
+
+/* Data attribution for domain pages */
+.data-attribution {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+.data-attribution a {
+    color: #94a3b8;
+    text-decoration: underline;
+}
+
+.data-attribution a:hover {
+    color: #64748b;
+}
