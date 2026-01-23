@@ -55,7 +55,9 @@
                 <td class="record-value">
                     {{if .DomainResult.IssueMail}}
                     <div class="record-list">
-                        {{range .DomainResult.IssueMail}}<span>{{.}}</span>{{end}}
+                        {{range .DomainResult.IssueMail}}
+                        <span>{{.}}</span>
+                        {{end}}
                     </div>
                     {{else}}
                     <span class="text-muted">No record</span>
@@ -70,7 +72,9 @@
                 <td class="record-value">
                     {{if .DomainResult.Iodef}}
                     <div class="record-list">
-                        {{range .DomainResult.Iodef}}<span>{{.}}</span>{{end}}
+                        {{range .DomainResult.Iodef}}
+                        <span>{{.}}</span>
+                        {{end}}
                     </div>
                     {{else}}
                     <span class="text-muted">No record</span>
@@ -85,7 +89,9 @@
                 <td class="record-value">
                     {{if .DomainResult.ContactEmail}}
                     <div class="record-list">
-                        {{range .DomainResult.ContactEmail}}<span>{{.}}</span>{{end}}
+                        {{range .DomainResult.ContactEmail}}
+                        <span>{{.}}</span>
+                        {{end}}
                     </div>
                     {{else}}
                     <span class="text-muted">No record</span>
@@ -100,7 +106,9 @@
                 <td class="record-value">
                     {{if .DomainResult.ContactPhone}}
                     <div class="record-list">
-                        {{range .DomainResult.ContactPhone}}<span>{{.}}</span>{{end}}
+                        {{range .DomainResult.ContactPhone}}
+                        <span>{{.}}</span>
+                        {{end}}
                     </div>
                     {{else}}
                     <span class="text-muted">No record</span>
