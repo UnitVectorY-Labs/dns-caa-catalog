@@ -34,5 +34,16 @@
     </label>
 </div>
 {{range .Results}}
-<a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html" data-has-caa="{{if or .Issue .IssueWild .Iodef .IssueMail .ContactEmail .ContactPhone .Records}}true{{else}}false{{end}}" data-has-issue="{{if .Issue}}true{{else}}false{{end}}" data-has-issuewild="{{if .IssueWild}}true{{else}}false{{end}}" data-has-iodef="{{if .Iodef}}true{{else}}false{{end}}" data-has-issuemail="{{if .IssueMail}}true{{else}}false{{end}}" data-has-contactemail="{{if .ContactEmail}}true{{else}}false{{end}}" data-has-contactphone="{{if .ContactPhone}}true{{else}}false{{end}}">{{.Domain}}{{if .Issue}} ✅{{end}}{{if .IssueWild}} ✳️{{end}}{{if .Iodef}} 📬{{end}}{{if .IssueMail}} 📧{{end}}{{if .ContactEmail}} 📩{{end}}{{if .ContactPhone}} 📞{{end}}</a>
+<a href="/{{.Domain}}.html" 
+   hx-get="/snippets/{{.Domain}}.html" 
+   hx-target="#content" 
+   hx-push-url="/{{.Domain}}.html"
+   data-has-caa="{{if or .Issue .IssueWild .Iodef .IssueMail .ContactEmail .ContactPhone .Records}}true{{else}}false{{end}}"
+   data-has-issue="{{if .Issue}}true{{else}}false{{end}}"
+   data-has-issuewild="{{if .IssueWild}}true{{else}}false{{end}}"
+   data-has-iodef="{{if .Iodef}}true{{else}}false{{end}}"
+   data-has-issuemail="{{if .IssueMail}}true{{else}}false{{end}}"
+   data-has-contactemail="{{if .ContactEmail}}true{{else}}false{{end}}"
+   data-has-contactphone="{{if .ContactPhone}}true{{else}}false{{end}}"
+>{{.Domain}}{{if .Issue}} ✅{{end}}{{if .IssueWild}} ✳️{{end}}{{if .Iodef}} 📬{{end}}{{if .IssueMail}} 📧{{end}}{{if .ContactEmail}} 📩{{end}}{{if .ContactPhone}} 📞{{end}}</a>
 {{end}}

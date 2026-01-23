@@ -411,22 +411,21 @@ li {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.record-section dt {
+.record-title {
     font-weight: bold;
     font-size: 1.1em;
-    margin-bottom: 0.25rem;
+    margin: 0 0 0.25rem 0;
     color: #1e3a8a;
 }
 
-.record-section dd {
-    margin-left: 0;
-    margin-bottom: 0;
+.record-content {
+    margin: 0;
 }
 
 .record-description {
     font-size: 0.85rem;
     color: #64748b;
-    margin-bottom: 0.75rem;
+    margin: 0 0 0.75rem 0;
     font-style: italic;
 }
 
