@@ -543,3 +543,40 @@ li {
     background-color: #f9fafb;
     border-radius: 0;
 }
+
+/* RFC link in record labels */
+.rfc-link {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    padding: 0.1rem 0.3rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.rfc-link:hover {
+    color: #64748b;
+    border-color: #cbd5e1;
+    text-decoration: none;
+}
+
+/* Data attribution for domain pages */
+.data-attribution {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+    color: #94a3b8;
+    text-align: center;
+    border-top: 1px solid #e5e7eb;
+}
+
+.data-attribution a {
+    color: #94a3b8;
+    text-decoration: underline;
+}
+
+.data-attribution a:hover {
+    color: #64748b;
+}

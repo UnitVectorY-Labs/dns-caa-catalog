@@ -9,6 +9,7 @@
                 <td class="record-label">
                     <span class="record-emoji">✅</span>
                     <span class="record-name">issue</span>
+                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.2" target="_blank" class="rfc-link">RFC</a>
                 </td>
                 <td class="record-value">
                     {{if .DomainResult.Issue}}
@@ -30,6 +31,7 @@
                 <td class="record-label">
                     <span class="record-emoji">✳️</span>
                     <span class="record-name">issuewild</span>
+                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.3" target="_blank" class="rfc-link">RFC</a>
                 </td>
                 <td class="record-value">
                     {{if .DomainResult.IssueWild}}
@@ -51,6 +53,7 @@
                 <td class="record-label">
                     <span class="record-emoji">📧</span>
                     <span class="record-name">issuemail</span>
+                    <a href="https://datatracker.ietf.org/doc/html/rfc9495#section-3" target="_blank" class="rfc-link">RFC</a>
                 </td>
                 <td class="record-value">
                     {{if .DomainResult.IssueMail}}
@@ -68,6 +71,7 @@
                 <td class="record-label">
                     <span class="record-emoji">📬</span>
                     <span class="record-name">iodef</span>
+                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.4" target="_blank" class="rfc-link">RFC</a>
                 </td>
                 <td class="record-value">
                     {{if .DomainResult.Iodef}}
@@ -85,6 +89,7 @@
                 <td class="record-label">
                     <span class="record-emoji">📩</span>
                     <span class="record-name">contactemail</span>
+                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.5" target="_blank" class="rfc-link">RFC</a>
                 </td>
                 <td class="record-value">
                     {{if .DomainResult.ContactEmail}}
@@ -102,6 +107,7 @@
                 <td class="record-label">
                     <span class="record-emoji">📞</span>
                     <span class="record-name">contactphone</span>
+                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.6" target="_blank" class="rfc-link">RFC</a>
                 </td>
                 <td class="record-value">
                     {{if .DomainResult.ContactPhone}}
@@ -130,4 +136,8 @@
 {{if not (or .DomainResult.Issue .DomainResult.IssueWild .DomainResult.Iodef .DomainResult.IssueMail .DomainResult.ContactEmail .DomainResult.ContactPhone .DomainResult.Records)}}
 <p class="text-muted">No CAA records found for this domain.</p>
 {{end}}
+
+<div class="data-attribution">
+    Domain ranking data from <a href="https://radar.cloudflare.com/domains" target="_blank">Cloudflare Radar</a> used under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>.
+</div>
 {{end}}
