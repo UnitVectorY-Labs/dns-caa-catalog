@@ -39,15 +39,13 @@
             const hasCaa = link.getAttribute('data-has-caa') === 'true';
             const showForCaa = !hideNoCaa || hasCaa;
             
-            // Check record type filters
-            let matchesRecordFilter = activeFilters.length === 0; // If no filters, show all
-            if (!matchesRecordFilter) {
-                for (let i = 0; i < activeFilters.length; i++) {
-                    const filterType = activeFilters[i];
-                    if (link.getAttribute('data-has-' + filterType) === 'true') {
-                        matchesRecordFilter = true;
-                        break;
-                    }
+            // Check record type filters (AND logic - must match ALL checked filters)
+            let matchesRecordFilter = true;
+            for (let i = 0; i < activeFilters.length; i++) {
+                const filterType = activeFilters[i];
+                if (link.getAttribute('data-has-' + filterType) !== 'true') {
+                    matchesRecordFilter = false;
+                    break;
                 }
             }
             
