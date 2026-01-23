@@ -2,58 +2,127 @@
 {{if .DomainResult.Error}}
 <div class="error">Error: {{.DomainResult.Error}}</div>
 {{else}}
-<dl>
-    {{if .DomainResult.Issue}}
-    <dt>'issue' Records ✅</dt>
-    <dd>
-        <ul>
-        {{range .DomainResult.Issue}}
-            <li>
-                <a href="/providers/{{normalizeCA .}}.html" 
-                   hx-get="/snippets/providers/{{normalizeCA .}}.html" 
-                   hx-target="#content" 
-                   hx-push-url="/providers/{{normalizeCA .}}.html" 
-                   class="link-primary">{{.}}</a>
-            </li>
-        {{end}}
-        </ul>
-    </dd>
-    {{end}}
-    {{if .DomainResult.IssueWild}}
-    <dt>'issuewild' Records ✳️</dt>
-    <dd>
-        <ul>
-        {{range .DomainResult.IssueWild}}
-            <li>
-                <a href="/providers/{{normalizeCA .}}.html" 
-                   hx-get="/snippets/providers/{{normalizeCA .}}.html" 
-                   hx-target="#content" 
-                   hx-push-url="/providers/{{normalizeCA .}}.html" 
-                   class="link-primary">{{.}}</a>
-            </li>
-        {{end}}
-        </ul>
-    </dd>
-    {{end}}
-    {{if .DomainResult.Iodef}}
-    <dt>'iodef' (Incident Reporting) Records 📬</dt>
-    <dd>
-        <ul>
-        {{range .DomainResult.Iodef}}
-            <li>{{.}}</li>
-        {{end}}
-        </ul>
-    </dd>
-    {{end}}
+<div class="record-sections">
+    <div class="record-section">
+        <dt>'issue' Records ✅</dt>
+        <dd class="record-description">Specifies which Certificate Authorities (CAs) are authorized to issue certificates for this domain. <span class="rfc-ref">(<a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.2" target="_blank" class="link-muted">RFC 8659 §4.2</a>)</span></dd>
+        <dd>
+            {{if .DomainResult.Issue}}
+            <ul>
+            {{range .DomainResult.Issue}}
+                <li>
+                    <a href="/providers/{{normalizeCA .}}.html" 
+                       hx-get="/snippets/providers/{{normalizeCA .}}.html" 
+                       hx-target="#content" 
+                       hx-push-url="/providers/{{normalizeCA .}}.html" 
+                       class="link-primary">{{.}}</a>
+                </li>
+            {{end}}
+            </ul>
+            {{else}}
+            <p class="text-muted text-sm">No 'issue' records configured.</p>
+            {{end}}
+        </dd>
+    </div>
+
+    <div class="record-section">
+        <dt>'issuewild' Records ✳️</dt>
+        <dd class="record-description">Specifies which CAs are authorized to issue wildcard certificates for this domain. <span class="rfc-ref">(<a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.3" target="_blank" class="link-muted">RFC 8659 §4.3</a>)</span></dd>
+        <dd>
+            {{if .DomainResult.IssueWild}}
+            <ul>
+            {{range .DomainResult.IssueWild}}
+                <li>
+                    <a href="/providers/{{normalizeCA .}}.html" 
+                       hx-get="/snippets/providers/{{normalizeCA .}}.html" 
+                       hx-target="#content" 
+                       hx-push-url="/providers/{{normalizeCA .}}.html" 
+                       class="link-primary">{{.}}</a>
+                </li>
+            {{end}}
+            </ul>
+            {{else}}
+            <p class="text-muted text-sm">No 'issuewild' records configured.</p>
+            {{end}}
+        </dd>
+    </div>
+
+    <div class="record-section">
+        <dt>'issuemail' Records 📧</dt>
+        <dd class="record-description">Specifies which CAs are authorized to issue S/MIME certificates for email addresses at this domain. <span class="rfc-ref">(<a href="https://datatracker.ietf.org/doc/html/rfc9495#section-3" target="_blank" class="link-muted">RFC 9495 §3</a>)</span></dd>
+        <dd>
+            {{if .DomainResult.IssueMail}}
+            <ul>
+            {{range .DomainResult.IssueMail}}
+                <li>{{.}}</li>
+            {{end}}
+            </ul>
+            {{else}}
+            <p class="text-muted text-sm">No 'issuemail' records configured.</p>
+            {{end}}
+        </dd>
+    </div>
+
+    <div class="record-section">
+        <dt>'iodef' Records 📬</dt>
+        <dd class="record-description">Specifies a URL or email where CAs should report certificate issue requests or issuance. <span class="rfc-ref">(<a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.4" target="_blank" class="link-muted">RFC 8659 §4.4</a>)</span></dd>
+        <dd>
+            {{if .DomainResult.Iodef}}
+            <ul>
+            {{range .DomainResult.Iodef}}
+                <li>{{.}}</li>
+            {{end}}
+            </ul>
+            {{else}}
+            <p class="text-muted text-sm">No 'iodef' records configured.</p>
+            {{end}}
+        </dd>
+    </div>
+
+    <div class="record-section">
+        <dt>'contactemail' Records 📩</dt>
+        <dd class="record-description">Specifies an email address for the domain owner to be contacted about certificate-related issues. <span class="rfc-ref">(<a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.5" target="_blank" class="link-muted">RFC 8659 §4.5</a>)</span></dd>
+        <dd>
+            {{if .DomainResult.ContactEmail}}
+            <ul>
+            {{range .DomainResult.ContactEmail}}
+                <li>{{.}}</li>
+            {{end}}
+            </ul>
+            {{else}}
+            <p class="text-muted text-sm">No 'contactemail' records configured.</p>
+            {{end}}
+        </dd>
+    </div>
+
+    <div class="record-section">
+        <dt>'contactphone' Records 📞</dt>
+        <dd class="record-description">Specifies a phone number for the domain owner to be contacted about certificate-related issues. <span class="rfc-ref">(<a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.6" target="_blank" class="link-muted">RFC 8659 §4.6</a>)</span></dd>
+        <dd>
+            {{if .DomainResult.ContactPhone}}
+            <ul>
+            {{range .DomainResult.ContactPhone}}
+                <li>{{.}}</li>
+            {{end}}
+            </ul>
+            {{else}}
+            <p class="text-muted text-sm">No 'contactphone' records configured.</p>
+            {{end}}
+        </dd>
+    </div>
+
     {{if .DomainResult.Records}}
-    <dt>Raw CAA DNS Response</dt>
-    <dd>
-        <pre>{{range .DomainResult.Records}}{{.}}
+    <div class="record-section">
+        <dt>Raw CAA DNS Response</dt>
+        <dd class="record-description">The complete raw CAA DNS records as returned by the DNS server.</dd>
+        <dd>
+            <pre>{{range .DomainResult.Records}}{{.}}
 {{end}}</pre>
-    </dd>
+        </dd>
+    </div>
     {{end}}
-</dl>
-{{if not (or .DomainResult.Issue .DomainResult.IssueWild .DomainResult.Iodef .DomainResult.Records)}}
+</div>
+{{if not (or .DomainResult.Issue .DomainResult.IssueWild .DomainResult.Iodef .DomainResult.IssueMail .DomainResult.ContactEmail .DomainResult.ContactPhone .DomainResult.Records)}}
 <p>No CAA records found for this domain.</p>
 {{end}}
 {{end}}

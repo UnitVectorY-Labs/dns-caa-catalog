@@ -16,19 +16,34 @@
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-red">{{.Summary.DomainsWithIssue}} ✅</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssue}} ✅</div>
             <div class="text-muted">With 'issue' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssue 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-red">{{.Summary.DomainsWithIssueWild}} ✳️</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueWild}} ✳️</div>
             <div class="text-muted">With 'issuewild' Record</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-blue">{{.Summary.DomainsWithIodef}} 📬</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIodef}} 📬</div>
             <div class="text-muted">With 'iodef' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIodef 100.0) .Summary.TotalDomains)}}</div>
+        </div>
+        <div class="card text-center">
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueMail}} 📧</div>
+            <div class="text-muted">With 'issuemail' Records</div>
+            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueMail 100.0) .Summary.TotalDomains)}}</div>
+        </div>
+        <div class="card text-center">
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactEmail}} 📩</div>
+            <div class="text-muted">With 'contactemail' Records</div>
+            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactEmail 100.0) .Summary.TotalDomains)}}</div>
+        </div>
+        <div class="card text-center">
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactPhone}} 📞</div>
+            <div class="text-muted">With 'contactphone' Records</div>
+            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactPhone 100.0) .Summary.TotalDomains)}}</div>
         </div>
     </div>
 

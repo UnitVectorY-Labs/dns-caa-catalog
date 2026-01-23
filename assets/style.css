@@ -135,6 +135,15 @@ header a h1 {
     z-index: 100;
     padding: 0.25rem 0 0.75rem;
     margin-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.filter-title {
+    font-size: 0.75rem;
+    color: #64748b;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .filter-label {
@@ -144,6 +153,13 @@ header a h1 {
     font-size: 0.85rem;
     color: #475569;
     cursor: pointer;
+    margin-bottom: 0.25rem;
+}
+
+.filter-label-muted {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #e5e7eb;
 }
 
 .filter-label input[type="checkbox"] {
@@ -379,4 +395,51 @@ ul {
 
 li {
     padding: 5px 0;
+}
+
+/* Record sections styling for domain pages */
+.record-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.record-section {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.record-section dt {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 0.25rem;
+    color: #1e3a8a;
+}
+
+.record-section dd {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.record-description {
+    font-size: 0.85rem;
+    color: #64748b;
+    margin-bottom: 0.75rem;
+    font-style: italic;
+}
+
+.rfc-ref {
+    font-size: 0.8rem;
+}
+
+.link-muted {
+    color: #64748b;
+    text-decoration: none;
+}
+
+.link-muted:hover {
+    text-decoration: underline;
+    color: #475569;
 }

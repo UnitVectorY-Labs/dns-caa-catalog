@@ -3,11 +3,36 @@
     <span class="search-icon">&#128269;</span>
 </div>
 <div class="filter-container">
+    <div class="filter-title">Filter by record type:</div>
     <label class="filter-label">
+        <input type="checkbox" id="filterIssue" data-filter="issue">
+        <span>✅ issue</span>
+    </label>
+    <label class="filter-label">
+        <input type="checkbox" id="filterIssueWild" data-filter="issuewild">
+        <span>✳️ issuewild</span>
+    </label>
+    <label class="filter-label">
+        <input type="checkbox" id="filterIodef" data-filter="iodef">
+        <span>📬 iodef</span>
+    </label>
+    <label class="filter-label">
+        <input type="checkbox" id="filterIssueMail" data-filter="issuemail">
+        <span>📧 issuemail</span>
+    </label>
+    <label class="filter-label">
+        <input type="checkbox" id="filterContactEmail" data-filter="contactemail">
+        <span>📩 contactemail</span>
+    </label>
+    <label class="filter-label">
+        <input type="checkbox" id="filterContactPhone" data-filter="contactphone">
+        <span>📞 contactphone</span>
+    </label>
+    <label class="filter-label filter-label-muted">
         <input type="checkbox" id="hideMissingCaa" checked>
         <span>Hide domains without CAA</span>
     </label>
 </div>
 {{range .Results}}
-<a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html" data-has-caa="{{if or .Issue .IssueWild .Iodef .Records}}true{{else}}false{{end}}">{{.Domain}}{{if .Issue}} ✅{{end}}{{if .IssueWild}} ✳️{{end}}{{if .Iodef}} 📬{{end}}</a>
+<a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html" data-has-caa="{{if or .Issue .IssueWild .Iodef .IssueMail .ContactEmail .ContactPhone .Records}}true{{else}}false{{end}}" data-has-issue="{{if .Issue}}true{{else}}false{{end}}" data-has-issuewild="{{if .IssueWild}}true{{else}}false{{end}}" data-has-iodef="{{if .Iodef}}true{{else}}false{{end}}" data-has-issuemail="{{if .IssueMail}}true{{else}}false{{end}}" data-has-contactemail="{{if .ContactEmail}}true{{else}}false{{end}}" data-has-contactphone="{{if .ContactPhone}}true{{else}}false{{end}}">{{.Domain}}{{if .Issue}} ✅{{end}}{{if .IssueWild}} ✳️{{end}}{{if .Iodef}} 📬{{end}}{{if .IssueMail}} 📧{{end}}{{if .ContactEmail}} 📩{{end}}{{if .ContactPhone}} 📞{{end}}</a>
 {{end}}

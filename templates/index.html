@@ -16,7 +16,7 @@
     </div>
     {{template "footer" .}}
     <script>
-    // Function to apply all filters (search and CAA visibility)
+    // Function to apply all filters (search, CAA visibility, and record type filters)
     function applyFilters() {
         const searchInput = document.getElementById('searchInput');
         const hideMissingCaa = document.getElementById('hideMissingCaa');
@@ -25,12 +25,33 @@
         const filter = searchInput ? searchInput.value.toLowerCase() : '';
         const hideNoCaa = hideMissingCaa ? hideMissingCaa.checked : false;
         
+        // Get active record type filters
+        const activeFilters = [];
+        const filterCheckboxes = document.querySelectorAll('.filter-container input[data-filter]');
+        filterCheckboxes.forEach(function(checkbox) {
+            if (checkbox.checked) {
+                activeFilters.push(checkbox.getAttribute('data-filter'));
+            }
+        });
+        
         links.forEach(function(link) {
             const matchesSearch = link.textContent.toLowerCase().includes(filter);
             const hasCaa = link.getAttribute('data-has-caa') === 'true';
             const showForCaa = !hideNoCaa || hasCaa;
             
-            if (matchesSearch && showForCaa) {
+            // Check record type filters
+            let matchesRecordFilter = activeFilters.length === 0; // If no filters, show all
+            if (!matchesRecordFilter) {
+                for (let i = 0; i < activeFilters.length; i++) {
+                    const filterType = activeFilters[i];
+                    if (link.getAttribute('data-has-' + filterType) === 'true') {
+                        matchesRecordFilter = true;
+                        break;
+                    }
+                }
+            }
+            
+            if (matchesSearch && showForCaa && matchesRecordFilter) {
                 link.style.display = 'block';
             } else {
                 link.style.display = 'none';
@@ -42,14 +63,15 @@
     function initializeFilters() {
         const searchInput = document.getElementById('searchInput');
         const hideMissingCaa = document.getElementById('hideMissingCaa');
+        const filterCheckboxes = document.querySelectorAll('.filter-container input[type="checkbox"]');
         
         if (searchInput) {
             searchInput.addEventListener('input', applyFilters);
         }
         
-        if (hideMissingCaa) {
-            hideMissingCaa.addEventListener('change', applyFilters);
-        }
+        filterCheckboxes.forEach(function(checkbox) {
+            checkbox.addEventListener('change', applyFilters);
+        });
         
         // Apply filters immediately to hide domains without CAA by default
         applyFilters();
