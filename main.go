@@ -31,12 +31,15 @@ type CAARecord struct {
 
 // DomainResult represents the CAA lookup result for a domain
 type DomainResult struct {
-	Domain    string   `json:"domain"`
-	Records   []string `json:"records"`
-	Issue     []string `json:"issue"`
-	IssueWild []string `json:"issuewild"`
-	Iodef     []string `json:"iodef"`
-	Error     string   `json:"error,omitempty"`
+	Domain       string   `json:"domain"`
+	Records      []string `json:"records"`
+	Issue        []string `json:"issue"`
+	IssueWild    []string `json:"issuewild"`
+	Iodef        []string `json:"iodef"`
+	IssueMail    []string `json:"issuemail"`
+	ContactEmail []string `json:"contactemail"`
+	ContactPhone []string `json:"contactphone"`
+	Error        string   `json:"error,omitempty"`
 }
 
 // CrawlConfig holds configuration for the crawl command
@@ -56,15 +59,18 @@ type GenerateConfig struct {
 
 // CAASummary holds statistics about CAA records across all domains
 type CAASummary struct {
-	TotalDomains         int
-	DomainsWithCAA       int
-	DomainsWithIssue     int
-	DomainsWithIssueWild int
-	DomainsWithIodef     int
-	IssueStats           map[string]int
-	IssueWildStats       map[string]int
-	SortedIssueStats     []StatEntry
-	SortedIssueWildStats []StatEntry
+	TotalDomains           int
+	DomainsWithCAA         int
+	DomainsWithIssue       int
+	DomainsWithIssueWild   int
+	DomainsWithIodef       int
+	DomainsWithIssueMail   int
+	DomainsWithContactEmail int
+	DomainsWithContactPhone int
+	IssueStats             map[string]int
+	IssueWildStats         map[string]int
+	SortedIssueStats       []StatEntry
+	SortedIssueWildStats   []StatEntry
 }
 
 // CAProviderData holds information about a certificate authority and domains using it
@@ -435,11 +441,14 @@ func processDomainsConcurrently(domains []string, config CrawlConfig) []DomainRe
 
 func lookupCAA(domain string, timeout time.Duration, retries int) DomainResult {
 	result := DomainResult{
-		Domain:    domain,
-		Records:   []string{},
-		Issue:     []string{},
-		IssueWild: []string{},
-		Iodef:     []string{},
+		Domain:       domain,
+		Records:      []string{},
+		Issue:        []string{},
+		IssueWild:    []string{},
+		Iodef:        []string{},
+		IssueMail:    []string{},
+		ContactEmail: []string{},
+		ContactPhone: []string{},
 	}
 
 	var lastErr error
@@ -467,6 +476,12 @@ func lookupCAA(domain string, timeout time.Duration, retries int) DomainResult {
 					result.IssueWild = append(result.IssueWild, parsed.Value)
 				case "iodef":
 					result.Iodef = append(result.Iodef, parsed.Value)
+				case "issuemail":
+					result.IssueMail = append(result.IssueMail, parsed.Value)
+				case "contactemail":
+					result.ContactEmail = append(result.ContactEmail, parsed.Value)
+				case "contactphone":
+					result.ContactPhone = append(result.ContactPhone, parsed.Value)
 				}
 			}
 		}
@@ -476,6 +491,9 @@ func lookupCAA(domain string, timeout time.Duration, retries int) DomainResult {
 		sort.Strings(result.Issue)
 		sort.Strings(result.IssueWild)
 		sort.Strings(result.Iodef)
+		sort.Strings(result.IssueMail)
+		sort.Strings(result.ContactEmail)
+		sort.Strings(result.ContactPhone)
 
 		return result
 	}
@@ -688,10 +706,14 @@ func calculateCAASummary(results []DomainResult) CAASummary {
 	// Use a map to track unique lowercase domains for accurate counting
 	uniqueDomains := make(map[string]bool)
 	domainStats := make(map[string]struct {
-		hasCAA       bool
-		hasIssue     bool
-		hasIssueWild bool
-		uniqueCAs    map[string]bool
+		hasCAA          bool
+		hasIssue        bool
+		hasIssueWild    bool
+		hasIodef        bool
+		hasIssueMail    bool
+		hasContactEmail bool
+		hasContactPhone bool
+		uniqueCAs       map[string]bool
 	})
 
 	summary := CAASummary{
@@ -713,11 +735,19 @@ func calculateCAASummary(results []DomainResult) CAASummary {
 		hasCAA := len(result.Records) > 0
 		hasIssue := len(result.Issue) > 0
 		hasIssueWild := len(result.IssueWild) > 0
+		hasIodef := len(result.Iodef) > 0
+		hasIssueMail := len(result.IssueMail) > 0
+		hasContactEmail := len(result.ContactEmail) > 0
+		hasContactPhone := len(result.ContactPhone) > 0
 
 		// Update domain-level flags (use OR logic for multiple variants)
 		stats.hasCAA = stats.hasCAA || hasCAA
 		stats.hasIssue = stats.hasIssue || hasIssue
 		stats.hasIssueWild = stats.hasIssueWild || hasIssueWild
+		stats.hasIodef = stats.hasIodef || hasIodef
+		stats.hasIssueMail = stats.hasIssueMail || hasIssueMail
+		stats.hasContactEmail = stats.hasContactEmail || hasContactEmail
+		stats.hasContactPhone = stats.hasContactPhone || hasContactPhone
 
 		// Collect CA stats
 		if hasIssue {
@@ -745,7 +775,7 @@ func calculateCAASummary(results []DomainResult) CAASummary {
 
 	// Second pass: calculate final counts based on unique lowercase domains
 	summary.TotalDomains = len(uniqueDomains)
-	for domain, stats := range domainStats {
+	for _, stats := range domainStats {
 		if stats.hasCAA {
 			summary.DomainsWithCAA++
 		}
@@ -755,13 +785,17 @@ func calculateCAASummary(results []DomainResult) CAASummary {
 		if stats.hasIssueWild {
 			summary.DomainsWithIssueWild++
 		}
-		// Count iodef
-		// Find the original DomainResult for this domain
-		for _, result := range results {
-			if strings.ToLower(result.Domain) == domain && len(result.Iodef) > 0 {
-				summary.DomainsWithIodef++
-				break
-			}
+		if stats.hasIodef {
+			summary.DomainsWithIodef++
+		}
+		if stats.hasIssueMail {
+			summary.DomainsWithIssueMail++
+		}
+		if stats.hasContactEmail {
+			summary.DomainsWithContactEmail++
+		}
+		if stats.hasContactPhone {
+			summary.DomainsWithContactPhone++
 		}
 	}
 
