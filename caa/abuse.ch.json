@@ -16,5 +16,8 @@
     "globalsign.com",
     "swisssign.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

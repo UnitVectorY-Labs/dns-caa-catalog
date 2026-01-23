@@ -15,5 +15,8 @@
   ],
   "iodef": [
     "mailto:certs@mist.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

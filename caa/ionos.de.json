@@ -26,5 +26,8 @@
     "sectigo.com",
     "telesec.de"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

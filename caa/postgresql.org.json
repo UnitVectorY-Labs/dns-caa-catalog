@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:hostmaster@postgresql.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

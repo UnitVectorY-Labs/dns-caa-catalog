@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:hostmaster@onthe.io"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

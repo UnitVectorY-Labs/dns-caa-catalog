@@ -20,5 +20,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@tunein.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

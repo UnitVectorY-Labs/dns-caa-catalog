@@ -9,5 +9,8 @@
     "pki.goog; validationmethods=dns-01"
   ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

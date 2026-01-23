@@ -20,5 +20,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:url@ae.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

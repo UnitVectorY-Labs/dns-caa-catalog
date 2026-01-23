@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:aws.ops@doist.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

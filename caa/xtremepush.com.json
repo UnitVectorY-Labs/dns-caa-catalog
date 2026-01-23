@@ -18,5 +18,8 @@
     "godaddy.com",
     "letsencrypt.org"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

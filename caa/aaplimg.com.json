@@ -13,5 +13,8 @@
   ],
   "iodef": [
     "mailto:contact_pki@apple.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

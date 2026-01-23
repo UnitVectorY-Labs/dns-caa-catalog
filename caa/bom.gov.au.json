@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:certs@bom.gov.au"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

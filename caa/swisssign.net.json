@@ -11,5 +11,10 @@
   "issuewild": [],
   "iodef": [
     "mailto:postmaster@swisssign.com"
-  ]
+  ],
+  "issuemail": [
+    "swisssign.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

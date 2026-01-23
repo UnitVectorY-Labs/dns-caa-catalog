@@ -12,5 +12,8 @@
   "issuewild": [
     "www.digicert.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

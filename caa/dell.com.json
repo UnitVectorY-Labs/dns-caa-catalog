@@ -11,5 +11,10 @@
   "issuewild": [],
   "iodef": [
     "mailto:pkiadmin@dell.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [
+    "pkiadmin@dell.com"
+  ],
+  "contactphone": []
 }

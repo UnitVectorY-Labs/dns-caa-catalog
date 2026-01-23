@@ -13,5 +13,8 @@
   ],
   "iodef": [
     "mailto:abuse@odoo.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

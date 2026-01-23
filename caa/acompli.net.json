@@ -15,5 +15,10 @@
   "issuewild": [],
   "iodef": [
     "mailto:olmops@microsoft.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [
+    "caarecordaware@microsoft.com"
+  ],
+  "contactphone": []
 }

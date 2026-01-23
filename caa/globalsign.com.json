@@ -13,5 +13,10 @@
   "issuewild": [],
   "iodef": [
     "mailto:report-abuse@globalsign.com"
-  ]
+  ],
+  "issuemail": [
+    "globalsign.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

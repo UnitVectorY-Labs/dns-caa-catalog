@@ -28,5 +28,8 @@
   "iodef": [
     "mailto:domains@fandom.com",
     "mailto:ops-l@fandom.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

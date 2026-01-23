@@ -12,5 +12,10 @@
   "issuewild": [
     "letsencrypt.org"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [
+    ";"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

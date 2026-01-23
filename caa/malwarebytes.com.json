@@ -19,5 +19,8 @@
     "pki.goog; cansignhttpexchanges=yes"
   ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

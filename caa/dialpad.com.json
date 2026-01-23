@@ -19,5 +19,8 @@
   ],
   "iodef": [
     "mailto:dns-admin@dialpad.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

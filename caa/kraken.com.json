@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:certificate-abuse@kraken.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -10,5 +10,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:caa-violations@salesforce.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

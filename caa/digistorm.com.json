@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:service-monitor@digistorm.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

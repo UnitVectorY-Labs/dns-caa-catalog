@@ -22,5 +22,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:hostmaster@ooma.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

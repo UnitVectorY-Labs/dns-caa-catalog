@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:CertificateManagement@yum.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

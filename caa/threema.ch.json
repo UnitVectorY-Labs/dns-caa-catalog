@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@threema.ch"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

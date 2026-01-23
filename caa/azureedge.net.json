@@ -19,5 +19,10 @@
     "digicert.com",
     "microsoft.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [
+    "caarecordaware@microsoft.com"
+  ],
+  "contactphone": []
 }

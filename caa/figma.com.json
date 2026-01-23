@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@figma.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

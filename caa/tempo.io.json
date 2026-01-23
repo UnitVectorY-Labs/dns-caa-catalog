@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@tempo.io"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

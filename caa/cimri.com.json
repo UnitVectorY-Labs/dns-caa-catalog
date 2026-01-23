@@ -30,5 +30,8 @@
     "pki.goog; cansignhttpexchanges=yes",
     "ssl.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

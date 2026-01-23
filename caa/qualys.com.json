@@ -29,5 +29,8 @@
   ],
   "iodef": [
     "digicert.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

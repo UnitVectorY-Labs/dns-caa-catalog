@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@here.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

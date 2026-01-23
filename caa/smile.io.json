@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@smile.io"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

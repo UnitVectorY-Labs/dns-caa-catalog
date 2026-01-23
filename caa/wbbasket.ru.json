@@ -30,5 +30,8 @@
     "trust-provider.com",
     "usertrust.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

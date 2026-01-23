@@ -29,5 +29,8 @@
   ],
   "iodef": [
     "mailto:security@onesignal.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

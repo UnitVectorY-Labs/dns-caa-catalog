@@ -13,5 +13,8 @@
   ],
   "iodef": [
     "mailto:caa@reports.dnswl.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

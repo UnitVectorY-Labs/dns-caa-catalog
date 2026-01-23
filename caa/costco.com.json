@@ -9,5 +9,8 @@
     "digicert.com"
   ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

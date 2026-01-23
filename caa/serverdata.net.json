@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:hostmaster@serverdata.net"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

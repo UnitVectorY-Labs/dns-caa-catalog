@@ -17,5 +17,8 @@
   "iodef": [
     "https://www.konami.com/",
     "mailto:mpki_ssl@konami.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

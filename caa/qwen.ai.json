@@ -10,5 +10,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:certificate-transparency@list.alibaba-inc.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -28,5 +28,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:foxsec+caaiodef@mozilla.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

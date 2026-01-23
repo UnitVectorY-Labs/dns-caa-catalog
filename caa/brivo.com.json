@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:operations#caa-notification@brivo.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

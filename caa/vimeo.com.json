@@ -24,5 +24,8 @@
     "letsencrypt.org",
     "pki.goog; cansignhttpexchanges=yes"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

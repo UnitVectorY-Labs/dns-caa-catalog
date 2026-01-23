@@ -24,5 +24,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:infra@split.io"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

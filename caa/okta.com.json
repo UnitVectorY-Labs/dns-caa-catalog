@@ -25,5 +25,8 @@
   "iodef": [
     "mailto:ops@okta.com",
     "mailto:security-alert@okta.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

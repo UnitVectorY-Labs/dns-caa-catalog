@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:domain@alarm.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -16,5 +16,8 @@
     "amazon.com",
     "letsencrypt.org"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

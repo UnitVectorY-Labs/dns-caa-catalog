@@ -10,5 +10,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:caa-reports@goteleport.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

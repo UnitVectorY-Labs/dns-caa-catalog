@@ -35,5 +35,8 @@
   ],
   "iodef": [
     "mailto:hostmaster@isc.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

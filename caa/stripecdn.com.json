@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:caa-violations@stripe.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

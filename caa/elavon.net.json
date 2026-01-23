@@ -17,5 +17,8 @@
   "iodef": [
     "mailto:certificateservicesshared@usbank.com",
     "mailto:domainadmin@usbank.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

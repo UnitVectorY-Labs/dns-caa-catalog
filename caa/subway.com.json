@@ -26,5 +26,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:sysadmin@subway.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:hostmaster@slack-corp.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

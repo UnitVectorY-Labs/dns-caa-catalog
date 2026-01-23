@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:infra+caa-iodef@docker.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

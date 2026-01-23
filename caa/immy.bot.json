@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:support@immy.bot"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -22,5 +22,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:admin@dns.sb"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

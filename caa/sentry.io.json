@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@sentry.io"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

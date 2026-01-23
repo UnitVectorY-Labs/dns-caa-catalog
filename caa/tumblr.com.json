@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:content-delivery+caa@tumblr.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

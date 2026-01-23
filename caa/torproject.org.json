@@ -17,5 +17,8 @@
   ],
   "iodef": [
     "mailto:torproject-admin@torproject.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

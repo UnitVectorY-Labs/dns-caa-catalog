@@ -14,5 +14,8 @@
     "letsencrypt.org",
     "pki.goog"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

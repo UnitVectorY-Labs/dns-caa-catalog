@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:infrastructure-staff@python.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

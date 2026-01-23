@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:hostmaster@fedex.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@lyft.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

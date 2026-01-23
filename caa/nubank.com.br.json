@@ -29,5 +29,8 @@
   ],
   "iodef": [
     "mailto:certificates@nubank.com.br"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

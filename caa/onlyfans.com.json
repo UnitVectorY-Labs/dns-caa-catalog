@@ -26,5 +26,8 @@
     "digicert.com; cansignhttpexchanges=yes",
     "letsencrypt.org"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -3,5 +3,8 @@
   "records": [],
   "issue": [],
   "issuewild": [],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

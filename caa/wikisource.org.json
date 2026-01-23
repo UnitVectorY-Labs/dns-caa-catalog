@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:dns-admin@wikimedia.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

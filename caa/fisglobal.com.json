@@ -12,5 +12,8 @@
   "issuewild": [
     "sectigo.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

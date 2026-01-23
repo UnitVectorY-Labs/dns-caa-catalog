@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:it-cert-admin@redhat.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -5,5 +5,10 @@
   ],
   "issue": [],
   "issuewild": [],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [
+    "DMAHyperScaleCompute@microsoft.com"
+  ],
+  "contactphone": []
 }

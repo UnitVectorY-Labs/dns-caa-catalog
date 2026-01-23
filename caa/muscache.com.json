@@ -10,5 +10,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:caa-alerts@airbnb.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -20,5 +20,10 @@
   ],
   "iodef": [
     "mailto:caa-reports@icann.org"
-  ]
+  ],
+  "issuemail": [
+    "sectigo.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

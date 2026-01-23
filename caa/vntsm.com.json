@@ -9,5 +9,8 @@
     "letsencrypt.org",
     "sectigo.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

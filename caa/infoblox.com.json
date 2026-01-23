@@ -28,5 +28,10 @@
     "amazon.com",
     "digicert.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [
+    "digicert.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

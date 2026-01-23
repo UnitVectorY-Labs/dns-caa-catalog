@@ -10,5 +10,8 @@
   "issuewild": [
     "pki.goog"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

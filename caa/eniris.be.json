@@ -20,5 +20,10 @@
   "iodef": [
     "info@eniris.be",
     "sectigo.com"
-  ]
+  ],
+  "issuemail": [
+    "sectigo.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

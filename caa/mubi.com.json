@@ -20,5 +20,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:abuse@mubi.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -19,5 +19,8 @@
   ],
   "iodef": [
     "mailto:postmaster@batch.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

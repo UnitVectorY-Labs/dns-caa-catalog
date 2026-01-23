@@ -16,5 +16,8 @@
   "iodef": [
     "mailto:mail@heinlein-support.de",
     "mailto:security@heinlein-support.de"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

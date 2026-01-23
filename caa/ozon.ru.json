@@ -26,5 +26,10 @@
   ],
   "iodef": [
     "mailto:security@ozon.ru"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [
+    "security@ozon.ru"
+  ],
+  "contactphone": []
 }

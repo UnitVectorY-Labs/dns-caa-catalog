@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:root@apache.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

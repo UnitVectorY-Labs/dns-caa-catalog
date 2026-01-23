@@ -29,5 +29,8 @@
   ],
   "iodef": [
     "mailto:administrative.contact@sabre.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

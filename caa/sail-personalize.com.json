@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:zones@sailthru.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -31,5 +31,11 @@
   ],
   "iodef": [
     "mailto:caa@dm.de"
-  ]
+  ],
+  "issuemail": [
+    "sectigo.com",
+    "swisssign.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

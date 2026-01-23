@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@getstream.io"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@nutanix.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

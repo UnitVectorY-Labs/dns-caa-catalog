@@ -24,5 +24,12 @@
   ],
   "iodef": [
     "mailto:ing.certificate.management@ing.com"
-  ]
+  ],
+  "issuemail": [
+    "ica.cz",
+    "identrust.com",
+    "swisssign.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -30,5 +30,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:infra-core@picsart.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

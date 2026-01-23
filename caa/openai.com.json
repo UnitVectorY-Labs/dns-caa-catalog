@@ -28,5 +28,8 @@
     "pki.goog; cansignhttpexchanges=yes",
     "sectigo.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

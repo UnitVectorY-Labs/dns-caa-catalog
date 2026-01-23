@@ -19,5 +19,8 @@
   ],
   "iodef": [
     "mailto:cert-notification@jcrew.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

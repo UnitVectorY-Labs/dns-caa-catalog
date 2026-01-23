@@ -10,5 +10,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@netlify.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

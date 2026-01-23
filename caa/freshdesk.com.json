@@ -18,5 +18,8 @@
     "amazontrust.com",
     "pki.goog"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

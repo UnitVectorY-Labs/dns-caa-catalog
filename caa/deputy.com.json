@@ -26,5 +26,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:devops.admin@deputy.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@proton.me"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

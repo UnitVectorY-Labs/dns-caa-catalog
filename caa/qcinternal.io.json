@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:netsec-notifications@quantcast.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

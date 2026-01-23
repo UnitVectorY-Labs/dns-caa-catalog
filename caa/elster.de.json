@@ -20,5 +20,10 @@
   ],
   "iodef": [
     "mailto:hostmaster@elster.de"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [
+    "hostmaster@elster.de"
+  ],
+  "contactphone": []
 }

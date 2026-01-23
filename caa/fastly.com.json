@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@fastly.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

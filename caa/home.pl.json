@@ -18,5 +18,8 @@
   "issuewild": [
     "certum.pl"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -19,5 +19,8 @@
   ],
   "iodef": [
     "mailto:is-admin@canonical.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

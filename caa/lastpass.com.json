@@ -12,5 +12,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:domain@lastpass.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

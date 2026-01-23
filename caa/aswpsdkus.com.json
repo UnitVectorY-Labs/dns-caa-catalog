@@ -10,5 +10,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@urbanairship.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

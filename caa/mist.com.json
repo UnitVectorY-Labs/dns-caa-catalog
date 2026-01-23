@@ -16,5 +16,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:certs@mistsys.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

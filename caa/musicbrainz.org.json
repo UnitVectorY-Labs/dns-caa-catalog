@@ -18,5 +18,8 @@
     "digicert.com",
     "sectigo.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

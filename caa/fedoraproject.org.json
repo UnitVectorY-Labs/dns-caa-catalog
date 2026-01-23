@@ -19,5 +19,8 @@
   ],
   "iodef": [
     "mailto:admin@fedoraproject.org"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -34,5 +34,8 @@
     "entrust.net",
     "godaddy.com"
   ],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

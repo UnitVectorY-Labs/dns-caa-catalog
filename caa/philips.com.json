@@ -28,5 +28,11 @@
   "issuewild": [],
   "iodef": [
     "mailto:ca.administrator@philips.com"
-  ]
+  ],
+  "issuemail": [
+    "digicert.com",
+    "ica.cz"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

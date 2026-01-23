@@ -23,5 +23,10 @@
   "issuewild": [],
   "iodef": [
     "mailto:ipladmin@shell.com"
-  ]
+  ],
+  "issuemail": [
+    "digicert.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
 }

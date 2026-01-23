@@ -14,5 +14,10 @@
     "sectigo.com"
   ],
   "issuewild": [],
-  "iodef": []
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [
+    "ccs_certificate_services@truist.com"
+  ],
+  "contactphone": []
 }

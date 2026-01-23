@@ -20,5 +20,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@zoom.us"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

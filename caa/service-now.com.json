@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:domains-infrastructure@servicenow.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

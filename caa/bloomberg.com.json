@@ -15,5 +15,8 @@
   ],
   "iodef": [
     "mailto:reportvuln@bloomberg.net"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

@@ -30,5 +30,8 @@
   "iodef": [
     "caa-notify@cpanel.net",
     "mailto:caa-notify@cpanel.net"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

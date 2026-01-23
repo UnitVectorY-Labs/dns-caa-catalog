@@ -14,5 +14,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:security@smartsheet.com"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }

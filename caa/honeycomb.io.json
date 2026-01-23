@@ -18,5 +18,8 @@
   "issuewild": [],
   "iodef": [
     "mailto:support@honeycomb.io"
-  ]
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
 }
