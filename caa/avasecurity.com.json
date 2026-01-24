@@ -4,11 +4,13 @@
     "0 iodef \"mailto:security@avasecurity.com\"",
     "0 issue \"amazontrust.com\"",
     "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
     "0 issue \"pki.goog\""
   ],
   "issue": [
     "amazontrust.com",
     "digicert.com",
+    "globalsign.com",
     "pki.goog"
   ],
   "issuewild": [],
