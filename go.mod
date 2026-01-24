@@ -2,7 +2,7 @@ module github.com/UnitVectorY-Labs/dns-caa-catalog
 
 go 1.25.6 // GOVERSION
 
-require github.com/miekg/dns v1.1.70
+require github.com/miekg/dns v1.1.72
 
 require (
 	golang.org/x/mod v0.31.0 // indirect
