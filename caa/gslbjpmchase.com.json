@@ -1,12 +1,12 @@
 {
-  "domain": "npr.org",
+  "domain": "gslbjpmchase.com",
   "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazontrust.com\""
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\""
   ],
   "issue": [
-    "amazon.com",
-    "amazontrust.com"
+    "digicert.com",
+    "entrust.net"
   ],
   "issuewild": [],
   "iodef": [],

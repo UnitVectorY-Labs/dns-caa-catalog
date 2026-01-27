@@ -1,0 +1,29 @@
+{
+  "domain": "musixmatch.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"godaddy.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "globalsign.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "globalsign.com",
+    "godaddy.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

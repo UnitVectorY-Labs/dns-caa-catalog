@@ -1,12 +1,10 @@
 {
-  "domain": "npr.org",
+  "domain": "tf4srv.com",
   "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazontrust.com\""
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
-    "amazon.com",
-    "amazontrust.com"
+    "letsencrypt.org"
   ],
   "issuewild": [],
   "iodef": [],

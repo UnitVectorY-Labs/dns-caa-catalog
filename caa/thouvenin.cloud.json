@@ -1,12 +1,10 @@
 {
-  "domain": "npr.org",
+  "domain": "thouvenin.cloud",
   "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazontrust.com\""
+    "128 issue \"letsencrypt.org\""
   ],
   "issue": [
-    "amazon.com",
-    "amazontrust.com"
+    "letsencrypt.org"
   ],
   "issuewild": [],
   "iodef": [],

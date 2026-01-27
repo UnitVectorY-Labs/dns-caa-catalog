@@ -1,12 +1,10 @@
 {
-  "domain": "npr.org",
+  "domain": "optimum.net",
   "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazontrust.com\""
+    "0 issue \"sectigo.com\""
   ],
   "issue": [
-    "amazon.com",
-    "amazontrust.com"
+    "sectigo.com"
   ],
   "issuewild": [],
   "iodef": [],

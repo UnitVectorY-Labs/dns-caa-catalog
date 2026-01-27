@@ -1,12 +1,10 @@
 {
-  "domain": "npr.org",
+  "domain": "pinterest.ca",
   "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazontrust.com\""
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\""
   ],
   "issue": [
-    "amazon.com",
-    "amazontrust.com"
+    "digicert.com; cansignhttpexchanges=yes"
   ],
   "issuewild": [],
   "iodef": [],

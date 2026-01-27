@@ -1,12 +1,12 @@
 {
-  "domain": "npr.org",
+  "domain": "mega.io",
   "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazontrust.com\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
   ],
   "issue": [
-    "amazon.com",
-    "amazontrust.com"
+    "letsencrypt.org",
+    "sectigo.com"
   ],
   "issuewild": [],
   "iodef": [],

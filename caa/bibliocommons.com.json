@@ -1,0 +1,30 @@
+{
+  "domain": "bibliocommons.com",
+  "records": [
+    "0 iodef \"mailto:its+caa@bibliocommons.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"awstrust.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "awstrust.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:its+caa@bibliocommons.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

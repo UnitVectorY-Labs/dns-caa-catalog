@@ -1,0 +1,31 @@
+{
+  "domain": "emory.edu",
+  "records": [
+    "128 issue \"amazon.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"globalsign.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"pki.goog\"",
+    "128 issue \"sectigo.com\"",
+    "128 issue \"ssl.com\"",
+    "128 issuewild \"amazon.com\"",
+    "128 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "sectigo.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
