@@ -1,8 +1,35 @@
 {
   "domain": "letsencrypt.org",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issue \"www.digicert.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\"",
+    "0 issuewild \"www.digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com",
+    "www.digicert.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com",
+    "www.digicert.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
