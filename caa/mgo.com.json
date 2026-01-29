@@ -1,10 +1,12 @@
 {
   "domain": "mgo.com",
   "records": [
+    "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"sectigo.com\""
   ],
   "issue": [
+    "amazon.com",
     "digicert.com",
     "sectigo.com"
   ],

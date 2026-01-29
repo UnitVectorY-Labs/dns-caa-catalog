@@ -3,6 +3,7 @@
   "records": [
     "0 iodef \"mailto:security@nutanix.com\"",
     "0 issue \"amazon.com\"",
+    "0 issue \"certainly.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
@@ -10,6 +11,7 @@
   ],
   "issue": [
     "amazon.com",
+    "certainly.com",
     "digicert.com",
     "letsencrypt.org",
     "pki.goog",
