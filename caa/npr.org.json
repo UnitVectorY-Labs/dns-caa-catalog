@@ -1,13 +1,7 @@
 {
   "domain": "npr.org",
-  "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazontrust.com\""
-  ],
-  "issue": [
-    "amazon.com",
-    "amazontrust.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
