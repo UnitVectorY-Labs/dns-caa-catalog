@@ -922,16 +922,24 @@ func generate(config GenerateConfig) error {
 		return fmt.Errorf("failed to generate nav snippet: %v", err)
 	}
 
+	// Collect providers first for cross-linking
+	providers := collectCAProviders(results)
+
+	// Build a set of monitored domains for cross-linking
+	monitoredDomains := make(map[string]bool)
+	for _, result := range results {
+		monitoredDomains[result.Domain] = true
+	}
+
 	// Generate domain pages and snippets
 	for _, result := range results {
-		if err := generateDomainPageAndSnippet(config.OutputDir, result, results, domainTmpl, snippetTmpl); err != nil {
+		if err := generateDomainPageAndSnippet(config.OutputDir, result, results, providers, domainTmpl, snippetTmpl); err != nil {
 			log.Printf("Failed to generate page for %s: %v", result.Domain, err)
 		}
 	}
 
 	// Generate provider pages and snippets
-	providers := collectCAProviders(results)
-	if err := generateProviderPagesAndSnippets(config.OutputDir, providers, providerTmpl, providerSnippetTmpl); err != nil {
+	if err := generateProviderPagesAndSnippets(config.OutputDir, providers, monitoredDomains, providerTmpl, providerSnippetTmpl); err != nil {
 		return fmt.Errorf("failed to generate provider pages: %v", err)
 	}
 
@@ -1043,21 +1051,29 @@ func generateIndex(outputDir string, results []DomainResult, summary CAASummary,
 	return nil
 }
 
-func generateDomainPageAndSnippet(outputDir string, result DomainResult, allResults []DomainResult, domainTmpl, snippetTmpl *template.Template) error {
+func generateDomainPageAndSnippet(outputDir string, result DomainResult, allResults []DomainResult, providers map[string]*CAProviderData, domainTmpl, snippetTmpl *template.Template) error {
 	timestamp := readCrawlTimestamp(filepath.Dir(outputDir))
 	pageGen := time.Now().UTC().Format(time.RFC3339)
+
+	// Check if this domain is also a CA provider
+	normalizedDomain := normalizeCAName(result.Domain)
+	isCAProvider := providers[normalizedDomain] != nil
 
 	templateData := struct {
 		Timestamp     string
 		PageGenerated string
 		DomainResult  DomainResult
 		Results       []DomainResult
+		IsCAProvider  bool
+		NormalizedCA  string
 		Content       template.HTML
 	}{
 		Timestamp:     timestamp,
 		PageGenerated: pageGen,
 		DomainResult:  result,
 		Results:       allResults,
+		IsCAProvider:  isCAProvider,
+		NormalizedCA:  normalizedDomain,
 	}
 
 	// Generate the snippet first
@@ -1085,20 +1101,25 @@ func generateDomainPageAndSnippet(outputDir string, result DomainResult, allResu
 	return domainTmpl.Execute(file, templateData)
 }
 
-func generateProviderPagesAndSnippets(outputDir string, providers map[string]*CAProviderData, providerTmpl, providerSnippetTmpl *template.Template) error {
+func generateProviderPagesAndSnippets(outputDir string, providers map[string]*CAProviderData, monitoredDomains map[string]bool, providerTmpl, providerSnippetTmpl *template.Template) error {
 	timestamp := readCrawlTimestamp(filepath.Dir(outputDir))
 	pageGen := time.Now().UTC().Format(time.RFC3339)
 
 	for normalizedCA, provider := range providers {
+		// Check if this CA is also a monitored domain
+		isDomainMonitored := monitoredDomains[provider.CA]
+
 		templateData := struct {
-			Timestamp     string
-			PageGenerated string
-			Provider      *CAProviderData
-			Content       template.HTML
+			Timestamp         string
+			PageGenerated     string
+			Provider          *CAProviderData
+			IsDomainMonitored bool
+			Content           template.HTML
 		}{
-			Timestamp:     timestamp,
-			PageGenerated: pageGen,
-			Provider:      provider,
+			Timestamp:         timestamp,
+			PageGenerated:     pageGen,
+			Provider:          provider,
+			IsDomainMonitored: isDomainMonitored,
 		}
 
 		// Generate the snippet first

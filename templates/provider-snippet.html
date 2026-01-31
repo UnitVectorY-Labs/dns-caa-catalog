@@ -1,4 +1,18 @@
-<h2 class="title-large">Certificate Authority: {{.Provider.CA}}</h2>
+<div class="page-header page-header-ca">
+    <h2 class="page-header-title">{{.Provider.CA}}</h2>
+    <div class="page-header-subtitle">Certificate Authority</div>
+</div>
+{{if .IsDomainMonitored}}
+<div class="cross-link-section">
+    <span class="cross-link-icon">🔗</span>
+    <span class="cross-link-text">This CA is also a monitored domain.</span>
+    <a href="/{{.Provider.CA}}.html" 
+       hx-get="/snippets/{{.Provider.CA}}.html" 
+       hx-target="#content" 
+       hx-push-url="/{{.Provider.CA}}.html" 
+       class="cross-link-button">View Domain Page →</a>
+</div>
+{{end}}
 
 <div class="summary-box">
     <h3 class="mt-0 text-primary">Summary</h3>
@@ -18,12 +32,12 @@
     </div>
 </div>
 
-<div class="grid-two-col">
-    {{if .Provider.IssueDomains}}
-    <div>
-        <h3 class="text-primary mb-1">Domains with 'issue' Records</h3>
-        <div class="table-border">
-            <div>
+<div class="summary-box">
+    <div class="grid-two-col">
+        {{if .Provider.IssueDomains}}
+        <div>
+            <h4 class="text-primary mb-05">✅ Domains with 'issue' Records</h4>
+            <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
                         <tr class="table-header">
@@ -42,14 +56,12 @@
                 </table>
             </div>
         </div>
-    </div>
-    {{end}}
+        {{end}}
 
-    {{if .Provider.WildDomains}}
-    <div>
-        <h3 class="text-primary mb-1">Domains with 'issuewild' Records</h3>
-        <div class="table-border">
-            <div>
+        {{if .Provider.WildDomains}}
+        <div>
+            <h4 class="text-primary mb-05">✳️ Domains with 'issuewild' Records</h4>
+            <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
                         <tr class="table-header">
@@ -68,8 +80,8 @@
                 </table>
             </div>
         </div>
+        {{end}}
     </div>
-    {{end}}
 </div>
 
 {{if not (or .Provider.IssueDomains .Provider.WildDomains)}}
