@@ -1,8 +1,24 @@
-<h2 class="title-large">{{.DomainResult.Domain}}</h2>
+<div class="page-header page-header-domain">
+    <h2 class="page-header-title">{{.DomainResult.Domain}}</h2>
+    <div class="page-header-subtitle">Domain CAA Records</div>
+</div>
+{{if .IsCAProvider}}
+<div class="cross-link-section">
+    <span class="cross-link-icon">🔗</span>
+    <span class="cross-link-text">This domain is also a Certificate Authority.</span>
+    <a href="/providers/{{.NormalizedCA}}.html" 
+       hx-get="/snippets/providers/{{.NormalizedCA}}.html" 
+       hx-target="#content" 
+       hx-push-url="/providers/{{.NormalizedCA}}.html" 
+       class="cross-link-button">View CA Page →</a>
+</div>
+{{end}}
 {{if .DomainResult.Error}}
 <div class="error">Error: {{.DomainResult.Error}}</div>
 {{else}}
-<div class="records-table-wrapper">
+<div class="summary-box">
+    <h3 class="mt-0 text-primary">CAA Records</h3>
+    <div class="records-table-wrapper">
     <table class="records-table">
         <tbody>
             <tr class="record-row">
@@ -123,11 +139,12 @@
             </tr>
         </tbody>
     </table>
+    </div>
 </div>
 
 {{if .DomainResult.Records}}
-<div class="raw-records-section">
-    <h3 class="raw-records-title">Raw CAA DNS Response</h3>
+<div class="summary-box">
+    <h3 class="mt-0 text-primary">Raw CAA DNS Response</h3>
     <pre class="raw-records-content">{{range .DomainResult.Records}}{{.}}
 {{end}}</pre>
 </div>
