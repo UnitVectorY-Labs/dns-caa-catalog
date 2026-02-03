@@ -1,0 +1,21 @@
+{
+  "domain": "myheritage.com",
+  "records": [
+    "0 issue \"www.digicert.com\"",
+    "0 issuewild \"www.digicert.com\"",
+    "10 issue \"globalsign.com\"",
+    "10 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "www.digicert.com"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "www.digicert.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

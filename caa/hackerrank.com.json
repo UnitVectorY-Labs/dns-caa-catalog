@@ -1,0 +1,27 @@
+{
+  "domain": "hackerrank.com",
+  "records": [
+    "0 iodef \"mailto:security@hackerrank.com\"",
+    "0 issue \"Digicert.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "Digicert.com",
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@hackerrank.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

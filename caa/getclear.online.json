@@ -1,0 +1,14 @@
+{
+  "domain": "getclear.online",
+  "records": [
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
