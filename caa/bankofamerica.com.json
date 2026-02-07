@@ -3,15 +3,15 @@
   "records": [
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
-    "0 issue \"entrust.net\"",
     "0 issue \"pki.goog\"",
+    "0 issue \"secitgo.com\"",
     "0 issue \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
     "digicert.com",
-    "entrust.net",
     "pki.goog",
+    "secitgo.com",
     "ssl.com"
   ],
   "issuewild": [],
