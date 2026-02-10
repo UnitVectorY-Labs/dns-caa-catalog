@@ -1,0 +1,22 @@
+{
+  "domain": "jku.at",
+  "records": [
+    "0 iodef \"mailto:tcs@jku.at\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "harica.gr",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:tcs@jku.at"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

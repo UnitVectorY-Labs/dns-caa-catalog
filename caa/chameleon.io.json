@@ -1,0 +1,26 @@
+{
+  "domain": "chameleon.io",
+  "records": [
+    "0 iodef \"mailto:caa-reports@chameleon.io\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazonaws.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "comodoca.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazonaws.com"
+  ],
+  "iodef": [
+    "mailto:caa-reports@chameleon.io"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

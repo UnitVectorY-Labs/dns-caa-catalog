@@ -1,0 +1,20 @@
+{
+  "domain": "integrityline.com",
+  "records": [
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazontrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

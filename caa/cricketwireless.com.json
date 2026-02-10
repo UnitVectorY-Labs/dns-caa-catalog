@@ -1,0 +1,14 @@
+{
+  "domain": "cricketwireless.com",
+  "records": [
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

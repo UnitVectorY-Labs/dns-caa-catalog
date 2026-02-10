@@ -1,0 +1,21 @@
+{
+  "domain": "csfd.cz",
+  "records": [
+    "0 iodef \"mailto:security@csfd.cz\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@csfd.cz"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

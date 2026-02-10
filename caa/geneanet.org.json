@@ -1,0 +1,33 @@
+{
+  "domain": "geneanet.org",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes",
+    "sectigo.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

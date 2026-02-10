@@ -1,0 +1,23 @@
+{
+  "domain": "digistorm.com",
+  "records": [
+    "0 iodef \"mailto:service-monitor@digistorm.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"trust-provider.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "trust-provider.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:service-monitor@digistorm.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
