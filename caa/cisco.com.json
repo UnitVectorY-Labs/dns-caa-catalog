@@ -8,10 +8,10 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"ssl.com\"",
-    "1 Issuewild \"digicert.com\"",
-    "1 iodef \"mailto:infosec@cisco.com\"",
-    "1 issuewild \"identrust.com\"",
-    "1 issuewild \"ssl.com\""
+    "128 iodef \"mailto:infosec@cisco.com\"",
+    "128 issuewild \"digicert.com\"",
+    "128 issuewild \"identrust.com\"",
+    "128 issuewild \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
@@ -23,6 +23,7 @@
     "ssl.com"
   ],
   "issuewild": [
+    "digicert.com",
     "identrust.com",
     "ssl.com"
   ],
