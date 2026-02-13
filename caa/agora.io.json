@@ -7,7 +7,9 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
-    "0 issue \"trust-provider.com\""
+    "0 issue \"trust-provider.com\"",
+    "0 issue \"trustasia.com\"",
+    "0 issuewild \"trustasia.com\""
   ],
   "issue": [
     "amazon.com",
@@ -16,9 +18,12 @@
     "letsencrypt.org",
     "pki.goog",
     "sectigo.com",
-    "trust-provider.com"
+    "trust-provider.com",
+    "trustasia.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "trustasia.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
