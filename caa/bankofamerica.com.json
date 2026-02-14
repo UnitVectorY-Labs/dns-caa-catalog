@@ -4,14 +4,14 @@
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"pki.goog\"",
-    "0 issue \"secitgo.com\"",
+    "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
     "digicert.com",
     "pki.goog",
-    "secitgo.com",
+    "sectigo.com",
     "ssl.com"
   ],
   "issuewild": [],

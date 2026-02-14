@@ -6,6 +6,5 @@
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
-  "contactphone": [],
-  "error": "read udp 10.244.0.72:52710-\u003e8.8.8.8:53: i/o timeout"
+  "contactphone": []
 }
