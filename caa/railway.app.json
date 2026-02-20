@@ -6,6 +6,7 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issue \"ssl.com\"",
+    "0 issuewild \"certainly.com\"",
     "0 issuewild \"comodoca.com\"",
     "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
     "0 issuewild \"letsencrypt.org\"",
@@ -20,6 +21,7 @@
     "ssl.com"
   ],
   "issuewild": [
+    "certainly.com",
     "comodoca.com",
     "digicert.com; cansignhttpexchanges=yes",
     "letsencrypt.org",
