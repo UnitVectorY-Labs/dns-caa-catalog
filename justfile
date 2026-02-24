@@ -5,7 +5,9 @@ port := "8000"
 site := "http://localhost:" + port
 html_dir := "output"
 
-default: build
+# List all available commands
+default:
+  @just --list
 
 # Build
 build:
