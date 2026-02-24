@@ -4,10 +4,12 @@
 {{template "header" $PageName}}
 <body>
     <header>
+        <button class="nav-toggle" onclick="toggleNav()" aria-label="Toggle navigation">&#9776;</button>
         <a href="/index.html" hx-get="/snippets/home.html" hx-target="#content" hx-push-url="/index.html"><h1>DNS CAA Catalog</h1></a>
     </header>
+    <div class="nav-overlay" id="navOverlay" onclick="toggleNav()"></div>
     <div class="container">
-        <nav class="left-panel" hx-get="/snippets/nav.html" hx-trigger="load" hx-swap="innerHTML">
+        <nav class="left-panel" id="leftPanel" hx-get="/snippets/nav.html" hx-trigger="load" hx-swap="innerHTML">
             <!-- Navigation will be loaded here via HTMX -->
         </nav>
         <main class="right-panel" id="content">
@@ -44,6 +46,20 @@
         // Also initialize on page load (fallback)
         document.addEventListener('DOMContentLoaded', function() {
             setTimeout(initializeSearch, 100);
+        });
+
+        // Mobile navigation toggle
+        function toggleNav() {
+            document.getElementById('leftPanel').classList.toggle('open');
+            document.getElementById('navOverlay').classList.toggle('open');
+        }
+
+        // Close nav when a link in the left panel is clicked (mobile)
+        document.addEventListener('click', function(event) {
+            if (event.target.closest('.left-panel a')) {
+                document.getElementById('leftPanel').classList.remove('open');
+                document.getElementById('navOverlay').classList.remove('open');
+            }
         });
     </script>
 </body>
