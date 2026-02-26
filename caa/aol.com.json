@@ -2,10 +2,18 @@
   "domain": "aol.com",
   "records": [
     "0 iodef \"mailto:security@yahooinc.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\""
   ],
   "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
     "digicert.com",
     "globalsign.com"
   ],
