@@ -1,14 +1,14 @@
 {
   "domain": "azure-devices.net",
   "records": [
-    "0 contactemail \"DMAHyperScaleCompute@microsoft.com\""
+    "0 contactemail \"caarecordaware@microsoft.com\""
   ],
   "issue": [],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [
-    "DMAHyperScaleCompute@microsoft.com"
+    "caarecordaware@microsoft.com"
   ],
   "contactphone": []
 }
