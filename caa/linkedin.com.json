@@ -1,14 +1,16 @@
 {
   "domain": "linkedin.com",
   "records": [
-    "0 contactemail \"caarecordaware@microsoft.com\""
+    "0 contactemail \"caarecordaware@microsoft.com\"",
+    "0 contactemail \"tls-alerts@linkedin.com\""
   ],
   "issue": [],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [
-    "caarecordaware@microsoft.com"
+    "caarecordaware@microsoft.com",
+    "tls-alerts@linkedin.com"
   ],
   "contactphone": []
 }

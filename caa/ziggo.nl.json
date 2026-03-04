@@ -1,7 +1,7 @@
 {
   "domain": "ziggo.nl",
   "records": [
-    "0 iodef \"mailto:pki@libertyglobal.com\"",
+    "0 iodef \"mailto:digitaldomainoffice@vodafoneziggo.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issuewild \";\""
@@ -14,7 +14,7 @@
     ";"
   ],
   "iodef": [
-    "mailto:pki@libertyglobal.com"
+    "mailto:digitaldomainoffice@vodafoneziggo.com"
   ],
   "issuemail": [],
   "contactemail": [],
