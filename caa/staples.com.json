@@ -2,12 +2,10 @@
   "domain": "staples.com",
   "records": [
     "0 iodef \"mailto:ecams@staples.com\"",
-    "0 issue \"amazontrust.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\""
   ],
   "issue": [
-    "amazontrust.com",
     "digicert.com",
     "letsencrypt.org"
   ],
