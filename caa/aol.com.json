@@ -7,7 +7,8 @@
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
     "0 issue \"digicert.com\"",
-    "0 issue \"globalsign.com\""
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
     "amazon.com",
@@ -15,7 +16,8 @@
     "amazontrust.com",
     "awstrust.com",
     "digicert.com",
-    "globalsign.com"
+    "globalsign.com",
+    "letsencrypt.org"
   ],
   "issuewild": [],
   "iodef": [
