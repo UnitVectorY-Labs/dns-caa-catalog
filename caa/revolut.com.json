@@ -8,9 +8,11 @@
     "0 issue \"e-szigno.hu\"",
     "0 issue \"fnmt.es\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"mastercard.com\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\"",
+    "0 issue \"visa.com\"",
     "0 issuewild \"digicert.com\""
   ],
   "issue": [
@@ -20,9 +22,11 @@
     "e-szigno.hu",
     "fnmt.es",
     "letsencrypt.org",
+    "mastercard.com",
     "pki.goog",
     "sectigo.com",
-    "ssl.com"
+    "ssl.com",
+    "visa.com"
   ],
   "issuewild": [
     "digicert.com"
