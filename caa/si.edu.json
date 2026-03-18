@@ -1,14 +1,12 @@
 {
   "domain": "si.edu",
   "records": [
-    "0 issue \"amazonaws.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\""
   ],
   "issue": [
-    "amazonaws.com",
     "letsencrypt.org",
     "pki.goog; cansignhttpexchanges=yes",
     "sectigo.com",
