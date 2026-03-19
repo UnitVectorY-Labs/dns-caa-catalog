@@ -10,6 +10,7 @@
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issuewild \"amazon.com\"",
+    "0 issuewild \"certainly.com\"",
     "0 issuewild \"comodoca.com\"",
     "0 issuewild \"digicert.com\"",
     "0 issuewild \"letsencrypt.org\""
@@ -25,6 +26,7 @@
   ],
   "issuewild": [
     "amazon.com",
+    "certainly.com",
     "comodoca.com",
     "digicert.com",
     "letsencrypt.org"

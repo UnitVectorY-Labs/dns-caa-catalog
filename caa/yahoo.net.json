@@ -3,11 +3,13 @@
   "records": [
     "0 iodef \"mailto:security@yahooinc.com\"",
     "0 issue \"digicert.com\"",
-    "0 issue \"globalsign.com\""
+    "0 issue \"globalsign.com\"",
+    "0 issue \"sectigo.com\""
   ],
   "issue": [
     "digicert.com",
-    "globalsign.com"
+    "globalsign.com",
+    "sectigo.com"
   ],
   "issuewild": [],
   "iodef": [
