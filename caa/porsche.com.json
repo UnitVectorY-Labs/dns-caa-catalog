@@ -6,8 +6,7 @@
     "0 issue \"digicert.com\"",
     "0 issue \"quovadisglobal.com\"",
     "0 issue \"sectigo.com\"",
-    "0 issuewild \"digicert.com\"",
-    "0 issuewild \"quovadisglobal.com\""
+    "0 issuewild \";\""
   ],
   "issue": [
     "amazon.com",
@@ -16,8 +15,7 @@
     "sectigo.com"
   ],
   "issuewild": [
-    "digicert.com",
-    "quovadisglobal.com"
+    ";"
   ],
   "iodef": [
     "mailto:certadm@porsche.de"
