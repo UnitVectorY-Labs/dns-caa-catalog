@@ -1,10 +1,35 @@
 {
   "domain": "brave.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
-  "issuemail": [],
+  "records": [
+    "0 iodef \"mailto:security@brave.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuemail \";\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:security@brave.com"
+  ],
+  "issuemail": [
+    ";"
+  ],
   "contactemail": [],
   "contactphone": []
 }

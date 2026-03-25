@@ -1,6 +1,7 @@
 {
   "domain": "sprint.com",
   "records": [
+    "0 iodef \"mailto:pki-admin@t-mobile.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"entrust.net\"",
     "0 issue \"letsencrypt.org\"",
@@ -18,7 +19,9 @@
     "digicert.com",
     "letsencrypt.org"
   ],
-  "iodef": [],
+  "iodef": [
+    "mailto:pki-admin@t-mobile.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
