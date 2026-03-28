@@ -1,0 +1,25 @@
+name: dns-caa-catalog
+default_branch: main
+config:
+  description: "A Go CLI tool for tracking and publishing CAA (Certificate Authority Authorization) DNS records."
+  license: MIT
+  language: go
+  release: release-go
+  justfile: true
+  codecov: false
+  gitignore: [
+    "output"
+  ]
+  clip4llm:
+    exclude: [
+      "output",
+      "data",
+      "caa"
+    ]
+  repver:
+    goversion:
+      paths: [
+        ".github/workflows/dns-caa-catalog-crawl.yml",
+        ".github/workflows/dns-caa-catalog-update.yml",
+        ".github/workflows/go-pages-deploy.yml"
+      ]

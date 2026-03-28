@@ -1,33 +1,12 @@
-# Justfile
 
-# Config
-port := "8000"
-site := "http://localhost:" + port
-html_dir := "output"
-
-# List all available commands
+# Commands for dns-caa-catalog
 default:
   @just --list
-
-# Build
+# Build dns-caa-catalog with Go
 build:
-  go build .
+  go build ./...
 
-# Run tests
+# Run tests for dns-caa-catalog with Go
 test:
+  go clean -testcache
   go test ./...
-
-# Site generation
-gen:
-  WEBSITE="{{site}}" go run . -generate
-
-# Local preview
-serve:
-  python3 -m http.server {{port}} --directory {{html_dir}}
-
-# Open site in browser
-open:
-  open "{{site}}"
-
-# Generate and view the site
-preview: gen open serve
