@@ -3,11 +3,13 @@
   "records": [
     "0 iodef \"mailto:security@figma.com\"",
     "0 issue \"amazonaws.com\"",
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\""
   ],
   "issue": [
     "amazonaws.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
   ],
   "issuewild": [],
   "iodef": [
