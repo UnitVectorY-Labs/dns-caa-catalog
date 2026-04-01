@@ -1,16 +1,9 @@
 {
   "domain": "usda.gov",
-  "records": [
-    "0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"",
-    "0 issue \"digicert.com\""
-  ],
-  "issue": [
-    "digicert.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
-  "iodef": [
-    "mailto:icam_as_notify@ocio.usda.gov"
-  ],
+  "iodef": [],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
