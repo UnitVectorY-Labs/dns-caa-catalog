@@ -2,23 +2,29 @@
   "domain": "terra.com.br",
   "records": [
     "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
     "0 issuemail \"digicert.com\"",
+    "0 issuemail \"letsencrypt.org\"",
     "0 issuemail \"sectigo.com\"",
     "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
     "digicert.com",
+    "letsencrypt.org",
     "sectigo.com"
   ],
   "issuewild": [
     "digicert.com",
+    "letsencrypt.org",
     "sectigo.com"
   ],
   "iodef": [],
   "issuemail": [
     "digicert.com",
+    "letsencrypt.org",
     "sectigo.com"
   ],
   "contactemail": [],
