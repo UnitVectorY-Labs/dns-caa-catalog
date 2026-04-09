@@ -1,12 +1,17 @@
 {
   "domain": "sd-rtn.com",
   "records": [
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com\""
   ],
   "issue": [
+    "digicert.com",
     "letsencrypt.org"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "digicert.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

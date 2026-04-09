@@ -1,11 +1,7 @@
 {
   "domain": "google.sr",
-  "records": [
-    "0 issue \"pki.goog\""
-  ],
-  "issue": [
-    "pki.goog"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
