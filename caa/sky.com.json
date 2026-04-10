@@ -1,15 +1,8 @@
 {
   "domain": "sky.com",
-  "records": [
-    "0 issue \"sectigo.com\"",
-    "0 issuewild \"sectigo.com\""
-  ],
-  "issue": [
-    "sectigo.com"
-  ],
-  "issuewild": [
-    "sectigo.com"
-  ],
+  "records": [],
+  "issue": [],
+  "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

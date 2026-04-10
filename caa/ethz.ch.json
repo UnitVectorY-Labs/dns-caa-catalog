@@ -10,6 +10,7 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"quovadisglobal.com\"",
+    "0 issue \"sectigo.com\"",
     "0 issuewild \"digicert.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\"",
@@ -23,7 +24,8 @@
     "digicert.com",
     "letsencrypt.org",
     "pki.goog",
-    "quovadisglobal.com"
+    "quovadisglobal.com",
+    "sectigo.com"
   ],
   "issuewild": [
     "digicert.com",
