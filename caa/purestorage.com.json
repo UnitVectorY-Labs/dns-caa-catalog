@@ -8,6 +8,10 @@
     "0 issue \"cloudflare.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\"",
     "0 issuewild \"cloudflare.com\"",
     "0 issuewild \"digicert.com\""
   ],
@@ -21,6 +25,10 @@
     "letsencrypt.org"
   ],
   "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
     "cloudflare.com",
     "digicert.com"
   ],

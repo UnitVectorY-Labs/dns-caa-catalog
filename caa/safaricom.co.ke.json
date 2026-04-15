@@ -1,8 +1,15 @@
 {
   "domain": "safaricom.co.ke",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

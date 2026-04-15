@@ -3,12 +3,10 @@
   "records": [
     "0 iodef \"mailto:abuse@odoo.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"sectigo.com\"",
     "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
-    "letsencrypt.org",
-    "sectigo.com"
+    "letsencrypt.org"
   ],
   "issuewild": [
     "letsencrypt.org"
