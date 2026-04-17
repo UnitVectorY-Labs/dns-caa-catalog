@@ -2,11 +2,13 @@
   "domain": "sendgrid.net",
   "records": [
     "0 issue \"amazonaws.com\"",
-    "0 issue \"godaddy.com\""
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
     "amazonaws.com",
-    "godaddy.com"
+    "godaddy.com",
+    "letsencrypt.org"
   ],
   "issuewild": [],
   "iodef": [],
