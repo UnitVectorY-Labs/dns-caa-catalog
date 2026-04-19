@@ -1,9 +1,16 @@
 {
   "domain": "ngfiles.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 iodef \"mailto:support@newgrounds.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:support@newgrounds.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
