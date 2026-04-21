@@ -3,6 +3,7 @@
   "records": [
     "0 iodef \"mailto:ameba_tools+crt@cyberagent.co.jp\"",
     "0 issue \"amazon.com\"",
+    "0 issue \"certainly.com\"",
     "0 issue \"cybertrust.ne.jp\"",
     "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
     "0 issue \"globalsign.com\"",
@@ -10,6 +11,7 @@
   ],
   "issue": [
     "amazon.com",
+    "certainly.com",
     "cybertrust.ne.jp",
     "digicert.com; cansignhttpexchanges=yes",
     "globalsign.com",

@@ -3,11 +3,13 @@
   "records": [
     "0 iodef \"mailto:domains@mercadolibre.com\"",
     "0 issue \"amazon.com\"",
-    "0 issue \"digicert.com\""
+    "0 issue \"digicert.com\"",
+    "0 issue \"visa.com\""
   ],
   "issue": [
     "amazon.com",
-    "digicert.com"
+    "digicert.com",
+    "visa.com"
   ],
   "issuewild": [],
   "iodef": [

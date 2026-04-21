@@ -2,10 +2,10 @@
   "domain": "seznam.cz",
   "records": [
     "0 iodef \"mailto:abuse-caa@firma.seznam.cz\"",
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org;validationmethods=dns-01\""
   ],
   "issue": [
-    "letsencrypt.org"
+    "letsencrypt.org;validationmethods=dns-01"
   ],
   "issuewild": [],
   "iodef": [

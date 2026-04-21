@@ -3,6 +3,7 @@
   "records": [
     "0 iodef \"mailto:caa-reports@chameleon.io\"",
     "0 issue \"amazonaws.com\"",
+    "0 issue \"certainly.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
@@ -10,6 +11,7 @@
   ],
   "issue": [
     "amazonaws.com",
+    "certainly.com",
     "comodoca.com",
     "globalsign.com",
     "letsencrypt.org"
