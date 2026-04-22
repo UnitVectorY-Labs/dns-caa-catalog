@@ -1,19 +1,8 @@
 {
   "domain": "cmecloud.cn",
-  "records": [
-    "0 issue \"globalsign.com\"",
-    "0 issue \"sheca.com\"",
-    "0 issuewild \"globalsign.com\"",
-    "0 issuewild \"sheca.com\""
-  ],
-  "issue": [
-    "globalsign.com",
-    "sheca.com"
-  ],
-  "issuewild": [
-    "globalsign.com",
-    "sheca.com"
-  ],
+  "records": [],
+  "issue": [],
+  "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
