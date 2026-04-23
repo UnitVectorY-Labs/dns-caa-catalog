@@ -1,15 +1,15 @@
 {
   "domain": "aswpsdkus.com",
   "records": [
-    "0 iodef \"mailto:security@urbanairship.com\"",
-    "0 issue \"digicert.com\""
+    "0 iodef \"mailto:caa@airship.com\"",
+    "0 issue \"pki.goog\""
   ],
   "issue": [
-    "digicert.com"
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:security@urbanairship.com"
+    "mailto:caa@airship.com"
   ],
   "issuemail": [],
   "contactemail": [],
