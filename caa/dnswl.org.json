@@ -3,6 +3,8 @@
   "records": [
     "0 iodef \"mailto:caa@reports.dnswl.org\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issuemail \";\"",
+    "0 issuevmc \";\"",
     "0 issuewild \";\""
   ],
   "issue": [
@@ -14,7 +16,9 @@
   "iodef": [
     "mailto:caa@reports.dnswl.org"
   ],
-  "issuemail": [],
+  "issuemail": [
+    ";"
+  ],
   "contactemail": [],
   "contactphone": []
 }
