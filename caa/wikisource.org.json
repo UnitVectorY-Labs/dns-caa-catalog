@@ -1,9 +1,20 @@
 {
   "domain": "wikisource.org",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 iodef \"mailto:dns-admin@wikimedia.org\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:dns-admin@wikimedia.org"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
