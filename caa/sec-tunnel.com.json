@@ -1,0 +1,24 @@
+{
+  "domain": "sec-tunnel.com",
+  "records": [
+    "0 iodef \"mailto:abuse@hernlabs.se\"",
+    "0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105\"",
+    "0 issuemail \";\"",
+    "0 issuevmc \";\"",
+    "0 issuewild \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105"
+  ],
+  "issuewild": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105"
+  ],
+  "iodef": [
+    "mailto:abuse@hernlabs.se"
+  ],
+  "issuemail": [
+    ";"
+  ],
+  "contactemail": [],
+  "contactphone": []
+}

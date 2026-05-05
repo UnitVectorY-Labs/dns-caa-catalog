@@ -1,0 +1,21 @@
+{
+  "domain": "playground.ru",
+  "records": [
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

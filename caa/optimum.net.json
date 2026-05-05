@@ -1,0 +1,14 @@
+{
+  "domain": "optimum.net",
+  "records": [
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

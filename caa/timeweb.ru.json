@@ -1,0 +1,17 @@
+{
+  "domain": "timeweb.ru",
+  "records": [
+    "0 iodef \"mailto:abuse@timeweb.ru\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:abuse@timeweb.ru"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

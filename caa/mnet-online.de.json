@@ -1,0 +1,22 @@
+{
+  "domain": "mnet-online.de",
+  "records": [
+    "0 issue \"certum.pl\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "128 issue \"comodoca.com\"",
+    "128 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "certum.pl",
+    "comodoca.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

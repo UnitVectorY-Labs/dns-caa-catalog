@@ -1,0 +1,19 @@
+{
+  "domain": "icecat.biz",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

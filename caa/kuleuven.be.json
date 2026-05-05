@@ -1,0 +1,19 @@
+{
+  "domain": "kuleuven.be",
+  "records": [
+    "0 iodef \"mailto:abuse@kuleuven.be\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "harica.gr",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:abuse@kuleuven.be"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -1,0 +1,29 @@
+{
+  "domain": "uco.es",
+  "records": [
+    "0 issue \"fnmt.es\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "fnmt.es",
+    "harica.gr",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "harica.gr",
+    "sectigo.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

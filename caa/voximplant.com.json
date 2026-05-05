@@ -1,0 +1,29 @@
+{
+  "domain": "voximplant.com",
+  "records": [
+    "0 iodef \"mailto:usik@voximplant.com\"",
+    "0 issue \";\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    ";",
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "globalsign.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:usik@voximplant.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

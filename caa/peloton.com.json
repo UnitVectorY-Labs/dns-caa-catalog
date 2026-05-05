@@ -1,0 +1,18 @@
+{
+  "domain": "peloton.com",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "digicert.com",
+    "entrust.net",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
