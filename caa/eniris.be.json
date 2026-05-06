@@ -3,6 +3,7 @@
   "records": [
     "0 iodef \"info@eniris.be\"",
     "0 iodef \"sectigo.com\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issuemail \"sectigo.com\"",
     "0 issuewild \"letsencrypt.org\"",
@@ -11,6 +12,7 @@
   ],
   "issue": [
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [
