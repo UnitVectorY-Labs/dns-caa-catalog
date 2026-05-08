@@ -1,9 +1,20 @@
 {
   "domain": "ekb.eg",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 iodef \"mailto:Admin@ekb.eg\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "godaddy.com"
+  ],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:Admin@ekb.eg"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
