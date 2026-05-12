@@ -1,0 +1,16 @@
+{
+  "domain": "motive.co",
+  "records": [
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazontrust.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

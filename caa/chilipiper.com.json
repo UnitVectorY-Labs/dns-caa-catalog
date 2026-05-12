@@ -1,0 +1,32 @@
+{
+  "domain": "chilipiper.com",
+  "records": [
+    "0 iodef \"mailto:admin@chilipiper.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"gogetssl.com\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "gogetssl.com",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:admin@chilipiper.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

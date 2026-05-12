@@ -1,0 +1,27 @@
+{
+  "domain": "who.int",
+  "records": [
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "awstrust.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
