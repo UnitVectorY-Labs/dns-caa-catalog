@@ -3,11 +3,13 @@
   "records": [
     "0 iodef \"mailto:domain@lastpass.com\"",
     "0 issue \"amazon.com\"",
-    "0 issue \"globalsign.com\""
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\""
   ],
   "issue": [
     "amazon.com",
-    "globalsign.com"
+    "globalsign.com",
+    "pki.goog; cansignhttpexchanges=yes"
   ],
   "issuewild": [],
   "iodef": [

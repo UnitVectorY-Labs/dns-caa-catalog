@@ -7,12 +7,14 @@
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"amazonaws.com\"",
     "0 issuewild \"amazontrust.com\"",
     "0 issuewild \"awstrust.com\"",
     "0 issuewild \"letsencrypt.com\"",
+    "0 issuewild \"pki.goog\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
@@ -22,6 +24,7 @@
     "amazontrust.com",
     "awstrust.com",
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [
@@ -30,6 +33,7 @@
     "amazontrust.com",
     "awstrust.com",
     "letsencrypt.com",
+    "pki.goog",
     "sectigo.com"
   ],
   "iodef": [],
