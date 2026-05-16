@@ -1,9 +1,18 @@
 {
   "domain": "js7k.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 iodef \"mailto:security@yahooinc.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "globalsign.com"
+  ],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:security@yahooinc.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
