@@ -1,0 +1,20 @@
+{
+  "domain": "aast.edu",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issuemail \"digicert.com\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [],
+  "issuemail": [
+    "digicert.com"
+  ],
+  "contactemail": [],
+  "contactphone": []
+}

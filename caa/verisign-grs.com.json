@@ -1,11 +1,9 @@
 {
   "domain": "verisign-grs.com",
   "records": [
-    "0 issue \"amazonaws.com\"",
     "0 issue \"digicert.com\""
   ],
   "issue": [
-    "amazonaws.com",
     "digicert.com"
   ],
   "issuewild": [],

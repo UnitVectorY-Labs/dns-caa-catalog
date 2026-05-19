@@ -1,0 +1,33 @@
+{
+  "domain": "sonetel.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "comodoca.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

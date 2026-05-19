@@ -1,0 +1,28 @@
+{
+  "domain": "overheid.nl",
+  "records": [
+    "0 iodef \"mailto:systemteam@logius.nl\"",
+    "0 issue \"certsign.ro\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "certsign.ro",
+    "digicert.com",
+    "letsencrypt.org",
+    "quovadisglobal.com",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:systemteam@logius.nl"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
