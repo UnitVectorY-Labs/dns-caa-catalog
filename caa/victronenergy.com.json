@@ -5,7 +5,7 @@
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
-    "0 issuewild \"sectigo.com\""
+    "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
     "amazonaws.com",
@@ -14,7 +14,7 @@
     "sectigo.com"
   ],
   "issuewild": [
-    "sectigo.com"
+    "letsencrypt.org"
   ],
   "iodef": [],
   "issuemail": [],

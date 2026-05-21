@@ -12,7 +12,8 @@
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issuemail \"digicert.com\"",
-    "0 issuemail \"ica.cz\""
+    "0 issuemail \"ica.cz\"",
+    "0 issuemail \"sectigo.com\""
   ],
   "issue": [
     "amazon.com",
@@ -31,7 +32,8 @@
   ],
   "issuemail": [
     "digicert.com",
-    "ica.cz"
+    "ica.cz",
+    "sectigo.com"
   ],
   "contactemail": [],
   "contactphone": []
