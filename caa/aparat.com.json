@@ -1,0 +1,25 @@
+{
+  "domain": "aparat.com",
+  "records": [
+    "0 issue \"certum.pl\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"certum.pl\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "certum.pl",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "certum.pl",
+    "digicert.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -2,11 +2,13 @@
   "domain": "ozon.kz",
   "records": [
     "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issuewild \"globalsign.com\"",
     "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
-    "globalsign.com"
+    "globalsign.com",
+    "letsencrypt.org"
   ],
   "issuewild": [
     "globalsign.com",

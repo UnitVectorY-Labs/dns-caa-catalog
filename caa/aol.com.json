@@ -1,7 +1,7 @@
 {
   "domain": "aol.com",
   "records": [
-    "0 iodef \"mailto:security@yahooinc.com\"",
+    "0 iodef \"mailto:security@teamaol.com\"",
     "0 issue \"amazon.com\"",
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
@@ -21,7 +21,7 @@
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:security@yahooinc.com"
+    "mailto:security@teamaol.com"
   ],
   "issuemail": [],
   "contactemail": [],
