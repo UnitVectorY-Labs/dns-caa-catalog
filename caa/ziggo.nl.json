@@ -4,11 +4,13 @@
     "0 iodef \"mailto:digitaldomainoffice@vodafoneziggo.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
+    "0 issue \"sectigo.com\"",
     "0 issuewild \";\""
   ],
   "issue": [
     "digicert.com",
-    "globalsign.com"
+    "globalsign.com",
+    "sectigo.com"
   ],
   "issuewild": [
     ";"
