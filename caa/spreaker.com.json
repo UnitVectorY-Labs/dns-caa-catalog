@@ -4,14 +4,12 @@
     "0 iodef \"mailto:operations@spreaker.com\"",
     "0 issue \"Digicert.com\"",
     "0 issue \"amazon.com\"",
-    "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"rapidssl.com\""
   ],
   "issue": [
     "Digicert.com",
     "amazon.com",
-    "globalsign.com",
     "letsencrypt.org",
     "rapidssl.com"
   ],
