@@ -59,18 +59,18 @@ type GenerateConfig struct {
 
 // CAASummary holds statistics about CAA records across all domains
 type CAASummary struct {
-	TotalDomains           int
-	DomainsWithCAA         int
-	DomainsWithIssue       int
-	DomainsWithIssueWild   int
-	DomainsWithIodef       int
-	DomainsWithIssueMail   int
+	TotalDomains            int
+	DomainsWithCAA          int
+	DomainsWithIssue        int
+	DomainsWithIssueWild    int
+	DomainsWithIodef        int
+	DomainsWithIssueMail    int
 	DomainsWithContactEmail int
 	DomainsWithContactPhone int
-	IssueStats             map[string]int
-	IssueWildStats         map[string]int
-	SortedIssueStats       []StatEntry
-	SortedIssueWildStats   []StatEntry
+	IssueStats              map[string]int
+	IssueWildStats          map[string]int
+	SortedIssueStats        []StatEntry
+	SortedIssueWildStats    []StatEntry
 }
 
 // CAProviderData holds information about a certificate authority and domains using it
@@ -567,8 +567,8 @@ func writeResult(outputDir string, result DomainResult) error {
 
 func cleanCAValue(caValue string) string {
 	// Remove everything after the first semicolon
-	if idx := strings.Index(caValue, ";"); idx != -1 {
-		result := caValue[:idx]
+	if before, _, ok := strings.Cut(caValue, ";"); ok {
+		result := before
 		// Return empty string if the result is empty or just whitespace
 		return strings.TrimSpace(result)
 	}
@@ -685,7 +685,7 @@ func collectCAProviders(results []DomainResult) map[string]*CAProviderData {
 	return providers
 }
 
-func toFloat64(v interface{}) float64 {
+func toFloat64(v any) float64 {
 	switch val := v.(type) {
 	case int:
 		return float64(val)
@@ -856,10 +856,10 @@ func generate(config GenerateConfig) error {
 
 	// Parse templates with custom functions
 	funcMap := template.FuncMap{
-		"mul": func(a, b interface{}) float64 {
+		"mul": func(a, b any) float64 {
 			return toFloat64(a) * toFloat64(b)
 		},
-		"div": func(a, b interface{}) float64 {
+		"div": func(a, b any) float64 {
 			va, vb := toFloat64(a), toFloat64(b)
 			if vb == 0 {
 				return 0
