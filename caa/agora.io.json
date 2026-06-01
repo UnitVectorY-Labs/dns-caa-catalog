@@ -10,6 +10,7 @@
     "0 issue \"trust-provider.com\"",
     "0 issue \"trustasia.com\"",
     "0 issuewild \"digicert.com\"",
+    "0 issuewild \"godaddy.com\"",
     "0 issuewild \"trustasia.com\""
   ],
   "issue": [
@@ -24,6 +25,7 @@
   ],
   "issuewild": [
     "digicert.com",
+    "godaddy.com",
     "trustasia.com"
   ],
   "iodef": [],
