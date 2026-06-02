@@ -1,0 +1,28 @@
+{
+  "domain": "embrapa.br",
+  "records": [
+    "0 iodef \"mailto:abuse@embrapa.br\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"lencr.org\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"lencr.org\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "lencr.org",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "lencr.org",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:abuse@embrapa.br"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -13,7 +13,8 @@
     "0 issue \"sectigo.com\"",
     "0 issuemail \"digicert.com\"",
     "0 issuemail \"ica.cz\"",
-    "0 issuemail \"sectigo.com\""
+    "0 issuemail \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
   ],
   "issue": [
     "amazon.com",
@@ -26,7 +27,9 @@
     "pki.goog",
     "sectigo.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "sectigo.com"
+  ],
   "iodef": [
     "mailto:ca.administrator@philips.com"
   ],

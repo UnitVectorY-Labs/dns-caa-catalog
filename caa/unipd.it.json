@@ -1,0 +1,30 @@
+{
+  "domain": "unipd.it",
+  "records": [
+    "0 iodef \"mailto:admin.certificati@unipd.it\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"harica.gr\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "harica.gr",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "harica.gr"
+  ],
+  "iodef": [
+    "mailto:admin.certificati@unipd.it"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

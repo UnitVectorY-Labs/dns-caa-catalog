@@ -1,0 +1,27 @@
+{
+  "domain": "uji.es",
+  "records": [
+    "0 issue \"accv.es\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"harica.gr\""
+  ],
+  "issue": [
+    "accv.es",
+    "digicert.com",
+    "harica.gr",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "harica.gr"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

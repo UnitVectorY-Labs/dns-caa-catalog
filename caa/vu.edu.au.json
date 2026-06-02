@@ -1,0 +1,24 @@
+{
+  "domain": "vu.edu.au",
+  "records": [
+    "0 iodef \"mailto:cert-admin@vu.edu.au\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"quovadisglobal.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "quovadisglobal.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "quovadisglobal.com"
+  ],
+  "iodef": [
+    "mailto:cert-admin@vu.edu.au"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

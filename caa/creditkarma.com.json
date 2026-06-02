@@ -3,10 +3,12 @@
   "records": [
     "0 iodef \"mailto:domains-caa@creditkarma.com\"",
     "0 issue \"digicert.com\"",
+    "0 issue \"pki.goog\"",
     "0 issuewild \"digicert.com\""
   ],
   "issue": [
-    "digicert.com"
+    "digicert.com",
+    "pki.goog"
   ],
   "issuewild": [
     "digicert.com"
