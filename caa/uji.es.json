@@ -2,6 +2,10 @@
   "domain": "uji.es",
   "records": [
     "0 issue \"accv.es\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
@@ -11,6 +15,10 @@
   ],
   "issue": [
     "accv.es",
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
     "digicert.com",
     "harica.gr",
     "letsencrypt.org",
