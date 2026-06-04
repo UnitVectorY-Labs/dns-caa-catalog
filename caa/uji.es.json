@@ -11,6 +11,10 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\"",
     "0 issuewild \"harica.gr\""
   ],
   "issue": [
@@ -26,6 +30,10 @@
     "sectigo.com"
   ],
   "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
     "harica.gr"
   ],
   "iodef": [],
