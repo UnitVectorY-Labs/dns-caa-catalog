@@ -6,13 +6,15 @@
     "0 issue \"awstrust.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"microsoft.com\""
+    "0 issue \"microsoft.com\"",
+    "0 issue \"pki.goog\""
   ],
   "issue": [
     "awstrust.com",
     "digicert.com",
     "letsencrypt.org",
-    "microsoft.com"
+    "microsoft.com",
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": [

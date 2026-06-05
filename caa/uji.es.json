@@ -6,11 +6,9 @@
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
-    "0 issue \"digicert.com\"",
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
-    "0 issue \"sectigo.com\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"amazonaws.com\"",
     "0 issuewild \"amazontrust.com\"",
@@ -23,11 +21,9 @@
     "amazonaws.com",
     "amazontrust.com",
     "awstrust.com",
-    "digicert.com",
     "harica.gr",
     "letsencrypt.org",
-    "pki.goog",
-    "sectigo.com"
+    "pki.goog"
   ],
   "issuewild": [
     "amazon.com",
