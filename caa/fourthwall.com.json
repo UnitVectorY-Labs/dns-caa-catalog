@@ -1,0 +1,30 @@
+{
+  "domain": "fourthwall.com",
+  "records": [
+    "0 iodef \"mailto:security@fourthwall.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"pki.goog\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "iodef": [
+    "mailto:security@fourthwall.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

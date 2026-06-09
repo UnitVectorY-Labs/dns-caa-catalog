@@ -1,0 +1,16 @@
+{
+  "domain": "brew.sh",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
