@@ -5,19 +5,23 @@
     "0 iodef \"mailto:security@ozon.ru\"",
     "0 issue \"emsign.com\"",
     "0 issue \"globalsign.com\"",
+    "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issuewild \"emsign.com\"",
     "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"harica.gr\"",
     "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
     "emsign.com",
     "globalsign.com",
+    "harica.gr",
     "letsencrypt.org"
   ],
   "issuewild": [
     "emsign.com",
     "globalsign.com",
+    "harica.gr",
     "letsencrypt.org"
   ],
   "iodef": [

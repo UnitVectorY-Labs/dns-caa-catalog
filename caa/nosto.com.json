@@ -2,6 +2,7 @@
   "domain": "nosto.com",
   "records": [
     "0 issue \"amazon.com\"",
+    "0 issue \"certainly.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
@@ -11,6 +12,7 @@
   ],
   "issue": [
     "amazon.com",
+    "certainly.com",
     "comodoca.com",
     "digicert.com",
     "digicert.com; cansignhttpexchanges=yes",
