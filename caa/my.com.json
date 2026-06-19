@@ -3,12 +3,14 @@
   "records": [
     "0 issue \"geotrust.com\"",
     "0 issue \"globalsign.com\"",
-    "0 issue \"harica.gr\""
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
     "geotrust.com",
     "globalsign.com",
-    "harica.gr"
+    "harica.gr",
+    "letsencrypt.org"
   ],
   "issuewild": [],
   "iodef": [],
