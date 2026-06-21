@@ -1,7 +1,11 @@
 {
   "domain": "msvdn.net",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"thawte.com\""
+  ],
+  "issue": [
+    "thawte.com"
+  ],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
