@@ -1,0 +1,16 @@
+{
+  "domain": "telewebion.ir",
+  "records": [
+    "0 issuewild \"actalis.it\"",
+    "0 issuewild \"certum.pl\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "actalis.it",
+    "certum.pl"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

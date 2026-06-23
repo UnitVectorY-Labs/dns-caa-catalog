@@ -2,13 +2,17 @@
   "domain": "sbis.ru",
   "records": [
     "0 issue \"globalsign.com\"",
-    "0 issuewild \"globalsign.com\""
+    "0 issue \"harica.gr\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"harica.gr\""
   ],
   "issue": [
-    "globalsign.com"
+    "globalsign.com",
+    "harica.gr"
   ],
   "issuewild": [
-    "globalsign.com"
+    "globalsign.com",
+    "harica.gr"
   ],
   "iodef": [],
   "issuemail": [],

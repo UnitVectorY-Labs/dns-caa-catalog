@@ -1,0 +1,23 @@
+{
+  "domain": "rcaap.pt",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"harica.gr\""
+  ],
+  "issue": [
+    "digicert.com",
+    "harica.gr",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "harica.gr"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
