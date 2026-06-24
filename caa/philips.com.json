@@ -1,43 +1,10 @@
 {
   "domain": "philips.com",
-  "records": [
-    "0 iodef \"mailto:ca.administrator@philips.com\"",
-    "0 issue \"amazon.com\"",
-    "0 issue \"cybertrust.ne.jp\"",
-    "0 issue \"digicert.com\"",
-    "0 issue \"entrust.net\"",
-    "0 issue \"globalsign.com\"",
-    "0 issue \"kpn.com\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\"",
-    "0 issue \"sectigo.com\"",
-    "0 issuemail \"digicert.com\"",
-    "0 issuemail \"ica.cz\"",
-    "0 issuemail \"sectigo.com\"",
-    "0 issuewild \"sectigo.com\""
-  ],
-  "issue": [
-    "amazon.com",
-    "cybertrust.ne.jp",
-    "digicert.com",
-    "entrust.net",
-    "globalsign.com",
-    "kpn.com",
-    "letsencrypt.org",
-    "pki.goog",
-    "sectigo.com"
-  ],
-  "issuewild": [
-    "sectigo.com"
-  ],
-  "iodef": [
-    "mailto:ca.administrator@philips.com"
-  ],
-  "issuemail": [
-    "digicert.com",
-    "ica.cz",
-    "sectigo.com"
-  ],
+  "records": [],
+  "issue": [],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
   "contactemail": [],
   "contactphone": []
 }
