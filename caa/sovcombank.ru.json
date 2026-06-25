@@ -1,8 +1,35 @@
 {
   "domain": "sovcombank.ru",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"harica.com\"",
+    "0 issue \"jpdirect.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"ssl.com\"",
+    "0 issue \"yun.itrus.cn\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"harica.com\"",
+    "0 issuewild \"jpdirect.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"ssl.com\"",
+    "0 issuewild \"yun.itrus.cn\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "harica.com",
+    "jpdirect.com",
+    "letsencrypt.org",
+    "ssl.com",
+    "yun.itrus.cn"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "harica.com",
+    "jpdirect.com",
+    "letsencrypt.org",
+    "ssl.com",
+    "yun.itrus.cn"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
