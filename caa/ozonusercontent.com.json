@@ -1,12 +1,17 @@
 {
   "domain": "ozonusercontent.com",
   "records": [
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"harica.gr\""
   ],
   "issue": [
+    "harica.gr",
     "letsencrypt.org"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "harica.gr"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

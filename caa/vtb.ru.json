@@ -4,13 +4,15 @@
     "0 issue \"globalsign.com\"",
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"ssl.com\"",
     "0 issuewild \"globalsign.com\"",
     "0 issuewild \"harica.gr\""
   ],
   "issue": [
     "globalsign.com",
     "harica.gr",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "ssl.com"
   ],
   "issuewild": [
     "globalsign.com",

@@ -1,22 +1,9 @@
 {
   "domain": "immy.bot",
-  "records": [
-    "0 iodef \"mailto:support@immy.bot\"",
-    "0 issue \"digicert.com\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\"",
-    "0 issue \"sectigo.com\""
-  ],
-  "issue": [
-    "digicert.com",
-    "letsencrypt.org",
-    "pki.goog",
-    "sectigo.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
-  "iodef": [
-    "mailto:support@immy.bot"
-  ],
+  "iodef": [],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
