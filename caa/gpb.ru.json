@@ -1,13 +1,19 @@
 {
   "domain": "gpb.ru",
   "records": [
-    "0 issue \"globalsign.com\""
+    "0 iodef \"mailto:postgarbage@bb.gazprombank.ru\"",
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"globalsign.com\""
   ],
   "issue": [
     "globalsign.com"
   ],
-  "issuewild": [],
-  "iodef": [],
+  "issuewild": [
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:postgarbage@bb.gazprombank.ru"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

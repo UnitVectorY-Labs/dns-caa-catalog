@@ -1,0 +1,25 @@
+{
+  "domain": "swarovski.com",
+  "records": [
+    "0 iodef \"mailto:internet.domain.admin@swarovski.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:internet.domain.admin@swarovski.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

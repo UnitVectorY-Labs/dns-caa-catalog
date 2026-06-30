@@ -1,0 +1,20 @@
+{
+  "domain": "hal.science",
+  "records": [
+    "0 iodef \"mailto:ccsd-tech@ccsd.cnrs.fr\"",
+    "0 issue \"harica.gr\"",
+    "0 issuewild \"harica.gr\""
+  ],
+  "issue": [
+    "harica.gr"
+  ],
+  "issuewild": [
+    "harica.gr"
+  ],
+  "iodef": [
+    "mailto:ccsd-tech@ccsd.cnrs.fr"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

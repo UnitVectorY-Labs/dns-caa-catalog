@@ -1,0 +1,19 @@
+{
+  "domain": "azbyka.ru",
+  "records": [
+    "128 iodef \"mailto:security@etersoft.ru\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"thawte.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "thawte.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security@etersoft.ru"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
