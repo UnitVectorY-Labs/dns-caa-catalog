@@ -1,9 +1,13 @@
 {
   "domain": "visa.cn",
-  "records": [],
+  "records": [
+    "0 iodef \"mailto:hostmaster@visa.com\""
+  ],
   "issue": [],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:hostmaster@visa.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
