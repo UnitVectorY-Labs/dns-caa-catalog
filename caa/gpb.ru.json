@@ -3,10 +3,12 @@
   "records": [
     "0 iodef \"mailto:postgarbage@bb.gazprombank.ru\"",
     "0 issue \"globalsign.com\"",
+    "0 issue \"sectigo.com\"",
     "0 issuewild \"globalsign.com\""
   ],
   "issue": [
-    "globalsign.com"
+    "globalsign.com",
+    "sectigo.com"
   ],
   "issuewild": [
     "globalsign.com"
