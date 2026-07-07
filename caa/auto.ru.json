@@ -6,7 +6,9 @@
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issuewild \"certum.pl\"",
-    "0 issuewild \"globalsign.com\""
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
     "certum.pl",
@@ -16,7 +18,9 @@
   ],
   "issuewild": [
     "certum.pl",
-    "globalsign.com"
+    "globalsign.com",
+    "harica.gr",
+    "letsencrypt.org"
   ],
   "iodef": [],
   "issuemail": [],
