@@ -3,15 +3,19 @@
   "records": [
     "0 iodef \"mailto:abuse@hernlabs.se\"",
     "0 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105\"",
+    "0 issue \"sectigo.com\"",
     "0 issuemail \";\"",
     "0 issuevmc \";\"",
-    "0 issuewild \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105\""
+    "0 issuewild \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105\"",
+    "0 issuewild \"sectigo.com\""
   ],
   "issue": [
-    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105"
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105",
+    "sectigo.com"
   ],
   "issuewild": [
-    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105"
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/2194014105",
+    "sectigo.com"
   ],
   "iodef": [
     "mailto:abuse@hernlabs.se"
