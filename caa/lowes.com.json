@@ -1,9 +1,19 @@
 {
   "domain": "lowes.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "128 iodef \"mailto:SSL_Certificate_Management@lowes.com\"",
+    "128 issue \"sectigo.com\"",
+    "128 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:SSL_Certificate_Management@lowes.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

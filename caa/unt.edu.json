@@ -7,6 +7,7 @@
     "0 issue \"awstrust.com\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
+    "0 issue \"emsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\""
@@ -18,6 +19,7 @@
     "awstrust.com",
     "comodoca.com",
     "digicert.com",
+    "emsign.com",
     "letsencrypt.org",
     "pki.goog",
     "sectigo.com"
