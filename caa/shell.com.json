@@ -3,6 +3,7 @@
   "records": [
     "0 iodef \"mailto:ipladmin@shell.com\"",
     "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
     "0 issue \"entrust.net\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"godaddy.com\"",
@@ -13,6 +14,7 @@
   ],
   "issue": [
     "amazon.com",
+    "digicert.com",
     "entrust.net",
     "globalsign.com",
     "godaddy.com",
