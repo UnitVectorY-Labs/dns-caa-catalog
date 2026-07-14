@@ -1,0 +1,27 @@
+{
+  "domain": "e911cloud.com",
+  "records": [
+    "0 iodef \"mailto:operations@redskytech.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "comodoca.com",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:operations@redskytech.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

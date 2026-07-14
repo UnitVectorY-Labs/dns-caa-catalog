@@ -1,0 +1,14 @@
+{
+  "domain": "google.ac",
+  "records": [
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

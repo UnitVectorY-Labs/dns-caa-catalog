@@ -1,0 +1,17 @@
+{
+  "domain": "courtlistener.com",
+  "records": [
+    "0 iodef \"mailto:caa-violations@free.law\"",
+    "0 issue \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa-violations@free.law"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

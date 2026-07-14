@@ -1,24 +1,9 @@
 {
   "domain": "brivo.com",
-  "records": [
-    "0 iodef \"mailto:operations#caa-notification@brivo.com\"",
-    "0 issue \"amazon.com\"",
-    "0 issue \"digicert.com\"",
-    "0 issue \"godaddy.com\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"sectigo.com\""
-  ],
-  "issue": [
-    "amazon.com",
-    "digicert.com",
-    "godaddy.com",
-    "letsencrypt.org",
-    "sectigo.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
-  "iodef": [
-    "mailto:operations#caa-notification@brivo.com"
-  ],
+  "iodef": [],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

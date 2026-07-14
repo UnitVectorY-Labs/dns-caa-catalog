@@ -1,0 +1,16 @@
+{
+  "domain": "sirv.com",
+  "records": [
+    "0 issue \"comodo.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "comodo.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

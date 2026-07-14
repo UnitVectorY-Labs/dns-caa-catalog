@@ -1,0 +1,22 @@
+{
+  "domain": "playfab.com",
+  "records": [
+    "0 iodef \"mailto:caarecordaware@microsoft.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"microsoft.com\"",
+    "128 contactemail \"caarecordaware@microsoft.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "microsoft.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caarecordaware@microsoft.com"
+  ],
+  "issuemail": [],
+  "contactemail": [
+    "caarecordaware@microsoft.com"
+  ],
+  "contactphone": []
+}
