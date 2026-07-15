@@ -1,22 +1,30 @@
 {
   "domain": "vtb.ru",
   "records": [
+    "0 issue \"actalis.it\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"ssl.com\"",
+    "0 issue \"trustasia.com\"",
+    "0 issuewild \"actalis.it\"",
     "0 issuewild \"globalsign.com\"",
-    "0 issuewild \"harica.gr\""
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"trustasia.com\""
   ],
   "issue": [
+    "actalis.it",
     "globalsign.com",
     "harica.gr",
     "letsencrypt.org",
-    "ssl.com"
+    "ssl.com",
+    "trustasia.com"
   ],
   "issuewild": [
+    "actalis.it",
     "globalsign.com",
-    "harica.gr"
+    "harica.gr",
+    "trustasia.com"
   ],
   "iodef": [],
   "issuemail": [],

@@ -1,9 +1,16 @@
 {
   "domain": "codeberg.org",
-  "records": [],
-  "issue": [],
+  "records": [
+    "128 iodef \"mailto:codeberg@codeberg.org\"",
+    "128 issue \"letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/3240266871;validationmethods=dns-01\""
+  ],
+  "issue": [
+    "letsencrypt.org;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/3240266871;validationmethods=dns-01"
+  ],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:codeberg@codeberg.org"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

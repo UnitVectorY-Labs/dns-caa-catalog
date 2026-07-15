@@ -3,12 +3,12 @@
   "records": [
     "0 iodef \"mailto:certificateservicesshared@usbank.com\"",
     "0 iodef \"mailto:domainadmin@usbank.com\"",
-    "0 issue \"digicert.com\"",
+    "0 issue \"digicert.com; account=34598d5fd7c7c32362dbd871f3557ebac0d69f11f52eca62212aa083919dd593\"",
     "0 issue \"entrust.net\"",
     "0 issuewild \";\""
   ],
   "issue": [
-    "digicert.com",
+    "digicert.com; account=34598d5fd7c7c32362dbd871f3557ebac0d69f11f52eca62212aa083919dd593",
     "entrust.net"
   ],
   "issuewild": [
