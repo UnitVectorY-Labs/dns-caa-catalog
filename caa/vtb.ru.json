@@ -2,21 +2,21 @@
   "domain": "vtb.ru",
   "records": [
     "0 issue \"actalis.it\"",
-    "0 issue \"digicart.com\"",
+    "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"ssl.com\"",
     "0 issue \"trustasia.com\"",
     "0 issuewild \"actalis.it\"",
-    "0 issuewild \"digicart.com\"",
+    "0 issuewild \"digicert.com\"",
     "0 issuewild \"globalsign.com\"",
     "0 issuewild \"harica.gr\"",
     "0 issuewild \"trustasia.com\""
   ],
   "issue": [
     "actalis.it",
-    "digicart.com",
+    "digicert.com",
     "globalsign.com",
     "harica.gr",
     "letsencrypt.org",
@@ -25,7 +25,7 @@
   ],
   "issuewild": [
     "actalis.it",
-    "digicart.com",
+    "digicert.com",
     "globalsign.com",
     "harica.gr",
     "trustasia.com"

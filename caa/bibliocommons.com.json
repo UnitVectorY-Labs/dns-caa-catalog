@@ -6,20 +6,24 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
     "0 issuewild \"awstrust.com\"",
     "0 issuewild \"letsencrypt.org\"",
-    "0 issuewild \"sectigo.com\""
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\""
   ],
   "issue": [
     "awstrust.com",
     "letsencrypt.org",
     "pki.goog; cansignhttpexchanges=yes",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
   "issuewild": [
     "awstrust.com",
     "letsencrypt.org",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
   "iodef": [
     "mailto:its+caa@bibliocommons.com"

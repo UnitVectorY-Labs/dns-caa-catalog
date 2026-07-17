@@ -5,7 +5,8 @@
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
-    "0 issue \"visa.com\""
+    "0 issue \"visa.com\"",
+    "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
     "globalsign.com",
@@ -14,7 +15,9 @@
     "pki.goog",
     "visa.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

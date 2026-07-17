@@ -1,9 +1,23 @@
 {
   "domain": "ketchjs.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "0 iodef \"mailto:caa-reporting@ketch.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"certainly.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "certainly.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "certainly.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:caa-reporting@ketch.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

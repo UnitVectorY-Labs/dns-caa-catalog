@@ -1,8 +1,15 @@
 {
   "domain": "bspb.ru",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "ssl.com"
+  ],
+  "issuewild": [
+    "ssl.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
