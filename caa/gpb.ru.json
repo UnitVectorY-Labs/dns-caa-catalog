@@ -2,16 +2,26 @@
   "domain": "gpb.ru",
   "records": [
     "0 iodef \"mailto:postgarbage@bb.gazprombank.ru\"",
+    "0 issue \"actalis.it\"",
     "0 issue \"globalsign.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
-    "0 issuewild \"globalsign.com\""
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
+    "actalis.it",
     "globalsign.com",
+    "harica.gr",
+    "letsencrypt.org",
     "sectigo.com"
   ],
   "issuewild": [
-    "globalsign.com"
+    "globalsign.com",
+    "harica.gr",
+    "letsencrypt.org"
   ],
   "iodef": [
     "mailto:postgarbage@bb.gazprombank.ru"

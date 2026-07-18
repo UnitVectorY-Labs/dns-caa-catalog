@@ -1,14 +1,22 @@
 {
   "domain": "bspb.ru",
   "records": [
+    "0 issue \"51ssl.com\"",
     "0 issue \"ssl.com\"",
-    "0 issuewild \"ssl.com\""
+    "0 issue \"trustasia.com\"",
+    "0 issuewild \"51ssl.com\"",
+    "0 issuewild \"ssl.com\"",
+    "0 issuewild \"trustasia.com\""
   ],
   "issue": [
-    "ssl.com"
+    "51ssl.com",
+    "ssl.com",
+    "trustasia.com"
   ],
   "issuewild": [
-    "ssl.com"
+    "51ssl.com",
+    "ssl.com",
+    "trustasia.com"
   ],
   "iodef": [],
   "issuemail": [],
