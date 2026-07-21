@@ -1,6 +1,7 @@
 {
   "domain": "salesmanago.pl",
   "records": [
+    "0 issue \"certum.pl\"",
     "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
     "0 issue \"letsencrypt.org\"",
@@ -13,6 +14,7 @@
     "0 issuewild \"ssl.com\""
   ],
   "issue": [
+    "certum.pl",
     "comodoca.com",
     "digicert.com; cansignhttpexchanges=yes",
     "letsencrypt.org",

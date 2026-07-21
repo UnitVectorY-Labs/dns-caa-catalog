@@ -1,0 +1,19 @@
+{
+  "domain": "sensor.community",
+  "records": [
+    "0 iodef \"mailto:rz@madavi.de\"",
+    "0 iodef \"mailto:tech@sensor.community\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:rz@madavi.de",
+    "mailto:tech@sensor.community"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

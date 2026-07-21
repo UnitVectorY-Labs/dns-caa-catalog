@@ -2,19 +2,23 @@
   "domain": "bspb.ru",
   "records": [
     "0 issue \"51ssl.com\"",
+    "0 issue \"harica.gr\"",
     "0 issue \"ssl.com\"",
     "0 issue \"trustasia.com\"",
     "0 issuewild \"51ssl.com\"",
+    "0 issuewild \"harica.gr\"",
     "0 issuewild \"ssl.com\"",
     "0 issuewild \"trustasia.com\""
   ],
   "issue": [
     "51ssl.com",
+    "harica.gr",
     "ssl.com",
     "trustasia.com"
   ],
   "issuewild": [
     "51ssl.com",
+    "harica.gr",
     "ssl.com",
     "trustasia.com"
   ],

@@ -1,10 +1,12 @@
 {
   "domain": "dailyforecast.net",
   "records": [
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
   ],
   "issue": [
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": [],

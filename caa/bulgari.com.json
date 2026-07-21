@@ -1,0 +1,25 @@
+{
+  "domain": "bulgari.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "digicert.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
