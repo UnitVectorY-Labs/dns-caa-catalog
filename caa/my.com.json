@@ -4,15 +4,20 @@
     "0 issue \"geotrust.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"harica.gr\"",
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"pki.goog\""
   ],
   "issue": [
     "geotrust.com",
     "globalsign.com",
     "harica.gr",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "pki.goog"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
