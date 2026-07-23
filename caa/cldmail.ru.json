@@ -4,7 +4,8 @@
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issuewild \"harica.gr\"",
-    "0 issuewild \"letsencrypt.org\""
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\""
   ],
   "issue": [
     "harica.gr",
@@ -12,7 +13,8 @@
   ],
   "issuewild": [
     "harica.gr",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
   "iodef": [],
   "issuemail": [],

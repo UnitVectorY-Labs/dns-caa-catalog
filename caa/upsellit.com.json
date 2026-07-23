@@ -1,12 +1,8 @@
 {
   "domain": "upsellit.com",
-  "records": [
-    "0 issuewild \"digicert.com\""
-  ],
+  "records": [],
   "issue": [],
-  "issuewild": [
-    "digicert.com"
-  ],
+  "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
