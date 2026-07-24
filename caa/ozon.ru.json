@@ -1,35 +1,32 @@
 {
   "domain": "ozon.ru",
   "records": [
-    "0 contactemail \"security@ozon.ru\"",
     "0 iodef \"mailto:security@ozon.ru\"",
     "0 issue \"emsign.com\"",
     "0 issue \"globalsign.com\"",
-    "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"trustasia.com\"",
     "0 issuewild \"emsign.com\"",
     "0 issuewild \"globalsign.com\"",
-    "0 issuewild \"harica.gr\"",
-    "0 issuewild \"letsencrypt.org\""
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"trustasia.com\""
   ],
   "issue": [
     "emsign.com",
     "globalsign.com",
-    "harica.gr",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "trustasia.com"
   ],
   "issuewild": [
     "emsign.com",
     "globalsign.com",
-    "harica.gr",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "trustasia.com"
   ],
   "iodef": [
     "mailto:security@ozon.ru"
   ],
   "issuemail": [],
-  "contactemail": [
-    "security@ozon.ru"
-  ],
+  "contactemail": [],
   "contactphone": []
 }

@@ -1,12 +1,14 @@
 {
   "domain": "um.es",
   "records": [
+    "0 issue \"amazontrust.com\"",
     "0 issue \"firmaprofesional.com\"",
     "0 issue \"harica.gr\"",
     "0 issue \"pki.goog\"",
     "0 issuewild \"harica.gr\""
   ],
   "issue": [
+    "amazontrust.com",
     "firmaprofesional.com",
     "harica.gr",
     "pki.goog"

@@ -6,6 +6,7 @@
     "0 issue \"harica.gr\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
+    "0 issuewild \"harica.gr\"",
     "0 issuewild \"pki.goog\""
   ],
   "issue": [
@@ -16,6 +17,7 @@
     "pki.goog"
   ],
   "issuewild": [
+    "harica.gr",
     "pki.goog"
   ],
   "iodef": [],
