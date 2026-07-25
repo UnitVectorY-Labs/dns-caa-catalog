@@ -8,6 +8,7 @@
     "0 issue \"sectigo.com\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"digicert.com\"",
+    "0 issuewild \"emsign.com\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
@@ -20,6 +21,7 @@
   "issuewild": [
     "amazon.com",
     "digicert.com",
+    "emsign.com",
     "sectigo.com"
   ],
   "iodef": [],
