@@ -3,13 +3,18 @@
   "records": [
     "0 iodef \"mailto:itadmin@ecal.com\"",
     "0 issue \"amazon.com\"",
-    "0 issue \"letsencrypt.org\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
-    "letsencrypt.org"
+    "letsencrypt.org",
+    "pki.goog"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "pki.goog"
+  ],
   "iodef": [
     "mailto:itadmin@ecal.com"
   ],
