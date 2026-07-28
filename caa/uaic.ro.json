@@ -1,0 +1,17 @@
+{
+  "domain": "uaic.ro",
+  "records": [
+    "0 iodef \"mailto:tcs@uaic.ro\"",
+    "0 issue \"harica.gr\""
+  ],
+  "issue": [
+    "harica.gr"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:tcs@uaic.ro"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

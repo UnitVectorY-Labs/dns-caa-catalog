@@ -1,0 +1,24 @@
+{
+  "domain": "pem-teads.tv",
+  "records": [
+    "0 iodef \"mailto:caa@teads.com\"",
+    "0 issue \"certainly.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"certainly.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "certainly.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "certainly.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:caa@teads.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

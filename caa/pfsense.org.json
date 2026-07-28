@@ -1,0 +1,19 @@
+{
+  "domain": "pfsense.org",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
