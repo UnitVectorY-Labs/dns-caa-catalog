@@ -6,6 +6,7 @@
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
     "0 issue \"digicert.com\"",
+    "0 issue \"e-szigno.hu\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issuewild \"amazontrust.com\"",
@@ -19,6 +20,7 @@
     "amazontrust.com",
     "awstrust.com",
     "digicert.com",
+    "e-szigno.hu",
     "globalsign.com",
     "letsencrypt.org"
   ],
