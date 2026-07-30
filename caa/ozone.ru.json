@@ -4,19 +4,23 @@
     "0 iodef \"mailto:security@ozon.ru\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"ssl.com\"",
     "0 issue \"trustasia.com\"",
     "0 issuewild \"globalsign.com\"",
     "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"ssl.com\"",
     "0 issuewild \"trustasia.com\""
   ],
   "issue": [
     "globalsign.com",
     "letsencrypt.org",
+    "ssl.com",
     "trustasia.com"
   ],
   "issuewild": [
     "globalsign.com",
     "letsencrypt.org",
+    "ssl.com",
     "trustasia.com"
   ],
   "iodef": [
