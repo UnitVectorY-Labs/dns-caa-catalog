@@ -2,12 +2,14 @@
   "domain": "imgix.net",
   "records": [
     "0 iodef \"mailto:security@imgix.com\"",
+    "0 issue \"certainly.com\"",
     "0 issue \"entrust.net\"",
     "0 issue \"globalsign.com\"",
     "0 issuewild \"certainly.com\"",
     "0 issuewild \"globalsign.com\""
   ],
   "issue": [
+    "certainly.com",
     "entrust.net",
     "globalsign.com"
   ],

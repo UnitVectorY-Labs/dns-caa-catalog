@@ -2,14 +2,18 @@
   "domain": "ozonusercontent.com",
   "records": [
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"ssl.com\"",
     "0 issue \"trustasia.com\"",
+    "0 issuewild \"ssl.com\"",
     "0 issuewild \"trustasia.com\""
   ],
   "issue": [
     "letsencrypt.org",
+    "ssl.com",
     "trustasia.com"
   ],
   "issuewild": [
+    "ssl.com",
     "trustasia.com"
   ],
   "iodef": [],
