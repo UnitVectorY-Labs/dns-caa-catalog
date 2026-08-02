@@ -1,9 +1,19 @@
 {
   "domain": "icicibank.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "128 iodef \"sectigo.com\"",
+    "128 issue \"sectigo.com\"",
+    "128 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "sectigo.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

@@ -1,9 +1,19 @@
 {
   "domain": "astro.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "0 iodef \"mailto:webmaster@astro.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:webmaster@astro.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
