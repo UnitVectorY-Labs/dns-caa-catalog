@@ -1,13 +1,17 @@
 {
   "domain": "vtb.ru",
   "records": [
+    "0 issue \"certainly.com\"",
     "0 issue \"trustasia.com\"",
+    "0 issuewild \"certainly.com\"",
     "0 issuewild \"trustasia.com\""
   ],
   "issue": [
+    "certainly.com",
     "trustasia.com"
   ],
   "issuewild": [
+    "certainly.com",
     "trustasia.com"
   ],
   "iodef": [],

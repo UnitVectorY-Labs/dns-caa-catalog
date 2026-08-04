@@ -1,0 +1,20 @@
+{
+  "domain": "drive2.ru",
+  "records": [
+    "0 iodef \"mailto:hostmaster@bolotov.ru\"",
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com"
+  ],
+  "issuewild": [
+    "globalsign.com"
+  ],
+  "iodef": [
+    "mailto:hostmaster@bolotov.ru"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
