@@ -5,6 +5,7 @@
     "128 issue \"amazon.com\"",
     "128 issue \"digicert.com\"",
     "128 issue \"letsencrypt.org\"",
+    "128 issue \"pki.goog\"",
     "128 issue \"sectigo.com\"",
     "128 issuewild \"amazon.com\"",
     "128 issuewild \"digicert.com\"",
@@ -14,6 +15,7 @@
     "amazon.com",
     "digicert.com",
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [
