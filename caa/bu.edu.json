@@ -4,6 +4,7 @@
     "0 issue \"amazon.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"emsign.com\"",
+    "0 issue \"identrust.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
     "0 issuewild \"amazon.com\"",
@@ -15,6 +16,7 @@
     "amazon.com",
     "digicert.com",
     "emsign.com",
+    "identrust.com",
     "letsencrypt.org",
     "sectigo.com"
   ],
