@@ -1,0 +1,21 @@
+{
+  "domain": "faa.gov",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "128 iodef \"mailto:9-ait-arin-abuse@faa.gov\"",
+    "128 issue \"amazon.com\"",
+    "128 issue \"digicert.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:9-ait-arin-abuse@faa.gov"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

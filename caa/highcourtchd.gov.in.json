@@ -1,0 +1,14 @@
+{
+  "domain": "highcourtchd.gov.in",
+  "records": [
+    "0 issue \"emsign.com\""
+  ],
+  "issue": [
+    "emsign.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

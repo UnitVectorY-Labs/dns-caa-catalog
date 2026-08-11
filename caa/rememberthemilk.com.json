@@ -1,0 +1,23 @@
+{
+  "domain": "rememberthemilk.com",
+  "records": [
+    "0 iodef \"mailto:dns-admin@rememberthemilk.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "digicert.com",
+    "globalsign.com",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dns-admin@rememberthemilk.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

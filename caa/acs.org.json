@@ -1,8 +1,15 @@
 {
   "domain": "acs.org",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "128 issue \"sectigo.com\"",
+    "128 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

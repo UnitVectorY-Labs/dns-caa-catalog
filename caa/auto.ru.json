@@ -1,0 +1,29 @@
+{
+  "domain": "auto.ru",
+  "records": [
+    "0 issue \"certum.pl\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"certum.pl\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "certum.pl",
+    "globalsign.com",
+    "harica.gr",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "certum.pl",
+    "globalsign.com",
+    "harica.gr",
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
