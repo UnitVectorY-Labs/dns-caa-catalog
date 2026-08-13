@@ -1,8 +1,19 @@
 {
   "domain": "temu.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"godaddy.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "godaddy.com"
+  ],
+  "issuewild": [
+    "globalsign.com",
+    "godaddy.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
