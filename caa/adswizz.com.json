@@ -1,9 +1,21 @@
 {
   "domain": "adswizz.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "0 iodef \"mailto:devops+caareports@adswizz.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": [
+    "mailto:devops+caareports@adswizz.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

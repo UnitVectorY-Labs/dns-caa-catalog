@@ -1,9 +1,19 @@
 {
   "domain": "ixsystems.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "0 iodef \"mailto:it@truenas.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:it@truenas.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
