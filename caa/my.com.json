@@ -1,25 +1,8 @@
 {
   "domain": "my.com",
-  "records": [
-    "0 issue \"geotrust.com\"",
-    "0 issue \"globalsign.com\"",
-    "0 issue \"harica.gr\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\"",
-    "0 issuewild \"harica.gr\"",
-    "0 issuewild \"pki.goog\""
-  ],
-  "issue": [
-    "geotrust.com",
-    "globalsign.com",
-    "harica.gr",
-    "letsencrypt.org",
-    "pki.goog"
-  ],
-  "issuewild": [
-    "harica.gr",
-    "pki.goog"
-  ],
+  "records": [],
+  "issue": [],
+  "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

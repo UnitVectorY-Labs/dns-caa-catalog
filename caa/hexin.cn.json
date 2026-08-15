@@ -1,8 +1,15 @@
 {
   "domain": "hexin.cn",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"geotrust.com\"",
+    "0 issuewild \"geotrust.com\""
+  ],
+  "issue": [
+    "geotrust.com"
+  ],
+  "issuewild": [
+    "geotrust.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
