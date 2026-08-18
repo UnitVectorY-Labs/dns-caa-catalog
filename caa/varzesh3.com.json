@@ -1,0 +1,21 @@
+{
+  "domain": "varzesh3.com",
+  "records": [
+    "0 issue \"certum.pl\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"certum.pl\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "certum.pl",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "certum.pl",
+    "sectigo.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -1,0 +1,19 @@
+{
+  "domain": "mapy.cz",
+  "records": [
+    "0 iodef \"mailto:abuse-caa@firma.seznam.cz\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:abuse-caa@firma.seznam.cz"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

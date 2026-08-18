@@ -1,13 +1,17 @@
 {
   "domain": "acs.org",
   "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"globalsign.com\"",
     "128 issue \"sectigo.com\"",
     "128 issuewild \"sectigo.com\""
   ],
   "issue": [
+    "globalsign.com",
     "sectigo.com"
   ],
   "issuewild": [
+    "globalsign.com",
     "sectigo.com"
   ],
   "iodef": [],

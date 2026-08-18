@@ -1,0 +1,14 @@
+{
+  "domain": "musicstore.com",
+  "records": [
+    "0 issuewild \"thawte.com\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "thawte.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

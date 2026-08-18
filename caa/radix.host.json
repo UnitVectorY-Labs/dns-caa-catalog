@@ -1,0 +1,19 @@
+{
+  "domain": "radix.host",
+  "records": [
+    "0 iodef \"mailto:trs-ops@tucows.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:trs-ops@tucows.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
