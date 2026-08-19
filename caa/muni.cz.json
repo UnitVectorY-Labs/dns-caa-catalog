@@ -1,7 +1,17 @@
 {
   "domain": "muni.cz",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"digicert.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "harica.gr",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
