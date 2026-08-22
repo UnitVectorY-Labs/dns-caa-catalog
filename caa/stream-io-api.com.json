@@ -6,14 +6,16 @@
     "0 issue \"amazonaws.com\"",
     "0 issue \"amazontrust.com\"",
     "0 issue \"awstrust.com\"",
-    "0 issue \"godaddy.com\""
+    "0 issue \"godaddy.com\"",
+    "0 issue \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
     "amazonaws.com",
     "amazontrust.com",
     "awstrust.com",
-    "godaddy.com"
+    "godaddy.com",
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": [

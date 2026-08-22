@@ -3,6 +3,7 @@
   "records": [
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
+    "0 issuewild \"digicert.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\"",
     "128 issue \"digicert.com\"",
@@ -15,6 +16,7 @@
     "pki.goog"
   ],
   "issuewild": [
+    "digicert.com",
     "letsencrypt.org",
     "pki.goog"
   ],

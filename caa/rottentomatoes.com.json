@@ -9,6 +9,7 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
     "0 issuewild \"pki.goog\""
   ],
   "issue": [
@@ -22,6 +23,7 @@
     "sectigo.com"
   ],
   "issuewild": [
+    "digicert.com",
     "pki.goog"
   ],
   "iodef": [],

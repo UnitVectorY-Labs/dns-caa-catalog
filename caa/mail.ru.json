@@ -1,31 +1,8 @@
 {
   "domain": "mail.ru",
-  "records": [
-    "0 issue \"globalsign.com\"",
-    "0 issue \"harica.gr\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\"",
-    "0 issue \"trustasia.com\"",
-    "0 issue \"visa.com\"",
-    "0 issuewild \"harica.gr\"",
-    "0 issuewild \"letsencrypt.org\"",
-    "0 issuewild \"pki.goog\"",
-    "0 issuewild \"trustasia.com\""
-  ],
-  "issue": [
-    "globalsign.com",
-    "harica.gr",
-    "letsencrypt.org",
-    "pki.goog",
-    "trustasia.com",
-    "visa.com"
-  ],
-  "issuewild": [
-    "harica.gr",
-    "letsencrypt.org",
-    "pki.goog",
-    "trustasia.com"
-  ],
+  "records": [],
+  "issue": [],
+  "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

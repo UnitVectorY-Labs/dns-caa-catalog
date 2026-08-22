@@ -1,18 +1,20 @@
 {
   "domain": "tradeinn.com",
   "records": [
-    "0 iodef \"mailto:sys@team.makingscience.com\"",
+    "0 iodef \"mailto:aie.es@group.lutech-sweeft.es\"",
     "0 iodef \"mailto:xevi@tradeinn.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\""
+    "0 issue \"pki.goog\"",
+    "0 issue \"ssl.com\""
   ],
   "issue": [
     "letsencrypt.org",
-    "pki.goog"
+    "pki.goog",
+    "ssl.com"
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:sys@team.makingscience.com",
+    "mailto:aie.es@group.lutech-sweeft.es",
     "mailto:xevi@tradeinn.com"
   ],
   "issuemail": [],
