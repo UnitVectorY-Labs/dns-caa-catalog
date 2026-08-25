@@ -1,10 +1,12 @@
 {
   "domain": "hotpads.com",
   "records": [
+    "0 issuewild \"amazon.com\"",
     "0 issuewild \"digicert.com\""
   ],
   "issue": [],
   "issuewild": [
+    "amazon.com",
     "digicert.com"
   ],
   "iodef": [],
