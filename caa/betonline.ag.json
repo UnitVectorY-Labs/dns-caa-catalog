@@ -1,8 +1,19 @@
 {
   "domain": "betonline.ag",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"actalis.it\"",
+    "0 issue \"globalsign.com\"",
+    "0 issuewild \"actalis.it\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "actalis.it",
+    "globalsign.com"
+  ],
+  "issuewild": [
+    "actalis.it",
+    "globalsign.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

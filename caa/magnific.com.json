@@ -1,18 +1,22 @@
 {
   "domain": "magnific.com",
   "records": [
+    "0 issue \"certainly.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
+    "0 issuewild \"certainly.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\""
   ],
   "issue": [
+    "certainly.com",
     "letsencrypt.org",
     "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [
+    "certainly.com",
     "letsencrypt.org",
     "pki.goog"
   ],
