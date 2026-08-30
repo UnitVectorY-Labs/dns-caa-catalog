@@ -10,3 +10,7 @@ build:
 test:
   go clean -testcache
   go test ./...
+
+# Check maintained templates for HTMX 2.x patterns removed or changed in HTMX 4
+htmx-check:
+  npx --yes htmx.org@4.0.0 upgrade-check -- ./templates

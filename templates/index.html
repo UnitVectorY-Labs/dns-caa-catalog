@@ -78,7 +78,7 @@
     }
 
     // Initialize filters when navigation is loaded
-    document.body.addEventListener('htmx:afterSwap', function(event) {
+    document.body.addEventListener('htmx:after:swap', function(event) {
         if (event.target.classList.contains('left-panel')) {
             initializeFilters();
         }
