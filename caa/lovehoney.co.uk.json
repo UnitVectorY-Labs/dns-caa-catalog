@@ -1,0 +1,23 @@
+{
+  "domain": "lovehoney.co.uk",
+  "records": [
+    "0 iodef \"mailto:caa_violations@lovehoney.co.uk\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa_violations@lovehoney.co.uk"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

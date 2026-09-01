@@ -1,0 +1,25 @@
+{
+  "domain": "renishaw.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"starfieldtech.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "pki.goog",
+    "sectigo.com",
+    "starfieldtech.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
