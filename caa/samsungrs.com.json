@@ -1,9 +1,19 @@
 {
   "domain": "samsungrs.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "0 iodef \"mailto:security_manager_or_team_email@samsung.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:security_manager_or_team_email@samsung.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
