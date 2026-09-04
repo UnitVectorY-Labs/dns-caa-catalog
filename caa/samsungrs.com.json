@@ -1,7 +1,8 @@
 {
   "domain": "samsungrs.com",
   "records": [
-    "0 iodef \"mailto:security_manager_or_team_email@samsung.com\"",
+    "0 iodef \"mailto:boyoung2.kim@samsung.com\"",
+    "0 iodef \"mailto:midridgeyoon@samsung.com\"",
     "0 issue \"sectigo.com\"",
     "0 issuewild \"sectigo.com\""
   ],
@@ -12,7 +13,8 @@
     "sectigo.com"
   ],
   "iodef": [
-    "mailto:security_manager_or_team_email@samsung.com"
+    "mailto:boyoung2.kim@samsung.com",
+    "mailto:midridgeyoon@samsung.com"
   ],
   "issuemail": [],
   "contactemail": [],

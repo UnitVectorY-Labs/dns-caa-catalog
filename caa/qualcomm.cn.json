@@ -4,6 +4,7 @@
     "0 issue \"amazon.com\"",
     "0 issue \"amazonaws.cn\"",
     "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\"",
     "0 issuewild \"amazon.com\"",
@@ -16,6 +17,7 @@
     "amazon.com",
     "amazonaws.cn",
     "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org",
     "sectigo.com",
     "ssl.com"
   ],
