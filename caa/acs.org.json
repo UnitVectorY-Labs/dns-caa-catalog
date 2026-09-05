@@ -2,12 +2,14 @@
   "domain": "acs.org",
   "records": [
     "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
     "0 issuewild \"globalsign.com\"",
     "128 issue \"sectigo.com\"",
     "128 issuewild \"sectigo.com\""
   ],
   "issue": [
     "globalsign.com",
+    "letsencrypt.org",
     "sectigo.com"
   ],
   "issuewild": [
