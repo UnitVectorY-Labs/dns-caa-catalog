@@ -1,6 +1,7 @@
 {
   "domain": "vimeocdn.com",
   "records": [
+    "0 issue \"certainly.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
@@ -10,6 +11,7 @@
     "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
+    "certainly.com",
     "digicert.com",
     "globalsign.com",
     "letsencrypt.org",

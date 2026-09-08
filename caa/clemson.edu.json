@@ -1,0 +1,22 @@
+{
+  "domain": "clemson.edu",
+  "records": [
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"emsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazonaws.com",
+    "amazontrust.com",
+    "emsign.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

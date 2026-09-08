@@ -1,0 +1,21 @@
+{
+  "domain": "tele2.se",
+  "records": [
+    "0 iodef \"mailto:caa-notify@tele2.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:caa-notify@tele2.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

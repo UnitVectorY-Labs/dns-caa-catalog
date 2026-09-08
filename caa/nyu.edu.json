@@ -1,0 +1,28 @@
+{
+  "domain": "nyu.edu",
+  "records": [
+    "0 issue \"GoDaddy.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"emsign.com\"",
+    "0 issue \"emudhra.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "GoDaddy.com",
+    "amazon.com",
+    "digicert.com",
+    "emsign.com",
+    "emudhra.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

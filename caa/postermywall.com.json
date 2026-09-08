@@ -1,0 +1,21 @@
+{
+  "domain": "postermywall.com",
+  "records": [
+    "0 iodef \"mailto:support@postermywall.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:support@postermywall.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
