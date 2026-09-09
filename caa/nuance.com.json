@@ -5,7 +5,8 @@
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"microsoft.com\"",
-    "0 issuewild \"digicert.com\""
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"microsoft.com\""
   ],
   "issue": [
     "digicert.com",
@@ -13,7 +14,8 @@
     "microsoft.com"
   ],
   "issuewild": [
-    "digicert.com"
+    "digicert.com",
+    "microsoft.com"
   ],
   "iodef": [
     "mailto:caarecordaware@microsoft.com"
