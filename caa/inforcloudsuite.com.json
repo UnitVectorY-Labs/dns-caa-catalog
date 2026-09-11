@@ -1,9 +1,27 @@
 {
   "domain": "inforcloudsuite.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "0 iodef \"mailto:mad@infor.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:mad@infor.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
