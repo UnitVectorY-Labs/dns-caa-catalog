@@ -3,18 +3,18 @@
   "records": [
     "0 iodef \"mailto:root@apache.org\"",
     "0 issue \"globalsign.com\"",
-    "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\"",
+    "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"ssl.com\""
   ],
   "issue": [
     "globalsign.com",
-    "letsencrypt.org",
     "sectigo.com",
     "ssl.com"
   ],
   "issuewild": [
+    "letsencrypt.org",
     "ssl.com"
   ],
   "iodef": [
