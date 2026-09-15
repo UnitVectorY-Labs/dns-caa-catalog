@@ -1,0 +1,23 @@
+{
+  "domain": "fu-berlin.de",
+  "records": [
+    "0 iodef \"mailto:certificate@fu-berlin.de\"",
+    "0 issue \"harica.gr\"",
+    "0 issuemail \"harica.gr\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "harica.gr"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:certificate@fu-berlin.de"
+  ],
+  "issuemail": [
+    "harica.gr"
+  ],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -1,19 +1,9 @@
 {
   "domain": "cyberia.is",
-  "records": [
-    "0 iodef \"mailto:noc@cyberia.is\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issuewild \";\""
-  ],
-  "issue": [
-    "letsencrypt.org"
-  ],
-  "issuewild": [
-    ";"
-  ],
-  "iodef": [
-    "mailto:noc@cyberia.is"
-  ],
+  "records": [],
+  "issue": [],
+  "issuewild": [],
+  "iodef": [],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []

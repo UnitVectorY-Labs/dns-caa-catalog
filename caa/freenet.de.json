@@ -7,9 +7,12 @@
     "0 issue \"comodoca.com\"",
     "0 issue \"geotrust.com\"",
     "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"symantec.com\"",
-    "0 issue \"telesec.de\""
+    "0 issue \"telesec.de\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\""
   ],
   "issue": [
     "amazon.com",
@@ -17,11 +20,15 @@
     "comodoca.com",
     "geotrust.com",
     "letsencrypt.org",
+    "pki.goog",
     "sectigo.com",
     "symantec.com",
     "telesec.de"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "letsencrypt.org",
+    "pki.goog"
+  ],
   "iodef": [
     "mailto:webmaster@mobilcom.de"
   ],

@@ -1,0 +1,28 @@
+{
+  "domain": "t-mobile.at",
+  "records": [
+    "0 iodef \"mailto:domain.admin@magenta.at\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "digicert.com",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "iodef": [
+    "mailto:domain.admin@magenta.at"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

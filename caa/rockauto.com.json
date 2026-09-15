@@ -1,0 +1,14 @@
+{
+  "domain": "rockauto.com",
+  "records": [
+    "0 issue \"comodoca.com\""
+  ],
+  "issue": [
+    "comodoca.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
