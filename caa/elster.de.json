@@ -4,13 +4,17 @@
     "0 contactemail \"hostmaster@elster.de\"",
     "0 iodef \"mailto:hostmaster@elster.de\"",
     "0 issue \"d-trust.net\"",
-    "0 issuewild \"d-trust.net\""
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"d-trust.net\"",
+    "0 issuewild \"digicert.com\""
   ],
   "issue": [
-    "d-trust.net"
+    "d-trust.net",
+    "digicert.com"
   ],
   "issuewild": [
-    "d-trust.net"
+    "d-trust.net",
+    "digicert.com"
   ],
   "iodef": [
     "mailto:hostmaster@elster.de"

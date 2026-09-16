@@ -1,10 +1,12 @@
 {
   "domain": "academia-assets.com",
   "records": [
-    "0 issue \"amazon.com\""
+    "0 issue \"amazon.com\"",
+    "0 issue \"pki.goog\""
   ],
   "issue": [
-    "amazon.com"
+    "amazon.com",
+    "pki.goog"
   ],
   "issuewild": [],
   "iodef": [],
