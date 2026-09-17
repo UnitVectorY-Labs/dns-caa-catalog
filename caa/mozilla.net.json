@@ -7,7 +7,9 @@
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
-    "0 issue \"sectigo.com\""
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
@@ -15,9 +17,12 @@
     "digicert.com",
     "letsencrypt.org",
     "pki.goog",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "ssl.com"
+  ],
   "iodef": [
     "mailto:foxsec+caaiodef@mozilla.com"
   ],

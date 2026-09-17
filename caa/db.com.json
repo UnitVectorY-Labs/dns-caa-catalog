@@ -1,8 +1,21 @@
 {
   "domain": "db.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "globalsign.com",
+    "quovadisglobal.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

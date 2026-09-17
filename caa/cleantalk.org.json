@@ -4,14 +4,19 @@
     "0 iodef \"mailto:noc@cleantalk.org\"",
     "0 issue \"amazon.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"sectigo.com\""
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
     "letsencrypt.org",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "ssl.com"
+  ],
   "iodef": [
     "mailto:noc@cleantalk.org"
   ],
