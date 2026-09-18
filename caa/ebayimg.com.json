@@ -2,13 +2,13 @@
   "domain": "ebayimg.com",
   "records": [
     "0 iodef \"mailto:dl-ebay-caa@ebay.com\"",
-    "0 issue \"comodoca.com\"",
     "0 issue \"digicert.com\"",
+    "0 issue \"sectigo.com\"",
     "0 issue \"symantec.com\""
   ],
   "issue": [
-    "comodoca.com",
     "digicert.com",
+    "sectigo.com",
     "symantec.com"
   ],
   "issuewild": [],
