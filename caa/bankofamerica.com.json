@@ -6,6 +6,7 @@
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\"",
+    "0 issue \"thaidigitalid.com\"",
     "0 issuevmc \"digicert.com\""
   ],
   "issue": [
@@ -13,7 +14,8 @@
     "digicert.com",
     "pki.goog",
     "sectigo.com",
-    "ssl.com"
+    "ssl.com",
+    "thaidigitalid.com"
   ],
   "issuewild": [],
   "iodef": [],

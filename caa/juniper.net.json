@@ -1,11 +1,22 @@
 {
   "domain": "juniper.net",
-  "records": [],
-  "issue": [],
+  "records": [
+    "128 issue \"ZScaler.com\"",
+    "128 issue \"amazon.com\"",
+    "128 issue \"digicert.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "ZScaler.com",
+    "amazon.com",
+    "digicert.com",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
-  "contactphone": [],
-  "error": "read udp 10.244.0.122:39009-\u003e8.8.8.8:53: i/o timeout"
+  "contactphone": []
 }

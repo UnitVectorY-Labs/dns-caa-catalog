@@ -1,11 +1,7 @@
 {
   "domain": "xn--80aaqhuhdhjrrj9b.xn--p1ai",
-  "records": [
-    "0 issue \"letsencrypt.org\""
-  ],
-  "issue": [
-    "letsencrypt.org"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
