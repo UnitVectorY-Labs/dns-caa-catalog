@@ -2,12 +2,14 @@
   "domain": "izatcloud.net",
   "records": [
     "0 issue \"amazon.com\"",
+    "0 issue \"identrust.com\"",
     "0 issue \"sectigo.com\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
     "amazon.com",
+    "identrust.com",
     "sectigo.com"
   ],
   "issuewild": [
