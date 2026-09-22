@@ -1,0 +1,17 @@
+{
+  "domain": "labitat.dk",
+  "records": [
+    "128 iodef \"mailto:hostmaster@labitat.dk\"",
+    "128 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@labitat.dk"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "uni-jena.de",
+  "records": [
+    "0 iodef \"mailto:certadmin@uni-jena.de\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.dfn.de\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "harica.gr",
+    "letsencrypt.org",
+    "pki.dfn.de"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:certadmin@uni-jena.de"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

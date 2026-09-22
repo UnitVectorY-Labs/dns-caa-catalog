@@ -1,0 +1,35 @@
+{
+  "domain": "usnews.com",
+  "records": [
+    "0 iodef \"mailto:dns-admin@usnews.com\"",
+    "0 issue \"akamai.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"networksolutions.com\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"trust-provider.com\"",
+    "0 issue \"usertrust.com\"",
+    "0 issue \"web.com\""
+  ],
+  "issue": [
+    "akamai.com",
+    "amazonaws.com",
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org",
+    "networksolutions.com",
+    "pki.goog; cansignhttpexchanges=yes",
+    "sectigo.com",
+    "trust-provider.com",
+    "usertrust.com",
+    "web.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dns-admin@usnews.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

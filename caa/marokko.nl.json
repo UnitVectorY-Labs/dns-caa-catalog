@@ -1,0 +1,18 @@
+{
+  "domain": "marokko.nl",
+  "records": [
+    "0 issue \"comodoca.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"symantec.com\""
+  ],
+  "issue": [
+    "comodoca.com",
+    "letsencrypt.org",
+    "symantec.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

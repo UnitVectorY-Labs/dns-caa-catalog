@@ -1,23 +1,8 @@
 {
   "domain": "ts.net",
-  "records": [
-    "0 issue \"amazon.com\"",
-    "0 issue \"amazonaws.com\"",
-    "0 issue \"amazontrust.com\"",
-    "0 issue \"awstrust.com\"",
-    "0 issue \"letsencrypt.org\"",
-    "0 issuewild \"letsencrypt.org;validationmethods=dns-01\""
-  ],
-  "issue": [
-    "amazon.com",
-    "amazonaws.com",
-    "amazontrust.com",
-    "awstrust.com",
-    "letsencrypt.org"
-  ],
-  "issuewild": [
-    "letsencrypt.org;validationmethods=dns-01"
-  ],
+  "records": [],
+  "issue": [],
+  "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
