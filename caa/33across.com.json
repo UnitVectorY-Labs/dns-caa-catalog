@@ -1,8 +1,15 @@
 {
   "domain": "33across.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "pki.goog"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

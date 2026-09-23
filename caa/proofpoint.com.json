@@ -1,10 +1,12 @@
 {
   "domain": "proofpoint.com",
   "records": [
+    "0 issue \"amazonaws.com\"",
     "0 issue \"comodo.com\"",
     "0 issue \"thawte.com\""
   ],
   "issue": [
+    "amazonaws.com",
     "comodo.com",
     "thawte.com"
   ],

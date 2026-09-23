@@ -8,7 +8,8 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issuewild \"awstrust.com\"",
-    "0 issuewild \"digicert.com\""
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"godaddy.com\""
   ],
   "issue": [
     "amazon.com",
@@ -20,7 +21,8 @@
   ],
   "issuewild": [
     "awstrust.com",
-    "digicert.com"
+    "digicert.com",
+    "godaddy.com"
   ],
   "iodef": [],
   "issuemail": [],
