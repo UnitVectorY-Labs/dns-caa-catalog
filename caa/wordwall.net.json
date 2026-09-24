@@ -1,10 +1,12 @@
 {
   "domain": "wordwall.net",
   "records": [
-    "0 issue \"digicert.com\""
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
-    "digicert.com"
+    "digicert.com",
+    "letsencrypt.org"
   ],
   "issuewild": [],
   "iodef": [],

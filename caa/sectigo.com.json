@@ -1,10 +1,12 @@
 {
   "domain": "sectigo.com",
   "records": [
-    "0 issue \"sectigo.com\""
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\""
   ],
   "issue": [
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
   "issuewild": [],
   "iodef": [],

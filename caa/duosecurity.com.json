@@ -8,7 +8,6 @@
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"identrust.com\"",
-    "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
     "0 issue \"starfieldtech.com\""
   ],
@@ -20,7 +19,6 @@
     "digicert.com",
     "globalsign.com",
     "identrust.com",
-    "letsencrypt.org",
     "pki.goog",
     "starfieldtech.com"
   ],
