@@ -2,11 +2,11 @@
   "domain": "bac.com",
   "records": [
     "0 issue \"digicert.com\"",
-    "0 issue \"entrust.net\""
+    "0 issue \"sectigo.com\""
   ],
   "issue": [
     "digicert.com",
-    "entrust.net"
+    "sectigo.com"
   ],
   "issuewild": [],
   "iodef": [],

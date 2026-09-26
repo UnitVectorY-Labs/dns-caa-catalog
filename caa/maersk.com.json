@@ -1,10 +1,14 @@
 {
   "domain": "maersk.com",
-  "records": [],
+  "records": [
+    "0 issuemail \"sectigo.com\""
+  ],
   "issue": [],
   "issuewild": [],
   "iodef": [],
-  "issuemail": [],
+  "issuemail": [
+    "sectigo.com"
+  ],
   "contactemail": [],
   "contactphone": []
 }
