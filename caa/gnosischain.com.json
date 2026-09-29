@@ -1,0 +1,28 @@
+{
+  "domain": "gnosischain.com",
+  "records": [
+    "0 iodef \"mailto:devops@gnosis.io\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"pki.goog\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "iodef": [
+    "mailto:devops@gnosis.io"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

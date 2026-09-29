@@ -1,0 +1,20 @@
+{
+  "domain": "iem.sh",
+  "records": [
+    "0 iodef \"mailto:noc@iem.at\"",
+    "128 issue \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/7600505\"",
+    "128 issuewild \"letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/7600505\""
+  ],
+  "issue": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/7600505"
+  ],
+  "issuewild": [
+    "letsencrypt.org;validationmethods=dns-01;accounturi=https://acme-v02.api.letsencrypt.org/acme/acct/7600505"
+  ],
+  "iodef": [
+    "mailto:noc@iem.at"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

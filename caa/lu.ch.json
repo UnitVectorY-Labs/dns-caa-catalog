@@ -1,0 +1,23 @@
+{
+  "domain": "lu.ch",
+  "records": [
+    "0 iodef \"mailto:postmaster@lu.ch\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"quovadisglobal.com\"",
+    "0 issue \"swisssign.com\""
+  ],
+  "issue": [
+    "digicert.com",
+    "letsencrypt.org",
+    "quovadisglobal.com",
+    "swisssign.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:postmaster@lu.ch"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
