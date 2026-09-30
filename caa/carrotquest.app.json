@@ -3,16 +3,20 @@
   "records": [
     "128 issue \"letsencrypt.org\"",
     "128 issue \"sectigo.com\"",
+    "128 issue \"ssl.com\"",
     "128 issuewild \"letsencrypt.org\"",
-    "128 issuewild \"sectigo.com\""
+    "128 issuewild \"sectigo.com\"",
+    "128 issuewild \"ssl.com\""
   ],
   "issue": [
     "letsencrypt.org",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
   "issuewild": [
     "letsencrypt.org",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
   "iodef": [],
   "issuemail": [],
