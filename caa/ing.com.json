@@ -2,6 +2,7 @@
   "domain": "ing.com",
   "records": [
     "0 iodef \"mailto:ing.certificate.management@ing.com\"",
+    "0 issue \"digicert.com\"",
     "0 issue \"identrust.com\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"swisssign.com\"",
@@ -14,6 +15,7 @@
     "0 issuewild \"swisssign.com\""
   ],
   "issue": [
+    "digicert.com",
     "identrust.com",
     "sectigo.com",
     "swisssign.com"

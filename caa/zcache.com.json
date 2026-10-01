@@ -1,9 +1,16 @@
 {
   "domain": "zcache.com",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 iodef \"mailto:security@zazzle.com\"",
+    "0 issue \"digicert.com\""
+  ],
+  "issue": [
+    "digicert.com"
+  ],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:security@zazzle.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
