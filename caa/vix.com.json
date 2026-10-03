@@ -1,6 +1,7 @@
 {
   "domain": "vix.com",
   "records": [
+    "0 iodef \"mailto:devops@vix.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
@@ -13,7 +14,9 @@
     "sectigo.com"
   ],
   "issuewild": [],
-  "iodef": [],
+  "iodef": [
+    "mailto:devops@vix.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
