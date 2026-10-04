@@ -1,11 +1,7 @@
 {
   "domain": "trustindex.io",
-  "records": [
-    "0 issue \"sectigo.com\""
-  ],
-  "issue": [
-    "sectigo.com"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
