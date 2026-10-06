@@ -1,0 +1,14 @@
+{
+  "domain": "om77.net",
+  "records": [
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

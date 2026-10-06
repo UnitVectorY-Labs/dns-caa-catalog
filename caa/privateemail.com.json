@@ -1,0 +1,21 @@
+{
+  "domain": "privateemail.com",
+  "records": [
+    "0 iodef \"mailto:pe@namecheap.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:pe@namecheap.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

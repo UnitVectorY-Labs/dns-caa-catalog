@@ -1,0 +1,38 @@
+{
+  "domain": "packtpub.com",
+  "records": [
+    "0 iodef \"mailto:caa.notification@packt.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"amazonaws.com\"",
+    "0 issuewild \"amazontrust.com\"",
+    "0 issuewild \"awstrust.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "letsencrypt.org",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:caa.notification@packt.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
