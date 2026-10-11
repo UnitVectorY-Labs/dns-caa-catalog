@@ -1,22 +1,9 @@
 {
   "domain": "usda.gov",
-  "records": [
-    "0 iodef \"mailto:icam_as_notify@ocio.usda.gov\"",
-    "0 issue \"digicert.com\"",
-    "0 issue \"globalsign.com\"",
-    "0 issue \"identrust.com\"",
-    "0 issue \"letsencrypt.org\""
-  ],
-  "issue": [
-    "digicert.com",
-    "globalsign.com",
-    "identrust.com",
-    "letsencrypt.org"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
-  "iodef": [
-    "mailto:icam_as_notify@ocio.usda.gov"
-  ],
+  "iodef": [],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
