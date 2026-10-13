@@ -1,0 +1,20 @@
+{
+  "domain": "nixos.org",
+  "records": [
+    "128 iodef \"mailto:infra+caa@nixos.org\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:infra+caa@nixos.org"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

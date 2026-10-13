@@ -11,6 +11,7 @@
     "0 issue \"sectigo.com\"",
     "0 issue \"symantec.com\"",
     "0 issue \"telesec.de\"",
+    "0 issuewild \"amazon.com\"",
     "0 issuewild \"letsencrypt.org\"",
     "0 issuewild \"pki.goog\""
   ],
@@ -26,6 +27,7 @@
     "telesec.de"
   ],
   "issuewild": [
+    "amazon.com",
     "letsencrypt.org",
     "pki.goog"
   ],
