@@ -1,7 +1,11 @@
 {
   "domain": "comcast.net",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "sectigo.com"
+  ],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
