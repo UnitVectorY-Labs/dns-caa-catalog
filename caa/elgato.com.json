@@ -9,6 +9,7 @@
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
+    "0 issue \"ssl.com\"",
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"digicert.com\""
   ],
@@ -20,7 +21,8 @@
     "digicert.com",
     "globalsign.com",
     "letsencrypt.org",
-    "pki.goog"
+    "pki.goog",
+    "ssl.com"
   ],
   "issuewild": [
     "amazon.com",

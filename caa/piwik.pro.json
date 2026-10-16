@@ -10,6 +10,7 @@
     "0 issuewild \"amazon.com\"",
     "0 issuewild \"amazonaws.com\"",
     "0 issuewild \"comodoca.com\"",
+    "0 issuewild \"pki.goog\"",
     "0 issuewild \"sectigo.com\""
   ],
   "issue": [
@@ -24,6 +25,7 @@
     "amazon.com",
     "amazonaws.com",
     "comodoca.com",
+    "pki.goog",
     "sectigo.com"
   ],
   "iodef": [],
