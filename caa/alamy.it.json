@@ -1,0 +1,21 @@
+{
+  "domain": "alamy.it",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"geotrust.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"geotrust.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "geotrust.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "geotrust.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

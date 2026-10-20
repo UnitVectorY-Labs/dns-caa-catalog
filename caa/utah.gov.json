@@ -1,0 +1,40 @@
+{
+  "domain": "utah.gov",
+  "records": [
+    "0 issue \"digicert.com\"",
+    "128 iodef \"mailto:prodhosting@utah.gov\"",
+    "128 issue \"amazon.com\"",
+    "128 issue \"godaddy.com\"",
+    "128 issue \"letsencrypt.org\"",
+    "128 issue \"pki.goog\"",
+    "128 issue \"sectigo.com\"",
+    "128 issue \"ssl.com\"",
+    "128 issuewild \"amazon.com\"",
+    "128 issuewild \"letsencrypt.org\"",
+    "128 issuewild \"pki.goog\"",
+    "128 issuewild \"sectigo.com\"",
+    "128 issuewild \"ssl.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com",
+    "ssl.com"
+  ],
+  "iodef": [
+    "mailto:prodhosting@utah.gov"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

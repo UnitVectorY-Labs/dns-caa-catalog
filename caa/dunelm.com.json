@@ -1,0 +1,21 @@
+{
+  "domain": "dunelm.com",
+  "records": [
+    "0 iodef \"mailto:platform.engineering@dunelm.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"godaddy.com\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [],
+  "issuewild": [
+    "amazon.com",
+    "godaddy.com",
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:platform.engineering@dunelm.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -1,0 +1,24 @@
+{
+  "domain": "roblox.net",
+  "records": [
+    "0 iodef \"mailto:certs@roblox.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "amazon.com",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:certs@roblox.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
