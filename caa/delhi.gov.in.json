@@ -1,15 +1,12 @@
 {
   "domain": "delhi.gov.in",
   "records": [
-    "0 issue \"globalsign.com\"",
-    "0 issuewild \"globalsign.com\""
+    "0 issue \"letsencrypt.org\""
   ],
   "issue": [
-    "globalsign.com"
+    "letsencrypt.org"
   ],
-  "issuewild": [
-    "globalsign.com"
-  ],
+  "issuewild": [],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
