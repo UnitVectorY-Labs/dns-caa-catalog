@@ -25,3 +25,4 @@ config:
         ".github/workflows/dns-caa-catalog-update.yml",
         ".github/workflows/go-pages-deploy.yml"
       ]
+  osv: sarif
