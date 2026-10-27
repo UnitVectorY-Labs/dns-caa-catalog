@@ -1,0 +1,17 @@
+{
+  "domain": "physionet.org",
+  "records": [
+    "0 iodef \"mailto:security+caa@physionet.org\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:security+caa@physionet.org"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -1,0 +1,16 @@
+{
+  "domain": "openh264.org",
+  "records": [
+    "0 issue \"identrust.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "identrust.com",
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

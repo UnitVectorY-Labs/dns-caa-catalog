@@ -1,0 +1,25 @@
+{
+  "domain": "cnr.it",
+  "records": [
+    "0 issue \"actalis.it\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "actalis.it",
+    "harica.gr",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "harica.gr",
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

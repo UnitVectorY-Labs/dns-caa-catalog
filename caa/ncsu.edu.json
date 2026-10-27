@@ -1,0 +1,34 @@
+{
+  "domain": "ncsu.edu",
+  "records": [
+    "0 iodef \"mailto:hostmaster@ncsu.edu\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"emsign.com\"",
+    "0 issue \"godaddy.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"emsign.com\"",
+    "0 issuewild \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "digicert.com",
+    "emsign.com",
+    "godaddy.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "sectigo.com"
+  ],
+  "issuewild": [
+    "emsign.com",
+    "sectigo.com"
+  ],
+  "iodef": [
+    "mailto:hostmaster@ncsu.edu"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

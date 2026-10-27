@@ -1,0 +1,17 @@
+{
+  "domain": "ecured.cu",
+  "records": [
+    "0 iodef \"mailto:admin@jovenclub.cu\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:admin@jovenclub.cu"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
