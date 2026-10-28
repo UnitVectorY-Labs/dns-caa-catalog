@@ -1,20 +1,9 @@
 {
   "domain": "kraken.com",
-  "records": [
-    "0 iodef \"mailto:certificate-abuse@kraken.com\"",
-    "0 issue \"amazonaws.com\"",
-    "0 issue \"digicert.com\"",
-    "0 issue \"pki.goog\""
-  ],
-  "issue": [
-    "amazonaws.com",
-    "digicert.com",
-    "pki.goog"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
-  "iodef": [
-    "mailto:certificate-abuse@kraken.com"
-  ],
+  "iodef": [],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
