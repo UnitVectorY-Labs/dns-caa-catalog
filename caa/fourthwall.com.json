@@ -7,6 +7,7 @@
     "0 issue \"pki.goog\"",
     "0 issue \"sectigo.com\"",
     "0 issue \"ssl.com\"",
+    "0 issuevmc \"sectigo.com\"",
     "0 issuewild \"pki.goog\"",
     "0 issuewild \"sectigo.com\"",
     "0 issuewild \"ssl.com\""

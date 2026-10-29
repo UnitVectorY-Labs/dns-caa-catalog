@@ -1,20 +1,24 @@
 {
   "domain": "acs.org",
   "records": [
+    "0 issue \"amazonaws.com\"",
     "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
+    "0 issuewild \"amazonaws.com\"",
     "0 issuewild \"globalsign.com\"",
     "128 issue \"sectigo.com\"",
     "128 issuewild \"sectigo.com\""
   ],
   "issue": [
+    "amazonaws.com",
     "globalsign.com",
     "letsencrypt.org",
     "pki.goog",
     "sectigo.com"
   ],
   "issuewild": [
+    "amazonaws.com",
     "globalsign.com",
     "sectigo.com"
   ],
