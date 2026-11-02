@@ -1,7 +1,7 @@
 {
   "domain": "speedcurve.com",
   "records": [
-    "0 iodef \"mailto:security@embrace.io\"",
+    "0 iodef \"mailto:devops@embrace.io\"",
     "0 issue \"amazon.com\"",
     "0 issue \"certainly.com\"",
     "0 issue \"letsencrypt.org\"",
@@ -20,7 +20,7 @@
     "letsencrypt.org"
   ],
   "iodef": [
-    "mailto:security@embrace.io"
+    "mailto:devops@embrace.io"
   ],
   "issuemail": [],
   "contactemail": [],

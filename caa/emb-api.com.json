@@ -1,7 +1,7 @@
 {
   "domain": "emb-api.com",
   "records": [
-    "0 iodef \"mailto:security@embrace.io\"",
+    "0 iodef \"mailto:devops@embrace.io\"",
     "0 issue \"digicert.com\"",
     "0 issuewild \"digicert.com\""
   ],
@@ -12,7 +12,7 @@
     "digicert.com"
   ],
   "iodef": [
-    "mailto:security@embrace.io"
+    "mailto:devops@embrace.io"
   ],
   "issuemail": [],
   "contactemail": [],
