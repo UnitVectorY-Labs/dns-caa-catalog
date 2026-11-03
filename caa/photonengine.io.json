@@ -1,11 +1,16 @@
 {
   "domain": "photonengine.io",
   "records": [
-    "0 issuewild \"digicert.com\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\""
   ],
-  "issue": [],
+  "issue": [
+    "letsencrypt.org"
+  ],
   "issuewild": [
-    "digicert.com"
+    "digicert.com",
+    "letsencrypt.org"
   ],
   "iodef": [],
   "issuemail": [],

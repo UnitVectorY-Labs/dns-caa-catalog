@@ -1,12 +1,17 @@
 {
   "domain": "workspaceair.com",
   "records": [
-    "0 issue \"digicert.com\""
+    "0 issue \"amazon.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issuewild \"amazon.com\""
   ],
   "issue": [
+    "amazon.com",
     "digicert.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "amazon.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

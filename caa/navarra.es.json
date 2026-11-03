@@ -1,0 +1,30 @@
+{
+  "domain": "navarra.es",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonws.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"comodoca.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"fnmt.es\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonws.com",
+    "awstrust.com",
+    "comodoca.com",
+    "digicert.com",
+    "fnmt.es",
+    "harica.gr",
+    "letsencrypt.org",
+    "sectigo.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

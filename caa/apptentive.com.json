@@ -8,6 +8,7 @@
     "0 issue \"godaddy.com\"",
     "0 issue \"letsencrypt.org\"",
     "0 issue \"pki.goog\"",
+    "0 issuewild \"amazon.com\"",
     "0 issuewild \"globalsign.com\"",
     "0 issuewild \"godaddy.com\"",
     "0 issuewild \"letsencrypt.org\"",
@@ -22,6 +23,7 @@
     "pki.goog"
   ],
   "issuewild": [
+    "amazon.com",
     "globalsign.com",
     "godaddy.com",
     "letsencrypt.org",
