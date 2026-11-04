@@ -1,9 +1,11 @@
 {
   "domain": "comcast.net",
   "records": [
+    "0 issue \"amazonaws.com\"",
     "0 issue \"sectigo.com\""
   ],
   "issue": [
+    "amazonaws.com",
     "sectigo.com"
   ],
   "issuewild": [],
