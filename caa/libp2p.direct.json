@@ -1,7 +1,11 @@
 {
   "domain": "libp2p.direct",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
