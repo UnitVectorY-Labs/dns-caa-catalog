@@ -2,10 +2,12 @@
   "domain": "nextdirect.com",
   "records": [
     "0 issue \"digicert.com\"",
+    "0 issue \"sectigo.com\"",
     "0 issuewild \"digicert.com\""
   ],
   "issue": [
-    "digicert.com"
+    "digicert.com",
+    "sectigo.com"
   ],
   "issuewild": [
     "digicert.com"
