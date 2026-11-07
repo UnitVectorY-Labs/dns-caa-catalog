@@ -16,32 +16,32 @@
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssue}} ✅</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssue}} {{template "icon-check"}}</div>
             <div class="text-muted">With 'issue' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssue 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueWild}} ✳️</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueWild}} {{template "icon-asterisk"}}</div>
             <div class="text-muted">With 'issuewild' Record</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIodef}} 📬</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIodef}} {{template "icon-mail"}}</div>
             <div class="text-muted">With 'iodef' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIodef 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueMail}} 📧</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueMail}} {{template "icon-mail"}}</div>
             <div class="text-muted">With 'issuemail' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueMail 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactEmail}} 📩</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactEmail}} {{template "icon-mail"}}</div>
             <div class="text-muted">With 'contactemail' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactEmail 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactPhone}} 📞</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactPhone}} {{template "icon-phone"}}</div>
             <div class="text-muted">With 'contactphone' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactPhone 100.0) .Summary.TotalDomains)}}</div>
         </div>
@@ -54,7 +54,7 @@
     <div class="grid-two-col mb-15">
         {{if .Summary.SortedIssueStats}}
         <div>
-            <h4 class="text-primary mb-05">✅ issue</h4>
+            <h4 class="text-primary mb-05">{{template "icon-check"}} issue</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
@@ -86,7 +86,7 @@
 
         {{if .Summary.SortedIssueWildStats}}
         <div>
-            <h4 class="text-primary mb-05">✳️ issuewild</h4>
+            <h4 class="text-primary mb-05">{{template "icon-asterisk"}} issuewild</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">

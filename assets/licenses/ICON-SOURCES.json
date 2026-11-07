@@ -1,0 +1,55 @@
+{
+  "commit": "ed177a085b652fe04ec4f37ced867c94621e7840",
+  "icons": [
+    {
+      "name": "menu-2",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/menu-2.svg",
+      "sha256": "bcef199c5e53082a56c7bf33d4c48181b71373eb5d923cce8884aca09d106842"
+    },
+    {
+      "name": "sun",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/sun.svg",
+      "sha256": "6677490605af8987d55d6e4185b1f6c241eced65b63ccfece68cadb7ce90fbb5"
+    },
+    {
+      "name": "moon",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/moon.svg",
+      "sha256": "7cabaae40eea65310da478d3cad30b23cf1d7e99adad56378f82824338079668"
+    },
+    {
+      "name": "search",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/search.svg",
+      "sha256": "3dd53b9606283dfa0adcb0b10a7d9a4432369d4bebcfacf67f80fbe358381c34"
+    },
+    {
+      "name": "check",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/check.svg",
+      "sha256": "e206067a7d570997b5b3a7d30ab287c0b15a492787649a8b96dff8fad2862fbe"
+    },
+    {
+      "name": "mail",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/mail.svg",
+      "sha256": "94ca7eed1a9b89c7d3345e7c62a622060a502645b4ae10b7ed160294583d3c33"
+    },
+    {
+      "name": "phone",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/phone.svg",
+      "sha256": "4659f9041061912c6382c6fde8d2455105ce2f29145df862d81d22f3a73f83e6"
+    },
+    {
+      "name": "asterisk",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/asterisk.svg",
+      "sha256": "88899c951b65b2ffeef2c822edd63a0ac57cbd72f2495b0e385f9776e6b9f2a9"
+    },
+    {
+      "name": "link",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/link.svg",
+      "sha256": "27e34930284da308ed31c4ddc9c14fc333db08be5b6c42bcbf99f77ec5bad626"
+    },
+    {
+      "name": "brand-github",
+      "url": "https://raw.githubusercontent.com/tabler/tabler-icons/ed177a085b652fe04ec4f37ced867c94621e7840/icons/outline/brand-github.svg",
+      "sha256": "1ba4d43069f269d4aedc71bd5887632ae08b17435d64f47f331b18c316ffeb37"
+    }
+  ]
+}

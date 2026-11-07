@@ -1,32 +1,33 @@
 <div class="search-container">
-    <input type="text" id="searchInput" class="search-input" placeholder="Search domains...">
-    <span class="search-icon">&#128269;</span>
+    <label for="searchInput" class="sr-only">Search domains</label>
+    <input type="search" id="searchInput" class="search-input" placeholder="Search domains...">
+    <span class="search-icon">{{template "icon-search"}}</span>
 </div>
 <div class="filter-container">
     <div class="filter-title">Filter by record type:</div>
     <label class="filter-label">
         <input type="checkbox" id="filterIssue" data-filter="issue">
-        <span>✅ issue</span>
+        <span>{{template "icon-check"}} issue</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterIssueWild" data-filter="issuewild">
-        <span>✳️ issuewild</span>
+        <span>{{template "icon-asterisk"}} issuewild</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterIodef" data-filter="iodef">
-        <span>📬 iodef</span>
+        <span>{{template "icon-mail"}} iodef</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterIssueMail" data-filter="issuemail">
-        <span>📧 issuemail</span>
+        <span>{{template "icon-mail"}} issuemail</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterContactEmail" data-filter="contactemail">
-        <span>📩 contactemail</span>
+        <span>{{template "icon-mail"}} contactemail</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterContactPhone" data-filter="contactphone">
-        <span>📞 contactphone</span>
+        <span>{{template "icon-phone"}} contactphone</span>
     </label>
     <label class="filter-label filter-label-muted">
         <input type="checkbox" id="hideMissingCaa" checked>
@@ -34,7 +35,7 @@
     </label>
 </div>
 {{range .Results}}
-<a href="/{{.Domain}}.html" 
+<a class="domain-link" href="/{{.Domain}}.html"
    hx-get="/snippets/{{.Domain}}.html" 
    hx-target="#content" 
    hx-push-url="/{{.Domain}}.html"
@@ -45,5 +46,5 @@
    data-has-issuemail="{{if .IssueMail}}true{{else}}false{{end}}"
    data-has-contactemail="{{if .ContactEmail}}true{{else}}false{{end}}"
    data-has-contactphone="{{if .ContactPhone}}true{{else}}false{{end}}"
->{{.Domain}}{{if .Issue}} ✅{{end}}{{if .IssueWild}} ✳️{{end}}{{if .Iodef}} 📬{{end}}{{if .IssueMail}} 📧{{end}}{{if .ContactEmail}} 📩{{end}}{{if .ContactPhone}} 📞{{end}}</a>
+>{{.Domain}}{{if .Issue}} {{template "icon-check"}}{{end}}{{if .IssueWild}} {{template "icon-asterisk"}}{{end}}{{if .Iodef}} {{template "icon-mail"}}{{end}}{{if .IssueMail}} {{template "icon-mail"}}{{end}}{{if .ContactEmail}} {{template "icon-mail"}}{{end}}{{if .ContactPhone}} {{template "icon-phone"}}{{end}}</a>
 {{end}}
