@@ -1,6 +1,6 @@
 # UVY Design adoption
 
-This website adopts [uvy-design v0.1.0](https://github.com/UnitVectorY-Labs/uvy-design/releases/tag/v0.1.0), source commit `396a65021c2bcab8dbcb3d1bb4cb498c807a4396`.
+This website adopts [uvy-design v0.1.0](https://github.com/UnitVectorY-Labs/uvy-design/tree/12f8e3d964785d78628346516351fe4dac583cef), source commit `12f8e3d964785d78628346516351fe4dac583cef`.
 
 ## Local files and provenance
 
@@ -28,7 +28,7 @@ Source summary rankings with equal counts may reorder between builds because the
 
 Before/after evidence uses the same complete committed10,000-domain crawl dataset at base commit `704ed00c66584cba5293b2d4d891e2f345b59d50`. A clearly identified timeout fixture supplies the error-page case because the actual dataset contains no error entries. The baseline has no dark theme; both OS preferences faithfully produce the original light appearance. Playwright Chromium library is used; no Playwright MCP is available. Evidence is stored on the design repository's dedicated evidence branch and embedded in the PR, never committed here.
 
-For updates: review a tagged design release, replace canonical copied files verbatim, record new source version/checksums/licenses, update only app adapter rules as needed, regenerate, test and review the full screenshot matrix. Do not fetch shared assets at runtime or replace application navigation/data semantics.
+For updates: review a new design commit, replace canonical copied files verbatim, record new source version/checksums/licenses, update only app adapter rules as needed, regenerate, test and review the full screenshot matrix. Do not fetch shared assets at runtime or replace application navigation/data semantics.
 
 ## Canonical file SHA-256
 
