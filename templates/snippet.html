@@ -4,7 +4,7 @@
 </div>
 {{if .IsCAProvider}}
 <div class="cross-link-section">
-    <span class="cross-link-icon">🔗</span>
+    <span class="cross-link-icon">{{template "icon-link"}}</span>
     <span class="cross-link-text">This domain is also a Certificate Authority.</span>
     <a href="/providers/{{.NormalizedCA}}.html" 
        hx-get="/snippets/providers/{{.NormalizedCA}}.html" 
@@ -23,7 +23,7 @@
         <tbody>
             <tr class="record-row">
                 <td class="record-label">
-                    <span class="record-emoji">✅</span>
+                    <span class="record-emoji">{{template "icon-check"}}</span>
                     <span class="record-name">issue</span>
                     <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.2" target="_blank" class="rfc-link">RFC</a>
                 </td>
@@ -45,7 +45,7 @@
             </tr>
             <tr class="record-row">
                 <td class="record-label">
-                    <span class="record-emoji">✳️</span>
+                    <span class="record-emoji">{{template "icon-asterisk"}}</span>
                     <span class="record-name">issuewild</span>
                     <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.3" target="_blank" class="rfc-link">RFC</a>
                 </td>
@@ -67,7 +67,7 @@
             </tr>
             <tr class="record-row">
                 <td class="record-label">
-                    <span class="record-emoji">📧</span>
+                    <span class="record-emoji">{{template "icon-mail"}}</span>
                     <span class="record-name">issuemail</span>
                     <a href="https://datatracker.ietf.org/doc/html/rfc9495#section-3" target="_blank" class="rfc-link">RFC</a>
                 </td>
@@ -85,7 +85,7 @@
             </tr>
             <tr class="record-row">
                 <td class="record-label">
-                    <span class="record-emoji">📬</span>
+                    <span class="record-emoji">{{template "icon-mail"}}</span>
                     <span class="record-name">iodef</span>
                     <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.4" target="_blank" class="rfc-link">RFC</a>
                 </td>
@@ -103,7 +103,7 @@
             </tr>
             <tr class="record-row">
                 <td class="record-label">
-                    <span class="record-emoji">📩</span>
+                    <span class="record-emoji">{{template "icon-mail"}}</span>
                     <span class="record-name">contactemail</span>
                     <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.5" target="_blank" class="rfc-link">RFC</a>
                 </td>
@@ -121,7 +121,7 @@
             </tr>
             <tr class="record-row">
                 <td class="record-label">
-                    <span class="record-emoji">📞</span>
+                    <span class="record-emoji">{{template "icon-phone"}}</span>
                     <span class="record-name">contactphone</span>
                     <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.6" target="_blank" class="rfc-link">RFC</a>
                 </td>

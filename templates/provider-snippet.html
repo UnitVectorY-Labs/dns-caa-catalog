@@ -4,7 +4,7 @@
 </div>
 {{if .IsDomainMonitored}}
 <div class="cross-link-section">
-    <span class="cross-link-icon">🔗</span>
+    <span class="cross-link-icon">{{template "icon-link"}}</span>
     <span class="cross-link-text">This CA is also a monitored domain.</span>
     <a href="/{{.Provider.CA}}.html" 
        hx-get="/snippets/{{.Provider.CA}}.html" 
@@ -36,7 +36,7 @@
     <div class="grid-two-col">
         {{if .Provider.IssueDomains}}
         <div>
-            <h4 class="text-primary mb-05">✅ Domains with 'issue' Records</h4>
+            <h4 class="text-primary mb-05">{{template "icon-check"}} Domains with 'issue' Records</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
@@ -60,7 +60,7 @@
 
         {{if .Provider.WildDomains}}
         <div>
-            <h4 class="text-primary mb-05">✳️ Domains with 'issuewild' Records</h4>
+            <h4 class="text-primary mb-05">{{template "icon-asterisk"}} Domains with 'issuewild' Records</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
