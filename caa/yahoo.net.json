@@ -4,14 +4,23 @@
     "0 iodef \"mailto:security@yahooinc.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"globalsign.com\"",
-    "0 issue \"sectigo.com\""
+    "0 issue \"pki.goog\"",
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"sectigo.com\""
   ],
   "issue": [
     "digicert.com",
     "globalsign.com",
+    "pki.goog",
     "sectigo.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "digicert.com",
+    "globalsign.com",
+    "sectigo.com"
+  ],
   "iodef": [
     "mailto:security@yahooinc.com"
   ],
