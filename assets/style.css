@@ -979,3 +979,10 @@ header a h1 { color: #fff; }
 header :focus-visible, .uvy-theme-toggle:focus-visible { outline-color: #fff; }
 .uvy-theme-toggle, .nav-toggle { color: #fff; border-color: #b8cdea; }
 .uvy-theme-toggle:hover, .nav-toggle:hover { background: rgb(255 255 255 / 12%); border-color: #fff; }
+header h1 { border-bottom: 0; padding-bottom: 0; }
+header h1::after { content: ""; display: block; width: 48px; height: 3px; margin-top: 6px; background: #ff932e; }
+@media (max-width: 768px) {
+ header { display: flex; flex-direction: column; align-items: flex-start; }
+ header > a { order: 0; max-width: 100%; }
+ header .nav-toggle { order: 1; }
+}
