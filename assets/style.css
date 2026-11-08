@@ -848,3 +848,18 @@ pre, .raw-records-content { background: var(--uvy-blue-soft); color: var(--uvy-t
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
 .no-script-nav { margin: 0; padding: 8px 16px; background: var(--uvy-surface); font-size: 14px; }
 .data-attribution a:hover, .link-muted:hover { color: var(--uvy-link); }
+
+/* Current UVY Design guidance: project identity and mobile navigation. */
+header { background: var(--uvy-surface); border-bottom: 1px solid var(--uvy-divider); text-align: left; }
+header a h1 { color: var(--uvy-link); }
+header h1, .right-panel h2, .right-panel h3 { width: fit-content; max-width: 100%; border-bottom: 3px solid var(--uvy-accent-fill); padding-bottom: 4px; }
+header :focus-visible { outline-color: var(--uvy-focus); }
+.uvy-theme-toggle, .nav-toggle { color: var(--uvy-accent); border-color: var(--uvy-control); }
+.uvy-theme-toggle:hover { background: var(--uvy-accent-soft); border-color: var(--uvy-accent); }
+.uvy-theme-toggle:focus-visible { outline-color: var(--uvy-focus); }
+.summary-box, .intro-box, .page-header-domain, .page-header-ca { border-left: 1px solid var(--uvy-divider); }
+@media (max-width: 768px) {
+ header { display: block; padding: 12px 64px 12px 16px; }
+ header .nav-toggle { position: static; margin-top: 8px; }
+ header h1 { text-align: left; }
+}
