@@ -972,3 +972,10 @@ header h1 { font-size: 2rem; line-height: 1.2; font-weight: 600; letter-spacing:
 .summary-box, .intro-box, .intro-summary, .page-header-domain, .page-header-ca { border: 1px solid var(--uvy-divider); }
 .summary-box, .intro-box, .intro-summary, .page-header { padding: 1rem; }
 @media (max-width: 768px) { header h1 { font-size: 2rem; } }
+
+/* Application header */
+header { background: #174b93; border-bottom: 0; }
+header a h1 { color: #fff; }
+header :focus-visible, .uvy-theme-toggle:focus-visible { outline-color: #fff; }
+.uvy-theme-toggle, .nav-toggle { color: #fff; border-color: #b8cdea; }
+.uvy-theme-toggle:hover, .nav-toggle:hover { background: rgb(255 255 255 / 12%); border-color: #fff; }
