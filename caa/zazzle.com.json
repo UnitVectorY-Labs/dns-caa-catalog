@@ -1,7 +1,7 @@
 {
   "domain": "zazzle.com",
   "records": [
-    "0 iodef \"mailto:security@zazzle.com\"",
+    "0 iodef \"security@zazzle.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"sectigo.com\""
   ],
@@ -11,7 +11,7 @@
   ],
   "issuewild": [],
   "iodef": [
-    "mailto:security@zazzle.com"
+    "security@zazzle.com"
   ],
   "issuemail": [],
   "contactemail": [],
