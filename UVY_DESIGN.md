@@ -1,6 +1,6 @@
 # UVY Design adoption
 
-This application follows the [UVY Design guidance](https://github.com/UnitVectorY-Labs/uvy-design/tree/64017af) at commit `64017af`. The guidance is unversioned and each application owns its implementation.
+This application follows the [UVY Design guidance](https://github.com/UnitVectorY-Labs/uvy-design/tree/5f8bd54) at commit `5f8bd54`. The guidance is unversioned and each application owns its implementation.
 
 ## Local files and provenance
 

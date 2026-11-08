@@ -863,3 +863,11 @@ header :focus-visible { outline-color: var(--uvy-focus); }
  header .nav-toggle { position: static; margin-top: 8px; }
  header h1 { text-align: left; }
 }
+
+/* Typography and neutral panels from the current guidance. */
+header h1 { font-size: 2rem; line-height: 1.2; font-weight: 600; letter-spacing: normal; overflow-wrap: anywhere; }
+.right-panel h2, .title-large, .page-header-title { font-size: 1.5rem; line-height: 1.2; font-weight: 600; overflow-wrap: anywhere; }
+.right-panel h3 { font-size: 1.25rem; line-height: 1.2; font-weight: 600; }
+.summary-box, .intro-box, .intro-summary, .page-header-domain, .page-header-ca { border: 1px solid var(--uvy-divider); }
+.summary-box, .intro-box, .intro-summary, .page-header { padding: 1rem; }
+@media (max-width: 768px) { header h1 { font-size: 2rem; } }
