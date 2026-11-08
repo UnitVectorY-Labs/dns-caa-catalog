@@ -1174,7 +1174,7 @@ func generateNavSnippet(outputDir string, results []DomainResult, navTmpl *templ
 }
 
 func copyAssets(outputDir string) error {
-	for _, name := range []string{"style.css", "site.js", "vendor/htmx-4.0.0.min.js", "licenses/TABLER-ICONS-LICENSE", "licenses/HTMX-LICENSE", "licenses/ICON-SOURCES.json"} {
+	for _, name := range []string{"style.css", "site.js", "licenses/TABLER-ICONS-LICENSE"} {
 		dst := filepath.Join(outputDir, name)
 		if err := os.MkdirAll(filepath.Dir(dst), 0755); err != nil {
 			return err
