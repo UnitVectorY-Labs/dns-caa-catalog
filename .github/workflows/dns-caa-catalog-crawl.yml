@@ -1,7 +1,8 @@
 name: dns-caa-catalog-crawl
 on:
   schedule:
-    - cron: "0 5 * * *"
+    # Tuesday crawls are dispatched by ghook4action after a successful domain-list update.
+    - cron: "0 5 * * 0,1,3,4,5,6"
   workflow_dispatch:
 
 jobs:
