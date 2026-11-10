@@ -1,0 +1,17 @@
+{
+  "domain": "sysoon.com",
+  "records": [
+    "0 iodef \"mailto:dano@sysoon.com\"",
+    "0 issue \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:dano@sysoon.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

@@ -1,0 +1,14 @@
+{
+  "domain": "msn.fr",
+  "records": [
+    "0 contactemail \"caarecordaware@microsoft.com\""
+  ],
+  "issue": [],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [
+    "caarecordaware@microsoft.com"
+  ],
+  "contactphone": []
+}

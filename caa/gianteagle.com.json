@@ -1,0 +1,30 @@
+{
+  "domain": "gianteagle.com",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"amazonaws.com\"",
+    "0 issue \"amazontrust.com\"",
+    "0 issue \"awstrust.com\"",
+    "0 issue \"digicert.com\"",
+    "0 issue \"entrust.net\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"trust-provider.com\"",
+    "0 issue \"usertrust.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "amazonaws.com",
+    "amazontrust.com",
+    "awstrust.com",
+    "digicert.com",
+    "entrust.net",
+    "sectigo.com",
+    "trust-provider.com",
+    "usertrust.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

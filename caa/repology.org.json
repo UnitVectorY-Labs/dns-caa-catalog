@@ -1,0 +1,20 @@
+{
+  "domain": "repology.org",
+  "records": [
+    "0 iodef \"mailto:amdmi3@amdmi3.ru\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:amdmi3@amdmi3.ru"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
