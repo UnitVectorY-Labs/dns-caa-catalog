@@ -105,6 +105,11 @@ Additionally, a `timestamp.json` file is created in the output directory:
 ```
 This represents when the crawl was started and is used for display in the generated HTML.
 
+JSON input uses case-sensitive field names and rejects duplicate object names and
+invalid UTF-8. When writing JSON, nil slices are encoded as empty arrays, and
+an empty `error` is omitted. JSON strings are no longer HTML-escaped, so
+characters such as `<`, `>` and `&` appear literally in the JSON files.
+
 ### HTML Output (from generate)
 
 - `index.html`: Summary table of all domains with CAA status

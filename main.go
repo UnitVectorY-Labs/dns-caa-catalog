@@ -3,7 +3,8 @@ package main
 import (
 	"bufio"
 	"bytes"
-	"encoding/json"
+	"encoding/json/jsontext"
+	"encoding/json/v2"
 	"flag"
 	"fmt"
 	"html/template"
@@ -342,7 +343,7 @@ func crawl(config CrawlConfig) error {
 	// Write crawl timestamp
 	crawlTimestamp := time.Now().UTC().Format(time.RFC3339)
 	tsPath := filepath.Join(config.Output, "timestamp.json")
-	tsData, _ := json.MarshalIndent(map[string]string{"timestamp": crawlTimestamp}, "", "  ")
+	tsData, _ := json.Marshal(map[string]string{"timestamp": crawlTimestamp}, jsontext.WithIndent("  "))
 	_ = os.WriteFile(tsPath, tsData, 0644)
 
 	// Process domains concurrently
@@ -556,8 +557,7 @@ func parseCAA(record string) *CAARecord {
 func writeResult(outputDir string, result DomainResult) error {
 	filename := filepath.Join(outputDir, result.Domain+".json")
 
-	// Marshal with sorted keys
-	data, err := json.MarshalIndent(result, "", "  ")
+	data, err := json.Marshal(result, jsontext.WithIndent("  "))
 	if err != nil {
 		return err
 	}
@@ -997,7 +997,9 @@ func readCrawlTimestamp(inputDir string) string {
 	if err != nil {
 		return ""
 	}
-	var ts struct{ Timestamp string }
+	var ts struct {
+		Timestamp string `json:"timestamp"`
+	}
 	if err := json.Unmarshal(data, &ts); err != nil {
 		return ""
 	}
