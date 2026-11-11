@@ -1,8 +1,15 @@
 {
   "domain": "rzone.de",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"sectico.com\"",
+    "0 issuewild \"sectico.com\""
+  ],
+  "issue": [
+    "sectico.com"
+  ],
+  "issuewild": [
+    "sectico.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

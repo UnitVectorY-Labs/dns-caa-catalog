@@ -7,7 +7,8 @@
     "0 issue \"letsencrypt.org\"",
     "0 issue \"sectigo.com\"",
     "0 issuewild \"comodoca.com\"",
-    "0 issuewild \"digicert.com\""
+    "0 issuewild \"digicert.com\"",
+    "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
     "comodoca.com",
@@ -17,7 +18,8 @@
   ],
   "issuewild": [
     "comodoca.com",
-    "digicert.com"
+    "digicert.com",
+    "letsencrypt.org"
   ],
   "iodef": [
     "mailto:domainmaster@skroutz.gr"
