@@ -1,14 +1,14 @@
 {
   "domain": "rzone.de",
   "records": [
-    "0 issue \"sectico.com\"",
-    "0 issuewild \"sectico.com\""
+    "0 issue \"sectigo.com\"",
+    "0 issuewild \"sectigo.com\""
   ],
   "issue": [
-    "sectico.com"
+    "sectigo.com"
   ],
   "issuewild": [
-    "sectico.com"
+    "sectigo.com"
   ],
   "iodef": [],
   "issuemail": [],

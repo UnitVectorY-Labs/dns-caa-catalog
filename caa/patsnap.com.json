@@ -1,9 +1,25 @@
 {
   "domain": "patsnap.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
-  "iodef": [],
+  "records": [
+    "0 iodef \"mailto:devops@patsnap.com\"",
+    "0 issue \"amazon.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "ssl.com"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
+  "iodef": [
+    "mailto:devops@patsnap.com"
+  ],
   "issuemail": [],
   "contactemail": [],
   "contactphone": []
