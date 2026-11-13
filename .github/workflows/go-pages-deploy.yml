@@ -1,14 +1,10 @@
 name: Deploy Go Static Site Generator
 
 on:
-  # Trigger after the crawl completes
-  workflow_run:
-    workflows: [dns-caa-catalog-crawl]
-    types: [completed]
   # Runs on pushes to the default branch
   push:
     branches: ["main"]
-  # Allows manual runs from the Actions tab
+  # Allows manual runs and ghook4action dispatches after successful crawls
   workflow_dispatch:
 
 # Start with no token permissions; jobs request only what they need.
