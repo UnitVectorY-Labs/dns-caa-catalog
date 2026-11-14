@@ -1,32 +1,33 @@
 <div class="search-container">
-    <input type="text" id="searchInput" class="search-input" placeholder="Search domains...">
-    <span class="search-icon">&#128269;</span>
+    <label for="searchInput" class="sr-only">Search domains</label>
+    <input type="search" id="searchInput" class="search-input" placeholder="Search domains...">
+    <span class="search-icon"><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 10a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" /> <path d="M21 21l-6 -6" /> </svg></span>
 </div>
 <div class="filter-container">
     <div class="filter-title">Filter by record type:</div>
     <label class="filter-label">
         <input type="checkbox" id="filterIssue" data-filter="issue">
-        <span>✅ issue</span>
+        <span><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 12l5 5l10 -10" /> </svg> issue</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterIssueWild" data-filter="issuewild">
-        <span>✳️ issuewild</span>
+        <span><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 12l8 -4.5" /> <path d="M12 12v9" /> <path d="M12 12l-8 -4.5" /> <path d="M12 12l8 4.5" /> <path d="M12 3v9" /> <path d="M12 12l-8 4.5" /> </svg> issuewild</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterIodef" data-filter="iodef">
-        <span>📬 iodef</span>
+        <span><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg> iodef</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterIssueMail" data-filter="issuemail">
-        <span>📧 issuemail</span>
+        <span><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg> issuemail</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterContactEmail" data-filter="contactemail">
-        <span>📩 contactemail</span>
+        <span><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg> contactemail</span>
     </label>
     <label class="filter-label">
         <input type="checkbox" id="filterContactPhone" data-filter="contactphone">
-        <span>📞 contactphone</span>
+        <span><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /> </svg> contactphone</span>
     </label>
     <label class="filter-label filter-label-muted">
         <input type="checkbox" id="hideMissingCaa" checked>
@@ -34,7 +35,7 @@
     </label>
 </div>
 {{range .Results}}
-<a href="/{{.Domain}}.html" 
+<a class="domain-link" href="/{{.Domain}}.html"
    hx-get="/snippets/{{.Domain}}.html" 
    hx-target="#content" 
    hx-push-url="/{{.Domain}}.html"
@@ -45,5 +46,5 @@
    data-has-issuemail="{{if .IssueMail}}true{{else}}false{{end}}"
    data-has-contactemail="{{if .ContactEmail}}true{{else}}false{{end}}"
    data-has-contactphone="{{if .ContactPhone}}true{{else}}false{{end}}"
->{{.Domain}}{{if .Issue}} ✅{{end}}{{if .IssueWild}} ✳️{{end}}{{if .Iodef}} 📬{{end}}{{if .IssueMail}} 📧{{end}}{{if .ContactEmail}} 📩{{end}}{{if .ContactPhone}} 📞{{end}}</a>
+>{{.Domain}}{{if .Issue}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 12l5 5l10 -10" /> </svg>{{end}}{{if .IssueWild}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 12l8 -4.5" /> <path d="M12 12v9" /> <path d="M12 12l-8 -4.5" /> <path d="M12 12l8 4.5" /> <path d="M12 3v9" /> <path d="M12 12l-8 4.5" /> </svg>{{end}}{{if .Iodef}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg>{{end}}{{if .IssueMail}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg>{{end}}{{if .ContactEmail}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg>{{end}}{{if .ContactPhone}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /> </svg>{{end}}</a>
 {{end}}

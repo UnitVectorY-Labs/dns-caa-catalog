@@ -1174,11 +1174,14 @@ func generateNavSnippet(outputDir string, results []DomainResult, navTmpl *templ
 }
 
 func copyAssets(outputDir string) error {
-	// Copy style.css to the output directory
-	src := "assets/style.css"
-	dst := filepath.Join(outputDir, "style.css")
-	if err := copyFile(src, dst); err != nil {
-		return fmt.Errorf("error copying style.css: %v", err)
+	for _, name := range []string{"style.css", "site.js", "licenses/TABLER-ICONS-LICENSE"} {
+		dst := filepath.Join(outputDir, name)
+		if err := os.MkdirAll(filepath.Dir(dst), 0755); err != nil {
+			return err
+		}
+		if err := copyFile(filepath.Join("assets", name), dst); err != nil {
+			return fmt.Errorf("copy asset %s: %w", name, err)
+		}
 	}
 	return nil
 }
