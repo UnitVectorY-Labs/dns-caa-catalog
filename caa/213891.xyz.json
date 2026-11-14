@@ -1,11 +1,7 @@
 {
   "domain": "213891.xyz",
-  "records": [
-    "0 issue \"letsencrypt.org\""
-  ],
-  "issue": [
-    "letsencrypt.org"
-  ],
+  "records": [],
+  "issue": [],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],

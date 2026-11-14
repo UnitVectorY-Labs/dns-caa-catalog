@@ -1,7 +1,15 @@
 {
   "domain": "jhu.edu",
-  "records": [],
-  "issue": [],
+  "records": [
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\""
+  ],
+  "issue": [
+    "letsencrypt.org",
+    "sectigo.com",
+    "ssl.com"
+  ],
   "issuewild": [],
   "iodef": [],
   "issuemail": [],
