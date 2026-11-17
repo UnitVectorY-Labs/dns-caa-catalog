@@ -1,0 +1,23 @@
+{
+  "domain": "adeo.cloud",
+  "records": [
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+    "0 issuewild \"globalsign.com\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog",
+    "pki.goog; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [
+    "globalsign.com"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

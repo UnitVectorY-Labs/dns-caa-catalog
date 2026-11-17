@@ -1,0 +1,20 @@
+{
+  "domain": "libreoffice.org",
+  "records": [
+    "0 iodef \"mailto:hostmaster@documentfoundation.org\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:hostmaster@documentfoundation.org"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

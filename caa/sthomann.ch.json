@@ -1,0 +1,20 @@
+{
+  "domain": "sthomann.ch",
+  "records": [
+    "0 iodef \"mailto:stephan_thomann@bluewin.ch\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "letsencrypt.org"
+  ],
+  "iodef": [
+    "mailto:stephan_thomann@bluewin.ch"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
