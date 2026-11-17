@@ -18,6 +18,10 @@ config:
       "data",
       "caa"
     ]
+  indexer:
+    exclude: [
+      "caa/**"
+    ]
   repver:
     goversion:
       paths: [
