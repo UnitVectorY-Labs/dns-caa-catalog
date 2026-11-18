@@ -1,8 +1,15 @@
 {
   "domain": "myfitnesspal.com",
-  "records": [],
-  "issue": [],
-  "issuewild": [],
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issuewild \"amazon.com\""
+  ],
+  "issue": [
+    "amazon.com"
+  ],
+  "issuewild": [
+    "amazon.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
