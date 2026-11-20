@@ -4,15 +4,28 @@
     "0 issue \"amazon.com\"",
     "0 issue \"docusign.fr\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"sectigo.com\""
+    "0 issue \"sectigo.com\"",
+    "0 issue \"ssl.com\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"docusign.fr\"",
+    "0 issuewild \"letsencrypt.org\"",
+    "0 issuewild \"sectigo.com\"",
+    "0 issuewild \"ssl.com\""
   ],
   "issue": [
     "amazon.com",
     "docusign.fr",
     "letsencrypt.org",
-    "sectigo.com"
+    "sectigo.com",
+    "ssl.com"
   ],
-  "issuewild": [],
+  "issuewild": [
+    "amazon.com",
+    "docusign.fr",
+    "letsencrypt.org",
+    "sectigo.com",
+    "ssl.com"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],
