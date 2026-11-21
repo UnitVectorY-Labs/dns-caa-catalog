@@ -1,124 +1,212 @@
-<div class="intro-box">
-    <p class="intro-text"><a href="https://datatracker.ietf.org/doc/html/rfc8659" target="_blank" class="link-primary underline">CAA (Certification Authority Authorization)</a> records allow domain owners to specify which Certificate Authorities are permitted to issue certificates for their domain. By setting CAA records, organizations can prevent unauthorized certificate issuance and strengthen their security posture. This catalog surveys CAA deployment across the top 10,000 domains to provide insight into real-world adoption patterns.</p>
-</div>
-
-<div class="summary-box">
-    <h3 class="mt-0 text-primary">CAA Statistics Summary</h3>
-    
-    <div class="grid-auto-fit-200">
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.TotalDomains}}</div>
-            <div class="text-muted">Total Domains</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-green">{{.Summary.DomainsWithCAA}}</div>
-            <div class="text-muted">With CAA Records</div>
-            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}}</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssue}} ✅</div>
-            <div class="text-muted">With 'issue' Records</div>
-            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssue 100.0) .Summary.TotalDomains)}}</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueWild}} ✳️</div>
-            <div class="text-muted">With 'issuewild' Record</div>
-            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIodef}} 📬</div>
-            <div class="text-muted">With 'iodef' Records</div>
-            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIodef 100.0) .Summary.TotalDomains)}}</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueMail}} 📧</div>
-            <div class="text-muted">With 'issuemail' Records</div>
-            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueMail 100.0) .Summary.TotalDomains)}}</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactEmail}} 📩</div>
-            <div class="text-muted">With 'contactemail' Records</div>
-            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactEmail 100.0) .Summary.TotalDomains)}}</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactPhone}} 📞</div>
-            <div class="text-muted">With 'contactphone' Records</div>
-            <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactPhone 100.0) .Summary.TotalDomains)}}</div>
-        </div>
+<div data-page-title="DNS CAA Catalog">
+  <div class="uvy-page-header">
+    <div>
+      <h1>DNS CAA Catalog</h1>
+      <p class="uvy-lead"><a href="https://datatracker.ietf.org/doc/html/rfc8659" target="_blank" rel="noopener noreferrer">CAA (Certification Authority Authorization)</a> DNS records specify which Certificate Authorities may issue certificates for a domain. This catalog surveys real-world CAA deployment across the top {{fmtInt .Summary.TotalDomains}} domains.</p>
     </div>
-</div>
+    <span class="uvy-status uvy-status--ok">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}} CAA adoption</span>
+  </div>
 
-{{if or .Summary.SortedIssueStats .Summary.SortedIssueWildStats}}
-<div class="summary-box">
-    <h3 class="mt-0 text-primary">Top Certificate Authorities</h3>
-    <div class="grid-two-col mb-15">
-        {{if .Summary.SortedIssueStats}}
-        <div>
-            <h4 class="text-primary mb-05">✅ issue</h4>
-            <div class="table-wrapper mb-15">
-                <table class="table-full">
-                    <thead class="sticky-header">
-                        <tr class="table-header">
-                            <th>Certificate Authority</th>
-                            <th class="text-right">Count</th>
-                            <th class="text-right">%</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{range .Summary.SortedIssueStats}}
-                        <tr class="table-row">
-                            <td class="table-cell">
-                                <a href="/providers/{{normalizeCA .CA}}.html" 
-                                   hx-get="/snippets/providers/{{normalizeCA .CA}}.html" 
-                                   hx-target="#content" 
-                                   hx-push-url="/providers/{{normalizeCA .CA}}.html" 
-                                   class="link-primary">{{.CA}}</a>
-                            </td>
-                            <td class="table-cell text-right">{{.Count}}</td>
-                            <td class="table-cell text-right">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
-                        </tr>
-                        {{end}}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        {{end}}
-
-        {{if .Summary.SortedIssueWildStats}}
-        <div>
-            <h4 class="text-primary mb-05">✳️ issuewild</h4>
-            <div class="table-wrapper mb-15">
-                <table class="table-full">
-                    <thead class="sticky-header">
-                        <tr class="table-header">
-                            <th>Certificate Authority</th>
-                            <th class="text-right">Count</th>
-                            <th class="text-right">%</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{range .Summary.SortedIssueWildStats}}
-                        <tr class="table-row">
-                            <td class="table-cell">
-                                <a href="/providers/{{normalizeCA .CA}}.html" 
-                                   hx-get="/snippets/providers/{{normalizeCA .CA}}.html" 
-                                   hx-target="#content" 
-                                   hx-push-url="/providers/{{normalizeCA .CA}}.html" 
-                                   class="link-primary">{{.CA}}</a>
-                            </td>
-                            <td class="table-cell text-right">{{.Count}}</td>
-                            <td class="table-cell text-right">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
-                        </tr>
-                        {{end}}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        {{end}}
+  <dl class="uvy-stats" aria-label="CAA statistics summary">
+    <div>
+      <dt>Total domains</dt>
+      <dd>{{fmtInt .Summary.TotalDomains}}<span class="caa-stat-sub">Top ranked</span></dd>
     </div>
-</div>
-{{end}}
+    <div>
+      <dt>With CAA records</dt>
+      <dd>{{fmtInt .Summary.DomainsWithCAA}}<span class="caa-stat-sub">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}} of total</span></dd>
+    </div>
+    <div>
+      <dt>With issue</dt>
+      <dd>{{fmtInt .Summary.DomainsWithIssue}}<span class="caa-stat-sub">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssue 100.0) .Summary.TotalDomains)}} of total</span></dd>
+    </div>
+    <div>
+      <dt>With issuewild</dt>
+      <dd>{{fmtInt .Summary.DomainsWithIssueWild}}<span class="caa-stat-sub">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}} of total</span></dd>
+    </div>
+  </dl>
 
-<div class="data-attribution">
-    Domain ranking data from <a href="https://radar.cloudflare.com/domains" target="_blank">Cloudflare Radar</a> used under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>.
+  <section class="uvy-panel" aria-labelledby="record-types-title">
+    <div class="uvy-panel__header">
+      <h2 id="record-types-title">CAA record type adoption</h2>
+      <span class="uvy-count">Share of {{fmtInt .Summary.DomainsWithCAA}} CAA-enabled domains</span>
+    </div>
+    <div class="table-wrap" role="region" aria-label="CAA record type adoption" tabindex="0">
+      <table class="uvy-table--compact">
+        <caption class="sr-only">Domain adoption by CAA record tag across top domains</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tag</th>
+            <th scope="col" class="num">Domains</th>
+            <th scope="col" class="num">%</th>
+            <th scope="col">Share</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-ok" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-shield-check"></use></svg>
+                <code>issue</code>
+              </span>
+            </th>
+            <td class="num">{{fmtInt .Summary.DomainsWithIssue}}</td>
+            <td class="num">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssue 100.0) .Summary.TotalDomains)}}</td>
+            <td class="caa-bar-cell">
+              <div class="caa-bar-track" aria-hidden="true"><div class="caa-bar-fill caa-bar--chart-1{{if eq .Summary.DomainsWithIssue 0}} caa-bar-fill--zero{{end}}" style="width: {{printf "%.1f" (pct .Summary.DomainsWithIssue .Summary.DomainsWithCAA)}}%"></div></div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-info" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-asterisk"></use></svg>
+                <code>issuewild</code>
+              </span>
+            </th>
+            <td class="num">{{fmtInt .Summary.DomainsWithIssueWild}}</td>
+            <td class="num">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</td>
+            <td class="caa-bar-cell">
+              <div class="caa-bar-track" aria-hidden="true"><div class="caa-bar-fill caa-bar--chart-2{{if eq .Summary.DomainsWithIssueWild 0}} caa-bar-fill--zero{{end}}" style="width: {{printf "%.1f" (pct .Summary.DomainsWithIssueWild .Summary.DomainsWithCAA)}}%"></div></div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-warn" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-alert-triangle"></use></svg>
+                <code>iodef</code>
+              </span>
+            </th>
+            <td class="num">{{fmtInt .Summary.DomainsWithIodef}}</td>
+            <td class="num">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIodef 100.0) .Summary.TotalDomains)}}</td>
+            <td class="caa-bar-cell">
+              <div class="caa-bar-track" aria-hidden="true"><div class="caa-bar-fill caa-bar--chart-3{{if eq .Summary.DomainsWithIodef 0}} caa-bar-fill--zero{{end}}" style="width: {{printf "%.1f" (pct .Summary.DomainsWithIodef .Summary.DomainsWithCAA)}}%"></div></div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-muted" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-mail"></use></svg>
+                <code>issuemail</code>
+              </span>
+            </th>
+            <td class="num">{{fmtInt .Summary.DomainsWithIssueMail}}</td>
+            <td class="num">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueMail 100.0) .Summary.TotalDomains)}}</td>
+            <td class="caa-bar-cell">
+              <div class="caa-bar-track" aria-hidden="true"><div class="caa-bar-fill caa-bar--chart-4{{if eq .Summary.DomainsWithIssueMail 0}} caa-bar-fill--zero{{end}}" style="width: {{printf "%.1f" (pct .Summary.DomainsWithIssueMail .Summary.DomainsWithCAA)}}%"></div></div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-muted" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-at"></use></svg>
+                <code>contactemail</code>
+              </span>
+            </th>
+            <td class="num">{{fmtInt .Summary.DomainsWithContactEmail}}</td>
+            <td class="num">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactEmail 100.0) .Summary.TotalDomains)}}</td>
+            <td class="caa-bar-cell">
+              <div class="caa-bar-track" aria-hidden="true"><div class="caa-bar-fill caa-bar--chart-5{{if eq .Summary.DomainsWithContactEmail 0}} caa-bar-fill--zero{{end}}" style="width: {{printf "%.1f" (pct .Summary.DomainsWithContactEmail .Summary.DomainsWithCAA)}}%"></div></div>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-muted" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-phone"></use></svg>
+                <code>contactphone</code>
+              </span>
+            </th>
+            <td class="num">{{fmtInt .Summary.DomainsWithContactPhone}}</td>
+            <td class="num">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactPhone 100.0) .Summary.TotalDomains)}}</td>
+            <td class="caa-bar-cell">
+              <div class="caa-bar-track" aria-hidden="true"><div class="caa-bar-fill caa-bar--chart-6{{if eq .Summary.DomainsWithContactPhone 0}} caa-bar-fill--zero{{end}}" style="width: {{printf "%.1f" (pct .Summary.DomainsWithContactPhone .Summary.DomainsWithCAA)}}%"></div></div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  {{if or .Summary.SortedIssueStats .Summary.SortedIssueWildStats}}
+  <div class="uvy-grid caa-ca-grid">
+    {{if .Summary.SortedIssueStats}}
+    <section class="uvy-panel" aria-labelledby="top-ca-issue-title">
+      <div class="uvy-panel__header">
+        <h2 id="top-ca-issue-title" class="with-icon">
+          <svg class="icon icon-small icon-ok" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-shield-check"></use></svg>
+          <span>Top CAs — issue</span>
+        </h2>
+        <span class="uvy-count">{{len .Summary.SortedIssueStats}} CAs</span>
+      </div>
+      <div class="table-wrap" role="region" aria-label="Top Certificate Authorities for issue records" tabindex="0">
+        <table class="uvy-table--interactive uvy-table--compact">
+          <caption class="sr-only">Certificate Authorities ranked by issue CAA records</caption>
+          <thead>
+            <tr>
+              <th scope="col">Certificate Authority</th>
+              <th scope="col" class="num">Count</th>
+              <th scope="col" class="num">%</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{range .Summary.SortedIssueStats}}
+            <tr>
+              <td class="caa-mono-cell">
+                <a href="/providers/{{normalizeCA .CA}}.html"
+                   hx-get="/snippets/providers/{{normalizeCA .CA}}.html"
+                   hx-target="#content"
+                   hx-push-url="/providers/{{normalizeCA .CA}}.html">{{.CA}}</a>
+              </td>
+              <td class="num">{{fmtInt .Count}}</td>
+              <td class="num">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
+            </tr>
+            {{end}}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    {{end}}
+
+    {{if .Summary.SortedIssueWildStats}}
+    <section class="uvy-panel" aria-labelledby="top-ca-issuewild-title">
+      <div class="uvy-panel__header">
+        <h2 id="top-ca-issuewild-title" class="with-icon">
+          <svg class="icon icon-small icon-info" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-asterisk"></use></svg>
+          <span>Top CAs — issuewild</span>
+        </h2>
+        <span class="uvy-count">{{len .Summary.SortedIssueWildStats}} CAs</span>
+      </div>
+      <div class="table-wrap" role="region" aria-label="Top Certificate Authorities for issuewild records" tabindex="0">
+        <table class="uvy-table--interactive uvy-table--compact">
+          <caption class="sr-only">Certificate Authorities ranked by issuewild CAA records</caption>
+          <thead>
+            <tr>
+              <th scope="col">Certificate Authority</th>
+              <th scope="col" class="num">Count</th>
+              <th scope="col" class="num">%</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{range .Summary.SortedIssueWildStats}}
+            <tr>
+              <td class="caa-mono-cell">
+                <a href="/providers/{{normalizeCA .CA}}.html"
+                   hx-get="/snippets/providers/{{normalizeCA .CA}}.html"
+                   hx-target="#content"
+                   hx-push-url="/providers/{{normalizeCA .CA}}.html">{{.CA}}</a>
+              </td>
+              <td class="num">{{fmtInt .Count}}</td>
+              <td class="num">{{printf "%.1f" (div (mul .Count 100.0) $.Summary.TotalDomains)}}</td>
+            </tr>
+            {{end}}
+          </tbody>
+        </table>
+      </div>
+    </section>
+    {{end}}
+  </div>
+  {{end}}
+
+  <p class="uvy-source-note">
+    Domain ranking data from <a href="https://radar.cloudflare.com/domains" target="_blank" rel="noopener noreferrer">Cloudflare Radar</a> used under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.
+  </p>
 </div>

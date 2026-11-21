@@ -702,6 +702,34 @@ func toFloat64(v any) float64 {
 	}
 }
 
+func formatIntWithCommas(n int) string {
+	sign := ""
+	if n < 0 {
+		sign = "-"
+		n = -n
+	}
+	s := fmt.Sprintf("%d", n)
+	if len(s) <= 3 {
+		return sign + s
+	}
+	var out strings.Builder
+	out.WriteString(sign)
+	rem := len(s) % 3
+	if rem > 0 {
+		out.WriteString(s[:rem])
+		if len(s) > rem {
+			out.WriteByte(',')
+		}
+	}
+	for i := rem; i < len(s); i += 3 {
+		if i > rem {
+			out.WriteByte(',')
+		}
+		out.WriteString(s[i : i+3])
+	}
+	return out.String()
+}
+
 func calculateCAASummary(results []DomainResult) CAASummary {
 	// Use a map to track unique lowercase domains for accurate counting
 	uniqueDomains := make(map[string]bool)
@@ -866,6 +894,21 @@ func generate(config GenerateConfig) error {
 			}
 			return va / vb
 		},
+		"pct": func(part, total any) float64 {
+			vt := toFloat64(total)
+			if vt == 0 {
+				return 0
+			}
+			v := (toFloat64(part) * 100.0) / vt
+			if v < 0 {
+				return 0
+			}
+			if v > 100 {
+				return 100
+			}
+			return v
+		},
+		"fmtInt":      formatIntWithCommas,
 		"normalizeCA": normalizeCAName,
 	}
 
@@ -1021,11 +1064,13 @@ func generateIndex(outputDir string, results []DomainResult, summary CAASummary,
 	}
 
 	data := struct {
+		ActiveNav     string
 		Timestamp     string
 		PageGenerated string
 		Results       []DomainResult
 		Content       template.HTML
 	}{
+		ActiveNav:     "overview",
 		Timestamp:     timestamp,
 		PageGenerated: pageGen,
 		Results:       results,
@@ -1060,6 +1105,7 @@ func generateDomainPageAndSnippet(outputDir string, result DomainResult, allResu
 	isCAProvider := providers[normalizedDomain] != nil
 
 	templateData := struct {
+		ActiveNav     string
 		Timestamp     string
 		PageGenerated string
 		DomainResult  DomainResult
@@ -1068,6 +1114,7 @@ func generateDomainPageAndSnippet(outputDir string, result DomainResult, allResu
 		NormalizedCA  string
 		Content       template.HTML
 	}{
+		ActiveNav:     "",
 		Timestamp:     timestamp,
 		PageGenerated: pageGen,
 		DomainResult:  result,
@@ -1110,12 +1157,14 @@ func generateProviderPagesAndSnippets(outputDir string, providers map[string]*CA
 		isDomainMonitored := monitoredDomains[provider.CA]
 
 		templateData := struct {
+			ActiveNav         string
 			Timestamp         string
 			PageGenerated     string
 			Provider          *CAProviderData
 			IsDomainMonitored bool
 			Content           template.HTML
 		}{
+			ActiveNav:         "",
 			Timestamp:         timestamp,
 			PageGenerated:     pageGen,
 			Provider:          provider,
@@ -1174,11 +1223,19 @@ func generateNavSnippet(outputDir string, results []DomainResult, navTmpl *templ
 }
 
 func copyAssets(outputDir string) error {
-	// Copy style.css to the output directory
-	src := "assets/style.css"
-	dst := filepath.Join(outputDir, "style.css")
-	if err := copyFile(src, dst); err != nil {
-		return fmt.Errorf("error copying style.css: %v", err)
+	entries, err := os.ReadDir("assets")
+	if err != nil {
+		return fmt.Errorf("error reading assets directory: %v", err)
+	}
+	for _, entry := range entries {
+		if entry.IsDir() {
+			continue
+		}
+		src := filepath.Join("assets", entry.Name())
+		dst := filepath.Join(outputDir, entry.Name())
+		if err := copyFile(src, dst); err != nil {
+			return fmt.Errorf("error copying %s: %v", entry.Name(), err)
+		}
 	}
 	return nil
 }
