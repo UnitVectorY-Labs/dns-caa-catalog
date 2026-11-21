@@ -4,7 +4,7 @@
 </div>
 {{if .IsDomainMonitored}}
 <div class="cross-link-section">
-    <span class="cross-link-icon">🔗</span>
+    <span class="cross-link-icon"><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M9 15l6 -6" /> <path d="M11 6l.463 -.536a5 5 0 0 1 7.071 7.072l-.534 .464" /> <path d="M13 18l-.397 .534a5.068 5.068 0 0 1 -7.127 0a4.972 4.972 0 0 1 0 -7.071l.524 -.463" /> </svg></span>
     <span class="cross-link-text">This CA is also a monitored domain.</span>
     <a href="/{{.Provider.CA}}.html" 
        hx-get="/snippets/{{.Provider.CA}}.html" 
@@ -36,7 +36,7 @@
     <div class="grid-two-col">
         {{if .Provider.IssueDomains}}
         <div>
-            <h4 class="text-primary mb-05">✅ Domains with 'issue' Records</h4>
+            <h4 class="text-primary mb-05"><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 12l5 5l10 -10" /> </svg> Domains with 'issue' Records</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
@@ -60,7 +60,7 @@
 
         {{if .Provider.WildDomains}}
         <div>
-            <h4 class="text-primary mb-05">✳️ Domains with 'issuewild' Records</h4>
+            <h4 class="text-primary mb-05"><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 12l8 -4.5" /> <path d="M12 12v9" /> <path d="M12 12l-8 -4.5" /> <path d="M12 12l8 4.5" /> <path d="M12 3v9" /> <path d="M12 12l-8 4.5" /> </svg> Domains with 'issuewild' Records</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">

@@ -16,32 +16,32 @@
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssue}} ✅</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssue}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 12l5 5l10 -10" /> </svg></div>
             <div class="text-muted">With 'issue' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssue 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueWild}} ✳️</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueWild}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 12l8 -4.5" /> <path d="M12 12v9" /> <path d="M12 12l-8 -4.5" /> <path d="M12 12l8 4.5" /> <path d="M12 3v9" /> <path d="M12 12l-8 4.5" /> </svg></div>
             <div class="text-muted">With 'issuewild' Record</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueWild 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIodef}} 📬</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIodef}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></div>
             <div class="text-muted">With 'iodef' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIodef 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueMail}} 📧</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithIssueMail}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></div>
             <div class="text-muted">With 'issuemail' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithIssueMail 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactEmail}} 📩</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactEmail}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" /> <path d="M3 7l9 6l9 -6" /> </svg></div>
             <div class="text-muted">With 'contactemail' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactEmail 100.0) .Summary.TotalDomains)}}</div>
         </div>
         <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactPhone}} 📞</div>
+            <div class="text-2xl font-bold text-primary">{{.Summary.DomainsWithContactPhone}} <svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /> </svg></div>
             <div class="text-muted">With 'contactphone' Records</div>
             <div class="text-sm text-muted">{{printf "%.1f%%" (div (mul .Summary.DomainsWithContactPhone 100.0) .Summary.TotalDomains)}}</div>
         </div>
@@ -54,7 +54,7 @@
     <div class="grid-two-col mb-15">
         {{if .Summary.SortedIssueStats}}
         <div>
-            <h4 class="text-primary mb-05">✅ issue</h4>
+            <h4 class="text-primary mb-05"><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M5 12l5 5l10 -10" /> </svg> issue</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
@@ -86,7 +86,7 @@
 
         {{if .Summary.SortedIssueWildStats}}
         <div>
-            <h4 class="text-primary mb-05">✳️ issuewild</h4>
+            <h4 class="text-primary mb-05"><svg class="icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"> <path d="M12 12l8 -4.5" /> <path d="M12 12v9" /> <path d="M12 12l-8 -4.5" /> <path d="M12 12l8 4.5" /> <path d="M12 3v9" /> <path d="M12 12l-8 4.5" /> </svg> issuewild</h4>
             <div class="table-wrapper mb-15">
                 <table class="table-full">
                     <thead class="sticky-header">
