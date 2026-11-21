@@ -1,89 +1,132 @@
-<div class="page-header page-header-ca">
-    <h2 class="page-header-title">{{.Provider.CA}}</h2>
-    <div class="page-header-subtitle">Certificate Authority</div>
-</div>
-{{if .IsDomainMonitored}}
-<div class="cross-link-section">
-    <span class="cross-link-icon">🔗</span>
-    <span class="cross-link-text">This CA is also a monitored domain.</span>
-    <a href="/{{.Provider.CA}}.html" 
-       hx-get="/snippets/{{.Provider.CA}}.html" 
-       hx-target="#content" 
-       hx-push-url="/{{.Provider.CA}}.html" 
-       class="cross-link-button">View Domain Page →</a>
-</div>
-{{end}}
+<div data-page-title="{{.Provider.CA}} — Certificate Authority — DNS CAA Catalog">
+  <nav class="uvy-breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/index.html" hx-get="/snippets/home.html" hx-target="#content" hx-push-url="/index.html">catalog</a></li>
+      <li>providers</li>
+      <li aria-current="page">{{.Provider.CA}}</li>
+    </ol>
+  </nav>
 
-<div class="summary-box">
-    <h3 class="mt-0 text-primary">Summary</h3>
-    <div class="grid-auto-fit">
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-primary">{{.Provider.TotalDomains}}</div>
-            <div class="text-muted">Total Domains</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-green">{{len .Provider.IssueDomains}}</div>
-            <div class="text-muted">With 'issue' Record</div>
-        </div>
-        <div class="card text-center">
-            <div class="text-2xl font-bold text-red">{{len .Provider.WildDomains}}</div>
-            <div class="text-muted">With 'issuewild' Record</div>
-        </div>
+  <div class="uvy-page-header">
+    <div>
+      <h1>{{.Provider.CA}}</h1>
+      <p class="uvy-lead">Certificate Authority authorization summary</p>
     </div>
-</div>
+    <span class="uvy-status uvy-status--info">{{fmtInt .Provider.TotalDomains}} {{if eq .Provider.TotalDomains 1}}domain{{else}}domains{{end}}</span>
+  </div>
 
-<div class="summary-box">
-    <div class="grid-two-col">
-        {{if .Provider.IssueDomains}}
-        <div>
-            <h4 class="text-primary mb-05">✅ Domains with 'issue' Records</h4>
-            <div class="table-wrapper mb-15">
-                <table class="table-full">
-                    <thead class="sticky-header">
-                        <tr class="table-header">
-                            <th>Domain</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{range .Provider.IssueDomains}}
-                        <tr class="table-row">
-                            <td class="table-cell">
-                                <a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html" class="link-primary">{{.Domain}}</a>
-                            </td>
-                        </tr>
-                        {{end}}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        {{end}}
-
-        {{if .Provider.WildDomains}}
-        <div>
-            <h4 class="text-primary mb-05">✳️ Domains with 'issuewild' Records</h4>
-            <div class="table-wrapper mb-15">
-                <table class="table-full">
-                    <thead class="sticky-header">
-                        <tr class="table-header">
-                            <th>Domain</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{range .Provider.WildDomains}}
-                        <tr class="table-row">
-                            <td class="table-cell">
-                                <a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html" class="link-primary">{{.Domain}}</a>
-                            </td>
-                        </tr>
-                        {{end}}
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        {{end}}
+  {{if .IsDomainMonitored}}
+  <div class="uvy-alert caa-cross-link">
+    <svg class="icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-info-circle"></use></svg>
+    <div class="caa-cross-link__body">
+      <span><strong>Monitored domain:</strong> Also tracked in the top-domain CAA catalog.</span>
+      <a href="/{{.Provider.CA}}.html"
+         hx-get="/snippets/{{.Provider.CA}}.html"
+         hx-target="#content"
+         hx-push-url="/{{.Provider.CA}}.html"
+         class="uvy-button uvy-button--small">View domain records</a>
     </div>
-</div>
+  </div>
+  {{end}}
 
-{{if not (or .Provider.IssueDomains .Provider.WildDomains)}}
-<p>No domains found using this certificate authority.</p>
-{{end}}
+  <dl class="uvy-stats" aria-label="Certificate Authority summary">
+    <div>
+      <dt>Total unique domains</dt>
+      <dd>{{fmtInt .Provider.TotalDomains}}</dd>
+    </div>
+    <div>
+      <dt>With issue record</dt>
+      <dd>{{fmtInt (len .Provider.IssueDomains)}}</dd>
+    </div>
+    <div>
+      <dt>With issuewild record</dt>
+      <dd>{{fmtInt (len .Provider.WildDomains)}}</dd>
+    </div>
+  </dl>
+
+  {{if or .Provider.IssueDomains .Provider.WildDomains}}
+  <div class="uvy-toolbar" data-requires-js hidden>
+    <div class="uvy-field">
+      <label for="provider-domain-filter">Filter authorized domains</label>
+      <input type="search" id="provider-domain-filter" class="uvy-input--mono" placeholder="Filter domains for {{.Provider.CA}}..." autocomplete="off">
+    </div>
+    <button type="button" id="provider-domain-clear">Clear filter</button>
+    <span id="provider-domain-count" class="uvy-count" role="status"></span>
+  </div>
+
+  <div class="uvy-grid caa-ca-grid">
+    {{if .Provider.IssueDomains}}
+    <section class="uvy-panel" data-provider-panel aria-labelledby="provider-issue-title">
+      <div class="uvy-panel__header">
+        <h2 id="provider-issue-title" class="with-icon">
+          <svg class="icon icon-small icon-ok" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-shield-check"></use></svg>
+          <span>Domains with issue</span>
+        </h2>
+        <span class="uvy-count">{{fmtInt (len .Provider.IssueDomains)}}</span>
+      </div>
+      <div class="table-wrap" role="region" aria-label="Domains authorizing {{.Provider.CA}} for issue" tabindex="0">
+        <table class="uvy-table--interactive uvy-table--compact">
+          <caption class="sr-only">Domains authorizing {{.Provider.CA}} via issue records</caption>
+          <thead>
+            <tr>
+              <th scope="col">Domain</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{range .Provider.IssueDomains}}
+            <tr data-provider-domain="{{.Domain}}">
+              <td class="caa-mono-cell">
+                <a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html">{{.Domain}}</a>
+              </td>
+            </tr>
+            {{end}}
+          </tbody>
+        </table>
+      </div>
+      <p class="uvy-hint" data-provider-empty style="margin-top: var(--uvy-space-3)" hidden>No issue domains match the current filter.</p>
+    </section>
+    {{end}}
+
+    {{if .Provider.WildDomains}}
+    <section class="uvy-panel" data-provider-panel aria-labelledby="provider-wild-title">
+      <div class="uvy-panel__header">
+        <h2 id="provider-wild-title" class="with-icon">
+          <svg class="icon icon-small icon-info" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-asterisk"></use></svg>
+          <span>Domains with issuewild</span>
+        </h2>
+        <span class="uvy-count">{{fmtInt (len .Provider.WildDomains)}}</span>
+      </div>
+      <div class="table-wrap" role="region" aria-label="Domains authorizing {{.Provider.CA}} for issuewild" tabindex="0">
+        <table class="uvy-table--interactive uvy-table--compact">
+          <caption class="sr-only">Domains authorizing {{.Provider.CA}} via issuewild records</caption>
+          <thead>
+            <tr>
+              <th scope="col">Domain</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{range .Provider.WildDomains}}
+            <tr data-provider-domain="{{.Domain}}">
+              <td class="caa-mono-cell">
+                <a href="/{{.Domain}}.html" hx-get="/snippets/{{.Domain}}.html" hx-target="#content" hx-push-url="/{{.Domain}}.html">{{.Domain}}</a>
+              </td>
+            </tr>
+            {{end}}
+          </tbody>
+        </table>
+      </div>
+      <p class="uvy-hint" data-provider-empty style="margin-top: var(--uvy-space-3)" hidden>No issuewild domains match the current filter.</p>
+    </section>
+    {{end}}
+  </div>
+  {{else}}
+  <div class="uvy-empty">
+    <strong>No domains found</strong>
+    <p>No monitored domains currently reference <code>{{.Provider.CA}}</code>.</p>
+  </div>
+  {{end}}
+
+  <p class="uvy-source-note">
+    Domain ranking data from <a href="https://radar.cloudflare.com/domains" target="_blank" rel="noopener noreferrer">Cloudflare Radar</a> used under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.
+  </p>
+</div>

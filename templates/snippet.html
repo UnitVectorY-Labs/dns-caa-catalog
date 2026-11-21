@@ -1,160 +1,226 @@
-<div class="page-header page-header-domain">
-    <h2 class="page-header-title">{{.DomainResult.Domain}}</h2>
-    <div class="page-header-subtitle">Domain CAA Records</div>
-</div>
-{{if .IsCAProvider}}
-<div class="cross-link-section">
-    <span class="cross-link-icon">🔗</span>
-    <span class="cross-link-text">This domain is also a Certificate Authority.</span>
-    <a href="/providers/{{.NormalizedCA}}.html" 
-       hx-get="/snippets/providers/{{.NormalizedCA}}.html" 
-       hx-target="#content" 
-       hx-push-url="/providers/{{.NormalizedCA}}.html" 
-       class="cross-link-button">View CA Page →</a>
-</div>
-{{end}}
-{{if .DomainResult.Error}}
-<div class="error">Error: {{.DomainResult.Error}}</div>
-{{else}}
-<div class="summary-box">
-    <h3 class="mt-0 text-primary">CAA Records</h3>
-    <div class="records-table-wrapper">
-    <table class="records-table">
-        <tbody>
-            <tr class="record-row">
-                <td class="record-label">
-                    <span class="record-emoji">✅</span>
-                    <span class="record-name">issue</span>
-                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.2" target="_blank" class="rfc-link">RFC</a>
-                </td>
-                <td class="record-value">
-                    {{if .DomainResult.Issue}}
-                    <div class="record-list">
-                        {{range .DomainResult.Issue}}
-                        <a href="/providers/{{normalizeCA .}}.html" 
-                           hx-get="/snippets/providers/{{normalizeCA .}}.html" 
-                           hx-target="#content" 
-                           hx-push-url="/providers/{{normalizeCA .}}.html" 
-                           class="link-primary">{{.}}</a>
-                        {{end}}
-                    </div>
-                    {{else}}
-                    <span class="text-muted">No record</span>
-                    {{end}}
-                </td>
-            </tr>
-            <tr class="record-row">
-                <td class="record-label">
-                    <span class="record-emoji">✳️</span>
-                    <span class="record-name">issuewild</span>
-                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.3" target="_blank" class="rfc-link">RFC</a>
-                </td>
-                <td class="record-value">
-                    {{if .DomainResult.IssueWild}}
-                    <div class="record-list">
-                        {{range .DomainResult.IssueWild}}
-                        <a href="/providers/{{normalizeCA .}}.html" 
-                           hx-get="/snippets/providers/{{normalizeCA .}}.html" 
-                           hx-target="#content" 
-                           hx-push-url="/providers/{{normalizeCA .}}.html" 
-                           class="link-primary">{{.}}</a>
-                        {{end}}
-                    </div>
-                    {{else}}
-                    <span class="text-muted">No record</span>
-                    {{end}}
-                </td>
-            </tr>
-            <tr class="record-row">
-                <td class="record-label">
-                    <span class="record-emoji">📧</span>
-                    <span class="record-name">issuemail</span>
-                    <a href="https://datatracker.ietf.org/doc/html/rfc9495#section-3" target="_blank" class="rfc-link">RFC</a>
-                </td>
-                <td class="record-value">
-                    {{if .DomainResult.IssueMail}}
-                    <div class="record-list">
-                        {{range .DomainResult.IssueMail}}
-                        <span>{{.}}</span>
-                        {{end}}
-                    </div>
-                    {{else}}
-                    <span class="text-muted">No record</span>
-                    {{end}}
-                </td>
-            </tr>
-            <tr class="record-row">
-                <td class="record-label">
-                    <span class="record-emoji">📬</span>
-                    <span class="record-name">iodef</span>
-                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.4" target="_blank" class="rfc-link">RFC</a>
-                </td>
-                <td class="record-value">
-                    {{if .DomainResult.Iodef}}
-                    <div class="record-list">
-                        {{range .DomainResult.Iodef}}
-                        <span>{{.}}</span>
-                        {{end}}
-                    </div>
-                    {{else}}
-                    <span class="text-muted">No record</span>
-                    {{end}}
-                </td>
-            </tr>
-            <tr class="record-row">
-                <td class="record-label">
-                    <span class="record-emoji">📩</span>
-                    <span class="record-name">contactemail</span>
-                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.5" target="_blank" class="rfc-link">RFC</a>
-                </td>
-                <td class="record-value">
-                    {{if .DomainResult.ContactEmail}}
-                    <div class="record-list">
-                        {{range .DomainResult.ContactEmail}}
-                        <span>{{.}}</span>
-                        {{end}}
-                    </div>
-                    {{else}}
-                    <span class="text-muted">No record</span>
-                    {{end}}
-                </td>
-            </tr>
-            <tr class="record-row">
-                <td class="record-label">
-                    <span class="record-emoji">📞</span>
-                    <span class="record-name">contactphone</span>
-                    <a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.6" target="_blank" class="rfc-link">RFC</a>
-                </td>
-                <td class="record-value">
-                    {{if .DomainResult.ContactPhone}}
-                    <div class="record-list">
-                        {{range .DomainResult.ContactPhone}}
-                        <span>{{.}}</span>
-                        {{end}}
-                    </div>
-                    {{else}}
-                    <span class="text-muted">No record</span>
-                    {{end}}
-                </td>
-            </tr>
-        </tbody>
-    </table>
+<div data-page-title="{{.DomainResult.Domain}} — DNS CAA Catalog">
+  <nav class="uvy-breadcrumbs" aria-label="Breadcrumb">
+    <ol>
+      <li><a href="/index.html" hx-get="/snippets/home.html" hx-target="#content" hx-push-url="/index.html">catalog</a></li>
+      <li>domains</li>
+      <li aria-current="page">{{.DomainResult.Domain}}</li>
+    </ol>
+  </nav>
+
+  <div class="uvy-page-header">
+    <div>
+      <h1>{{.DomainResult.Domain}}</h1>
+      <p class="uvy-lead">Domain CAA DNS records</p>
     </div>
-</div>
+    {{if .DomainResult.Error}}
+    <span class="uvy-status uvy-status--danger">Lookup error</span>
+    {{else if .DomainResult.Records}}
+    <span class="uvy-status uvy-status--ok">{{len .DomainResult.Records}} {{if eq (len .DomainResult.Records) 1}}record{{else}}records{{end}}</span>
+    {{else}}
+    <span class="uvy-status">No CAA records</span>
+    {{end}}
+  </div>
 
-{{if .DomainResult.Records}}
-<div class="summary-box">
-    <h3 class="mt-0 text-primary">Raw CAA DNS Response</h3>
-    <pre class="raw-records-content">{{range .DomainResult.Records}}{{.}}
-{{end}}</pre>
-</div>
-{{end}}
+  {{if .IsCAProvider}}
+  <div class="uvy-alert caa-cross-link">
+    <svg class="icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-info-circle"></use></svg>
+    <div class="caa-cross-link__body">
+      <span><strong>Certificate Authority:</strong> Also appears as an authorized issuer in this catalog.</span>
+      <a href="/providers/{{.NormalizedCA}}.html"
+         hx-get="/snippets/providers/{{.NormalizedCA}}.html"
+         hx-target="#content"
+         hx-push-url="/providers/{{.NormalizedCA}}.html"
+         class="uvy-button uvy-button--small">View CA profile</a>
+    </div>
+  </div>
+  {{end}}
 
-{{if not (or .DomainResult.Issue .DomainResult.IssueWild .DomainResult.Iodef .DomainResult.IssueMail .DomainResult.ContactEmail .DomainResult.ContactPhone .DomainResult.Records)}}
-<p class="text-muted">No CAA records found for this domain.</p>
-{{end}}
+  {{if .DomainResult.Error}}
+  <div class="uvy-alert uvy-alert--danger" role="alert">
+    <svg class="icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-alert-circle"></use></svg>
+    <div><strong>Lookup failed:</strong> {{.DomainResult.Error}}</div>
+  </div>
+  {{else}}
+  <section class="uvy-panel" aria-labelledby="caa-records-title">
+    <div class="uvy-panel__header">
+      <h2 id="caa-records-title">CAA records</h2>
+      <span class="uvy-count">RFC 8659 / RFC 9495</span>
+    </div>
+    <div class="table-wrap" role="region" aria-label="Parsed CAA records" tabindex="0">
+      <table>
+        <caption class="sr-only">Parsed CAA records for {{.DomainResult.Domain}}</caption>
+        <thead>
+          <tr>
+            <th scope="col">Tag</th>
+            <th scope="col">Values</th>
+            <th scope="col">Spec</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-ok" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-shield-check"></use></svg>
+                <code>issue</code>
+              </span>
+            </th>
+            <td>
+              {{if .DomainResult.Issue}}
+              <ul class="caa-value-list">
+                {{range .DomainResult.Issue}}
+                <li>
+                  <a href="/providers/{{normalizeCA .}}.html"
+                     hx-get="/snippets/providers/{{normalizeCA .}}.html"
+                     hx-target="#content"
+                     hx-push-url="/providers/{{normalizeCA .}}.html">{{.}}</a>
+                </li>
+                {{end}}
+              </ul>
+              {{else}}
+              <span class="uvy-unknown">No record</span>
+              {{end}}
+            </td>
+            <td><a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.2" target="_blank" rel="noopener noreferrer" class="uvy-badge caa-rfc-link">RFC 8659 §4.2</a></td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-info" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-asterisk"></use></svg>
+                <code>issuewild</code>
+              </span>
+            </th>
+            <td>
+              {{if .DomainResult.IssueWild}}
+              <ul class="caa-value-list">
+                {{range .DomainResult.IssueWild}}
+                <li>
+                  <a href="/providers/{{normalizeCA .}}.html"
+                     hx-get="/snippets/providers/{{normalizeCA .}}.html"
+                     hx-target="#content"
+                     hx-push-url="/providers/{{normalizeCA .}}.html">{{.}}</a>
+                </li>
+                {{end}}
+              </ul>
+              {{else}}
+              <span class="uvy-unknown">No record</span>
+              {{end}}
+            </td>
+            <td><a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.3" target="_blank" rel="noopener noreferrer" class="uvy-badge caa-rfc-link">RFC 8659 §4.3</a></td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-muted" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-mail"></use></svg>
+                <code>issuemail</code>
+              </span>
+            </th>
+            <td>
+              {{if .DomainResult.IssueMail}}
+              <ul class="caa-value-list">
+                {{range .DomainResult.IssueMail}}
+                <li>{{.}}</li>
+                {{end}}
+              </ul>
+              {{else}}
+              <span class="uvy-unknown">No record</span>
+              {{end}}
+            </td>
+            <td><a href="https://datatracker.ietf.org/doc/html/rfc9495#section-3" target="_blank" rel="noopener noreferrer" class="uvy-badge caa-rfc-link">RFC 9495 §3</a></td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-warn" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-alert-triangle"></use></svg>
+                <code>iodef</code>
+              </span>
+            </th>
+            <td>
+              {{if .DomainResult.Iodef}}
+              <ul class="caa-value-list">
+                {{range .DomainResult.Iodef}}
+                <li>{{.}}</li>
+                {{end}}
+              </ul>
+              {{else}}
+              <span class="uvy-unknown">No record</span>
+              {{end}}
+            </td>
+            <td><a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.4" target="_blank" rel="noopener noreferrer" class="uvy-badge caa-rfc-link">RFC 8659 §4.4</a></td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-muted" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-at"></use></svg>
+                <code>contactemail</code>
+              </span>
+            </th>
+            <td>
+              {{if .DomainResult.ContactEmail}}
+              <ul class="caa-value-list">
+                {{range .DomainResult.ContactEmail}}
+                <li>{{.}}</li>
+                {{end}}
+              </ul>
+              {{else}}
+              <span class="uvy-unknown">No record</span>
+              {{end}}
+            </td>
+            <td><a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.5" target="_blank" rel="noopener noreferrer" class="uvy-badge caa-rfc-link">RFC 8659 §4.5</a></td>
+          </tr>
+          <tr>
+            <th scope="row">
+              <span class="with-icon caa-tag">
+                <svg class="icon icon-small icon-muted" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-phone"></use></svg>
+                <code>contactphone</code>
+              </span>
+            </th>
+            <td>
+              {{if .DomainResult.ContactPhone}}
+              <ul class="caa-value-list">
+                {{range .DomainResult.ContactPhone}}
+                <li>{{.}}</li>
+                {{end}}
+              </ul>
+              {{else}}
+              <span class="uvy-unknown">No record</span>
+              {{end}}
+            </td>
+            <td><a href="https://datatracker.ietf.org/doc/html/rfc8659#section-4.6" target="_blank" rel="noopener noreferrer" class="uvy-badge caa-rfc-link">RFC 8659 §4.6</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
 
-<div class="data-attribution">
-    Domain ranking data from <a href="https://radar.cloudflare.com/domains" target="_blank">Cloudflare Radar</a> used under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>.
+  {{if .DomainResult.Records}}
+  <section class="uvy-panel" aria-labelledby="raw-caa-title">
+    <div class="uvy-panel__header">
+      <h2 id="raw-caa-title">Raw CAA DNS response</h2>
+      <span class="uvy-count">{{len .DomainResult.Records}} {{if eq (len .DomainResult.Records) 1}}record{{else}}records{{end}}</span>
+    </div>
+    <div class="uvy-code uvy-code--wrap" style="margin-bottom:0">
+      <div class="uvy-code__bar">
+        <span>CAA · {{.DomainResult.Domain}}</span>
+        <button type="button" class="uvy-button--quiet uvy-button--small uvy-copy" data-copy-target="raw-caa-records" data-enable-with-js disabled aria-label="Copy raw CAA records">
+          <span data-copy class="with-icon"><svg class="icon icon-small" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-copy"></use></svg>Copy</span>
+          <span data-copied class="with-icon"><svg class="icon icon-small" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="#tabler-check"></use></svg>Copied</span>
+        </button>
+      </div>
+      <pre tabindex="0" aria-label="Raw CAA DNS response"><code id="raw-caa-records">{{range .DomainResult.Records}}{{.}}
+{{end}}</code></pre>
+    </div>
+  </section>
+  {{end}}
+
+  {{if not (or .DomainResult.Issue .DomainResult.IssueWild .DomainResult.Iodef .DomainResult.IssueMail .DomainResult.ContactEmail .DomainResult.ContactPhone .DomainResult.Records)}}
+  <div class="uvy-empty" style="margin-top: var(--uvy-space-5)">
+    <strong>No CAA records published</strong>
+    <p>No CAA DNS records were returned for <code>{{.DomainResult.Domain}}</code> during the latest crawl.</p>
+  </div>
+  {{end}}
+
+  <p class="uvy-source-note">
+    Domain ranking data from <a href="https://radar.cloudflare.com/domains" target="_blank" rel="noopener noreferrer">Cloudflare Radar</a> used under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer">CC BY-NC 4.0</a>.
+  </p>
+  {{end}}
 </div>
-{{end}}

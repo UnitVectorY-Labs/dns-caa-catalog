@@ -1,10 +1,14 @@
 {{define "footer"}}
-<footer>
+<footer class="site-footer">
+  <div class="footer-inner">
     <p>
-        <a href="https://github.com/UnitVectorY-Labs">UnitVectorY Labs</a> | 
-        <a href="https://opensource.org/licenses/MIT">MIT License</a> | 
-        <a href="https://github.com/UnitVectorY-Labs/dns-caa-catalog"><strong>dns-caa-catalog</strong> on GitHub</a>
+      <a href="https://github.com/UnitVectorY-Labs">UnitVectorY-Labs</a>
+      <span class="footer-sep" aria-hidden="true">|</span>
+      <a href="https://opensource.org/licenses/MIT">MIT License</a>
+      <span class="footer-sep" aria-hidden="true">|</span>
+      <a href="https://github.com/UnitVectorY-Labs/dns-caa-catalog"><strong>dns-caa-catalog</strong></a> on GitHub
     </p>
-    <p>Last updated: {{.PageGenerated}}</p>
+    <p class="footer-meta">Last updated: <time datetime="{{.PageGenerated}}">{{.PageGenerated}}</time></p>
+  </div>
 </footer>
 {{end}}
