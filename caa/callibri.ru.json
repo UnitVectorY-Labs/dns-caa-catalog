@@ -1,11 +1,9 @@
 {
   "domain": "callibri.ru",
   "records": [
-    "0 issue \"globalsign.com\"",
     "0 issue \"letsencrypt.org\""
   ],
   "issue": [
-    "globalsign.com",
     "letsencrypt.org"
   ],
   "issuewild": [],
