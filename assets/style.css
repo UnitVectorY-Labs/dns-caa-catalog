@@ -92,27 +92,24 @@
   white-space: nowrap;
 }
 
-.caa-domain-dots {
+.caa-domain-icons {
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
   flex: none;
 }
 
-.caa-dot {
-  display: inline-block;
-  width: 0.375rem;
-  height: 0.375rem;
-  border-radius: 50%;
+.caa-domain-icon-wrap {
+  display: inline-flex;
+  align-items: center;
   flex: none;
 }
 
-.caa-dot--issue { background: var(--uvy-ok); }
-.caa-dot--issuewild { background: var(--uvy-info); }
-.caa-dot--iodef { background: var(--uvy-warn); }
-.caa-dot--issuemail { background: var(--uvy-chart-4); }
-.caa-dot--contactemail { background: var(--uvy-chart-5); }
-.caa-dot--contactphone { background: var(--uvy-chart-6); }
+.caa-domain-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  vertical-align: 0;
+}
 
 .icon-xs {
   width: 0.875rem;
