@@ -1,7 +1,6 @@
 <div data-page-title="DNS CAA Catalog">
   <div class="uvy-page-header">
     <div>
-      <h1>DNS CAA Catalog</h1>
       <p class="uvy-lead"><a href="https://datatracker.ietf.org/doc/html/rfc8659" target="_blank" rel="noopener noreferrer">CAA (Certification Authority Authorization)</a> DNS records specify which Certificate Authorities may issue certificates for a domain. This catalog surveys real-world CAA deployment across the top {{fmtInt .Summary.TotalDomains}} domains.</p>
     </div>
     <span class="uvy-status uvy-status--ok">{{printf "%.1f%%" (div (mul .Summary.DomainsWithCAA 100.0) .Summary.TotalDomains)}} CAA adoption</span>
