@@ -1,0 +1,16 @@
+{
+  "domain": "economictimes.com",
+  "records": [
+    "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+    "0 issue \"letsencrypt.org; cansignhttpexchanges=yes\""
+  ],
+  "issue": [
+    "digicert.com; cansignhttpexchanges=yes",
+    "letsencrypt.org; cansignhttpexchanges=yes"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

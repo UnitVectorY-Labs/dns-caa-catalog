@@ -1,0 +1,27 @@
+{
+  "domain": "virginmedia.com",
+  "records": [
+    "0 contactemail \"pki@libertyglobal.com\"",
+    "0 iodef \"mailto:pki@libertyglobal.com\"",
+    "0 issue \"globalsign.com\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issue \"pki.goog\"",
+    "0 issuewild \";\""
+  ],
+  "issue": [
+    "globalsign.com",
+    "letsencrypt.org",
+    "pki.goog"
+  ],
+  "issuewild": [
+    ";"
+  ],
+  "iodef": [
+    "mailto:pki@libertyglobal.com"
+  ],
+  "issuemail": [],
+  "contactemail": [
+    "pki@libertyglobal.com"
+  ],
+  "contactphone": []
+}

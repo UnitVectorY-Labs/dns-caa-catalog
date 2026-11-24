@@ -1,0 +1,25 @@
+{
+  "domain": "psl.eu",
+  "records": [
+    "0 issue \"amazon.com\"",
+    "0 issue \"harica.gr\"",
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"amazon.com\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
+  "issue": [
+    "amazon.com",
+    "harica.gr",
+    "letsencrypt.org"
+  ],
+  "issuewild": [
+    "amazon.com",
+    "harica.gr",
+    "letsencrypt.org"
+  ],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

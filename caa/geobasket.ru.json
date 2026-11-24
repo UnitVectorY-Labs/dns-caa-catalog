@@ -1,8 +1,16 @@
 {
   "domain": "geobasket.ru",
-  "records": [],
+  "records": [
+    "0 issuewild \"globalsign.com\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"letsencrypt.org\""
+  ],
   "issue": [],
-  "issuewild": [],
+  "issuewild": [
+    "globalsign.com",
+    "harica.gr",
+    "letsencrypt.org"
+  ],
   "iodef": [],
   "issuemail": [],
   "contactemail": [],

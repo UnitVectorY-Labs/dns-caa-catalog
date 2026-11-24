@@ -1,0 +1,17 @@
+{
+  "domain": "sl-reverse.com",
+  "records": [
+    "0 iodef \"mailto:hostmaster@softlayer.com\"",
+    "0 issue \";\""
+  ],
+  "issue": [
+    ";"
+  ],
+  "issuewild": [],
+  "iodef": [
+    "mailto:hostmaster@softlayer.com"
+  ],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}

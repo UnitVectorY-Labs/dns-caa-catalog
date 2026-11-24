@@ -1,0 +1,14 @@
+{
+  "domain": "mrdfood.com",
+  "records": [
+    "0 issue \"amazontrust.com\""
+  ],
+  "issue": [
+    "amazontrust.com"
+  ],
+  "issuewild": [],
+  "iodef": [],
+  "issuemail": [],
+  "contactemail": [],
+  "contactphone": []
+}
