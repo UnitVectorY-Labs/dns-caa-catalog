@@ -1,11 +1,11 @@
 {
   "domain": "menlosecurity.com",
   "records": [
-    "0 iodef \"mailto:druidteam@menlosecurity.com\"",
+    "0 iodef \"mailto:seceng@menlosecurity.com\"",
     "0 issue \"amazonaws.com\"",
     "0 issue \"digicert.com\"",
     "0 issue \"letsencrypt.org\"",
-    "0 issue \"pki.goog\"",
+    "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
     "0 issuewild \"digicert.com\"",
     "0 issuewild \"letsencrypt.org\""
   ],
@@ -13,14 +13,14 @@
     "amazonaws.com",
     "digicert.com",
     "letsencrypt.org",
-    "pki.goog"
+    "pki.goog; cansignhttpexchanges=yes"
   ],
   "issuewild": [
     "digicert.com",
     "letsencrypt.org"
   ],
   "iodef": [
-    "mailto:druidteam@menlosecurity.com"
+    "mailto:seceng@menlosecurity.com"
   ],
   "issuemail": [],
   "contactemail": [],
