@@ -3,13 +3,17 @@
   "records": [
     "0 iodef \"mailto:ccsd-tech@ccsd.cnrs.fr\"",
     "0 issue \"harica.gr\"",
-    "0 issuewild \"harica.gr\""
+    "0 issue \"letsencrypt.org\"",
+    "0 issuewild \"harica.gr\"",
+    "0 issuewild \"letsencrypt.org\""
   ],
   "issue": [
-    "harica.gr"
+    "harica.gr",
+    "letsencrypt.org"
   ],
   "issuewild": [
-    "harica.gr"
+    "harica.gr",
+    "letsencrypt.org"
   ],
   "iodef": [
     "mailto:ccsd-tech@ccsd.cnrs.fr"
